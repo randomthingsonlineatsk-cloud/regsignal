@@ -48,6 +48,8 @@ test('dates in every format regulators use', () => {
   assert.equal(findDate('03/04/2026'), '2026-04-03');
   assert.equal(parseFeedDate('Thu, 22 Oct 2026 14:30:00 EDT'), '2026-10-22');
   assert.equal(parseFeedDate('2026-10-23T09:15:00+01:00'), '2026-10-23');
+  assert.equal(parseFeedDate('Wed, 14 Oct 2026 00:30:00 +0900'), '2026-10-14', 'date as written, not shifted to UTC');
+  assert.equal(parseFeedDate('2026-10-14T00:30:00+09:00'), '2026-10-14');
 });
 
 test('language detection by script', () => {
@@ -341,4 +343,16 @@ test('a source read for the first time (new or repaired) does not flood the dige
   const more = [cand('ICH', 'news', 'Q1 stability guideline adopted', 'https://www.ich.org/news/q1', '2026-10-30'), ...ich];
   r = applyRun(r.archive, [{ sourceId: 'FDA/drugs', ok: true, items: [a] }, { sourceId: 'ICH/news', ok: true, items: more }], '2026-11-02');
   assert.deepEqual(r.changes.new, [more[0].id]);
+});
+
+test('one-day date differences are not revisions; start-over runs report nothing', () => {
+  const v1 = cand('PMDA', 'top-all', 'Revisions of PRECAUTIONS', 'https://www.pmda.go.jp/p.html', '2026-10-13');
+  let r = applyRun({}, [{ sourceId: 'PMDA/top-all', ok: true, items: [v1] }], '2026-10-24');
+  r = applyRun(r.archive, [{ sourceId: 'PMDA/top-all', ok: true, items: [{ ...v1, published: '2026-10-14' }] }], '2026-10-26');
+  assert.equal(r.changes.revised.length, 0);
+  const v3 = { ...v1, title: 'Revisions of PRECAUTIONS (corrected)' };
+  const r2 = applyRun(r.archive, [{ sourceId: 'PMDA/top-all', ok: true, items: [v3, cand('PMDA', 'top-all', 'Another', 'https://www.pmda.go.jp/q.html', '2026-10-20')] }], '2026-10-26', { startOver: true });
+  assert.equal(r2.baseline, true);
+  assert.equal(r2.changes.new.length + r2.changes.revised.length, 0);
+  assert.equal(r2.archive.documents[v1.id].title, 'Revisions of PRECAUTIONS (corrected)');
 });

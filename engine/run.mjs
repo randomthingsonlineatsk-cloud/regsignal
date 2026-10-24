@@ -59,7 +59,7 @@ export async function readChannel(authority, channel, getter) {
   return { sourceId, ok: false, error: errors.join(' | '), items: [] };
 }
 
-export async function runAll({ dataDir, getter = politeGet, authorities = AUTHORITIES, now = new Date(), log = console.log, dryRun = false }) {
+export async function runAll({ dataDir, getter = politeGet, authorities = AUTHORITIES, now = new Date(), log = console.log, dryRun = false, startOver = false }) {
   const today = now.toISOString().slice(0, 10);
   const docsFile = path.join(dataDir, 'documents.json');
   const srcFile = path.join(dataDir, 'sources.json');
@@ -82,7 +82,7 @@ export async function runAll({ dataDir, getter = politeGet, authorities = AUTHOR
   });
   const results = (await pool(jobs, 6, (job) => job())).flat();
 
-  const { archive: next, changes, baseline } = applyRun(archive, results, today);
+  const { archive: next, changes, baseline } = applyRun(archive, results, today, { startOver });
   const digest = buildDigest(next, changes, { runDate: now.toISOString(), today, baseline });
 
   // Per-source counts for the health page and the run record.
@@ -151,7 +151,7 @@ async function main() {
     for (const r of out.results) for (const it of r.items.slice(0, 3)) console.log(`  ${r.sourceId} | ${it.published || '----------'} | ${it.type} | ${it.title.slice(0, 90)}`);
     return t;
   }
-  const out = await runAll({ dataDir, authorities });
+  const out = await runAll({ dataDir, authorities, startOver: process.env.START_OVER === 'true' });
   const { digest, run, runs, runsFile } = out;
 
   // Digest feed for feed readers (last 52 weeks).
@@ -166,7 +166,7 @@ async function main() {
   // Email.
   const wantEmail = !args['no-email'] && process.env.SEND_EMAIL !== 'false';
   if (digest.baseline) {
-    run.email = { ok: false, skipped: true, error: 'First run builds the starting point; no email is sent.' };
+    run.email = { ok: false, skipped: true, error: 'This run sets a new starting point; no email is sent.' };
   } else if (!wantEmail) {
     run.email = { ok: false, skipped: true, error: 'Email switched off for this run.' };
   } else {

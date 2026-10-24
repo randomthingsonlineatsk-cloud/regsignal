@@ -9,6 +9,10 @@ on:
         description: "Email subscribers after this run"
         type: boolean
         default: true
+      start_over:
+        description: "Set a new starting point (record everything, report nothing as new). Use after fixing sources."
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -36,6 +40,7 @@ jobs:
           KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
           SITE_URL: ${{ vars.SITE_URL }}
           SEND_EMAIL: ${{ github.event_name == 'schedule' && 'true' || inputs.send_email }}
+          START_OVER: ${{ github.event_name != 'schedule' && inputs.start_over || 'false' }}
         run: node engine/run.mjs
       - name: Publish the results
         run: |

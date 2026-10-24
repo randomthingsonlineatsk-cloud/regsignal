@@ -182,7 +182,7 @@ async function viewWeek(date) {
   const nw = d.new.filter(keep), rv = d.revised.filter(keep), gone = (d.removed || []).filter(keep);
   let body = '';
   if (d.baseline) {
-    body = `<p class="note">This was RegSignal's first run. It recorded ${t.documents.toLocaleString()} documents currently listed by the 17 regulators as its starting point, so nothing is marked new this week. From the next Monday, this page shows only what changed. You can browse everything under <a href="#all">All documents</a>.</p>`;
+    body = `<p class="note">This run set RegSignal's starting point: it recorded the ${t.documents.toLocaleString()} documents currently listed by the regulators, so nothing is marked new this week. From the next Monday, this page shows only what changed. You can browse everything under <a href="#all">All documents</a>.</p>`;
   } else if (!nw.length && !rv.length && !gone.length) {
     body = `<div class="panel empty">${onlyMine ? 'Nothing this week matches your watchlists.' : 'No new or revised documents this week.'}</div>`;
   } else {

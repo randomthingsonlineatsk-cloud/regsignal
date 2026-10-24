@@ -96,8 +96,14 @@ export function findDate(text, order = 'dmy') {
 export function parseFeedDate(s) {
   if (!s) return null;
   const t = cleanText(s);
+  // The calendar date as the regulator wrote it, never shifted to another time zone.
   const direct = /^\d{4}-\d{2}-\d{2}/.test(t) ? t.slice(0, 10) : null;
   if (direct && iso(...direct.split('-'))) return direct;
+  const rfc = /^(?:[A-Za-z]{3},?\s+)?(\d{1,2})\s+([A-Za-z]{3})[a-z]*\.?\s+(\d{4})/.exec(t);
+  if (rfc && MONTHS[rfc[2].toLowerCase()]) {
+    const r = iso(rfc[3], MONTHS[rfc[2].toLowerCase()], rfc[1]);
+    if (r) return r;
+  }
   const ms = Date.parse(t);
   if (!Number.isNaN(ms)) {
     const d = new Date(ms);
@@ -291,10 +297,10 @@ export const REMOVE_AFTER_MISSES = 2;
  * today    : 'YYYY-MM-DD'
  * baseline : true when the archive is empty (first run): everything is recorded, nothing reported as new
  */
-export function applyRun(archive, results, today) {
+export function applyRun(archive, results, today, opts = {}) {
   const docs = { ...(archive.documents || {}) };
   const srcState = JSON.parse(JSON.stringify(archive.sources || {}));
-  const baseline = Object.keys(docs).length === 0;
+  const baseline = !!opts.startOver || Object.keys(docs).length === 0;
   const changes = { new: [], revised: [], removed: [], broken: [], failed: [] };
   const seenNow = new Set();
 
@@ -351,7 +357,11 @@ export function applyRun(archive, results, today) {
       const what = [];
       if (titleKey(prev.title) !== titleKey(it.title)) what.push({ field: 'title', from: prev.title, to: it.title });
       else if (prev.title !== it.title) rec.title = it.title; // spacing or punctuation fix: silently updated
-      if (it.published && prev.published && it.published !== prev.published) what.push({ field: 'published', from: prev.published, to: it.published });
+      if (it.published && prev.published && it.published !== prev.published) {
+        // A one-day difference is a time-zone artefact (the same item in two feeds), not a revision.
+        const days = Math.abs(Date.parse(it.published) - Date.parse(prev.published)) / 864e5;
+        if (days > 1) what.push({ field: 'published', from: prev.published, to: it.published });
+      }
       for (const w of what) rec[w.field] = w.to;
       if (!prev.published && it.published) rec.published = it.published;
       if (it.title_en && !prev.title_en) rec.title_en = it.title_en;
