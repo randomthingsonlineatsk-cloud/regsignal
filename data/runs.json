@@ -1,15 +1,15 @@
 {
  "runs": [
   {
-   "run_date": "2026-10-24T13:38:11.591Z",
-   "baseline": true,
+   "run_date": "2026-10-24T14:09:13.604Z",
+   "baseline": false,
    "totals": {
-    "new": 0,
-    "revised": 0,
+    "new": 12,
+    "revised": 50,
     "removed": 0,
-    "failed": 12,
-    "suspect": 12,
-    "documents": 1847
+    "failed": 2,
+    "suspect": 0,
+    "documents": 2003
    },
    "sources": {
     "FDA/drugs": {
@@ -39,8 +39,8 @@
     "FDA/medwatch": {
      "status": "ok",
      "items": 20,
-     "new": 0,
-     "revised": 0,
+     "new": 1,
+     "revised": 6,
      "error": null,
      "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml"
     },
@@ -133,11 +133,11 @@
      "url": "https://www.ema.europa.eu/en/withdrawn-applications.xml"
     },
     "EMA/herbal": {
-     "status": "suspect",
+     "status": "ok",
      "items": 0,
      "new": 0,
      "revised": 0,
-     "error": "The page or feed was read but no items were found (the site layout may have changed).",
+     "error": "The feed is valid but has no items at the moment.",
      "url": "https://www.ema.europa.eu/en/herbal-medicine-new.xml"
     },
     "MHRA/guidance": {
@@ -164,14 +164,6 @@
      "error": null,
      "url": "https://www.gov.uk/drug-device-alerts.atom"
     },
-    "Swissmedic/neu": {
-     "status": "failed",
-     "items": 0,
-     "new": 0,
-     "revised": 0,
-     "error": "robots.txt of fetchrss.com does not allow this page, so it is not read.",
-     "url": null
-    },
     "Swissmedic/sicherheit": {
      "status": "ok",
      "items": 15,
@@ -188,21 +180,21 @@
      "error": null,
      "url": "https://www.swissmedic.ch/swissmedic/de/home/news/mitteilungen.html"
     },
-    "Swissmedic/actualite": {
-     "status": "suspect",
-     "items": 0,
+    "Swissmedic/mitteilungen-fr": {
+     "status": "ok",
+     "items": 30,
      "new": 0,
      "revised": 0,
-     "error": "The page or feed was read but no items were found (the site layout may have changed).",
-     "url": "https://www.swissmedic.ch/swissmedic/fr/home/news/actualite.html"
+     "error": null,
+     "url": "https://www.swissmedic.ch/swissmedic/fr/home/news/mitteilungen.html"
     },
-    "Swissmedic/news-en": {
-     "status": "suspect",
-     "items": 0,
+    "Swissmedic/mitteilungen-en": {
+     "status": "ok",
+     "items": 30,
      "new": 0,
      "revised": 0,
-     "error": "The page or feed was read but no items were found (the site layout may have changed).",
-     "url": "https://www.swissmedic.ch/swissmedic/en/home/news/news.html"
+     "error": null,
+     "url": "https://www.swissmedic.ch/swissmedic/en/home/news/mitteilungen.html"
     },
     "HC/recalls-en": {
      "status": "ok",
@@ -220,84 +212,100 @@
      "error": null,
      "url": "https://recalls-rappels.canada.ca/fr/feed/health-products-alerts-recalls"
     },
-    "HC/news-en": {
-     "status": "suspect",
-     "items": 0,
+    "HC/compliance-en": {
+     "status": "ok",
+     "items": 20,
      "new": 0,
      "revised": 0,
-     "error": "The page or feed was read but no items were found (the site layout may have changed).",
-     "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=healthcanada&sort=publishedDate&orderBy=desc&pick=50&format=atom"
+     "error": null,
+     "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/compli-conform-eng.xml"
     },
-    "HC/news-fr": {
-     "status": "suspect",
-     "items": 0,
+    "HC/compliance-fr": {
+     "status": "ok",
+     "items": 20,
      "new": 0,
      "revised": 0,
-     "error": "The page or feed was read but no items were found (the site layout may have changed).",
-     "url": "https://api.io.canada.ca/io-server/gc/news/fr/v2?dept=healthcanada&sort=publishedDate&orderBy=desc&pick=50&format=atom"
+     "error": null,
+     "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/compli-conform-fra.xml"
+    },
+    "HC/medeffect-en": {
+     "status": "ok",
+     "items": 15,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/new-neuf-eng.xml"
+    },
+    "HC/medeffect-fr": {
+     "status": "ok",
+     "items": 15,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/new-neuf-fra.xml"
     },
     "TGA/alerts": {
-     "status": "failed",
+     "status": "blocked",
      "items": 0,
      "new": 0,
      "revised": 0,
-     "error": "No answer within 45 seconds.",
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
      "url": null
     },
     "TGA/news": {
-     "status": "failed",
+     "status": "blocked",
      "items": 0,
      "new": 0,
      "revised": 0,
-     "error": "No answer within 45 seconds.",
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
      "url": null
     },
     "TGA/notices": {
-     "status": "failed",
+     "status": "blocked",
      "items": 0,
      "new": 0,
      "revised": 0,
-     "error": "No answer within 45 seconds.",
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
      "url": null
     },
     "TGA/safety": {
-     "status": "failed",
+     "status": "blocked",
      "items": 0,
      "new": 0,
      "revised": 0,
-     "error": "No answer within 45 seconds.",
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
      "url": null
     },
     "TGA/guidance": {
-     "status": "failed",
+     "status": "blocked",
      "items": 0,
      "new": 0,
      "revised": 0,
-     "error": "No answer within 45 seconds.",
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
      "url": null
     },
     "TGA/consult": {
-     "status": "failed",
+     "status": "blocked",
      "items": 0,
      "new": 0,
      "revised": 0,
-     "error": "No answer within 45 seconds.",
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
      "url": null
     },
     "TGA/legislation": {
-     "status": "failed",
+     "status": "blocked",
      "items": 0,
      "new": 0,
      "revised": 0,
-     "error": "No answer within 45 seconds.",
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
      "url": null
     },
     "TGA/scheduling": {
-     "status": "failed",
+     "status": "blocked",
      "items": 0,
      "new": 0,
      "revised": 0,
-     "error": "No answer within 45 seconds.",
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
      "url": null
     },
     "WHO-PQ/all": {
@@ -317,12 +325,12 @@
      "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Circulars/"
     },
     "CDSCO/gazette": {
-     "status": "ok",
-     "items": 300,
+     "status": "failed",
+     "items": 0,
      "new": 0,
      "revised": 0,
-     "error": null,
-     "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Gazette-Notifications/"
+     "error": "Could not connect (ETIMEDOUT).",
+     "url": null
     },
     "CDSCO/notices": {
      "status": "ok",
@@ -333,12 +341,12 @@
      "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Public-Notices/"
     },
     "CDSCO/alerts": {
-     "status": "ok",
-     "items": 19,
+     "status": "failed",
+     "items": 0,
      "new": 0,
      "revised": 0,
-     "error": null,
-     "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Alerts/"
+     "error": "Could not connect (ETIMEDOUT).",
+     "url": null
     },
     "PMDA/shinchaku": {
      "status": "ok",
@@ -348,27 +356,11 @@
      "error": null,
      "url": "https://www.pmda.go.jp/0017.html"
     },
-    "PMDA/pubcom-review": {
-     "status": "suspect",
-     "items": 0,
-     "new": 0,
-     "revised": 0,
-     "error": "The page or feed was read but no items were found (the site layout may have changed).",
-     "url": "https://www.pmda.go.jp/review-services/pub-comments/0001.html"
-    },
-    "PMDA/pubcom-safety": {
-     "status": "suspect",
-     "items": 0,
-     "new": 0,
-     "revised": 0,
-     "error": "The page or feed was read but no items were found (the site layout may have changed).",
-     "url": "https://www.pmda.go.jp/safety/pub-comments/0001.html"
-    },
     "PMDA/top-all": {
      "status": "ok",
      "items": 46,
      "new": 0,
-     "revised": 0,
+     "revised": 44,
      "error": null,
      "url": "https://www.pmda.go.jp/rss_008.xml"
     },
@@ -413,41 +405,41 @@
      "url": "https://www.pmda.go.jp/rss_012.xml"
     },
     "NMPA/ggtg": {
-     "status": "failed",
+     "status": "blocked",
      "items": 0,
      "new": 0,
      "revised": 0,
-     "error": "The site answered HTTP 412.",
+     "error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
      "url": null
     },
     "NMPA/fgwj": {
-     "status": "failed",
+     "status": "blocked",
      "items": 0,
      "new": 0,
      "revised": 0,
-     "error": "The site answered HTTP 412.",
+     "error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
      "url": null
     },
     "NMPA/zhqyj": {
-     "status": "failed",
+     "status": "blocked",
      "items": 0,
      "new": 0,
      "revised": 0,
-     "error": "The site answered HTTP 412.",
+     "error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
      "url": null
     },
     "NMPA/cde-zdyz": {
-     "status": "suspect",
+     "status": "blocked",
      "items": 0,
      "new": 0,
      "revised": 0,
-     "error": "The page or feed was read but no items were found (the site layout may have changed).",
-     "url": "https://www.cde.org.cn/zdyz/index"
+     "error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
+     "url": null
     },
     "NMPA/en": {
      "status": "ok",
-     "items": 3,
-     "new": 0,
+     "items": 6,
+     "new": 3,
      "revised": 0,
      "error": null,
      "url": "https://english.nmpa.gov.cn/regulatoryinformation.html"
@@ -508,18 +500,10 @@
      "error": null,
      "url": "https://www.mfds.go.kr/brd/m_1059/list.do"
     },
-    "MFDS/m_506": {
-     "status": "suspect",
-     "items": 0,
-     "new": 0,
-     "revised": 0,
-     "error": "The page or feed was read but no items were found (the site layout may have changed).",
-     "url": "https://www.mfds.go.kr/brd/m_506/list.do"
-    },
     "MFDS/en-m_61": {
      "status": "ok",
-     "items": 10,
-     "new": 0,
+     "items": 12,
+     "new": 2,
      "revised": 0,
      "error": null,
      "url": "https://www.mfds.go.kr/eng/brd/m_61/list.do"
@@ -614,18 +598,18 @@
     },
     "SFDA/circulars-en": {
      "status": "ok",
-     "items": 9,
-     "new": 0,
+     "items": 10,
+     "new": 1,
      "revised": 0,
      "error": null,
      "url": "https://www.sfda.gov.sa/en/drugs_circulars_withdrawal"
     },
     "HSA/announcements": {
-     "status": "suspect",
-     "items": 0,
+     "status": "ok",
+     "items": 10,
      "new": 0,
      "revised": 0,
-     "error": "The page or feed was read but no items were found (the site layout may have changed).",
+     "error": null,
      "url": "https://www.hsa.gov.sg/announcements"
     },
     "SAHPRA/news": {
@@ -646,11 +630,11 @@
     },
     "ANVISA/noticias": {
      "status": "ok",
-     "items": 1,
-     "new": 0,
+     "items": 5,
+     "new": 5,
      "revised": 0,
      "error": null,
-     "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa"
+     "url": "https://www.gov.br/anvisa/pt-br"
     },
     "COFEPRIS/prensa": {
      "status": "ok",
@@ -669,27 +653,27 @@
      "url": "https://www.gob.mx/cofepris/archivo/documentos"
     },
     "ICH/press": {
-     "status": "suspect",
-     "items": 0,
+     "status": "ok",
+     "items": 10,
      "new": 0,
      "revised": 0,
-     "error": "The page or feed was read but no items were found (the site layout may have changed).",
-     "url": "https://www.ich.org/page/press-releases"
+     "error": null,
+     "url": "https://admin.ich.org/api/v1/nodes?bundle=press_release&offset=0&limit=20&sort=date:DESC,created:desc"
     },
-    "ICH/consult": {
-     "status": "suspect",
-     "items": 0,
+    "ICH/news": {
+     "status": "ok",
+     "items": 10,
      "new": 0,
      "revised": 0,
-     "error": "The page or feed was read but no items were found (the site layout may have changed).",
-     "url": "https://www.ich.org/page/public-consultations"
+     "error": null,
+     "url": "https://admin.ich.org/api/v1/nodes?bundle=news&offset=0&limit=30&sort=date:DESC,created:desc"
     }
    },
    "digest": "data/digests/2026-10-24.json",
    "email": {
     "ok": false,
     "skipped": true,
-    "error": "First run builds the starting point; no email is sent."
+    "error": "Email switched off for this run."
    }
   }
  ]

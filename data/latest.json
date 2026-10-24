@@ -1,128 +1,1169 @@
 {
- "run_date": "2026-10-24T13:38:11.591Z",
+ "run_date": "2026-10-24T14:09:13.604Z",
  "date": "2026-10-24",
- "baseline": true,
+ "baseline": false,
  "totals": {
-  "new": 0,
-  "revised": 0,
+  "new": 12,
+  "revised": 50,
   "removed": 0,
-  "failed": 12,
-  "suspect": 12,
-  "documents": 1847
+  "failed": 2,
+  "suspect": 0,
+  "documents": 2003
  },
- "new": [],
- "revised": [],
+ "new": [
+  {
+   "id": "anvisa:gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-novo-medicamento-para-cancer-de-pulmao-avancado-1",
+   "authority": "ANVISA",
+   "title": "Anvisa aprova novo medicamento para câncer de pulmão avançado",
+   "title_en": "",
+   "url": "https://gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-novo-medicamento-para-cancer-de-pulmao-avancado-1",
+   "published": null,
+   "type": "approval",
+   "areas": [],
+   "language": "pt",
+   "source": "ANVISA/noticias"
+  },
+  {
+   "id": "anvisa:gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-apreensao-de-lote-falsificado-de-toxina-botulinica",
+   "authority": "ANVISA",
+   "title": "Anvisa determina apreensão de lote falsificado de toxina botulínica",
+   "title_en": "",
+   "url": "https://gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-apreensao-de-lote-falsificado-de-toxina-botulinica",
+   "published": null,
+   "type": "other",
+   "areas": [],
+   "language": "pt",
+   "source": "ANVISA/noticias"
+  },
+  {
+   "id": "anvisa:gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-produtos-de-limpeza-irregulares",
+   "authority": "ANVISA",
+   "title": "Anvisa proíbe produtos de limpeza irregulares",
+   "title_en": "",
+   "url": "https://gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-produtos-de-limpeza-irregulares",
+   "published": null,
+   "type": "other",
+   "areas": [],
+   "language": "pt",
+   "source": "ANVISA/noticias"
+  },
+  {
+   "id": "anvisa:gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-divulga-relatorio-das-oficinas-sobre-regulamentacao-de-alimentos-para-fins-medicos",
+   "authority": "ANVISA",
+   "title": "Anvisa divulga relatório das oficinas sobre regulamentação de alimentos para fins médicos",
+   "title_en": "",
+   "url": "https://gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-divulga-relatorio-das-oficinas-sobre-regulamentacao-de-alimentos-para-fins-medicos",
+   "published": null,
+   "type": "other",
+   "areas": [],
+   "language": "pt",
+   "source": "ANVISA/noticias"
+  },
+  {
+   "id": "anvisa:gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-tiras-de-glicemia-accu-check-falsificadas",
+   "authority": "ANVISA",
+   "title": "Anvisa proíbe tiras de glicemia Accu-Check Active falsificadas",
+   "title_en": "",
+   "url": "https://gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-tiras-de-glicemia-accu-check-falsificadas",
+   "published": null,
+   "type": "law",
+   "areas": [],
+   "language": "pt",
+   "source": "ANVISA/noticias"
+  },
+  {
+   "id": "fda:fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-heart-pump-controller-issue-abiomed",
+   "authority": "FDA",
+   "title": "Early Alert: Heart Pump Controller Issue from Abiomed",
+   "title_en": "",
+   "url": "https://fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-heart-pump-controller-issue-abiomed",
+   "published": "2026-09-23",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch"
+  },
+  {
+   "id": "mfds:mfds.go.kr/eng/brd/m_61/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=191&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[News Release on 2026 September 7] GCORAS 2026, MFDS Establishes the World’s First Global Cosmetics Regulatory Authority Summit",
+   "title_en": "",
+   "url": "https://mfds.go.kr/eng/brd/m_61/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=191&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-09-07",
+   "type": "news",
+   "areas": [
+    "cosmetic"
+   ],
+   "language": "en",
+   "source": "MFDS/en-m_61"
+  },
+  {
+   "id": "mfds:mfds.go.kr/eng/brd/m_61/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=190&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "(News Release. 9.2) The Global Harmonization Center (GHC) of MFDS Designated as a WHO Collaborating Centre for Health Products Regulatory System Strengthening and Training",
+   "title_en": "",
+   "url": "https://mfds.go.kr/eng/brd/m_61/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=190&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-09-02",
+   "type": "news",
+   "areas": [],
+   "language": "en",
+   "source": "MFDS/en-m_61"
+  },
+  {
+   "id": "nmpa:english.nmpa.gov.cn/2026-04/14/c_1175737.htm",
+   "authority": "NMPA",
+   "title": "Announcement of the National Medical Products Administration on Strengthening Supervision and Administration of Contract Manufacturing of Drugs (No. 134, 2025)",
+   "title_en": "",
+   "url": "https://english.nmpa.gov.cn/2026-04/14/c_1175737.htm",
+   "published": "2026-04-14",
+   "type": "law",
+   "areas": [
+    "quality"
+   ],
+   "language": "en",
+   "source": "NMPA/en"
+  },
+  {
+   "id": "nmpa:english.nmpa.gov.cn/2025-12/24/c_1156472.htm",
+   "authority": "NMPA",
+   "title": "Policy Interpretation of the National Medical Products Administration on Issuing the Administrative Provisions on Inspection and Export Certificate for Pharmaceutical Products Exported by Pharmaceutical Manufacturers",
+   "title_en": "",
+   "url": "https://english.nmpa.gov.cn/2025-12/24/c_1156472.htm",
+   "published": "2025-12-24",
+   "type": "other",
+   "areas": [
+    "quality"
+   ],
+   "language": "en",
+   "source": "NMPA/en"
+  },
+  {
+   "id": "nmpa:english.nmpa.gov.cn/2025-12/24/c_1156462.htm",
+   "authority": "NMPA",
+   "title": "Announcement of the National Medical Products Administration on Issuing the Administrative Provisions on Inspection and Export Certificate for Pharmaceutical Products Exported by Pharmaceutical Manufacturers([2025] No. 113)",
+   "title_en": "",
+   "url": "https://english.nmpa.gov.cn/2025-12/24/c_1156462.htm",
+   "published": "2025-12-24",
+   "type": "circular",
+   "areas": [
+    "quality"
+   ],
+   "language": "en",
+   "source": "NMPA/en"
+  },
+  {
+   "id": "sfda:ade.sfda.gov.sa/",
+   "authority": "SFDA",
+   "title": "the electronic reporting portal “Saudi vigilance”",
+   "title_en": "",
+   "url": "https://ade.sfda.gov.sa/",
+   "published": "2025-11-02",
+   "type": "circular",
+   "areas": [],
+   "language": "en",
+   "source": "SFDA/circulars-en"
+  }
+ ],
+ "revised": [
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-argatroban-injection-due-presence-particulate-matter",
+   "authority": "FDA",
+   "title": "Par Health Issues Voluntary Nationwide Recall of Argatroban Injection Due to the Presence of Particulate Matter",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-argatroban-injection-due-presence-particulate-matter",
+   "published": "2026-10-13",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-13",
+     "to": "2026-10-14"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-argatroban-injection-due-presence-particulate-matter",
+   "authority": "FDA",
+   "title": "Par Health Issues Voluntary Nationwide Recall of Argatroban Injection Due to the Presence of Particulate Matter",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-argatroban-injection-due-presence-particulate-matter",
+   "published": "2026-10-13",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-14",
+     "to": "2026-10-13"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-two-lots-brevitalr-sodium-500-mgvial-civ-methohexital",
+   "authority": "FDA",
+   "title": "Par Health Issues Voluntary Nationwide Recall of Two Lots of Brevital® Sodium 500 mg/vial CIV (Methohexital Sodium for Injection, USP) Due to the Presence of Particulate Matter",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-two-lots-brevitalr-sodium-500-mgvial-civ-methohexital",
+   "published": "2026-10-08",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-08",
+     "to": "2026-10-09"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-two-lots-brevitalr-sodium-500-mgvial-civ-methohexital",
+   "authority": "FDA",
+   "title": "Par Health Issues Voluntary Nationwide Recall of Two Lots of Brevital® Sodium 500 mg/vial CIV (Methohexital Sodium for Injection, USP) Due to the Presence of Particulate Matter",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-two-lots-brevitalr-sodium-500-mgvial-civ-methohexital",
+   "published": "2026-10-08",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-09",
+     "to": "2026-10-08"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/nova-biomedicalr-announces-global-medical-device-correction-statstripr-glucose-hospital-meter",
+   "authority": "FDA",
+   "title": "Nova Biomedical® Announces Global Medical Device Correction for StatStrip® Glucose Hospital Meter",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/nova-biomedicalr-announces-global-medical-device-correction-statstripr-glucose-hospital-meter",
+   "published": "2026-10-05",
+   "type": "recall",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "FDA/medwatch",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-05",
+     "to": "2026-10-06"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/nova-biomedicalr-announces-global-medical-device-correction-statstripr-glucose-hospital-meter",
+   "authority": "FDA",
+   "title": "Nova Biomedical® Announces Global Medical Device Correction for StatStrip® Glucose Hospital Meter",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/nova-biomedicalr-announces-global-medical-device-correction-statstripr-glucose-hospital-meter",
+   "published": "2026-10-05",
+   "type": "recall",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "FDA/medwatch",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-06",
+     "to": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html",
+   "authority": "PMDA",
+   "title": "English Translation of Review Report: Capvaxive and Ekterly",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html",
+   "published": "2026-10-22",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "English Translation of Review Report: Capvaxive and Ekterly",
+     "to": "[SHINSA]English Translation of Review Report: Capvaxive and Ekterly"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html",
+   "authority": "PMDA",
+   "title": "English Translation of Review Report: Capvaxive and Ekterly",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html",
+   "published": "2026-10-22",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA]English Translation of Review Report: Capvaxive and Ekterly",
+     "to": "English Translation of Review Report: Capvaxive and Ekterly"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/regulatory-info/0005.html",
+   "authority": "PMDA",
+   "title": "Points to Consider for the Development of Companion Diagnostics Developed in Parallel with Anti-cancer Drugs(Early Consideration) and Quality-Related Considerations for Human Cell-Derived Extracellular Vesicle (EV) Products at the Time of Initial Clinical Trial Notification (Early Consideration) posted.",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/regulatory-info/0005.html",
+   "published": "2026-10-19",
+   "type": "guideline",
+   "areas": [
+    "quality",
+    "clinical"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Points to Consider for the Development of Companion Diagnostics Developed in Parallel with Anti-cancer Drugs(Early Consideration) and Quality-Related Considerations for Human Cell-Derived Extracellular Vesicle (EV) Products at the Time of Initial Clinical Trial Notification (Early Consideration) posted.",
+     "to": "[SHINSA]Points to Consider for the Development of Companion Diagnostics Developed in Parallel with Anti-cancer Drugs(Early Consideration) and Quality-Related Considerations for Human Cell-Derived Extracellular Vesicle (EV) Products at the Time of Initial Clinical Trial Notification (Early Consideration) posted."
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/regulatory-info/0005.html",
+   "authority": "PMDA",
+   "title": "Points to Consider for the Development of Companion Diagnostics Developed in Parallel with Anti-cancer Drugs(Early Consideration) and Quality-Related Considerations for Human Cell-Derived Extracellular Vesicle (EV) Products at the Time of Initial Clinical Trial Notification (Early Consideration) posted.",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/regulatory-info/0005.html",
+   "published": "2026-10-19",
+   "type": "guideline",
+   "areas": [
+    "quality",
+    "clinical"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA]Points to Consider for the Development of Companion Diagnostics Developed in Parallel with Anti-cancer Drugs(Early Consideration) and Quality-Related Considerations for Human Cell-Derived Extracellular Vesicle (EV) Products at the Time of Initial Clinical Trial Notification (Early Consideration) posted.",
+     "to": "Points to Consider for the Development of Companion Diagnostics Developed in Parallel with Anti-cancer Drugs(Early Consideration) and Quality-Related Considerations for Human Cell-Derived Extracellular Vesicle (EV) Products at the Time of Initial Clinical Trial Notification (Early Consideration) posted."
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/0009.html",
+   "authority": "PMDA",
+   "title": "SaMD page updated (English translation of “Review Points for Medical Devices Utilizing Generative AI (Draft)” published, consultation schedule updated)",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/0009.html",
+   "published": "2026-10-14",
+   "type": "draft",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "SaMD page updated (English translation of “Review Points for Medical Devices Utilizing Generative AI (Draft)” published, consultation schedule updated)",
+     "to": "[SHINSA]SaMD page updated (English translation of “Review Points for Medical Devices Utilizing Generative AI (Draft)” published, consultation schedule updated)"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/0005.html",
+   "authority": "PMDA",
+   "title": "Information on biosimilars is updated",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/0005.html",
+   "published": "2026-10-14",
+   "type": "other",
+   "areas": [
+    "biosimilar"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Information on biosimilars is updated",
+     "to": "[SHINSA]Information on biosimilars is updated"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/0009.html",
+   "authority": "PMDA",
+   "title": "SaMD page updated (English translation of “Review Points for Medical Devices Utilizing Generative AI (Draft)” published, consultation schedule updated)",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/0009.html",
+   "published": "2026-10-14",
+   "type": "draft",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA]SaMD page updated (English translation of “Review Points for Medical Devices Utilizing Generative AI (Draft)” published, consultation schedule updated)",
+     "to": "SaMD page updated (English translation of “Review Points for Medical Devices Utilizing Generative AI (Draft)” published, consultation schedule updated)"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/0005.html",
+   "authority": "PMDA",
+   "title": "Information on biosimilars is updated",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/0005.html",
+   "published": "2026-10-14",
+   "type": "other",
+   "areas": [
+    "biosimilar"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA]Information on biosimilars is updated",
+     "to": "Information on biosimilars is updated"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/revision-of-precautions/0014.html",
+   "authority": "PMDA",
+   "title": "Revisions of PRECAUTIONS: Anamorelin hydrochloride,etc.posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/safety/info-services/drugs/revision-of-precautions/0014.html",
+   "published": "2026-10-08",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Revisions of PRECAUTIONS: Anamorelin hydrochloride,etc.posted",
+     "to": "[ANZEN]Revisions of PRECAUTIONS: Anamorelin hydrochloride,etc.posted"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/revision-of-precautions/0014.html",
+   "authority": "PMDA",
+   "title": "Revisions of PRECAUTIONS: Anamorelin hydrochloride,etc.posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/safety/info-services/drugs/revision-of-precautions/0014.html",
+   "published": "2026-10-08",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[ANZEN]Revisions of PRECAUTIONS: Anamorelin hydrochloride,etc.posted",
+     "to": "Revisions of PRECAUTIONS: Anamorelin hydrochloride,etc.posted"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/gmp-qms-gctp/0007.html",
+   "authority": "PMDA",
+   "title": "The English versions of GMPGCTP Annual Report FY 2025 have been published.",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/gmp-qms-gctp/0007.html",
+   "published": "2026-10-02",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "The English versions of GMPGCTP Annual Report FY 2025 have been published.",
+     "to": "[SHINSA]The English versions of GMPGCTP Annual Report FY 2025 have been published."
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/gmp-qms-gctp/0007.html",
+   "authority": "PMDA",
+   "title": "The English versions of GMPGCTP Annual Report FY 2025 have been published.",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/gmp-qms-gctp/0007.html",
+   "published": "2026-10-02",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA]The English versions of GMPGCTP Annual Report FY 2025 have been published.",
+     "to": "The English versions of GMPGCTP Annual Report FY 2025 have been published."
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/int-activities/training-center/0003.html",
+   "authority": "PMDA",
+   "title": "PMDA-ATC Training Materials have been updated",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/int-activities/training-center/0003.html",
+   "published": "2026-10-01",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "PMDA-ATC Training Materials have been updated",
+     "to": "[KOKUSAI]PMDA-ATC Training Materials have been updated"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/int-activities/training-center/0003.html",
+   "authority": "PMDA",
+   "title": "PMDA-ATC Training Materials have been updated",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/int-activities/training-center/0003.html",
+   "published": "2026-10-01",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[KOKUSAI]PMDA-ATC Training Materials have been updated",
+     "to": "PMDA-ATC Training Materials have been updated"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/medical-safety-information/0024.html",
+   "authority": "PMDA",
+   "title": "MHLW Pharmaceuticals and Medical Devices Safety Information No.431 posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/safety/info-services/drugs/medical-safety-information/0024.html",
+   "published": "2026-09-30",
+   "type": "safety",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "MHLW Pharmaceuticals and Medical Devices Safety Information No.431 posted",
+     "to": "[ANZEN]MHLW Pharmaceuticals and Medical Devices Safety Information No.431 posted"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/int-activities/industry/0001.html",
+   "authority": "PMDA",
+   "title": "[SHINSA][KOKUSAI]“For Industry - for development in Japan “ Updated.",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/int-activities/industry/0001.html",
+   "published": "2026-09-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA][KOKUSAI]“For Industry - for development in Japan “ Updated.",
+     "to": "[KOKUSAI]“For Industry - for development in Japan “ Updated."
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/consultations/0002.html",
+   "authority": "PMDA",
+   "title": "\"Consultations\" Updated",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/consultations/0002.html",
+   "published": "2026-09-30",
+   "type": "draft",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "\"Consultations\" Updated",
+     "to": "[SHINSA]\"Consultations\" Updated"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/int-activities/outline/0006.html",
+   "authority": "PMDA",
+   "title": "PMDA Updates (2026 No.3) posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/int-activities/outline/0006.html",
+   "published": "2026-09-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "PMDA Updates (2026 No.3) posted",
+     "to": "[KOKUSAI]PMDA Updates (2026 No.3) posted"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/int-activities/industry/0001.html",
+   "authority": "PMDA",
+   "title": "[SHINSA][KOKUSAI]“For Industry - for development in Japan “ Updated.",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/int-activities/industry/0001.html",
+   "published": "2026-09-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[KOKUSAI]“For Industry - for development in Japan “ Updated.",
+     "to": "[SHINSA][KOKUSAI]“For Industry - for development in Japan “ Updated."
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/consultations/0002.html",
+   "authority": "PMDA",
+   "title": "\"Consultations\" Updated",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/consultations/0002.html",
+   "published": "2026-09-30",
+   "type": "draft",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA]\"Consultations\" Updated",
+     "to": "\"Consultations\" Updated"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/medical-safety-information/0024.html",
+   "authority": "PMDA",
+   "title": "MHLW Pharmaceuticals and Medical Devices Safety Information No.431 posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/safety/info-services/drugs/medical-safety-information/0024.html",
+   "published": "2026-09-30",
+   "type": "safety",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[ANZEN]MHLW Pharmaceuticals and Medical Devices Safety Information No.431 posted",
+     "to": "MHLW Pharmaceuticals and Medical Devices Safety Information No.431 posted"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/int-activities/outline/0006.html",
+   "authority": "PMDA",
+   "title": "PMDA Updates (2026 No.3) posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/int-activities/outline/0006.html",
+   "published": "2026-09-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[KOKUSAI]PMDA Updates (2026 No.3) posted",
+     "to": "PMDA Updates (2026 No.3) posted"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/risk-communications/0001.html",
+   "authority": "PMDA",
+   "title": "PMDA Risk Communications: Ibuprofen L-Lysine,etc. posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/safety/info-services/drugs/risk-communications/0001.html",
+   "published": "2026-09-29",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "PMDA Risk Communications: Ibuprofen L-Lysine,etc. posted",
+     "to": "[ANZEN]PMDA Risk Communications: Ibuprofen L-Lysine,etc. posted"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/risk-communications/0001.html",
+   "authority": "PMDA",
+   "title": "PMDA Risk Communications: Ibuprofen L-Lysine,etc. posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/safety/info-services/drugs/risk-communications/0001.html",
+   "published": "2026-09-29",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[ANZEN]PMDA Risk Communications: Ibuprofen L-Lysine,etc. posted",
+     "to": "PMDA Risk Communications: Ibuprofen L-Lysine,etc. posted"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/rs-sb-std/rs/0027.html",
+   "authority": "PMDA",
+   "title": "CDx approved for identifying eligible patients (Updated)",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/rs-sb-std/rs/0027.html",
+   "published": "2026-09-17",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "CDx approved for identifying eligible patients (Updated)",
+     "to": "[SHINSA]CDx approved for identifying eligible patients (Updated)"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/devices/0001.html",
+   "authority": "PMDA",
+   "title": "List of Approved Medical Devices: April 2004 to December 2025",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/devices/0001.html",
+   "published": "2026-09-17",
+   "type": "approval",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "List of Approved Medical Devices: April 2004 to December 2025",
+     "to": "[SHINSA]List of Approved Medical Devices: April 2004 to December 2025"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/rs-sb-std/rs/0027.html",
+   "authority": "PMDA",
+   "title": "CDx approved for identifying eligible patients (Updated)",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/rs-sb-std/rs/0027.html",
+   "published": "2026-09-17",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA]CDx approved for identifying eligible patients (Updated)",
+     "to": "CDx approved for identifying eligible patients (Updated)"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/devices/0001.html",
+   "authority": "PMDA",
+   "title": "List of Approved Medical Devices: April 2004 to December 2025",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/devices/0001.html",
+   "published": "2026-09-17",
+   "type": "approval",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA]List of Approved Medical Devices: April 2004 to December 2025",
+     "to": "List of Approved Medical Devices: April 2004 to December 2025"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/devices/0003.html",
+   "authority": "PMDA",
+   "title": "English Translation of Review Report: remedē System",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/devices/0003.html",
+   "published": "2026-09-10",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "English Translation of Review Report: remedē System",
+     "to": "[SHINSA]English Translation of Review Report: remedē System"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/devices/0003.html",
+   "authority": "PMDA",
+   "title": "English Translation of Review Report: remedē System",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/devices/0003.html",
+   "published": "2026-09-10",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA]English Translation of Review Report: remedē System",
+     "to": "English Translation of Review Report: remedē System"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/0004.html",
+   "authority": "PMDA",
+   "title": "English Translation of Review Report: Akuugo (Partial Change Approval)",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/0004.html",
+   "published": "2026-09-03",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "English Translation of Review Report: Akuugo (Partial Change Approval)",
+     "to": "[SHINSA]English Translation of Review Report: Akuugo (Partial Change Approval)"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/0004.html",
+   "authority": "PMDA",
+   "title": "English Translation of Review Report: Akuugo (Partial Change Approval)",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/0004.html",
+   "published": "2026-09-03",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA]English Translation of Review Report: Akuugo (Partial Change Approval)",
+     "to": "English Translation of Review Report: Akuugo (Partial Change Approval)"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/0002.html",
+   "authority": "PMDA",
+   "title": "List of Approved Regenerative Medical Products: April 2015 to May 2026",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/0002.html",
+   "published": "2026-08-05",
+   "type": "approval",
+   "areas": [
+    "cgt"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "List of Approved Regenerative Medical Products: April 2015 to May 2026",
+     "to": "[SHINSA]List of Approved Regenerative Medical Products: April 2015 to May 2026"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/0002.html",
+   "authority": "PMDA",
+   "title": "List of Approved Regenerative Medical Products: April 2015 to May 2026",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/0002.html",
+   "published": "2026-08-05",
+   "type": "approval",
+   "areas": [
+    "cgt"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA]List of Approved Regenerative Medical Products: April 2015 to May 2026",
+     "to": "List of Approved Regenerative Medical Products: April 2015 to May 2026"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/int-activities/asia/0004.html",
+   "authority": "PMDA",
+   "title": "The 8th Asian Network Meeting (ANM) summary has been posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/int-activities/asia/0004.html",
+   "published": "2026-07-24",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "The 8th Asian Network Meeting (ANM) summary has been posted",
+     "to": "[KOKUSAI]The 8th Asian Network Meeting (ANM) summary has been posted"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/int-activities/asia/0004.html",
+   "authority": "PMDA",
+   "title": "The 8th Asian Network Meeting (ANM) summary has been posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/int-activities/asia/0004.html",
+   "published": "2026-07-24",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[KOKUSAI]The 8th Asian Network Meeting (ANM) summary has been posted",
+     "to": "The 8th Asian Network Meeting (ANM) summary has been posted"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/properly-use-alert/0001.html",
+   "authority": "PMDA",
+   "title": "PMDA Alert for Proper Use of Drugs: Serious hypocarnitinemia and hypoglycaemia in children treated with antibacterials with a pivoxil group (follow-up report) posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/safety/info-services/drugs/properly-use-alert/0001.html",
+   "published": "2026-06-30",
+   "type": "safety",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "PMDA Alert for Proper Use of Drugs: Serious hypocarnitinemia and hypoglycaemia in children treated with antibacterials with a pivoxil group (follow-up report) posted",
+     "to": "[ANZEN]PMDA Alert for Proper Use of Drugs: Serious hypocarnitinemia and hypoglycaemia in children treated with antibacterials with a pivoxil group (follow-up report) posted"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/properly-use-alert/0001.html",
+   "authority": "PMDA",
+   "title": "PMDA Alert for Proper Use of Drugs: Serious hypocarnitinemia and hypoglycaemia in children treated with antibacterials with a pivoxil group (follow-up report) posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/safety/info-services/drugs/properly-use-alert/0001.html",
+   "published": "2026-06-30",
+   "type": "safety",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[ANZEN]PMDA Alert for Proper Use of Drugs: Serious hypocarnitinemia and hypoglycaemia in children treated with antibacterials with a pivoxil group (follow-up report) posted",
+     "to": "PMDA Alert for Proper Use of Drugs: Serious hypocarnitinemia and hypoglycaemia in children treated with antibacterials with a pivoxil group (follow-up report) posted"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/drugs/0002.html",
+   "authority": "PMDA",
+   "title": "List of Approved Drugs: April 2004 to February 2026",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/drugs/0002.html",
+   "published": "2026-06-22",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "List of Approved Drugs: April 2004 to February 2026",
+     "to": "[SHINSA]List of Approved Drugs: April 2004 to February 2026"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/drugs/0002.html",
+   "authority": "PMDA",
+   "title": "List of Approved Drugs: April 2004 to February 2026",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/drugs/0002.html",
+   "published": "2026-06-22",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA]List of Approved Drugs: April 2004 to February 2026",
+     "to": "List of Approved Drugs: April 2004 to February 2026"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/regulatory-info/0012.html",
+   "authority": "PMDA",
+   "title": "Seven English translations of notifications and administrative notices related to pediatric drug development, including the partial revision of “Planning of the Pediatric Drug Development Program during Development of Drugs for Adults”",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/regulatory-info/0012.html",
+   "published": "2026-05-13",
+   "type": "circular",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Seven English translations of notifications and administrative notices related to pediatric drug development, including the partial revision of “Planning of the Pediatric Drug Development Program during Development of Drugs for Adults”",
+     "to": "[SHINSA]Seven English translations of notifications and administrative notices related to pediatric drug development, including the partial revision of “Planning of the Pediatric Drug Development Program during Development of Drugs for Adults”"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/regulatory-info/0012.html",
+   "authority": "PMDA",
+   "title": "Seven English translations of notifications and administrative notices related to pediatric drug development, including the partial revision of “Planning of the Pediatric Drug Development Program during Development of Drugs for Adults”",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/regulatory-info/0012.html",
+   "published": "2026-05-13",
+   "type": "circular",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[SHINSA]Seven English translations of notifications and administrative notices related to pediatric drug development, including the partial revision of “Planning of the Pediatric Drug Development Program during Development of Drugs for Adults”",
+     "to": "Seven English translations of notifications and administrative notices related to pediatric drug development, including the partial revision of “Planning of the Pediatric Drug Development Program during Development of Drugs for Adults”"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/safety/info-services/safety-information/0001.html",
+   "authority": "PMDA",
+   "title": "PMDA Medical Safety Information: Use of Insulin-Specific Syringe- Incorrect dose may cause serious adverse health effects- posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/safety/info-services/safety-information/0001.html",
+   "published": "2026-04-27",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "PMDA Medical Safety Information: Use of Insulin-Specific Syringe- Incorrect dose may cause serious adverse health effects- posted",
+     "to": "[ANZEN]PMDA Medical Safety Information: Use of Insulin-Specific Syringe- Incorrect dose may cause serious adverse health effects- posted"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/safety/info-services/safety-information/0001.html",
+   "authority": "PMDA",
+   "title": "PMDA Medical Safety Information: Use of Insulin-Specific Syringe- Incorrect dose may cause serious adverse health effects- posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/safety/info-services/safety-information/0001.html",
+   "published": "2026-04-27",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "[ANZEN]PMDA Medical Safety Information: Use of Insulin-Specific Syringe- Incorrect dose may cause serious adverse health effects- posted",
+     "to": "PMDA Medical Safety Information: Use of Insulin-Specific Syringe- Incorrect dose may cause serious adverse health effects- posted"
+    }
+   ]
+  }
+ ],
  "removed": [],
  "failed": [
   {
-   "source": "Swissmedic/neu",
-   "error": "robots.txt of fetchrss.com does not allow this page, so it is not read."
+   "source": "CDSCO/gazette",
+   "error": "Could not connect (ETIMEDOUT)."
   },
   {
-   "source": "TGA/alerts",
-   "error": "No answer within 45 seconds."
-  },
-  {
-   "source": "TGA/news",
-   "error": "No answer within 45 seconds."
-  },
-  {
-   "source": "TGA/notices",
-   "error": "No answer within 45 seconds."
-  },
-  {
-   "source": "TGA/safety",
-   "error": "No answer within 45 seconds."
-  },
-  {
-   "source": "TGA/guidance",
-   "error": "No answer within 45 seconds."
-  },
-  {
-   "source": "TGA/consult",
-   "error": "No answer within 45 seconds."
-  },
-  {
-   "source": "TGA/legislation",
-   "error": "No answer within 45 seconds."
-  },
-  {
-   "source": "TGA/scheduling",
-   "error": "No answer within 45 seconds."
-  },
-  {
-   "source": "NMPA/ggtg",
-   "error": "The site answered HTTP 412."
-  },
-  {
-   "source": "NMPA/fgwj",
-   "error": "The site answered HTTP 412."
-  },
-  {
-   "source": "NMPA/zhqyj",
-   "error": "The site answered HTTP 412."
+   "source": "CDSCO/alerts",
+   "error": "Could not connect (ETIMEDOUT)."
   }
  ],
- "suspect": [
-  {
-   "source": "EMA/herbal",
-   "error": "The page or feed was read but no items were found (the site layout may have changed).",
-   "items": 0
-  },
-  {
-   "source": "Swissmedic/actualite",
-   "error": "The page or feed was read but no items were found (the site layout may have changed).",
-   "items": 0
-  },
-  {
-   "source": "Swissmedic/news-en",
-   "error": "The page or feed was read but no items were found (the site layout may have changed).",
-   "items": 0
-  },
-  {
-   "source": "HC/news-en",
-   "error": "The page or feed was read but no items were found (the site layout may have changed).",
-   "items": 0
-  },
-  {
-   "source": "HC/news-fr",
-   "error": "The page or feed was read but no items were found (the site layout may have changed).",
-   "items": 0
-  },
-  {
-   "source": "PMDA/pubcom-review",
-   "error": "The page or feed was read but no items were found (the site layout may have changed).",
-   "items": 0
-  },
-  {
-   "source": "PMDA/pubcom-safety",
-   "error": "The page or feed was read but no items were found (the site layout may have changed).",
-   "items": 0
-  },
-  {
-   "source": "NMPA/cde-zdyz",
-   "error": "The page or feed was read but no items were found (the site layout may have changed).",
-   "items": 0
-  },
-  {
-   "source": "MFDS/m_506",
-   "error": "The page or feed was read but no items were found (the site layout may have changed).",
-   "items": 0
-  },
-  {
-   "source": "HSA/announcements",
-   "error": "The page or feed was read but no items were found (the site layout may have changed).",
-   "items": 0
-  },
-  {
-   "source": "ICH/press",
-   "error": "The page or feed was read but no items were found (the site layout may have changed).",
-   "items": 0
-  },
-  {
-   "source": "ICH/consult",
-   "error": "The page or feed was read but no items were found (the site layout may have changed).",
-   "items": 0
-  }
- ]
+ "suspect": []
 }

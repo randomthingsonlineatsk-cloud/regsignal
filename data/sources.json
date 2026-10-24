@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T13:38:11.591Z",
+ "updated": "2026-10-24T14:09:13.604Z",
  "authorities": [
   {
    "code": "FDA",
@@ -154,6 +154,7 @@
    "alts": [],
    "state": {
     "counts": [
+     20,
      20
     ],
     "last_ok": "2026-10-24",
@@ -179,6 +180,7 @@
    "alts": [],
    "state": {
     "counts": [
+     20,
      20
     ],
     "last_ok": "2026-10-24",
@@ -204,6 +206,7 @@
    "alts": [],
    "state": {
     "counts": [
+     20,
      20
     ],
     "last_ok": "2026-10-24",
@@ -229,6 +232,7 @@
    "alts": [],
    "state": {
     "counts": [
+     20,
      20
     ],
     "last_ok": "2026-10-24",
@@ -241,8 +245,8 @@
     "healthy": true
    },
    "this_run": {
-    "new": 0,
-    "revised": 0
+    "new": 1,
+    "revised": 6
    }
   },
   "FDA/recalls": {
@@ -254,6 +258,7 @@
    "alts": [],
    "state": {
     "counts": [
+     20,
      20
     ],
     "last_ok": "2026-10-24",
@@ -279,6 +284,7 @@
    "alts": [],
    "state": {
     "counts": [
+     11,
      11
     ],
     "last_ok": "2026-10-24",
@@ -304,6 +310,7 @@
    "alts": [],
    "state": {
     "counts": [
+     468,
      468
     ],
     "last_ok": "2026-10-24",
@@ -329,6 +336,7 @@
    "alts": [],
    "state": {
     "counts": [
+     8,
      8
     ],
     "last_ok": "2026-10-24",
@@ -354,6 +362,7 @@
    "alts": [],
    "state": {
     "counts": [
+     11,
      11
     ],
     "last_ok": "2026-10-24",
@@ -379,6 +388,7 @@
    "alts": [],
    "state": {
     "counts": [
+     8,
      8
     ],
     "last_ok": "2026-10-24",
@@ -404,6 +414,7 @@
    "alts": [],
    "state": {
     "counts": [
+     232,
      232
     ],
     "last_ok": "2026-10-24",
@@ -429,6 +440,7 @@
    "alts": [],
    "state": {
     "counts": [
+     6,
      6
     ],
     "last_ok": "2026-10-24",
@@ -454,6 +466,7 @@
    "alts": [],
    "state": {
     "counts": [
+     1,
      1
     ],
     "last_ok": "2026-10-24",
@@ -479,6 +492,7 @@
    "alts": [],
    "state": {
     "counts": [
+     44,
      44
     ],
     "last_ok": "2026-10-24",
@@ -504,6 +518,7 @@
    "alts": [],
    "state": {
     "counts": [
+     5,
      5
     ],
     "last_ok": "2026-10-24",
@@ -529,16 +544,17 @@
    "alts": [],
    "state": {
     "counts": [
+     0,
      0
     ],
-    "last_ok": null,
-    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
-    "status": "suspect",
+    "last_ok": "2026-10-24",
+    "last_error": "The feed is valid but has no items at the moment.",
+    "status": "ok",
     "last_attempt": "2026-10-24",
     "url_used": "https://www.ema.europa.eu/en/herbal-medicine-new.xml",
     "items": 0,
     "oldest_listed": null,
-    "healthy": false
+    "healthy": true
    },
    "this_run": {
     "new": 0,
@@ -554,6 +570,7 @@
    "alts": [],
    "state": {
     "counts": [
+     20,
      20
     ],
     "last_ok": "2026-10-24",
@@ -579,6 +596,7 @@
    "alts": [],
    "state": {
     "counts": [
+     50,
      50
     ],
     "last_ok": "2026-10-24",
@@ -604,6 +622,7 @@
    "alts": [],
    "state": {
     "counts": [
+     50,
      50
     ],
     "last_ok": "2026-10-24",
@@ -620,26 +639,6 @@
     "revised": 0
    }
   },
-  "Swissmedic/neu": {
-   "authority": "Swissmedic",
-   "label": "Neu auf der Website",
-   "kind": "feed",
-   "lang": "de",
-   "url": "http://fetchrss.com/rss/5fe092c0fd80be0c580365425fe091f22136327aca5bccf2.xml",
-   "alts": [],
-   "state": {
-    "counts": [],
-    "last_ok": null,
-    "last_error": "robots.txt of fetchrss.com does not allow this page, so it is not read.",
-    "status": "failed",
-    "last_attempt": "2026-10-24",
-    "url_used": null
-   },
-   "this_run": {
-    "new": 0,
-    "revised": 0
-   }
-  },
   "Swissmedic/sicherheit": {
    "authority": "Swissmedic",
    "label": "Arzneimittelsicherheit",
@@ -649,6 +648,7 @@
    "alts": [],
    "state": {
     "counts": [
+     15,
      15
     ],
     "last_ok": "2026-10-24",
@@ -674,6 +674,7 @@
    "alts": [],
    "state": {
     "counts": [
+     30,
      30
     ],
     "last_ok": "2026-10-24",
@@ -690,50 +691,50 @@
     "revised": 0
    }
   },
-  "Swissmedic/actualite": {
+  "Swissmedic/mitteilungen-fr": {
    "authority": "Swissmedic",
-   "label": "Actualité",
+   "label": "Communications (français)",
    "kind": "page",
    "lang": "fr",
-   "url": "https://www.swissmedic.ch/swissmedic/fr/home/news/actualite.html",
+   "url": "https://www.swissmedic.ch/swissmedic/fr/home/news/mitteilungen.html",
    "alts": [],
    "state": {
     "counts": [
-     0
+     30
     ],
-    "last_ok": null,
-    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
-    "status": "suspect",
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
     "last_attempt": "2026-10-24",
-    "url_used": "https://www.swissmedic.ch/swissmedic/fr/home/news/actualite.html",
-    "items": 0,
-    "oldest_listed": null,
-    "healthy": false
+    "url_used": "https://www.swissmedic.ch/swissmedic/fr/home/news/mitteilungen.html",
+    "items": 30,
+    "oldest_listed": "2026-06-08",
+    "healthy": true
    },
    "this_run": {
     "new": 0,
     "revised": 0
    }
   },
-  "Swissmedic/news-en": {
+  "Swissmedic/mitteilungen-en": {
    "authority": "Swissmedic",
-   "label": "News (English)",
+   "label": "Communications (English)",
    "kind": "page",
    "lang": "en",
-   "url": "https://www.swissmedic.ch/swissmedic/en/home/news/news.html",
+   "url": "https://www.swissmedic.ch/swissmedic/en/home/news/mitteilungen.html",
    "alts": [],
    "state": {
     "counts": [
-     0
+     30
     ],
-    "last_ok": null,
-    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
-    "status": "suspect",
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
     "last_attempt": "2026-10-24",
-    "url_used": "https://www.swissmedic.ch/swissmedic/en/home/news/news.html",
-    "items": 0,
-    "oldest_listed": null,
-    "healthy": false
+    "url_used": "https://www.swissmedic.ch/swissmedic/en/home/news/mitteilungen.html",
+    "items": 30,
+    "oldest_listed": "2026-06-01",
+    "healthy": true
    },
    "this_run": {
     "new": 0,
@@ -749,6 +750,7 @@
    "alts": [],
    "state": {
     "counts": [
+     3,
      3
     ],
     "last_ok": "2026-10-24",
@@ -776,6 +778,7 @@
    ],
    "state": {
     "counts": [
+     3,
      3
     ],
     "last_ok": "2026-10-24",
@@ -792,52 +795,100 @@
     "revised": 0
    }
   },
-  "HC/news-en": {
+  "HC/compliance-en": {
    "authority": "HC",
-   "label": "News (Canada.ca)",
+   "label": "Compliance and enforcement: drugs and health products",
    "kind": "feed",
    "lang": "en",
-   "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=healthcanada&sort=publishedDate&orderBy=desc&pick=50&format=atom",
+   "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/compli-conform-eng.xml",
    "alts": [],
    "state": {
     "counts": [
-     0
+     19
     ],
-    "last_ok": null,
-    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
-    "status": "suspect",
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
     "last_attempt": "2026-10-24",
-    "url_used": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=healthcanada&sort=publishedDate&orderBy=desc&pick=50&format=atom",
-    "items": 0,
-    "oldest_listed": null,
-    "healthy": false
+    "url_used": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/compli-conform-eng.xml",
+    "items": 19,
+    "oldest_listed": "2026-03-18",
+    "healthy": true
    },
    "this_run": {
     "new": 0,
     "revised": 0
    }
   },
-  "HC/news-fr": {
+  "HC/compliance-fr": {
    "authority": "HC",
-   "label": "Nouvelles (Canada.ca)",
+   "label": "Conformité et application de la loi",
    "kind": "feed",
    "lang": "fr",
-   "url": "https://api.io.canada.ca/io-server/gc/news/fr/v2?dept=healthcanada&sort=publishedDate&orderBy=desc&pick=50&format=atom",
-   "alts": [
-    "https://api.io.canada.ca/io-server/gc/news/fr/v2?dept=santecanada&sort=publishedDate&orderBy=desc&pick=50&format=atom"
-   ],
+   "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/compli-conform-fra.xml",
+   "alts": [],
    "state": {
     "counts": [
-     0
+     20
     ],
-    "last_ok": null,
-    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
-    "status": "suspect",
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
     "last_attempt": "2026-10-24",
-    "url_used": "https://api.io.canada.ca/io-server/gc/news/fr/v2?dept=healthcanada&sort=publishedDate&orderBy=desc&pick=50&format=atom",
-    "items": 0,
-    "oldest_listed": null,
-    "healthy": false
+    "url_used": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/compli-conform-fra.xml",
+    "items": 20,
+    "oldest_listed": "2026-03-18",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "HC/medeffect-en": {
+   "authority": "HC",
+   "label": "MedEffect Canada: what's new",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/new-neuf-eng.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     8
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/new-neuf-eng.xml",
+    "items": 8,
+    "oldest_listed": "2026-06-25",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "HC/medeffect-fr": {
+   "authority": "HC",
+   "label": "MedEffet Canada : quoi de neuf",
+   "kind": "feed",
+   "lang": "fr",
+   "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/new-neuf-fra.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     8
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/new-neuf-fra.xml",
+    "items": 8,
+    "oldest_listed": "2026-06-25",
+    "healthy": true
    },
    "this_run": {
     "new": 0,
@@ -854,10 +905,11 @@
    "state": {
     "counts": [],
     "last_ok": null,
-    "last_error": "No answer within 45 seconds.",
-    "status": "failed",
+    "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+    "status": "blocked",
     "last_attempt": "2026-10-24",
-    "url_used": null
+    "url_used": null,
+    "items": 0
    },
    "this_run": {
     "new": 0,
@@ -874,10 +926,11 @@
    "state": {
     "counts": [],
     "last_ok": null,
-    "last_error": "No answer within 45 seconds.",
-    "status": "failed",
+    "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+    "status": "blocked",
     "last_attempt": "2026-10-24",
-    "url_used": null
+    "url_used": null,
+    "items": 0
    },
    "this_run": {
     "new": 0,
@@ -894,10 +947,11 @@
    "state": {
     "counts": [],
     "last_ok": null,
-    "last_error": "No answer within 45 seconds.",
-    "status": "failed",
+    "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+    "status": "blocked",
     "last_attempt": "2026-10-24",
-    "url_used": null
+    "url_used": null,
+    "items": 0
    },
    "this_run": {
     "new": 0,
@@ -914,10 +968,11 @@
    "state": {
     "counts": [],
     "last_ok": null,
-    "last_error": "No answer within 45 seconds.",
-    "status": "failed",
+    "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+    "status": "blocked",
     "last_attempt": "2026-10-24",
-    "url_used": null
+    "url_used": null,
+    "items": 0
    },
    "this_run": {
     "new": 0,
@@ -934,10 +989,11 @@
    "state": {
     "counts": [],
     "last_ok": null,
-    "last_error": "No answer within 45 seconds.",
-    "status": "failed",
+    "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+    "status": "blocked",
     "last_attempt": "2026-10-24",
-    "url_used": null
+    "url_used": null,
+    "items": 0
    },
    "this_run": {
     "new": 0,
@@ -954,10 +1010,11 @@
    "state": {
     "counts": [],
     "last_ok": null,
-    "last_error": "No answer within 45 seconds.",
-    "status": "failed",
+    "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+    "status": "blocked",
     "last_attempt": "2026-10-24",
-    "url_used": null
+    "url_used": null,
+    "items": 0
    },
    "this_run": {
     "new": 0,
@@ -974,10 +1031,11 @@
    "state": {
     "counts": [],
     "last_ok": null,
-    "last_error": "No answer within 45 seconds.",
-    "status": "failed",
+    "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+    "status": "blocked",
     "last_attempt": "2026-10-24",
-    "url_used": null
+    "url_used": null,
+    "items": 0
    },
    "this_run": {
     "new": 0,
@@ -994,10 +1052,11 @@
    "state": {
     "counts": [],
     "last_ok": null,
-    "last_error": "No answer within 45 seconds.",
-    "status": "failed",
+    "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+    "status": "blocked",
     "last_attempt": "2026-10-24",
-    "url_used": null
+    "url_used": null,
+    "items": 0
    },
    "this_run": {
     "new": 0,
@@ -1013,6 +1072,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -1038,6 +1098,7 @@
    "alts": [],
    "state": {
     "counts": [
+     39,
      39
     ],
     "last_ok": "2026-10-24",
@@ -1066,8 +1127,8 @@
      300
     ],
     "last_ok": "2026-10-24",
-    "last_error": null,
-    "status": "ok",
+    "last_error": "Could not connect (ETIMEDOUT).",
+    "status": "failed",
     "last_attempt": "2026-10-24",
     "url_used": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Gazette-Notifications/",
     "items": 300,
@@ -1088,6 +1149,7 @@
    "alts": [],
    "state": {
     "counts": [
+     173,
      173
     ],
     "last_ok": "2026-10-24",
@@ -1116,8 +1178,8 @@
      19
     ],
     "last_ok": "2026-10-24",
-    "last_error": null,
-    "status": "ok",
+    "last_error": "Could not connect (ETIMEDOUT).",
+    "status": "failed",
     "last_attempt": "2026-10-24",
     "url_used": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Alerts/",
     "items": 19,
@@ -1131,13 +1193,14 @@
   },
   "PMDA/shinchaku": {
    "authority": "PMDA",
-   "label": "新着情報 (What's new, Japanese)",
+   "label": "新着情報 (What's new, Japanese; includes public comments)",
    "kind": "page",
    "lang": "ja",
    "url": "https://www.pmda.go.jp/0017.html",
    "alts": [],
    "state": {
     "counts": [
+     237,
      237
     ],
     "last_ok": "2026-10-24",
@@ -1154,56 +1217,6 @@
     "revised": 0
    }
   },
-  "PMDA/pubcom-review": {
-   "authority": "PMDA",
-   "label": "意見募集 審査 (public comments, review)",
-   "kind": "page",
-   "lang": "ja",
-   "url": "https://www.pmda.go.jp/review-services/pub-comments/0001.html",
-   "alts": [],
-   "state": {
-    "counts": [
-     0
-    ],
-    "last_ok": null,
-    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
-    "status": "suspect",
-    "last_attempt": "2026-10-24",
-    "url_used": "https://www.pmda.go.jp/review-services/pub-comments/0001.html",
-    "items": 0,
-    "oldest_listed": null,
-    "healthy": false
-   },
-   "this_run": {
-    "new": 0,
-    "revised": 0
-   }
-  },
-  "PMDA/pubcom-safety": {
-   "authority": "PMDA",
-   "label": "意見募集 安全対策 (public comments, safety)",
-   "kind": "page",
-   "lang": "ja",
-   "url": "https://www.pmda.go.jp/safety/pub-comments/0001.html",
-   "alts": [],
-   "state": {
-    "counts": [
-     0
-    ],
-    "last_ok": null,
-    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
-    "status": "suspect",
-    "last_attempt": "2026-10-24",
-    "url_used": "https://www.pmda.go.jp/safety/pub-comments/0001.html",
-    "items": 0,
-    "oldest_listed": null,
-    "healthy": false
-   },
-   "this_run": {
-    "new": 0,
-    "revised": 0
-   }
-  },
   "PMDA/top-all": {
    "authority": "PMDA",
    "label": "Top All (English)",
@@ -1213,6 +1226,7 @@
    "alts": [],
    "state": {
     "counts": [
+     46,
      46
     ],
     "last_ok": "2026-10-24",
@@ -1226,7 +1240,7 @@
    },
    "this_run": {
     "new": 0,
-    "revised": 0
+    "revised": 44
    }
   },
   "PMDA/reviews": {
@@ -1238,6 +1252,7 @@
    "alts": [],
    "state": {
     "counts": [
+     17,
      17
     ],
     "last_ok": "2026-10-24",
@@ -1263,6 +1278,7 @@
    "alts": [],
    "state": {
     "counts": [
+     5,
      5
     ],
     "last_ok": "2026-10-24",
@@ -1288,6 +1304,7 @@
    "alts": [],
    "state": {
     "counts": [
+     5,
      5
     ],
     "last_ok": "2026-10-24",
@@ -1313,6 +1330,7 @@
    "alts": [],
    "state": {
     "counts": [
+     4,
      4
     ],
     "last_ok": "2026-10-24",
@@ -1338,6 +1356,7 @@
    "alts": [],
    "state": {
     "counts": [
+     9,
      9
     ],
     "last_ok": "2026-10-24",
@@ -1364,10 +1383,11 @@
    "state": {
     "counts": [],
     "last_ok": null,
-    "last_error": "The site answered HTTP 412.",
-    "status": "failed",
+    "last_error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
+    "status": "blocked",
     "last_attempt": "2026-10-24",
-    "url_used": null
+    "url_used": null,
+    "items": 0
    },
    "this_run": {
     "new": 0,
@@ -1384,10 +1404,11 @@
    "state": {
     "counts": [],
     "last_ok": null,
-    "last_error": "The site answered HTTP 412.",
-    "status": "failed",
+    "last_error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
+    "status": "blocked",
     "last_attempt": "2026-10-24",
-    "url_used": null
+    "url_used": null,
+    "items": 0
    },
    "this_run": {
     "new": 0,
@@ -1404,10 +1425,11 @@
    "state": {
     "counts": [],
     "last_ok": null,
-    "last_error": "The site answered HTTP 412.",
-    "status": "failed",
+    "last_error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
+    "status": "blocked",
     "last_attempt": "2026-10-24",
-    "url_used": null
+    "url_used": null,
+    "items": 0
    },
    "this_run": {
     "new": 0,
@@ -1426,8 +1448,8 @@
      0
     ],
     "last_ok": null,
-    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
-    "status": "suspect",
+    "last_error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
+    "status": "blocked",
     "last_attempt": "2026-10-24",
     "url_used": "https://www.cde.org.cn/zdyz/index",
     "items": 0,
@@ -1448,19 +1470,20 @@
    "alts": [],
    "state": {
     "counts": [
-     3
+     3,
+     6
     ],
     "last_ok": "2026-10-24",
     "last_error": null,
     "status": "ok",
     "last_attempt": "2026-10-24",
     "url_used": "https://english.nmpa.gov.cn/regulatoryinformation.html",
-    "items": 3,
+    "items": 6,
     "oldest_listed": "2025-12-24",
     "healthy": true
    },
    "this_run": {
-    "new": 0,
+    "new": 3,
     "revised": 0
    }
   },
@@ -1473,6 +1496,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -1498,6 +1522,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -1523,6 +1548,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -1548,6 +1574,7 @@
    "alts": [],
    "state": {
     "counts": [
+     23,
      23
     ],
     "last_ok": "2026-10-24",
@@ -1573,6 +1600,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -1598,6 +1626,7 @@
    "alts": [],
    "state": {
     "counts": [
+     20,
      20
     ],
     "last_ok": "2026-10-24",
@@ -1623,6 +1652,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -1639,31 +1669,6 @@
     "revised": 0
    }
   },
-  "MFDS/m_506": {
-   "authority": "MFDS",
-   "label": "의약품 등 위해정보 (safety)",
-   "kind": "page",
-   "lang": "ko",
-   "url": "https://www.mfds.go.kr/brd/m_506/list.do",
-   "alts": [],
-   "state": {
-    "counts": [
-     0
-    ],
-    "last_ok": null,
-    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
-    "status": "suspect",
-    "last_attempt": "2026-10-24",
-    "url_used": "https://www.mfds.go.kr/brd/m_506/list.do",
-    "items": 0,
-    "oldest_listed": null,
-    "healthy": false
-   },
-   "this_run": {
-    "new": 0,
-    "revised": 0
-   }
-  },
   "MFDS/en-m_61": {
    "authority": "MFDS",
    "label": "News & Notice (English)",
@@ -1673,19 +1678,20 @@
    "alts": [],
    "state": {
     "counts": [
-     10
+     10,
+     12
     ],
     "last_ok": "2026-10-24",
     "last_error": null,
     "status": "ok",
     "last_attempt": "2026-10-24",
     "url_used": "https://www.mfds.go.kr/eng/brd/m_61/list.do",
-    "items": 10,
+    "items": 12,
     "oldest_listed": "2026-05-12",
     "healthy": true
    },
    "this_run": {
-    "new": 0,
+    "new": 2,
     "revised": 0
    }
   },
@@ -1698,6 +1704,7 @@
    "alts": [],
    "state": {
     "counts": [
+     12,
      12
     ],
     "last_ok": "2026-10-24",
@@ -1723,6 +1730,7 @@
    "alts": [],
    "state": {
     "counts": [
+     7,
      7
     ],
     "last_ok": "2026-10-24",
@@ -1748,6 +1756,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -1773,6 +1782,7 @@
    "alts": [],
    "state": {
     "counts": [
+     11,
      11
     ],
     "last_ok": "2026-10-24",
@@ -1798,6 +1808,7 @@
    "alts": [],
    "state": {
     "counts": [
+     6,
      6
     ],
     "last_ok": "2026-10-24",
@@ -1823,6 +1834,7 @@
    "alts": [],
    "state": {
     "counts": [
+     12,
      12
     ],
     "last_ok": "2026-10-24",
@@ -1848,6 +1860,7 @@
    "alts": [],
    "state": {
     "counts": [
+     9,
      9
     ],
     "last_ok": "2026-10-24",
@@ -1873,6 +1886,7 @@
    "alts": [],
    "state": {
     "counts": [
+     6,
      6
     ],
     "last_ok": "2026-10-24",
@@ -1898,6 +1912,7 @@
    "alts": [],
    "state": {
     "counts": [
+     12,
      12
     ],
     "last_ok": "2026-10-24",
@@ -1925,6 +1940,7 @@
    ],
    "state": {
     "counts": [
+     12,
      12
     ],
     "last_ok": "2026-10-24",
@@ -1950,6 +1966,7 @@
    "alts": [],
    "state": {
     "counts": [
+     9,
      9
     ],
     "last_ok": "2026-10-24",
@@ -1975,19 +1992,20 @@
    "alts": [],
    "state": {
     "counts": [
-     9
+     9,
+     10
     ],
     "last_ok": "2026-10-24",
     "last_error": null,
     "status": "ok",
     "last_attempt": "2026-10-24",
     "url_used": "https://www.sfda.gov.sa/en/drugs_circulars_withdrawal",
-    "items": 9,
+    "items": 10,
     "oldest_listed": "2025-11-02",
     "healthy": true
    },
    "this_run": {
-    "new": 0,
+    "new": 1,
     "revised": 0
    }
   },
@@ -2000,16 +2018,17 @@
    "alts": [],
    "state": {
     "counts": [
-     0
+     0,
+     10
     ],
-    "last_ok": null,
-    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
-    "status": "suspect",
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
     "last_attempt": "2026-10-24",
     "url_used": "https://www.hsa.gov.sg/announcements",
-    "items": 0,
-    "oldest_listed": null,
-    "healthy": false
+    "items": 10,
+    "oldest_listed": "2026-09-25",
+    "healthy": true
    },
    "this_run": {
     "new": 0,
@@ -2027,6 +2046,7 @@
    ],
    "state": {
     "counts": [
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -2052,6 +2072,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -2070,28 +2091,27 @@
   },
   "ANVISA/noticias": {
    "authority": "ANVISA",
-   "label": "Notícias",
-   "kind": "feed",
+   "label": "Notícias (página inicial)",
+   "kind": "page",
    "lang": "pt",
-   "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/RSS",
-   "alts": [
-    "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa"
-   ],
+   "url": "https://www.gov.br/anvisa/pt-br",
+   "alts": [],
    "state": {
     "counts": [
-     1
+     1,
+     5
     ],
     "last_ok": "2026-10-24",
     "last_error": null,
     "status": "ok",
     "last_attempt": "2026-10-24",
-    "url_used": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa",
-    "items": 1,
-    "oldest_listed": "2020-10-29",
+    "url_used": "https://www.gov.br/anvisa/pt-br",
+    "items": 5,
+    "oldest_listed": null,
     "healthy": true
    },
    "this_run": {
-    "new": 0,
+    "new": 5,
     "revised": 0
    }
   },
@@ -2104,6 +2124,7 @@
    "alts": [],
    "state": {
     "counts": [
+     9,
      9
     ],
     "last_ok": "2026-10-24",
@@ -2129,6 +2150,7 @@
    "alts": [],
    "state": {
     "counts": [
+     9,
      9
     ],
     "last_ok": "2026-10-24",
@@ -2148,49 +2170,48 @@
   "ICH/press": {
    "authority": "ICH",
    "label": "Press releases",
-   "kind": "page",
+   "kind": "json",
    "lang": "en",
-   "url": "https://www.ich.org/page/press-releases",
-   "alts": [
-    "https://www.ich.org/"
-   ],
+   "url": "https://admin.ich.org/api/v1/nodes?bundle=press_release&offset=0&limit=20&sort=date:DESC,created:desc",
+   "alts": [],
    "state": {
     "counts": [
-     0
+     0,
+     10
     ],
-    "last_ok": null,
-    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
-    "status": "suspect",
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
     "last_attempt": "2026-10-24",
-    "url_used": "https://www.ich.org/page/press-releases",
-    "items": 0,
-    "oldest_listed": null,
-    "healthy": false
+    "url_used": "https://admin.ich.org/api/v1/nodes?bundle=press_release&offset=0&limit=20&sort=date:DESC,created:desc",
+    "items": 10,
+    "oldest_listed": "2022-11-22",
+    "healthy": true
    },
    "this_run": {
     "new": 0,
     "revised": 0
    }
   },
-  "ICH/consult": {
+  "ICH/news": {
    "authority": "ICH",
-   "label": "Public consultations",
-   "kind": "page",
+   "label": "News (including public consultations)",
+   "kind": "json",
    "lang": "en",
-   "url": "https://www.ich.org/page/public-consultations",
+   "url": "https://admin.ich.org/api/v1/nodes?bundle=news&offset=0&limit=30&sort=date:DESC,created:desc",
    "alts": [],
    "state": {
     "counts": [
-     0
+     10
     ],
-    "last_ok": null,
-    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
-    "status": "suspect",
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
     "last_attempt": "2026-10-24",
-    "url_used": "https://www.ich.org/page/public-consultations",
-    "items": 0,
-    "oldest_listed": null,
-    "healthy": false
+    "url_used": "https://admin.ich.org/api/v1/nodes?bundle=news&offset=0&limit=30&sort=date:DESC,created:desc",
+    "items": 10,
+    "oldest_listed": "2026-03-20",
+    "healthy": true
    },
    "this_run": {
     "new": 0,
