@@ -1,0 +1,128 @@
+{
+ "run_date": "2026-10-24T13:38:11.591Z",
+ "date": "2026-10-24",
+ "baseline": true,
+ "totals": {
+  "new": 0,
+  "revised": 0,
+  "removed": 0,
+  "failed": 12,
+  "suspect": 12,
+  "documents": 1847
+ },
+ "new": [],
+ "revised": [],
+ "removed": [],
+ "failed": [
+  {
+   "source": "Swissmedic/neu",
+   "error": "robots.txt of fetchrss.com does not allow this page, so it is not read."
+  },
+  {
+   "source": "TGA/alerts",
+   "error": "No answer within 45 seconds."
+  },
+  {
+   "source": "TGA/news",
+   "error": "No answer within 45 seconds."
+  },
+  {
+   "source": "TGA/notices",
+   "error": "No answer within 45 seconds."
+  },
+  {
+   "source": "TGA/safety",
+   "error": "No answer within 45 seconds."
+  },
+  {
+   "source": "TGA/guidance",
+   "error": "No answer within 45 seconds."
+  },
+  {
+   "source": "TGA/consult",
+   "error": "No answer within 45 seconds."
+  },
+  {
+   "source": "TGA/legislation",
+   "error": "No answer within 45 seconds."
+  },
+  {
+   "source": "TGA/scheduling",
+   "error": "No answer within 45 seconds."
+  },
+  {
+   "source": "NMPA/ggtg",
+   "error": "The site answered HTTP 412."
+  },
+  {
+   "source": "NMPA/fgwj",
+   "error": "The site answered HTTP 412."
+  },
+  {
+   "source": "NMPA/zhqyj",
+   "error": "The site answered HTTP 412."
+  }
+ ],
+ "suspect": [
+  {
+   "source": "EMA/herbal",
+   "error": "The page or feed was read but no items were found (the site layout may have changed).",
+   "items": 0
+  },
+  {
+   "source": "Swissmedic/actualite",
+   "error": "The page or feed was read but no items were found (the site layout may have changed).",
+   "items": 0
+  },
+  {
+   "source": "Swissmedic/news-en",
+   "error": "The page or feed was read but no items were found (the site layout may have changed).",
+   "items": 0
+  },
+  {
+   "source": "HC/news-en",
+   "error": "The page or feed was read but no items were found (the site layout may have changed).",
+   "items": 0
+  },
+  {
+   "source": "HC/news-fr",
+   "error": "The page or feed was read but no items were found (the site layout may have changed).",
+   "items": 0
+  },
+  {
+   "source": "PMDA/pubcom-review",
+   "error": "The page or feed was read but no items were found (the site layout may have changed).",
+   "items": 0
+  },
+  {
+   "source": "PMDA/pubcom-safety",
+   "error": "The page or feed was read but no items were found (the site layout may have changed).",
+   "items": 0
+  },
+  {
+   "source": "NMPA/cde-zdyz",
+   "error": "The page or feed was read but no items were found (the site layout may have changed).",
+   "items": 0
+  },
+  {
+   "source": "MFDS/m_506",
+   "error": "The page or feed was read but no items were found (the site layout may have changed).",
+   "items": 0
+  },
+  {
+   "source": "HSA/announcements",
+   "error": "The page or feed was read but no items were found (the site layout may have changed).",
+   "items": 0
+  },
+  {
+   "source": "ICH/press",
+   "error": "The page or feed was read but no items were found (the site layout may have changed).",
+   "items": 0
+  },
+  {
+   "source": "ICH/consult",
+   "error": "The page or feed was read but no items were found (the site layout may have changed).",
+   "items": 0
+  }
+ ]
+}

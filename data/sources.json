@@ -1,0 +1,2201 @@
+{
+ "updated": "2026-10-24T13:38:11.591Z",
+ "authorities": [
+  {
+   "code": "FDA",
+   "name": "US Food and Drug Administration",
+   "region": "United States",
+   "home": "https://www.fda.gov"
+  },
+  {
+   "code": "EMA",
+   "name": "European Medicines Agency",
+   "region": "European Union",
+   "home": "https://www.ema.europa.eu"
+  },
+  {
+   "code": "MHRA",
+   "name": "Medicines and Healthcare products Regulatory Agency",
+   "region": "United Kingdom",
+   "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"
+  },
+  {
+   "code": "Swissmedic",
+   "name": "Swissmedic",
+   "region": "Switzerland",
+   "home": "https://www.swissmedic.ch"
+  },
+  {
+   "code": "HC",
+   "name": "Health Canada",
+   "region": "Canada",
+   "home": "https://www.canada.ca/en/health-canada.html"
+  },
+  {
+   "code": "TGA",
+   "name": "Therapeutic Goods Administration",
+   "region": "Australia",
+   "home": "https://www.tga.gov.au"
+  },
+  {
+   "code": "WHO-PQ",
+   "name": "WHO Prequalification",
+   "region": "Global",
+   "home": "https://extranet.who.int/prequal"
+  },
+  {
+   "code": "CDSCO",
+   "name": "Central Drugs Standard Control Organisation",
+   "region": "India",
+   "home": "https://cdsco.gov.in"
+  },
+  {
+   "code": "PMDA",
+   "name": "Pharmaceuticals and Medical Devices Agency",
+   "region": "Japan",
+   "home": "https://www.pmda.go.jp"
+  },
+  {
+   "code": "NMPA",
+   "name": "National Medical Products Administration",
+   "region": "China",
+   "home": "https://www.nmpa.gov.cn"
+  },
+  {
+   "code": "MFDS",
+   "name": "Ministry of Food and Drug Safety",
+   "region": "South Korea",
+   "home": "https://www.mfds.go.kr"
+  },
+  {
+   "code": "SFDA",
+   "name": "Saudi Food and Drug Authority",
+   "region": "Saudi Arabia",
+   "home": "https://www.sfda.gov.sa"
+  },
+  {
+   "code": "HSA",
+   "name": "Health Sciences Authority",
+   "region": "Singapore",
+   "home": "https://www.hsa.gov.sg"
+  },
+  {
+   "code": "SAHPRA",
+   "name": "South African Health Products Regulatory Authority",
+   "region": "South Africa",
+   "home": "https://www.sahpra.org.za"
+  },
+  {
+   "code": "ANVISA",
+   "name": "Agência Nacional de Vigilância Sanitária",
+   "region": "Brazil",
+   "home": "https://www.gov.br/anvisa"
+  },
+  {
+   "code": "COFEPRIS",
+   "name": "Comisión Federal para la Protección contra Riesgos Sanitarios",
+   "region": "Mexico",
+   "home": "https://www.gob.mx/cofepris"
+  },
+  {
+   "code": "ICH",
+   "name": "International Council for Harmonisation",
+   "region": "Global",
+   "home": "https://www.ich.org"
+  }
+ ],
+ "types": {
+  "guideline": "Guideline (final)",
+  "draft": "Draft guidance or consultation",
+  "law": "Law, rule or gazette notification",
+  "circular": "Circular, notice or order",
+  "safety": "Safety communication",
+  "recall": "Recall or shortage",
+  "approval": "Approval or product decision",
+  "news": "News or press release",
+  "other": "Other"
+ },
+ "areas": {
+  "small-molecule": "Small molecule",
+  "biologic": "Biologic",
+  "vaccine": "Vaccine",
+  "cgt": "Cell and gene therapy",
+  "biosimilar": "Biosimilar",
+  "generic": "Generic",
+  "device": "Medical device",
+  "ivd": "IVD",
+  "herbal": "Herbal or traditional",
+  "cosmetic": "Cosmetic",
+  "paediatric": "Paediatric",
+  "orphan": "Orphan or rare disease",
+  "nanomedicine": "Nanomedicine",
+  "quality": "Quality (CMC/GMP)",
+  "clinical": "Clinical trials",
+  "pv": "Pharmacovigilance"
+ },
+ "languages": {
+  "en": "English",
+  "ja": "Japanese",
+  "zh": "Chinese",
+  "ko": "Korean",
+  "ar": "Arabic",
+  "pt": "Portuguese",
+  "es": "Spanish",
+  "de": "German",
+  "fr": "French"
+ },
+ "sources": {
+  "FDA/drugs": {
+   "authority": "FDA",
+   "label": "What's New: Drugs",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     20
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml",
+    "items": 20,
+    "oldest_listed": "2026-10-22",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "FDA/biologics": {
+   "authority": "FDA",
+   "label": "What's New: Biologics",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/biologics/rss.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     20
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/biologics/rss.xml",
+    "items": 20,
+    "oldest_listed": "2026-10-20",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "FDA/press": {
+   "authority": "FDA",
+   "label": "Press releases",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     20
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
+    "items": 20,
+    "oldest_listed": "2026-09-03",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "FDA/medwatch": {
+   "authority": "FDA",
+   "label": "MedWatch safety alerts",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     20
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml",
+    "items": 20,
+    "oldest_listed": "2026-09-23",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "FDA/recalls": {
+   "authority": "FDA",
+   "label": "Recalls",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     20
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml",
+    "items": 20,
+    "oldest_listed": "2026-10-02",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "EMA/news": {
+   "authority": "EMA",
+   "label": "News and press releases",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.ema.europa.eu/en/news.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     11
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.ema.europa.eu/en/news.xml",
+    "items": 11,
+    "oldest_listed": "2026-09-30",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "EMA/whatsnew": {
+   "authority": "EMA",
+   "label": "What's new",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.ema.europa.eu/en/whats-new.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     468
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.ema.europa.eu/en/whats-new.xml",
+    "items": 468,
+    "oldest_listed": "2026-10-01",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "EMA/sciguide": {
+   "authority": "EMA",
+   "label": "Scientific guidelines",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.ema.europa.eu/en/scientific-guidelines.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     8
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.ema.europa.eu/en/scientific-guidelines.xml",
+    "items": 8,
+    "oldest_listed": "2026-09-24",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "EMA/regguide": {
+   "authority": "EMA",
+   "label": "Regulatory and procedural guidelines",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.ema.europa.eu/en/regulatory-and-procedural-guideline.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     11
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.ema.europa.eu/en/regulatory-and-procedural-guideline.xml",
+    "items": 11,
+    "oldest_listed": "2026-09-24",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "EMA/consult": {
+   "authority": "EMA",
+   "label": "Public consultations",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.ema.europa.eu/en/public-consultations.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     8
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.ema.europa.eu/en/public-consultations.xml",
+    "items": 8,
+    "oldest_listed": "2026-09-24",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "EMA/epar": {
+   "authority": "EMA",
+   "label": "EPARs and summaries of opinion",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.ema.europa.eu/en/human-medicine-new.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     232
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.ema.europa.eu/en/human-medicine-new.xml",
+    "items": 232,
+    "oldest_listed": "2026-09-24",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "EMA/newmed": {
+   "authority": "EMA",
+   "label": "New medicines: human",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.ema.europa.eu/en/new-human-medicine-new.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     6
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.ema.europa.eu/en/new-human-medicine-new.xml",
+    "items": 6,
+    "oldest_listed": "2026-10-15",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "EMA/orphan": {
+   "authority": "EMA",
+   "label": "Orphan designations",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.ema.europa.eu/en/orphan.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     1
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.ema.europa.eu/en/orphan.xml",
+    "items": 1,
+    "oldest_listed": "2026-10-07",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "EMA/pip": {
+   "authority": "EMA",
+   "label": "Paediatric investigation plans",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.ema.europa.eu/en/pip.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     44
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.ema.europa.eu/en/pip.xml",
+    "items": 44,
+    "oldest_listed": "2026-10-02",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "EMA/withdrawn": {
+   "authority": "EMA",
+   "label": "Withdrawn applications",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.ema.europa.eu/en/withdrawn-applications.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     5
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.ema.europa.eu/en/withdrawn-applications.xml",
+    "items": 5,
+    "oldest_listed": "2026-10-06",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "EMA/herbal": {
+   "authority": "EMA",
+   "label": "Herbal medicines",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.ema.europa.eu/en/herbal-medicine-new.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     0
+    ],
+    "last_ok": null,
+    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
+    "status": "suspect",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.ema.europa.eu/en/herbal-medicine-new.xml",
+    "items": 0,
+    "oldest_listed": null,
+    "healthy": false
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MHRA/guidance": {
+   "authority": "MHRA",
+   "label": "Guidance and regulation (GOV.UK)",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.gov.uk/search/guidance-and-regulation.atom?order=updated-newest&organisations%5B%5D=medicines-and-healthcare-products-regulatory-agency&parent=medicines-and-healthcare-products-regulatory-agency",
+   "alts": [],
+   "state": {
+    "counts": [
+     20
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.gov.uk/search/guidance-and-regulation.atom?order=updated-newest&organisations%5B%5D=medicines-and-healthcare-products-regulatory-agency&parent=medicines-and-healthcare-products-regulatory-agency",
+    "items": 20,
+    "oldest_listed": "2026-10-02",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MHRA/dsu": {
+   "authority": "MHRA",
+   "label": "Drug Safety Update",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.gov.uk/drug-safety-update.atom",
+   "alts": [],
+   "state": {
+    "counts": [
+     50
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.gov.uk/drug-safety-update.atom",
+    "items": 50,
+    "oldest_listed": "2024-05-29",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MHRA/alerts": {
+   "authority": "MHRA",
+   "label": "Alerts and recalls",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.gov.uk/drug-device-alerts.atom",
+   "alts": [],
+   "state": {
+    "counts": [
+     50
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.gov.uk/drug-device-alerts.atom",
+    "items": 50,
+    "oldest_listed": "2026-06-23",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "Swissmedic/neu": {
+   "authority": "Swissmedic",
+   "label": "Neu auf der Website",
+   "kind": "feed",
+   "lang": "de",
+   "url": "http://fetchrss.com/rss/5fe092c0fd80be0c580365425fe091f22136327aca5bccf2.xml",
+   "alts": [],
+   "state": {
+    "counts": [],
+    "last_ok": null,
+    "last_error": "robots.txt of fetchrss.com does not allow this page, so it is not read.",
+    "status": "failed",
+    "last_attempt": "2026-10-24",
+    "url_used": null
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "Swissmedic/sicherheit": {
+   "authority": "Swissmedic",
+   "label": "Arzneimittelsicherheit",
+   "kind": "feed",
+   "lang": "de",
+   "url": "https://fetchrss.com/feed/X-CSwP0MWGVCZ8rORu-q3KN0.rss",
+   "alts": [],
+   "state": {
+    "counts": [
+     15
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://fetchrss.com/feed/X-CSwP0MWGVCZ8rORu-q3KN0.rss",
+    "items": 15,
+    "oldest_listed": "2026-08-14",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "Swissmedic/mitteilungen": {
+   "authority": "Swissmedic",
+   "label": "Mitteilungen",
+   "kind": "page",
+   "lang": "de",
+   "url": "https://www.swissmedic.ch/swissmedic/de/home/news/mitteilungen.html",
+   "alts": [],
+   "state": {
+    "counts": [
+     30
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.swissmedic.ch/swissmedic/de/home/news/mitteilungen.html",
+    "items": 30,
+    "oldest_listed": "2026-06-12",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "Swissmedic/actualite": {
+   "authority": "Swissmedic",
+   "label": "Actualité",
+   "kind": "page",
+   "lang": "fr",
+   "url": "https://www.swissmedic.ch/swissmedic/fr/home/news/actualite.html",
+   "alts": [],
+   "state": {
+    "counts": [
+     0
+    ],
+    "last_ok": null,
+    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
+    "status": "suspect",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.swissmedic.ch/swissmedic/fr/home/news/actualite.html",
+    "items": 0,
+    "oldest_listed": null,
+    "healthy": false
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "Swissmedic/news-en": {
+   "authority": "Swissmedic",
+   "label": "News (English)",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.swissmedic.ch/swissmedic/en/home/news/news.html",
+   "alts": [],
+   "state": {
+    "counts": [
+     0
+    ],
+    "last_ok": null,
+    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
+    "status": "suspect",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.swissmedic.ch/swissmedic/en/home/news/news.html",
+    "items": 0,
+    "oldest_listed": null,
+    "healthy": false
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "HC/recalls-en": {
+   "authority": "HC",
+   "label": "Health product recalls and alerts",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://recalls-rappels.canada.ca/en/feed/health-products-alerts-recalls",
+   "alts": [],
+   "state": {
+    "counts": [
+     3
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://recalls-rappels.canada.ca/en/feed/health-products-alerts-recalls",
+    "items": 3,
+    "oldest_listed": "2026-10-21",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "HC/recalls-fr": {
+   "authority": "HC",
+   "label": "Rappels et avis: produits de santé",
+   "kind": "feed",
+   "lang": "fr",
+   "url": "https://recalls-rappels.canada.ca/fr/flux/produits-sante-alertes-rappels",
+   "alts": [
+    "https://recalls-rappels.canada.ca/fr/feed/health-products-alerts-recalls"
+   ],
+   "state": {
+    "counts": [
+     3
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://recalls-rappels.canada.ca/fr/feed/health-products-alerts-recalls",
+    "items": 3,
+    "oldest_listed": "2026-10-21",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "HC/news-en": {
+   "authority": "HC",
+   "label": "News (Canada.ca)",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=healthcanada&sort=publishedDate&orderBy=desc&pick=50&format=atom",
+   "alts": [],
+   "state": {
+    "counts": [
+     0
+    ],
+    "last_ok": null,
+    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
+    "status": "suspect",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=healthcanada&sort=publishedDate&orderBy=desc&pick=50&format=atom",
+    "items": 0,
+    "oldest_listed": null,
+    "healthy": false
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "HC/news-fr": {
+   "authority": "HC",
+   "label": "Nouvelles (Canada.ca)",
+   "kind": "feed",
+   "lang": "fr",
+   "url": "https://api.io.canada.ca/io-server/gc/news/fr/v2?dept=healthcanada&sort=publishedDate&orderBy=desc&pick=50&format=atom",
+   "alts": [
+    "https://api.io.canada.ca/io-server/gc/news/fr/v2?dept=santecanada&sort=publishedDate&orderBy=desc&pick=50&format=atom"
+   ],
+   "state": {
+    "counts": [
+     0
+    ],
+    "last_ok": null,
+    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
+    "status": "suspect",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://api.io.canada.ca/io-server/gc/news/fr/v2?dept=healthcanada&sort=publishedDate&orderBy=desc&pick=50&format=atom",
+    "items": 0,
+    "oldest_listed": null,
+    "healthy": false
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "TGA/alerts": {
+   "authority": "TGA",
+   "label": "Alerts (safety, recalls, shortages)",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.tga.gov.au/feeds/alert.xml",
+   "alts": [],
+   "state": {
+    "counts": [],
+    "last_ok": null,
+    "last_error": "No answer within 45 seconds.",
+    "status": "failed",
+    "last_attempt": "2026-10-24",
+    "url_used": null
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "TGA/news": {
+   "authority": "TGA",
+   "label": "News",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.tga.gov.au/feeds/article/news.xml",
+   "alts": [],
+   "state": {
+    "counts": [],
+    "last_ok": null,
+    "last_error": "No answer within 45 seconds.",
+    "status": "failed",
+    "last_attempt": "2026-10-24",
+    "url_used": null
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "TGA/notices": {
+   "authority": "TGA",
+   "label": "Notices",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.tga.gov.au/feeds/article/notices.xml",
+   "alts": [],
+   "state": {
+    "counts": [],
+    "last_ok": null,
+    "last_error": "No answer within 45 seconds.",
+    "status": "failed",
+    "last_attempt": "2026-10-24",
+    "url_used": null
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "TGA/safety": {
+   "authority": "TGA",
+   "label": "Safety updates",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.tga.gov.au/feeds/article/safety-updates.xml",
+   "alts": [],
+   "state": {
+    "counts": [],
+    "last_ok": null,
+    "last_error": "No answer within 45 seconds.",
+    "status": "failed",
+    "last_attempt": "2026-10-24",
+    "url_used": null
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "TGA/guidance": {
+   "authority": "TGA",
+   "label": "Guidance",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.tga.gov.au/feeds/guidance.xml",
+   "alts": [],
+   "state": {
+    "counts": [],
+    "last_ok": null,
+    "last_error": "No answer within 45 seconds.",
+    "status": "failed",
+    "last_attempt": "2026-10-24",
+    "url_used": null
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "TGA/consult": {
+   "authority": "TGA",
+   "label": "Consultations",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.tga.gov.au/feeds/consultation.xml",
+   "alts": [],
+   "state": {
+    "counts": [],
+    "last_ok": null,
+    "last_error": "No answer within 45 seconds.",
+    "status": "failed",
+    "last_attempt": "2026-10-24",
+    "url_used": null
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "TGA/legislation": {
+   "authority": "TGA",
+   "label": "Legislation",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.tga.gov.au/feeds/legislation.xml",
+   "alts": [],
+   "state": {
+    "counts": [],
+    "last_ok": null,
+    "last_error": "No answer within 45 seconds.",
+    "status": "failed",
+    "last_attempt": "2026-10-24",
+    "url_used": null
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "TGA/scheduling": {
+   "authority": "TGA",
+   "label": "Scheduling decisions (final)",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.tga.gov.au/feeds/publication/scheduling-decisions-final.xml",
+   "alts": [],
+   "state": {
+    "counts": [],
+    "last_ok": null,
+    "last_error": "No answer within 45 seconds.",
+    "status": "failed",
+    "last_attempt": "2026-10-24",
+    "url_used": null
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "WHO-PQ/all": {
+   "authority": "WHO-PQ",
+   "label": "News, alerts and updates",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://extranet.who.int/prequal/rss.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     10
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://extranet.who.int/prequal/rss.xml",
+    "items": 10,
+    "oldest_listed": "2025-10-01",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "CDSCO/circulars": {
+   "authority": "CDSCO",
+   "label": "Circulars",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Circulars/",
+   "alts": [],
+   "state": {
+    "counts": [
+     39
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Circulars/",
+    "items": 39,
+    "oldest_listed": "2013-07-05",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "CDSCO/gazette": {
+   "authority": "CDSCO",
+   "label": "Gazette notifications",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Gazette-Notifications/",
+   "alts": [],
+   "state": {
+    "counts": [
+     300
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Gazette-Notifications/",
+    "items": 300,
+    "oldest_listed": "2002-05-01",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "CDSCO/notices": {
+   "authority": "CDSCO",
+   "label": "Public notices",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Public-Notices/",
+   "alts": [],
+   "state": {
+    "counts": [
+     173
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Public-Notices/",
+    "items": 173,
+    "oldest_listed": "2011-05-10",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "CDSCO/alerts": {
+   "authority": "CDSCO",
+   "label": "Alerts",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Alerts/",
+   "alts": [],
+   "state": {
+    "counts": [
+     19
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Alerts/",
+    "items": 19,
+    "oldest_listed": "2012-07-27",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "PMDA/shinchaku": {
+   "authority": "PMDA",
+   "label": "新着情報 (What's new, Japanese)",
+   "kind": "page",
+   "lang": "ja",
+   "url": "https://www.pmda.go.jp/0017.html",
+   "alts": [],
+   "state": {
+    "counts": [
+     237
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.pmda.go.jp/0017.html",
+    "items": 237,
+    "oldest_listed": "2026-04-01",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "PMDA/pubcom-review": {
+   "authority": "PMDA",
+   "label": "意見募集 審査 (public comments, review)",
+   "kind": "page",
+   "lang": "ja",
+   "url": "https://www.pmda.go.jp/review-services/pub-comments/0001.html",
+   "alts": [],
+   "state": {
+    "counts": [
+     0
+    ],
+    "last_ok": null,
+    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
+    "status": "suspect",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.pmda.go.jp/review-services/pub-comments/0001.html",
+    "items": 0,
+    "oldest_listed": null,
+    "healthy": false
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "PMDA/pubcom-safety": {
+   "authority": "PMDA",
+   "label": "意見募集 安全対策 (public comments, safety)",
+   "kind": "page",
+   "lang": "ja",
+   "url": "https://www.pmda.go.jp/safety/pub-comments/0001.html",
+   "alts": [],
+   "state": {
+    "counts": [
+     0
+    ],
+    "last_ok": null,
+    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
+    "status": "suspect",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.pmda.go.jp/safety/pub-comments/0001.html",
+    "items": 0,
+    "oldest_listed": null,
+    "healthy": false
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "PMDA/top-all": {
+   "authority": "PMDA",
+   "label": "Top All (English)",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.pmda.go.jp/rss_008.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     46
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.pmda.go.jp/rss_008.xml",
+    "items": 46,
+    "oldest_listed": "2026-04-27",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "PMDA/reviews": {
+   "authority": "PMDA",
+   "label": "Reviews (English)",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.pmda.go.jp/rss_011.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     17
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.pmda.go.jp/rss_011.xml",
+    "items": 17,
+    "oldest_listed": "2026-05-13",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "PMDA/safety": {
+   "authority": "PMDA",
+   "label": "Safety measures (English)",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.pmda.go.jp/rss_013.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     5
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.pmda.go.jp/rss_013.xml",
+    "items": 5,
+    "oldest_listed": "2026-04-27",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "PMDA/postmarket": {
+   "authority": "PMDA",
+   "label": "Post-marketing safety (English)",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.pmda.go.jp/rss_006.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     5
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.pmda.go.jp/rss_006.xml",
+    "items": 5,
+    "oldest_listed": "2026-04-27",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "PMDA/intl": {
+   "authority": "PMDA",
+   "label": "International activities (English)",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.pmda.go.jp/rss_009.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     4
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.pmda.go.jp/rss_009.xml",
+    "items": 4,
+    "oldest_listed": "2026-07-24",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "PMDA/standards": {
+   "authority": "PMDA",
+   "label": "RS and standards (English)",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.pmda.go.jp/rss_012.xml",
+   "alts": [],
+   "state": {
+    "counts": [
+     9
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.pmda.go.jp/rss_012.xml",
+    "items": 9,
+    "oldest_listed": "2026-05-27",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "NMPA/ggtg": {
+   "authority": "NMPA",
+   "label": "公告通告 (announcements)",
+   "kind": "page",
+   "lang": "zh",
+   "url": "https://www.nmpa.gov.cn/xxgk/ggtg/index.html",
+   "alts": [],
+   "state": {
+    "counts": [],
+    "last_ok": null,
+    "last_error": "The site answered HTTP 412.",
+    "status": "failed",
+    "last_attempt": "2026-10-24",
+    "url_used": null
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "NMPA/fgwj": {
+   "authority": "NMPA",
+   "label": "法规文件 (rules)",
+   "kind": "page",
+   "lang": "zh",
+   "url": "https://www.nmpa.gov.cn/xxgk/fgwj/index.html",
+   "alts": [],
+   "state": {
+    "counts": [],
+    "last_ok": null,
+    "last_error": "The site answered HTTP 412.",
+    "status": "failed",
+    "last_attempt": "2026-10-24",
+    "url_used": null
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "NMPA/zhqyj": {
+   "authority": "NMPA",
+   "label": "征求意见 (consultations)",
+   "kind": "page",
+   "lang": "zh",
+   "url": "https://www.nmpa.gov.cn/xxgk/zhqyj/index.html",
+   "alts": [],
+   "state": {
+    "counts": [],
+    "last_ok": null,
+    "last_error": "The site answered HTTP 412.",
+    "status": "failed",
+    "last_attempt": "2026-10-24",
+    "url_used": null
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "NMPA/cde-zdyz": {
+   "authority": "NMPA",
+   "label": "CDE 指导原则 (technical guidelines)",
+   "kind": "page",
+   "lang": "zh",
+   "url": "https://www.cde.org.cn/zdyz/index",
+   "alts": [],
+   "state": {
+    "counts": [
+     0
+    ],
+    "last_ok": null,
+    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
+    "status": "suspect",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.cde.org.cn/zdyz/index",
+    "items": 0,
+    "oldest_listed": null,
+    "healthy": false
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "NMPA/en": {
+   "authority": "NMPA",
+   "label": "Regulatory information (English)",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://english.nmpa.gov.cn/regulatoryinformation.html",
+   "alts": [],
+   "state": {
+    "counts": [
+     3
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://english.nmpa.gov.cn/regulatoryinformation.html",
+    "items": 3,
+    "oldest_listed": "2025-12-24",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MFDS/m_74": {
+   "authority": "MFDS",
+   "label": "공지 (notices)",
+   "kind": "page",
+   "lang": "ko",
+   "url": "https://www.mfds.go.kr/brd/m_74/list.do",
+   "alts": [],
+   "state": {
+    "counts": [
+     10
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.mfds.go.kr/brd/m_74/list.do",
+    "items": 10,
+    "oldest_listed": "2026-10-02",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MFDS/m_76": {
+   "authority": "MFDS",
+   "label": "공고 (announcements)",
+   "kind": "page",
+   "lang": "ko",
+   "url": "https://www.mfds.go.kr/brd/m_76/list.do",
+   "alts": [],
+   "state": {
+    "counts": [
+     10
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.mfds.go.kr/brd/m_76/list.do",
+    "items": 10,
+    "oldest_listed": "2026-10-06",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MFDS/m_99": {
+   "authority": "MFDS",
+   "label": "보도자료 (press releases)",
+   "kind": "page",
+   "lang": "ko",
+   "url": "https://www.mfds.go.kr/brd/m_99/list.do",
+   "alts": [],
+   "state": {
+    "counts": [
+     10
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.mfds.go.kr/brd/m_99/list.do",
+    "items": 10,
+    "oldest_listed": "2026-10-21",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MFDS/m_207": {
+   "authority": "MFDS",
+   "label": "제개정고시 (amended notices)",
+   "kind": "page",
+   "lang": "ko",
+   "url": "https://www.mfds.go.kr/brd/m_207/list.do",
+   "alts": [],
+   "state": {
+    "counts": [
+     23
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.mfds.go.kr/brd/m_207/list.do",
+    "items": 23,
+    "oldest_listed": "2026-08-21",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MFDS/m_209": {
+   "authority": "MFDS",
+   "label": "입법/행정예고 (draft rules)",
+   "kind": "page",
+   "lang": "ko",
+   "url": "https://www.mfds.go.kr/brd/m_209/list.do",
+   "alts": [],
+   "state": {
+    "counts": [
+     10
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.mfds.go.kr/brd/m_209/list.do",
+    "items": 10,
+    "oldest_listed": "2026-08-25",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MFDS/m_211": {
+   "authority": "MFDS",
+   "label": "고시훈령예규 (rules)",
+   "kind": "page",
+   "lang": "ko",
+   "url": "https://www.mfds.go.kr/brd/m_211/list.do",
+   "alts": [],
+   "state": {
+    "counts": [
+     20
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.mfds.go.kr/brd/m_211/list.do",
+    "items": 20,
+    "oldest_listed": "2026-07-13",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MFDS/m_1059": {
+   "authority": "MFDS",
+   "label": "공무원지침서/민원인안내서 (guidelines)",
+   "kind": "page",
+   "lang": "ko",
+   "url": "https://www.mfds.go.kr/brd/m_1059/list.do",
+   "alts": [],
+   "state": {
+    "counts": [
+     10
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.mfds.go.kr/brd/m_1059/list.do",
+    "items": 10,
+    "oldest_listed": "2026-09-29",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MFDS/m_506": {
+   "authority": "MFDS",
+   "label": "의약품 등 위해정보 (safety)",
+   "kind": "page",
+   "lang": "ko",
+   "url": "https://www.mfds.go.kr/brd/m_506/list.do",
+   "alts": [],
+   "state": {
+    "counts": [
+     0
+    ],
+    "last_ok": null,
+    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
+    "status": "suspect",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.mfds.go.kr/brd/m_506/list.do",
+    "items": 0,
+    "oldest_listed": null,
+    "healthy": false
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MFDS/en-m_61": {
+   "authority": "MFDS",
+   "label": "News & Notice (English)",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.mfds.go.kr/eng/brd/m_61/list.do",
+   "alts": [],
+   "state": {
+    "counts": [
+     10
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.mfds.go.kr/eng/brd/m_61/list.do",
+    "items": 10,
+    "oldest_listed": "2026-05-12",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MFDS/en-m_18": {
+   "authority": "MFDS",
+   "label": "Drugs regulations (English)",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.mfds.go.kr/eng/brd/m_18/list.do",
+   "alts": [],
+   "state": {
+    "counts": [
+     12
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.mfds.go.kr/eng/brd/m_18/list.do",
+    "items": 12,
+    "oldest_listed": "2022-06-27",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MFDS/en-m_1127": {
+   "authority": "MFDS",
+   "label": "Drugs guidelines (English)",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.mfds.go.kr/eng/brd/m_1127/list.do",
+   "alts": [],
+   "state": {
+    "counts": [
+     7
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.mfds.go.kr/eng/brd/m_1127/list.do",
+    "items": 7,
+    "oldest_listed": "2023-01-27",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MFDS/en-m_27": {
+   "authority": "MFDS",
+   "label": "Bio and cosmetics regulations (English)",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.mfds.go.kr/eng/brd/m_27/list.do",
+   "alts": [],
+   "state": {
+    "counts": [
+     10
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.mfds.go.kr/eng/brd/m_27/list.do",
+    "items": 10,
+    "oldest_listed": "2023-09-04",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "MFDS/en-m_40": {
+   "authority": "MFDS",
+   "label": "Medical devices regulations (English)",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.mfds.go.kr/eng/brd/m_40/list.do",
+   "alts": [],
+   "state": {
+    "counts": [
+     11
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.mfds.go.kr/eng/brd/m_40/list.do",
+    "items": 11,
+    "oldest_listed": "2022-07-21",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "SFDA/news-ar": {
+   "authority": "SFDA",
+   "label": "الأخبار (news)",
+   "kind": "page",
+   "lang": "ar",
+   "url": "https://www.sfda.gov.sa/ar/news",
+   "alts": [],
+   "state": {
+    "counts": [
+     6
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.sfda.gov.sa/ar/news",
+    "items": 6,
+    "oldest_listed": "2026-10-03",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "SFDA/regulations-ar": {
+   "authority": "SFDA",
+   "label": "الأنظمة واللوائح (regulations)",
+   "kind": "page",
+   "lang": "ar",
+   "url": "https://www.sfda.gov.sa/ar/regulations",
+   "alts": [],
+   "state": {
+    "counts": [
+     12
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.sfda.gov.sa/ar/regulations",
+    "items": 12,
+    "oldest_listed": "2014-03-19",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "SFDA/warnings-ar": {
+   "authority": "SFDA",
+   "label": "التحذيرات (warnings)",
+   "kind": "page",
+   "lang": "ar",
+   "url": "https://www.sfda.gov.sa/ar/warnings",
+   "alts": [],
+   "state": {
+    "counts": [
+     9
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.sfda.gov.sa/ar/warnings",
+    "items": 9,
+    "oldest_listed": "2023-08-03",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "SFDA/news-en": {
+   "authority": "SFDA",
+   "label": "News (English)",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.sfda.gov.sa/en/news",
+   "alts": [],
+   "state": {
+    "counts": [
+     6
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.sfda.gov.sa/en/news",
+    "items": 6,
+    "oldest_listed": "2026-10-03",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "SFDA/regulations-en": {
+   "authority": "SFDA",
+   "label": "Regulations (English)",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.sfda.gov.sa/en/regulations",
+   "alts": [],
+   "state": {
+    "counts": [
+     12
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.sfda.gov.sa/en/regulations",
+    "items": 12,
+    "oldest_listed": "2018-02-11",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "SFDA/guides-en": {
+   "authority": "SFDA",
+   "label": "Guidelines (English)",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.sfda.gov.sa/en/guide",
+   "alts": [
+    "https://www.sfda.gov.sa/en/guides"
+   ],
+   "state": {
+    "counts": [
+     12
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.sfda.gov.sa/en/guide",
+    "items": 12,
+    "oldest_listed": "2016-06-26",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "SFDA/warnings-en": {
+   "authority": "SFDA",
+   "label": "Warnings (English)",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.sfda.gov.sa/en/warnings",
+   "alts": [],
+   "state": {
+    "counts": [
+     9
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.sfda.gov.sa/en/warnings",
+    "items": 9,
+    "oldest_listed": "2022-10-05",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "SFDA/circulars-en": {
+   "authority": "SFDA",
+   "label": "Drug circulars and withdrawals (English)",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.sfda.gov.sa/en/drugs_circulars_withdrawal",
+   "alts": [],
+   "state": {
+    "counts": [
+     9
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.sfda.gov.sa/en/drugs_circulars_withdrawal",
+    "items": 9,
+    "oldest_listed": "2025-11-02",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "HSA/announcements": {
+   "authority": "HSA",
+   "label": "Announcements",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.hsa.gov.sg/announcements",
+   "alts": [],
+   "state": {
+    "counts": [
+     0
+    ],
+    "last_ok": null,
+    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
+    "status": "suspect",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.hsa.gov.sg/announcements",
+    "items": 0,
+    "oldest_listed": null,
+    "healthy": false
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "SAHPRA/news": {
+   "authority": "SAHPRA",
+   "label": "News and updates",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.sahpra.org.za/category/news-and-updates/feed/",
+   "alts": [
+    "https://www.sahpra.org.za/feed/"
+   ],
+   "state": {
+    "counts": [
+     10
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.sahpra.org.za/category/news-and-updates/feed/",
+    "items": 10,
+    "oldest_listed": "2026-07-08",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "SAHPRA/all": {
+   "authority": "SAHPRA",
+   "label": "All posts",
+   "kind": "feed",
+   "lang": "en",
+   "url": "https://www.sahpra.org.za/feed/",
+   "alts": [],
+   "state": {
+    "counts": [
+     10
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.sahpra.org.za/feed/",
+    "items": 10,
+    "oldest_listed": "2026-07-20",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "ANVISA/noticias": {
+   "authority": "ANVISA",
+   "label": "Notícias",
+   "kind": "feed",
+   "lang": "pt",
+   "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/RSS",
+   "alts": [
+    "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa"
+   ],
+   "state": {
+    "counts": [
+     1
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa",
+    "items": 1,
+    "oldest_listed": "2020-10-29",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "COFEPRIS/prensa": {
+   "authority": "COFEPRIS",
+   "label": "Prensa",
+   "kind": "page",
+   "lang": "es",
+   "url": "https://www.gob.mx/cofepris/archivo/prensa",
+   "alts": [],
+   "state": {
+    "counts": [
+     9
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.gob.mx/cofepris/archivo/prensa",
+    "items": 9,
+    "oldest_listed": "2020-03-12",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "COFEPRIS/documentos": {
+   "authority": "COFEPRIS",
+   "label": "Documentos",
+   "kind": "page",
+   "lang": "es",
+   "url": "https://www.gob.mx/cofepris/archivo/documentos",
+   "alts": [],
+   "state": {
+    "counts": [
+     9
+    ],
+    "last_ok": "2026-10-24",
+    "last_error": null,
+    "status": "ok",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.gob.mx/cofepris/archivo/documentos",
+    "items": 9,
+    "oldest_listed": "2026-10-07",
+    "healthy": true
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "ICH/press": {
+   "authority": "ICH",
+   "label": "Press releases",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.ich.org/page/press-releases",
+   "alts": [
+    "https://www.ich.org/"
+   ],
+   "state": {
+    "counts": [
+     0
+    ],
+    "last_ok": null,
+    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
+    "status": "suspect",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.ich.org/page/press-releases",
+    "items": 0,
+    "oldest_listed": null,
+    "healthy": false
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  },
+  "ICH/consult": {
+   "authority": "ICH",
+   "label": "Public consultations",
+   "kind": "page",
+   "lang": "en",
+   "url": "https://www.ich.org/page/public-consultations",
+   "alts": [],
+   "state": {
+    "counts": [
+     0
+    ],
+    "last_ok": null,
+    "last_error": "The page or feed was read but no items were found (the site layout may have changed).",
+    "status": "suspect",
+    "last_attempt": "2026-10-24",
+    "url_used": "https://www.ich.org/page/public-consultations",
+    "items": 0,
+    "oldest_listed": null,
+    "healthy": false
+   },
+   "this_run": {
+    "new": 0,
+    "revised": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "digests": [
+  {
+   "date": "2026-10-24",
+   "baseline": true,
+   "totals": {
+    "new": 0,
+    "revised": 0,
+    "removed": 0,
+    "failed": 12,
+    "suspect": 12,
+    "documents": 1847
+   }
+  }
+ ]
+}
