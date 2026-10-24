@@ -1,0 +1,23 @@
+{
+  "name": "regsignal",
+  "version": "1.0.0",
+  "description": "Weekly new and revised official documents from 17 drug regulators, in every language they publish in.",
+  "main": "engine/run.mjs",
+  "scripts": {
+    "test": "node --test test/engine.test.mjs",
+    "run": "node engine/run.mjs"
+  },
+  "author": "Khan Gulrez Shagufa Fazal Ahmed",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/randomthingsonlineatsk-cloud/regsignal"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

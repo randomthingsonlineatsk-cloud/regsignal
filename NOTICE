@@ -1,0 +1,16 @@
+RegSignal
+Copyright 2026 Khan Gulrez Shagufa Fazal Ahmed
+ORCID: 0009-0009-6195-0329
+https://github.com/randomthingsonlineatsk-cloud/regsignal
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+If you redistribute or adapt RegSignal, keep this NOTICE file and the credit
+"Made by Khan Gulrez Shagufa Fazal Ahmed" so the original author stays credited.
+
+Third-party components:
+- cheerio (MIT License), used by the weekly run to read regulator pages. Not shipped with the website.
+- IBM Plex Sans, IBM Plex Mono and Source Serif 4 fonts (SIL Open Font License 1.1), loaded from Google Fonts.
+
+Data: titles, dates and links come from the public websites of the regulators listed in
+engine/sources.mjs. The official documents remain the property of those authorities.
+Email delivery is provided by Kit (kit.com); subscriber addresses are held by Kit, not in this repository.
