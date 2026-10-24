@@ -319,6 +319,7 @@ export function applyRun(archive, results, today, opts = {}) {
     }
     if (!r.ok) {
       st.status = 'failed';
+      st.items = 0;
       st.last_error = r.error || 'unknown error';
       changes.failed.push({ source: r.sourceId, error: st.last_error });
       continue;
