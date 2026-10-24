@@ -11,7 +11,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { AUTHORITIES } from './sources.mjs';
 import { toCandidate, applyRun, buildDigest, digestEmailHtml, digestSubject, digestRss, toCsv, TYPES, AREA_NAMES, LANGUAGE_NAMES } from './core.mjs';
-import { parseAny } from './parse.mjs';
+import { parseAny, looksLikeFeed } from './parse.mjs';
 import { politeGet } from './fetch.mjs';
 import { sendBroadcast } from './kit.mjs';
 
@@ -38,6 +38,7 @@ async function pool(items, size, fn) {
 /** Reads one channel, trying its alternative addresses in turn. */
 export async function readChannel(authority, channel, getter) {
   const sourceId = `${authority.code}/${channel.id}`;
+  if (channel.blocked) return { sourceId, ok: false, blocked: true, error: channel.blocked, items: [] };
   const urls = [channel.url, ...(channel.alts || [])];
   const errors = [];
   let emptyOk = null;
@@ -47,6 +48,7 @@ export async function readChannel(authority, channel, getter) {
       const raw = parseAny(res.text, res.url || url, channel);
       const items = raw.map((r) => toCandidate(r, authority, channel)).filter(Boolean);
       if (items.length) return { sourceId, ok: true, items, urlUsed: url };
+      if (channel.kind === 'feed' && looksLikeFeed(res.text)) return { sourceId, ok: true, items: [], urlUsed: url, emptyFeed: true };
       emptyOk = emptyOk || { sourceId, ok: true, items: [], urlUsed: url };
       errors.push(`${urls.length > 1 ? `${url}: ` : ''}read, but no dated items found`);
     } catch (e) {
@@ -73,7 +75,7 @@ export async function runAll({ dataDir, getter = politeGet, authorities = AUTHOR
     const results = [];
     for (const ch of a.channels) {
       const r = await readChannel(a, ch, getter);
-      log(`${r.ok ? (r.items.length ? 'ok  ' : 'EMPTY') : 'FAIL'} ${r.sourceId}: ${r.ok ? `${r.items.length} items` : r.error}`);
+      log(`${r.blocked ? 'SKIP' : r.ok ? (r.items.length || r.emptyFeed ? 'ok  ' : 'EMPTY') : 'FAIL'} ${r.sourceId}: ${r.ok ? `${r.items.length} items` : r.error}`);
       results.push(r);
     }
     return results;
@@ -121,7 +123,7 @@ export async function runAll({ dataDir, getter = politeGet, authorities = AUTHOR
     run_date: now.toISOString(), baseline,
     totals: digest.totals,
     sources: Object.fromEntries(results.map((r) => [r.sourceId, {
-      status: r.ok ? next.sources[r.sourceId]?.status : 'failed', items: r.items.length, ...(perSource[r.sourceId] || {}),
+      status: r.blocked ? 'blocked' : r.ok ? next.sources[r.sourceId]?.status : 'failed', items: r.items.length, ...(perSource[r.sourceId] || {}),
       error: r.ok ? next.sources[r.sourceId]?.last_error || null : r.error, url: r.urlUsed || null,
     }])),
     digest: `data/digests/${today}.json`,

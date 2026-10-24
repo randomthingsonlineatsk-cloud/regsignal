@@ -13,20 +13,20 @@ Created by **Khan Gulrez Shagufa Fazal Ahmed** ([ORCID 0009-0009-6195-0329](http
 | FDA | United States | English | 5 RSS feeds |
 | EMA | European Union | English | 11 RSS feeds |
 | MHRA | United Kingdom | English | 3 GOV.UK Atom feeds |
-| Swissmedic | Switzerland | German, French, English | 2 RSS feeds and 3 news pages |
-| Health Canada | Canada | English, French | Recall and news feeds |
-| TGA | Australia | English | 8 RSS feeds |
+| Swissmedic | Switzerland | German, French, English | Safety feed and communications in 3 languages |
+| Health Canada | Canada | English, French | Recalls, compliance and enforcement, MedEffect feeds |
+| TGA | Australia | English | 8 RSS feeds (not readable from cloud servers, see below) |
 | WHO Prequalification | Global | English | RSS feed |
 | CDSCO | India | English | Circulars, gazette notifications, public notices, alerts |
-| PMDA | Japan | Japanese, English | Japanese listings and public comments; 6 English RSS feeds |
-| NMPA | China | Chinese, English | 公告通告, 法规文件, 征求意见, CDE 指导原则, English list |
-| MFDS | South Korea | Korean, English | 8 Korean boards, 5 English boards |
+| PMDA | Japan | Japanese, English | 新着情報 (includes public comments); 6 English RSS feeds |
+| NMPA | China | Chinese, English | English list; Chinese pages listed but blocked by an anti-bot check |
+| MFDS | South Korea | Korean, English | 7 Korean boards, 5 English boards |
 | SFDA | Saudi Arabia | Arabic, English | News, regulations, guidelines, warnings, circulars |
 | HSA | Singapore | English | Announcements |
 | SAHPRA | South Africa | English | WordPress feeds |
-| ANVISA | Brazil | Portuguese | News |
+| ANVISA | Brazil | Portuguese | Latest news from the home page (undated) |
 | COFEPRIS | Mexico | Spanish | Press and documents |
-| ICH | Global | English | Press releases, public consultations |
+| ICH | Global | English | Press releases and news (site's JSON API) |
 
 The exact addresses are in [`engine/sources.mjs`](engine/sources.mjs). The live status of every source is on the site's **Source health** page.
 
@@ -78,7 +78,8 @@ Regulator websites change without warning. When a source shows **Failed** or **C
 
 - RegSignal tracks listing entries, not the text inside PDFs. A file silently replaced behind the same link and title is not caught.
 - Types and product areas come from title keywords and can be wrong.
-- Some government sites refuse requests from cloud servers. Those show as failed rather than being hidden.
+- Some government sites refuse requests from cloud servers (TGA) or answer with an anti-bot check (NMPA's Chinese site and CDE). RegSignal does not get around these. Such sources are marked "Not readable" on the Source health page, with a link to check them directly.
+- A source read successfully for the first time sets its own starting point, so adding or repairing a source never floods the digest with old documents.
 - Title translation on the site uses the visitor's own browser (Chrome's built-in Translator) and is labelled as machine translation. It is never stored in the data.
 - RegSignal never interprets documents or gives regulatory advice. The official text always prevails.
 

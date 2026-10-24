@@ -9,7 +9,7 @@ import {
   findDate, parseFeedDate, detectLanguage, normaliseUrl, classifyType, classifyAreas, toCandidate, applyRun,
   buildDigest, digestEmailHtml, digestSubject, digestRss, toCsv, titleKey,
 } from '../engine/core.mjs';
-import { parseFeed, parsePage, parseAny, stripDate, looksLikeFeed } from '../engine/parse.mjs';
+import { parseFeed, parsePage, parseAny, parseJson, stripDate, looksLikeFeed } from '../engine/parse.mjs';
 import { decode, robotsAllows } from '../engine/fetch.mjs';
 import { sendBroadcast } from '../engine/kit.mjs';
 import { runAll, readChannel } from '../engine/run.mjs';
@@ -25,7 +25,8 @@ test('sources: 17 authorities, unique channel ids, valid URLs', () => {
     const ids = a.channels.map((c) => c.id);
     assert.equal(new Set(ids).size, ids.length, a.code);
     for (const c of a.channels) {
-      assert.ok(['feed', 'page'].includes(c.kind));
+      assert.ok(['feed', 'page', 'json'].includes(c.kind));
+      if (c.blocked) assert.ok(c.blocked.length > 40, 'blocked sources explain why');
       for (const u of [c.url, ...(c.alts || [])]) assert.ok(new URL(u));
     }
   }
@@ -216,8 +217,8 @@ test('change detection: baseline, new, revised, removal safeguards', () => {
 
 test('digest, email, RSS and CSV outputs', () => {
   const items = [cand('PMDA', 'shinchaku', '使用上の注意の改訂指示通知', 'https://www.pmda.go.jp/x.html', '2026-10-08')];
-  let r = applyRun({}, [{ sourceId: 'PMDA/shinchaku', ok: true, items: [] }, { sourceId: 'FDA/drugs', ok: true, items: [cand('FDA', 'drugs', 'Old item', 'https://fda.gov/o', '2026-01-01')] }], '2026-10-05');
-  r = applyRun(r.archive, [{ sourceId: 'PMDA/shinchaku', ok: true, items }, { sourceId: 'FDA/drugs', ok: false, error: 'HTTP 403', items: [] }], '2026-10-12');
+  let r = applyRun({}, [{ sourceId: 'PMDA/shinchaku', ok: true, items: [cand('PMDA', 'shinchaku', '古いお知らせ', 'https://www.pmda.go.jp/old.html', '2026-09-01')] }, { sourceId: 'FDA/drugs', ok: true, items: [cand('FDA', 'drugs', 'Old item', 'https://fda.gov/o', '2026-01-01')] }], '2026-10-05');
+  r = applyRun(r.archive, [{ sourceId: 'PMDA/shinchaku', ok: true, items: [...items, cand('PMDA', 'shinchaku', '古いお知らせ', 'https://www.pmda.go.jp/old.html', '2026-09-01')] }, { sourceId: 'FDA/drugs', ok: false, error: 'HTTP 403', items: [] }], '2026-10-12');
   const d = buildDigest(r.archive, r.changes, { runDate: '2026-10-12T03:00:00Z', today: '2026-10-12', baseline: r.baseline });
   assert.equal(d.totals.new, 1);
   assert.equal(d.new[0].language, 'ja');
@@ -289,4 +290,55 @@ test('end to end: two runs against saved samples', async () => {
 test('title comparison ignores spacing and punctuation', () => {
   assert.equal(titleKey('Circular  number 3.'), titleKey('Circular number 3'));
   assert.notEqual(titleKey('Circular number 3'), titleKey('Circular number 4'));
+});
+
+test('pages where the whole row is a link (HSA) and share links are ignored', async () => {
+  const items = parsePage(await sample('hsa.html'), 'https://www.hsa.gov.sg/announcements', { rows: 'a[href^="/announcements/"]' });
+  assert.deepEqual(items.map((i) => [i.title, i.published]), [['Haze advisory for blood donors', '2026-10-21'], ['New guidance on cell therapy products', '2026-10-14']]);
+  const generic = parsePage(await sample('hsa.html'), 'https://www.hsa.gov.sg/announcements', {});
+  assert.ok(!generic.some((i) => /facebook/.test(i.url)));
+});
+
+test('JSON reader for the ICH site', async () => {
+  const items = parseJson(await sample('ich.json'), 'https://admin.ich.org/api/v1/nodes', { kind: 'json', json: 'ich' });
+  assert.equal(items.length, 2);
+  assert.equal(items[0].url, 'https://www.ich.org/pressrelease/press-release-ich-assembly-meeting-rio-de-janeiro-june-2026');
+  assert.equal(items[0].published, '2026-06-04');
+  assert.equal(items[1].published, '2026-09-01');
+  assert.equal(items[1].summary, 'Final guideline.');
+  assert.throws(() => parseJson('{}', 'x', { kind: 'json', json: 'nope' }));
+});
+
+test('blocked sources are listed, not requested; empty feeds are healthy', async () => {
+  let asked = 0;
+  const getter = async () => { asked++; return { text: '<?xml version="1.0"?><rss version="2.0"><channel><title>x</title></channel></rss>' }; };
+  const blocked = await readChannel({ code: 'TGA' }, { id: 'a', kind: 'feed', url: 'https://x.test/a', blocked: 'Refuses connections from cloud data centres, checked on a test date.' }, getter);
+  assert.equal(asked, 0);
+  assert.equal(blocked.blocked, true);
+  const empty = await readChannel({ code: 'EMA' }, { id: 'h', kind: 'feed', url: 'https://x.test/h' }, getter);
+  assert.equal(empty.ok, true);
+  assert.equal(empty.emptyFeed, true);
+  const r = applyRun({}, [blocked, empty], '2026-10-26');
+  assert.equal(r.archive.sources['TGA/a'].status, 'blocked');
+  assert.equal(r.archive.sources['EMA/h'].status, 'ok');
+  assert.equal(r.changes.failed.length, 0);
+  assert.equal(r.changes.broken.length, 0);
+});
+
+test('undated link lists (ANVISA home page teasers)', () => {
+  const html = '<a href="/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-produtos"><div>FISCALIZAÇÃO</div><h2>Anvisa proíbe produtos de limpeza irregulares</h2><p>Medidas envolvem saneantes</p></a><a href="/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-produtos"><img src="x.jpg"></a><a href="https://api.whatsapp.com/send?text=/assuntos/noticias-anvisa/2026/x">Compartilhe no Whatsapp</a><a href="/anvisa/pt-br/outra">Outra página qualquer</a>';
+  const items = parsePage(html, 'https://www.gov.br/anvisa/pt-br', { undated: true, links: '/assuntos/noticias-anvisa/20' });
+  assert.deepEqual(items.map((i) => [i.title, i.published]), [['Anvisa proíbe produtos de limpeza irregulares', null]]);
+  assert.equal(classifyType('Peptides health risks'), 'safety');
+});
+
+test('a source read for the first time (new or repaired) does not flood the digest', () => {
+  const a = cand('FDA', 'drugs', 'Existing item', 'https://fda.gov/e', '2026-10-01');
+  let r = applyRun({}, [{ sourceId: 'FDA/drugs', ok: true, items: [a] }, { sourceId: 'ICH/news', ok: false, error: 'HTTP 404', items: [] }], '2026-10-24');
+  const ich = [cand('ICH', 'news', 'E6(R3) reaches Step 4', 'https://www.ich.org/news/e6', '2026-09-01')];
+  r = applyRun(r.archive, [{ sourceId: 'FDA/drugs', ok: true, items: [a] }, { sourceId: 'ICH/news', ok: true, items: ich }], '2026-10-26');
+  assert.equal(r.changes.new.length, 0, 'first healthy read of ICH is its starting point');
+  const more = [cand('ICH', 'news', 'Q1 stability guideline adopted', 'https://www.ich.org/news/q1', '2026-10-30'), ...ich];
+  r = applyRun(r.archive, [{ sourceId: 'FDA/drugs', ok: true, items: [a] }, { sourceId: 'ICH/news', ok: true, items: more }], '2026-11-02');
+  assert.deepEqual(r.changes.new, [more[0].id]);
 });

@@ -323,11 +323,12 @@ function viewHealth() {
   if (!src) return notReady();
   const byAuth = new Map();
   for (const [id, s] of Object.entries(src)) { if (!byAuth.has(s.authority)) byAuth.set(s.authority, []); byAuth.get(s.authority).push([id, s]); }
-  const label = { ok: 'Read', suspect: 'Check', failed: 'Failed', new: 'Not read yet' };
-  let ok = 0, all = 0;
-  for (const s of Object.values(src)) { all++; if (s.state?.status === 'ok') ok++; }
+  const label = { ok: 'Read', suspect: 'Check', failed: 'Failed', new: 'Not read yet', blocked: 'Not readable' };
+  let ok = 0, all = 0, blocked = 0;
+  for (const s of Object.values(src)) { if (s.state?.status === 'blocked') { blocked++; continue; } all++; if (s.state?.status === 'ok') ok++; }
   return `<div class="head"><span class="kicker">Transparency</span><h1>Source health</h1><p>Every feed and page RegSignal reads, with the result of the last run (${fmt(S.meta.updated)}). Regulator websites change without warning; a source marked Failed or Check is fixed in the code, and its documents are never treated as removed while it is broken.</p></div>
-  <div class="counts"><div class="new"><b>${ok}</b><span>Read fine</span></div><div class="${all - ok ? 'bad' : ''}"><b>${all - ok}</b><span>Need attention</span></div><div><b>${byAuth.size}</b><span>Authorities</span></div></div>
+  <div class="counts"><div class="new"><b>${ok}</b><span>Read fine</span></div><div class="${all - ok ? 'bad' : ''}"><b>${all - ok}</b><span>Need attention</span></div><div><b>${blocked}</b><span>Not readable automatically</span></div><div><b>${byAuth.size}</b><span>Authorities</span></div></div>
+  ${blocked ? `<p class="note">Sources marked "Not readable" refuse automated requests from cloud servers or require a browser check. RegSignal does not get around such blocks; their official pages are linked below so you can check them directly.</p>` : ''}
   ${[...byAuth.entries()].map(([code, rows]) => `<section class="group"><h2>${esc(code)} <small>${esc(authName(code))} · ${esc(region(code))}</small></h2><div class="tablewrap"><table><thead><tr><th>Source</th><th>Language</th><th>Status</th><th>Items</th><th>Last read fine</th><th>Note</th></tr></thead><tbody>
     ${rows.map(([, s]) => { const st = s.state || {}; const status = st.status || 'new'; return `<tr><td><a href="${esc(st.url_used || s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a> <span class="muted">(${s.kind})</span></td><td>${esc(langs()[s.lang] || s.lang)}</td><td><span class="pill ${status}">${label[status] || status}</span></td><td>${st.items ?? '–'}</td><td>${st.last_ok ? fmt(st.last_ok) : '–'}</td><td class="err">${esc(st.last_error || '')}</td></tr>`; }).join('')}
   </tbody></table></div></section>`).join('')}`;

@@ -188,7 +188,7 @@ const TYPE_RULES = [
     '通知', '事務連絡', '公告', '通告', '公示', '공지', '공고', '안내', 'تعميم', 'إشعار', 'اشعار', 'إعلان',
   ]],
   ['approval', [
-    'approved', 'approves', 'approve', 'approval', 'authorised', 'authorized', 'authorisation', 'marketing authorization', 'prequalified', 'designation', 'epar', 'positive opinion', 'summary of opinion', 'withdrawn application', 'paediatric investigation plan', 'biosimilar approved',
+    'approved', 'approves', 'approve', 'approval', 'aprova', 'aprueba', 'authorised', 'authorized', 'authorisation', 'marketing authorization', 'prequalified', 'designation', 'epar', 'positive opinion', 'summary of opinion', 'withdrawn application', 'paediatric investigation plan', 'biosimilar approved',
     'autorisation', 'zulassung', 'zugelassen', 'registro', 'aprovação', 'aprovado', 'aprobación', 'autorización', 'registro sanitario',
     '承認', '审批', '批准', '注册', '허가', '승인', 'تسجيل', 'اعتماد', 'موافقة',
   ]],
@@ -200,7 +200,7 @@ const TYPE_RULES = [
 
 function hasWord(hay, word) {
   if (/[^\x00-\x7f]/.test(word) || /[ .,&]/.test(word)) return hay.includes(word);
-  return new RegExp(`(?<![a-z])${word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![a-z])`).test(hay);
+  return new RegExp(`(?<![a-z])${word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?:s|es)?(?![a-z])`).test(hay);
 }
 
 /**
@@ -301,7 +301,16 @@ export function applyRun(archive, results, today) {
   for (const r of results) {
     const st = srcState[r.sourceId] || (srcState[r.sourceId] = { counts: [], last_ok: null, last_error: null, status: 'new' });
     st.last_attempt = today;
+    // A source read successfully for the first time (new or just repaired) sets its own starting point:
+    // its items are recorded but not reported as new.
+    const sourceBaseline = baseline || !st.last_ok;
     st.url_used = r.urlUsed || st.url_used || null;
+    if (r.blocked) {
+      st.status = 'blocked';
+      st.last_error = r.error;
+      st.items = 0;
+      continue;
+    }
     if (!r.ok) {
       st.status = 'failed';
       st.last_error = r.error || 'unknown error';
@@ -314,7 +323,7 @@ export function applyRun(archive, results, today) {
     for (const it of r.items) if (it && !ids.has(it.id)) { ids.add(it.id); items.push(it); }
 
     const avg = st.counts.length ? st.counts.reduce((a, b) => a + b, 0) / st.counts.length : null;
-    const broken = items.length === 0 || (avg !== null && st.counts.length >= 2 && items.length < avg / 2);
+    const broken = !r.emptyFeed && (items.length === 0 || (avg !== null && st.counts.length >= 2 && items.length < avg / 2));
     st.counts = [...st.counts, items.length].slice(-8);
     if (broken) {
       st.status = 'suspect';
@@ -323,7 +332,7 @@ export function applyRun(archive, results, today) {
     } else {
       st.status = 'ok';
       st.last_ok = today;
-      st.last_error = null;
+      st.last_error = r.emptyFeed && !items.length ? 'The feed is valid but has no items at the moment.' : null;
     }
     st.items = items.length;
     st.oldest_listed = items.map((i) => i.published).filter(Boolean).sort()[0] || null;
@@ -334,8 +343,8 @@ export function applyRun(archive, results, today) {
       const prev = docs[it.id];
       if (!prev) {
         // A new URL whose title matches a known document from the same authority is a revision of it.
-        docs[it.id] = { ...it, first_seen: today, last_seen: today, status: baseline ? 'unchanged' : 'new', misses: 0, history: [] };
-        if (!baseline) changes.new.push(it.id);
+        docs[it.id] = { ...it, first_seen: today, last_seen: today, status: sourceBaseline || broken ? 'unchanged' : 'new', misses: 0, history: [] };
+        if (!sourceBaseline && !broken) changes.new.push(it.id);
         continue;
       }
       const rec = { ...prev, last_seen: today, misses: 0 };

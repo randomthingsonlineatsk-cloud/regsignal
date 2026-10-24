@@ -13,7 +13,13 @@
  *   type    document type every item from this channel gets, unless a title keyword says otherwise
  *   rows    (pages) CSS selector for one listing row; a generic finder is used when left out
  *   dates   (pages) "dmy" or "mdy" for numeric dates like 03/04/2026 (default dmy)
+ *   json    (kind "json") which JSON reader to use, see parse.mjs
+ *   blocked a reason, when the source cannot be read automatically; it is listed on the source
+ *           health page but not requested
  */
+
+const TGA_BLOCKED = "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).";
+const ANTI_BOT = 'This site answers automated requests with an anti-bot check that needs the page\'s JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).';
 
 export const AUTHORITIES = [
   {
@@ -53,11 +59,10 @@ export const AUTHORITIES = [
   {
     code: 'Swissmedic', name: 'Swissmedic', region: 'Switzerland', home: 'https://www.swissmedic.ch',
     channels: [
-      { id: 'neu', kind: 'feed', lang: 'de', label: 'Neu auf der Website', url: 'http://fetchrss.com/rss/5fe092c0fd80be0c580365425fe091f22136327aca5bccf2.xml' },
       { id: 'sicherheit', kind: 'feed', lang: 'de', label: 'Arzneimittelsicherheit', type: 'safety', url: 'https://fetchrss.com/feed/X-CSwP0MWGVCZ8rORu-q3KN0.rss' },
       { id: 'mitteilungen', kind: 'page', lang: 'de', label: 'Mitteilungen', url: 'https://www.swissmedic.ch/swissmedic/de/home/news/mitteilungen.html', dates: 'dmy' },
-      { id: 'actualite', kind: 'page', lang: 'fr', label: 'Actualité', url: 'https://www.swissmedic.ch/swissmedic/fr/home/news/actualite.html', dates: 'dmy' },
-      { id: 'news-en', kind: 'page', lang: 'en', label: 'News (English)', url: 'https://www.swissmedic.ch/swissmedic/en/home/news/news.html', dates: 'dmy' },
+      { id: 'mitteilungen-fr', kind: 'page', lang: 'fr', label: 'Communications (français)', url: 'https://www.swissmedic.ch/swissmedic/fr/home/news/mitteilungen.html', dates: 'dmy' },
+      { id: 'mitteilungen-en', kind: 'page', lang: 'en', label: 'Communications (English)', url: 'https://www.swissmedic.ch/swissmedic/en/home/news/mitteilungen.html', dates: 'dmy' },
     ],
   },
   {
@@ -65,21 +70,23 @@ export const AUTHORITIES = [
     channels: [
       { id: 'recalls-en', kind: 'feed', lang: 'en', label: 'Health product recalls and alerts', type: 'recall', url: 'https://recalls-rappels.canada.ca/en/feed/health-products-alerts-recalls' },
       { id: 'recalls-fr', kind: 'feed', lang: 'fr', label: 'Rappels et avis: produits de santé', type: 'recall', url: 'https://recalls-rappels.canada.ca/fr/flux/produits-sante-alertes-rappels', alts: ['https://recalls-rappels.canada.ca/fr/feed/health-products-alerts-recalls'] },
-      { id: 'news-en', kind: 'feed', lang: 'en', label: 'News (Canada.ca)', type: 'news', url: 'https://api.io.canada.ca/io-server/gc/news/en/v2?dept=healthcanada&sort=publishedDate&orderBy=desc&pick=50&format=atom' },
-      { id: 'news-fr', kind: 'feed', lang: 'fr', label: 'Nouvelles (Canada.ca)', type: 'news', url: 'https://api.io.canada.ca/io-server/gc/news/fr/v2?dept=healthcanada&sort=publishedDate&orderBy=desc&pick=50&format=atom', alts: ['https://api.io.canada.ca/io-server/gc/news/fr/v2?dept=santecanada&sort=publishedDate&orderBy=desc&pick=50&format=atom'] },
+      { id: 'compliance-en', kind: 'feed', lang: 'en', label: 'Compliance and enforcement: drugs and health products', url: 'https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/compli-conform-eng.xml' },
+      { id: 'compliance-fr', kind: 'feed', lang: 'fr', label: 'Conformité et application de la loi', url: 'https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/compli-conform-fra.xml' },
+      { id: 'medeffect-en', kind: 'feed', lang: 'en', label: "MedEffect Canada: what's new", type: 'safety', url: 'https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/new-neuf-eng.xml' },
+      { id: 'medeffect-fr', kind: 'feed', lang: 'fr', label: 'MedEffet Canada : quoi de neuf', type: 'safety', url: 'https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/new-neuf-fra.xml' },
     ],
   },
   {
     code: 'TGA', name: 'Therapeutic Goods Administration', region: 'Australia', home: 'https://www.tga.gov.au',
     channels: [
-      { id: 'alerts', kind: 'feed', lang: 'en', label: 'Alerts (safety, recalls, shortages)', url: 'https://www.tga.gov.au/feeds/alert.xml' },
-      { id: 'news', kind: 'feed', lang: 'en', label: 'News', type: 'news', url: 'https://www.tga.gov.au/feeds/article/news.xml' },
-      { id: 'notices', kind: 'feed', lang: 'en', label: 'Notices', type: 'circular', url: 'https://www.tga.gov.au/feeds/article/notices.xml' },
-      { id: 'safety', kind: 'feed', lang: 'en', label: 'Safety updates', type: 'safety', url: 'https://www.tga.gov.au/feeds/article/safety-updates.xml' },
-      { id: 'guidance', kind: 'feed', lang: 'en', label: 'Guidance', type: 'guideline', url: 'https://www.tga.gov.au/feeds/guidance.xml' },
-      { id: 'consult', kind: 'feed', lang: 'en', label: 'Consultations', type: 'draft', url: 'https://www.tga.gov.au/feeds/consultation.xml' },
-      { id: 'legislation', kind: 'feed', lang: 'en', label: 'Legislation', type: 'law', url: 'https://www.tga.gov.au/feeds/legislation.xml' },
-      { id: 'scheduling', kind: 'feed', lang: 'en', label: 'Scheduling decisions (final)', type: 'law', url: 'https://www.tga.gov.au/feeds/publication/scheduling-decisions-final.xml' },
+      { id: 'alerts', kind: 'feed', lang: 'en', label: 'Alerts (safety, recalls, shortages)', blocked: TGA_BLOCKED, url: 'https://www.tga.gov.au/feeds/alert.xml' },
+      { id: 'news', kind: 'feed', lang: 'en', label: 'News', type: 'news', blocked: TGA_BLOCKED, url: 'https://www.tga.gov.au/feeds/article/news.xml' },
+      { id: 'notices', kind: 'feed', lang: 'en', label: 'Notices', type: 'circular', blocked: TGA_BLOCKED, url: 'https://www.tga.gov.au/feeds/article/notices.xml' },
+      { id: 'safety', kind: 'feed', lang: 'en', label: 'Safety updates', type: 'safety', blocked: TGA_BLOCKED, url: 'https://www.tga.gov.au/feeds/article/safety-updates.xml' },
+      { id: 'guidance', kind: 'feed', lang: 'en', label: 'Guidance', type: 'guideline', blocked: TGA_BLOCKED, url: 'https://www.tga.gov.au/feeds/guidance.xml' },
+      { id: 'consult', kind: 'feed', lang: 'en', label: 'Consultations', type: 'draft', blocked: TGA_BLOCKED, url: 'https://www.tga.gov.au/feeds/consultation.xml' },
+      { id: 'legislation', kind: 'feed', lang: 'en', label: 'Legislation', type: 'law', blocked: TGA_BLOCKED, url: 'https://www.tga.gov.au/feeds/legislation.xml' },
+      { id: 'scheduling', kind: 'feed', lang: 'en', label: 'Scheduling decisions (final)', type: 'law', blocked: TGA_BLOCKED, url: 'https://www.tga.gov.au/feeds/publication/scheduling-decisions-final.xml' },
     ],
   },
   {
@@ -100,9 +107,7 @@ export const AUTHORITIES = [
   {
     code: 'PMDA', name: 'Pharmaceuticals and Medical Devices Agency', region: 'Japan', home: 'https://www.pmda.go.jp',
     channels: [
-      { id: 'shinchaku', kind: 'page', lang: 'ja', label: '新着情報 (What\'s new, Japanese)', url: 'https://www.pmda.go.jp/0017.html' },
-      { id: 'pubcom-review', kind: 'page', lang: 'ja', label: '意見募集 審査 (public comments, review)', type: 'draft', url: 'https://www.pmda.go.jp/review-services/pub-comments/0001.html' },
-      { id: 'pubcom-safety', kind: 'page', lang: 'ja', label: '意見募集 安全対策 (public comments, safety)', type: 'draft', url: 'https://www.pmda.go.jp/safety/pub-comments/0001.html' },
+      { id: 'shinchaku', kind: 'page', lang: 'ja', label: '新着情報 (What\'s new, Japanese; includes public comments)', url: 'https://www.pmda.go.jp/0017.html' },
       { id: 'top-all', kind: 'feed', lang: 'en', label: 'Top All (English)', url: 'https://www.pmda.go.jp/rss_008.xml' },
       { id: 'reviews', kind: 'feed', lang: 'en', label: 'Reviews (English)', url: 'https://www.pmda.go.jp/rss_011.xml' },
       { id: 'safety', kind: 'feed', lang: 'en', label: 'Safety measures (English)', type: 'safety', url: 'https://www.pmda.go.jp/rss_013.xml' },
@@ -114,10 +119,10 @@ export const AUTHORITIES = [
   {
     code: 'NMPA', name: 'National Medical Products Administration', region: 'China', home: 'https://www.nmpa.gov.cn',
     channels: [
-      { id: 'ggtg', kind: 'page', lang: 'zh', label: '公告通告 (announcements)', type: 'circular', url: 'https://www.nmpa.gov.cn/xxgk/ggtg/index.html' },
-      { id: 'fgwj', kind: 'page', lang: 'zh', label: '法规文件 (rules)', type: 'law', url: 'https://www.nmpa.gov.cn/xxgk/fgwj/index.html' },
-      { id: 'zhqyj', kind: 'page', lang: 'zh', label: '征求意见 (consultations)', type: 'draft', url: 'https://www.nmpa.gov.cn/xxgk/zhqyj/index.html' },
-      { id: 'cde-zdyz', kind: 'page', lang: 'zh', label: 'CDE 指导原则 (technical guidelines)', type: 'guideline', url: 'https://www.cde.org.cn/zdyz/index' },
+      { id: 'ggtg', kind: 'page', lang: 'zh', label: '公告通告 (announcements)', type: 'circular', blocked: ANTI_BOT, url: 'https://www.nmpa.gov.cn/xxgk/ggtg/index.html' },
+      { id: 'fgwj', kind: 'page', lang: 'zh', label: '法规文件 (rules)', type: 'law', blocked: ANTI_BOT, url: 'https://www.nmpa.gov.cn/xxgk/fgwj/index.html' },
+      { id: 'zhqyj', kind: 'page', lang: 'zh', label: '征求意见 (consultations)', type: 'draft', blocked: ANTI_BOT, url: 'https://www.nmpa.gov.cn/xxgk/zhqyj/index.html' },
+      { id: 'cde-zdyz', kind: 'page', lang: 'zh', label: 'CDE 指导原则 (technical guidelines)', type: 'guideline', blocked: ANTI_BOT, url: 'https://www.cde.org.cn/zdyz/index' },
       { id: 'en', kind: 'page', lang: 'en', label: 'Regulatory information (English)', url: 'https://english.nmpa.gov.cn/regulatoryinformation.html' },
     ],
   },
@@ -131,7 +136,6 @@ export const AUTHORITIES = [
       { id: 'm_209', kind: 'page', lang: 'ko', label: '입법/행정예고 (draft rules)', type: 'draft', url: 'https://www.mfds.go.kr/brd/m_209/list.do' },
       { id: 'm_211', kind: 'page', lang: 'ko', label: '고시훈령예규 (rules)', type: 'law', url: 'https://www.mfds.go.kr/brd/m_211/list.do' },
       { id: 'm_1059', kind: 'page', lang: 'ko', label: '공무원지침서/민원인안내서 (guidelines)', type: 'guideline', url: 'https://www.mfds.go.kr/brd/m_1059/list.do' },
-      { id: 'm_506', kind: 'page', lang: 'ko', label: '의약품 등 위해정보 (safety)', type: 'safety', url: 'https://www.mfds.go.kr/brd/m_506/list.do' },
       { id: 'en-m_61', kind: 'page', lang: 'en', label: 'News & Notice (English)', url: 'https://www.mfds.go.kr/eng/brd/m_61/list.do' },
       { id: 'en-m_18', kind: 'page', lang: 'en', label: 'Drugs regulations (English)', type: 'law', url: 'https://www.mfds.go.kr/eng/brd/m_18/list.do' },
       { id: 'en-m_1127', kind: 'page', lang: 'en', label: 'Drugs guidelines (English)', type: 'guideline', url: 'https://www.mfds.go.kr/eng/brd/m_1127/list.do' },
@@ -155,7 +159,7 @@ export const AUTHORITIES = [
   {
     code: 'HSA', name: 'Health Sciences Authority', region: 'Singapore', home: 'https://www.hsa.gov.sg',
     channels: [
-      { id: 'announcements', kind: 'page', lang: 'en', label: 'Announcements', url: 'https://www.hsa.gov.sg/announcements' },
+      { id: 'announcements', kind: 'page', lang: 'en', label: 'Announcements', url: 'https://www.hsa.gov.sg/announcements', rows: 'a[href^="/announcements/"]' },
     ],
   },
   {
@@ -168,7 +172,8 @@ export const AUTHORITIES = [
   {
     code: 'ANVISA', name: 'Agência Nacional de Vigilância Sanitária', region: 'Brazil', home: 'https://www.gov.br/anvisa',
     channels: [
-      { id: 'noticias', kind: 'feed', lang: 'pt', label: 'Notícias', url: 'https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/RSS', alts: ['https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa'] },
+      // The news list itself is drawn in the browser; the home page carries the latest news links (no dates).
+      { id: 'noticias', kind: 'page', lang: 'pt', label: 'Notícias (página inicial)', url: 'https://www.gov.br/anvisa/pt-br', undated: true, links: '/assuntos/noticias-anvisa/20' },
     ],
   },
   {
@@ -181,8 +186,8 @@ export const AUTHORITIES = [
   {
     code: 'ICH', name: 'International Council for Harmonisation', region: 'Global', home: 'https://www.ich.org',
     channels: [
-      { id: 'press', kind: 'page', lang: 'en', label: 'Press releases', type: 'news', url: 'https://www.ich.org/page/press-releases', alts: ['https://www.ich.org/'] },
-      { id: 'consult', kind: 'page', lang: 'en', label: 'Public consultations', type: 'draft', url: 'https://www.ich.org/page/public-consultations' },
+      { id: 'press', kind: 'json', json: 'ich', lang: 'en', label: 'Press releases', type: 'news', url: 'https://admin.ich.org/api/v1/nodes?bundle=press_release&offset=0&limit=20&sort=date:DESC,created:desc' },
+      { id: 'news', kind: 'json', json: 'ich', lang: 'en', label: 'News (including public consultations)', url: 'https://admin.ich.org/api/v1/nodes?bundle=news&offset=0&limit=30&sort=date:DESC,created:desc' },
     ],
   },
 ];
