@@ -2,12 +2,12 @@
  "digests": [
   {
    "date": "2026-10-24",
-   "baseline": false,
+   "baseline": true,
    "totals": {
-    "new": 12,
-    "revised": 50,
+    "new": 0,
+    "revised": 0,
     "removed": 0,
-    "failed": 2,
+    "failed": 1,
     "suspect": 0,
     "documents": 2003
    }

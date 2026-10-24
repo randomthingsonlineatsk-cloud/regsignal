@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T14:09:13.604Z",
+ "updated": "2026-10-24T14:10:54.673Z",
  "authorities": [
   {
    "code": "FDA",
@@ -155,6 +155,7 @@
    "state": {
     "counts": [
      20,
+     20,
      20
     ],
     "last_ok": "2026-10-24",
@@ -180,6 +181,7 @@
    "alts": [],
    "state": {
     "counts": [
+     20,
      20,
      20
     ],
@@ -207,6 +209,7 @@
    "state": {
     "counts": [
      20,
+     20,
      20
     ],
     "last_ok": "2026-10-24",
@@ -233,6 +236,7 @@
    "state": {
     "counts": [
      20,
+     20,
      20
     ],
     "last_ok": "2026-10-24",
@@ -245,8 +249,8 @@
     "healthy": true
    },
    "this_run": {
-    "new": 1,
-    "revised": 6
+    "new": 0,
+    "revised": 0
    }
   },
   "FDA/recalls": {
@@ -258,6 +262,7 @@
    "alts": [],
    "state": {
     "counts": [
+     20,
      20,
      20
     ],
@@ -285,6 +290,7 @@
    "state": {
     "counts": [
      11,
+     11,
      11
     ],
     "last_ok": "2026-10-24",
@@ -310,6 +316,7 @@
    "alts": [],
    "state": {
     "counts": [
+     468,
      468,
      468
     ],
@@ -337,6 +344,7 @@
    "state": {
     "counts": [
      8,
+     8,
      8
     ],
     "last_ok": "2026-10-24",
@@ -362,6 +370,7 @@
    "alts": [],
    "state": {
     "counts": [
+     11,
      11,
      11
     ],
@@ -389,6 +398,7 @@
    "state": {
     "counts": [
      8,
+     8,
      8
     ],
     "last_ok": "2026-10-24",
@@ -414,6 +424,7 @@
    "alts": [],
    "state": {
     "counts": [
+     232,
      232,
      232
     ],
@@ -441,6 +452,7 @@
    "state": {
     "counts": [
      6,
+     6,
      6
     ],
     "last_ok": "2026-10-24",
@@ -466,6 +478,7 @@
    "alts": [],
    "state": {
     "counts": [
+     1,
      1,
      1
     ],
@@ -493,6 +506,7 @@
    "state": {
     "counts": [
      44,
+     44,
      44
     ],
     "last_ok": "2026-10-24",
@@ -518,6 +532,7 @@
    "alts": [],
    "state": {
     "counts": [
+     5,
      5,
      5
     ],
@@ -545,6 +560,7 @@
    "state": {
     "counts": [
      0,
+     0,
      0
     ],
     "last_ok": "2026-10-24",
@@ -570,6 +586,7 @@
    "alts": [],
    "state": {
     "counts": [
+     20,
      20,
      20
     ],
@@ -597,6 +614,7 @@
    "state": {
     "counts": [
      50,
+     50,
      50
     ],
     "last_ok": "2026-10-24",
@@ -622,6 +640,7 @@
    "alts": [],
    "state": {
     "counts": [
+     50,
      50,
      50
     ],
@@ -649,6 +668,7 @@
    "state": {
     "counts": [
      15,
+     15,
      15
     ],
     "last_ok": "2026-10-24",
@@ -675,6 +695,7 @@
    "state": {
     "counts": [
      30,
+     30,
      30
     ],
     "last_ok": "2026-10-24",
@@ -700,6 +721,7 @@
    "alts": [],
    "state": {
     "counts": [
+     30,
      30
     ],
     "last_ok": "2026-10-24",
@@ -725,6 +747,7 @@
    "alts": [],
    "state": {
     "counts": [
+     30,
      30
     ],
     "last_ok": "2026-10-24",
@@ -750,6 +773,7 @@
    "alts": [],
    "state": {
     "counts": [
+     3,
      3,
      3
     ],
@@ -779,6 +803,7 @@
    "state": {
     "counts": [
      3,
+     3,
      3
     ],
     "last_ok": "2026-10-24",
@@ -804,6 +829,7 @@
    "alts": [],
    "state": {
     "counts": [
+     19,
      19
     ],
     "last_ok": "2026-10-24",
@@ -829,6 +855,7 @@
    "alts": [],
    "state": {
     "counts": [
+     20,
      20
     ],
     "last_ok": "2026-10-24",
@@ -854,6 +881,7 @@
    "alts": [],
    "state": {
     "counts": [
+     8,
      8
     ],
     "last_ok": "2026-10-24",
@@ -879,6 +907,7 @@
    "alts": [],
    "state": {
     "counts": [
+     8,
      8
     ],
     "last_ok": "2026-10-24",
@@ -1073,6 +1102,7 @@
    "state": {
     "counts": [
      10,
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -1102,8 +1132,8 @@
      39
     ],
     "last_ok": "2026-10-24",
-    "last_error": null,
-    "status": "ok",
+    "last_error": "Could not connect (ETIMEDOUT).",
+    "status": "failed",
     "last_attempt": "2026-10-24",
     "url_used": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Circulars/",
     "items": 39,
@@ -1124,11 +1154,12 @@
    "alts": [],
    "state": {
     "counts": [
+     300,
      300
     ],
     "last_ok": "2026-10-24",
-    "last_error": "Could not connect (ETIMEDOUT).",
-    "status": "failed",
+    "last_error": null,
+    "status": "ok",
     "last_attempt": "2026-10-24",
     "url_used": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Gazette-Notifications/",
     "items": 300,
@@ -1149,6 +1180,7 @@
    "alts": [],
    "state": {
     "counts": [
+     173,
      173,
      173
     ],
@@ -1175,11 +1207,12 @@
    "alts": [],
    "state": {
     "counts": [
+     19,
      19
     ],
     "last_ok": "2026-10-24",
-    "last_error": "Could not connect (ETIMEDOUT).",
-    "status": "failed",
+    "last_error": null,
+    "status": "ok",
     "last_attempt": "2026-10-24",
     "url_used": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Alerts/",
     "items": 19,
@@ -1200,6 +1233,7 @@
    "alts": [],
    "state": {
     "counts": [
+     237,
      237,
      237
     ],
@@ -1227,6 +1261,7 @@
    "state": {
     "counts": [
      46,
+     46,
      46
     ],
     "last_ok": "2026-10-24",
@@ -1240,7 +1275,7 @@
    },
    "this_run": {
     "new": 0,
-    "revised": 44
+    "revised": 0
    }
   },
   "PMDA/reviews": {
@@ -1252,6 +1287,7 @@
    "alts": [],
    "state": {
     "counts": [
+     17,
      17,
      17
     ],
@@ -1279,6 +1315,7 @@
    "state": {
     "counts": [
      5,
+     5,
      5
     ],
     "last_ok": "2026-10-24",
@@ -1304,6 +1341,7 @@
    "alts": [],
    "state": {
     "counts": [
+     5,
      5,
      5
     ],
@@ -1331,6 +1369,7 @@
    "state": {
     "counts": [
      4,
+     4,
      4
     ],
     "last_ok": "2026-10-24",
@@ -1356,6 +1395,7 @@
    "alts": [],
    "state": {
     "counts": [
+     9,
      9,
      9
     ],
@@ -1471,6 +1511,7 @@
    "state": {
     "counts": [
      3,
+     6,
      6
     ],
     "last_ok": "2026-10-24",
@@ -1483,7 +1524,7 @@
     "healthy": true
    },
    "this_run": {
-    "new": 3,
+    "new": 0,
     "revised": 0
    }
   },
@@ -1496,6 +1537,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10,
      10
     ],
@@ -1523,6 +1565,7 @@
    "state": {
     "counts": [
      10,
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -1548,6 +1591,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10,
      10
     ],
@@ -1575,6 +1619,7 @@
    "state": {
     "counts": [
      23,
+     23,
      23
     ],
     "last_ok": "2026-10-24",
@@ -1600,6 +1645,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10,
      10
     ],
@@ -1627,6 +1673,7 @@
    "state": {
     "counts": [
      20,
+     20,
      20
     ],
     "last_ok": "2026-10-24",
@@ -1652,6 +1699,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10,
      10
     ],
@@ -1679,6 +1727,7 @@
    "state": {
     "counts": [
      10,
+     12,
      12
     ],
     "last_ok": "2026-10-24",
@@ -1691,7 +1740,7 @@
     "healthy": true
    },
    "this_run": {
-    "new": 2,
+    "new": 0,
     "revised": 0
    }
   },
@@ -1704,6 +1753,7 @@
    "alts": [],
    "state": {
     "counts": [
+     12,
      12,
      12
     ],
@@ -1731,6 +1781,7 @@
    "state": {
     "counts": [
      7,
+     7,
      7
     ],
     "last_ok": "2026-10-24",
@@ -1756,6 +1807,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10,
      10
     ],
@@ -1783,6 +1835,7 @@
    "state": {
     "counts": [
      11,
+     11,
      11
     ],
     "last_ok": "2026-10-24",
@@ -1808,6 +1861,7 @@
    "alts": [],
    "state": {
     "counts": [
+     6,
      6,
      6
     ],
@@ -1835,6 +1889,7 @@
    "state": {
     "counts": [
      12,
+     12,
      12
     ],
     "last_ok": "2026-10-24",
@@ -1860,6 +1915,7 @@
    "alts": [],
    "state": {
     "counts": [
+     9,
      9,
      9
     ],
@@ -1887,6 +1943,7 @@
    "state": {
     "counts": [
      6,
+     6,
      6
     ],
     "last_ok": "2026-10-24",
@@ -1912,6 +1969,7 @@
    "alts": [],
    "state": {
     "counts": [
+     12,
      12,
      12
     ],
@@ -1941,6 +1999,7 @@
    "state": {
     "counts": [
      12,
+     12,
      12
     ],
     "last_ok": "2026-10-24",
@@ -1966,6 +2025,7 @@
    "alts": [],
    "state": {
     "counts": [
+     9,
      9,
      9
     ],
@@ -1993,6 +2053,7 @@
    "state": {
     "counts": [
      9,
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -2005,7 +2066,7 @@
     "healthy": true
    },
    "this_run": {
-    "new": 1,
+    "new": 0,
     "revised": 0
    }
   },
@@ -2019,6 +2080,7 @@
    "state": {
     "counts": [
      0,
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -2047,6 +2109,7 @@
    "state": {
     "counts": [
      10,
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -2072,6 +2135,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10,
      10
     ],
@@ -2099,6 +2163,7 @@
    "state": {
     "counts": [
      1,
+     5,
      5
     ],
     "last_ok": "2026-10-24",
@@ -2111,7 +2176,7 @@
     "healthy": true
    },
    "this_run": {
-    "new": 5,
+    "new": 0,
     "revised": 0
    }
   },
@@ -2124,6 +2189,7 @@
    "alts": [],
    "state": {
     "counts": [
+     9,
      9,
      9
     ],
@@ -2151,6 +2217,7 @@
    "state": {
     "counts": [
      9,
+     9,
      9
     ],
     "last_ok": "2026-10-24",
@@ -2177,6 +2244,7 @@
    "state": {
     "counts": [
      0,
+     10,
      10
     ],
     "last_ok": "2026-10-24",
@@ -2202,6 +2270,7 @@
    "alts": [],
    "state": {
     "counts": [
+     10,
      10
     ],
     "last_ok": "2026-10-24",

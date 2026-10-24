@@ -1,13 +1,13 @@
 {
  "runs": [
   {
-   "run_date": "2026-10-24T14:09:13.604Z",
-   "baseline": false,
+   "run_date": "2026-10-24T14:10:54.673Z",
+   "baseline": true,
    "totals": {
-    "new": 12,
-    "revised": 50,
+    "new": 0,
+    "revised": 0,
     "removed": 0,
-    "failed": 2,
+    "failed": 1,
     "suspect": 0,
     "documents": 2003
    },
@@ -39,8 +39,8 @@
     "FDA/medwatch": {
      "status": "ok",
      "items": 20,
-     "new": 1,
-     "revised": 6,
+     "new": 0,
+     "revised": 0,
      "error": null,
      "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml"
     },
@@ -317,20 +317,20 @@
      "url": "https://extranet.who.int/prequal/rss.xml"
     },
     "CDSCO/circulars": {
-     "status": "ok",
-     "items": 39,
-     "new": 0,
-     "revised": 0,
-     "error": null,
-     "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Circulars/"
-    },
-    "CDSCO/gazette": {
      "status": "failed",
      "items": 0,
      "new": 0,
      "revised": 0,
      "error": "Could not connect (ETIMEDOUT).",
      "url": null
+    },
+    "CDSCO/gazette": {
+     "status": "ok",
+     "items": 300,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Gazette-Notifications/"
     },
     "CDSCO/notices": {
      "status": "ok",
@@ -341,12 +341,12 @@
      "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Public-Notices/"
     },
     "CDSCO/alerts": {
-     "status": "failed",
-     "items": 0,
+     "status": "ok",
+     "items": 19,
      "new": 0,
      "revised": 0,
-     "error": "Could not connect (ETIMEDOUT).",
-     "url": null
+     "error": null,
+     "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Alerts/"
     },
     "PMDA/shinchaku": {
      "status": "ok",
@@ -360,7 +360,7 @@
      "status": "ok",
      "items": 46,
      "new": 0,
-     "revised": 44,
+     "revised": 0,
      "error": null,
      "url": "https://www.pmda.go.jp/rss_008.xml"
     },
@@ -439,7 +439,7 @@
     "NMPA/en": {
      "status": "ok",
      "items": 6,
-     "new": 3,
+     "new": 0,
      "revised": 0,
      "error": null,
      "url": "https://english.nmpa.gov.cn/regulatoryinformation.html"
@@ -503,7 +503,7 @@
     "MFDS/en-m_61": {
      "status": "ok",
      "items": 12,
-     "new": 2,
+     "new": 0,
      "revised": 0,
      "error": null,
      "url": "https://www.mfds.go.kr/eng/brd/m_61/list.do"
@@ -599,7 +599,7 @@
     "SFDA/circulars-en": {
      "status": "ok",
      "items": 10,
-     "new": 1,
+     "new": 0,
      "revised": 0,
      "error": null,
      "url": "https://www.sfda.gov.sa/en/drugs_circulars_withdrawal"
@@ -631,7 +631,7 @@
     "ANVISA/noticias": {
      "status": "ok",
      "items": 5,
-     "new": 5,
+     "new": 0,
      "revised": 0,
      "error": null,
      "url": "https://www.gov.br/anvisa/pt-br"
@@ -673,7 +673,7 @@
    "email": {
     "ok": false,
     "skipped": true,
-    "error": "Email switched off for this run."
+    "error": "This run sets a new starting point; no email is sent."
    }
   }
  ]
