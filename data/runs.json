@@ -1,6 +1,682 @@
 {
  "runs": [
   {
+   "run_date": "2026-10-26T08:44:43.861Z",
+   "baseline": false,
+   "totals": {
+    "new": 8,
+    "revised": 46,
+    "removed": 1,
+    "failed": 0,
+    "suspect": 0,
+    "documents": 2011
+   },
+   "sources": {
+    "FDA/drugs": {
+     "status": "ok",
+     "items": 20,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml"
+    },
+    "FDA/biologics": {
+     "status": "ok",
+     "items": 20,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/biologics/rss.xml"
+    },
+    "FDA/press": {
+     "status": "ok",
+     "items": 20,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml"
+    },
+    "FDA/medwatch": {
+     "status": "ok",
+     "items": 20,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml"
+    },
+    "FDA/recalls": {
+     "status": "ok",
+     "items": 20,
+     "new": 1,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml"
+    },
+    "EMA/news": {
+     "status": "ok",
+     "items": 11,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.ema.europa.eu/en/news.xml"
+    },
+    "EMA/whatsnew": {
+     "status": "ok",
+     "items": 468,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.ema.europa.eu/en/whats-new.xml"
+    },
+    "EMA/sciguide": {
+     "status": "ok",
+     "items": 6,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.ema.europa.eu/en/scientific-guidelines.xml"
+    },
+    "EMA/regguide": {
+     "status": "ok",
+     "items": 9,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.ema.europa.eu/en/regulatory-and-procedural-guideline.xml"
+    },
+    "EMA/consult": {
+     "status": "ok",
+     "items": 6,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.ema.europa.eu/en/public-consultations.xml"
+    },
+    "EMA/epar": {
+     "status": "ok",
+     "items": 222,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.ema.europa.eu/en/human-medicine-new.xml"
+    },
+    "EMA/newmed": {
+     "status": "ok",
+     "items": 6,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.ema.europa.eu/en/new-human-medicine-new.xml"
+    },
+    "EMA/orphan": {
+     "status": "ok",
+     "items": 1,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.ema.europa.eu/en/orphan.xml"
+    },
+    "EMA/pip": {
+     "status": "ok",
+     "items": 44,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.ema.europa.eu/en/pip.xml"
+    },
+    "EMA/withdrawn": {
+     "status": "ok",
+     "items": 5,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.ema.europa.eu/en/withdrawn-applications.xml"
+    },
+    "EMA/herbal": {
+     "status": "ok",
+     "items": 0,
+     "new": 0,
+     "revised": 0,
+     "error": "The feed is valid but has no items at the moment.",
+     "url": "https://www.ema.europa.eu/en/herbal-medicine-new.xml"
+    },
+    "MHRA/guidance": {
+     "status": "ok",
+     "items": 20,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.gov.uk/search/guidance-and-regulation.atom?order=updated-newest&organisations%5B%5D=medicines-and-healthcare-products-regulatory-agency&parent=medicines-and-healthcare-products-regulatory-agency"
+    },
+    "MHRA/dsu": {
+     "status": "ok",
+     "items": 50,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.gov.uk/drug-safety-update.atom"
+    },
+    "MHRA/alerts": {
+     "status": "ok",
+     "items": 50,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.gov.uk/drug-device-alerts.atom"
+    },
+    "Swissmedic/sicherheit": {
+     "status": "ok",
+     "items": 15,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://fetchrss.com/feed/X-CSwP0MWGVCZ8rORu-q3KN0.rss"
+    },
+    "Swissmedic/mitteilungen": {
+     "status": "ok",
+     "items": 30,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.swissmedic.ch/swissmedic/de/home/news/mitteilungen.html"
+    },
+    "Swissmedic/mitteilungen-fr": {
+     "status": "ok",
+     "items": 30,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.swissmedic.ch/swissmedic/fr/home/news/mitteilungen.html"
+    },
+    "Swissmedic/mitteilungen-en": {
+     "status": "ok",
+     "items": 30,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.swissmedic.ch/swissmedic/en/home/news/mitteilungen.html"
+    },
+    "HC/recalls-en": {
+     "status": "ok",
+     "items": 3,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://recalls-rappels.canada.ca/en/feed/health-products-alerts-recalls"
+    },
+    "HC/recalls-fr": {
+     "status": "ok",
+     "items": 3,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://recalls-rappels.canada.ca/fr/feed/health-products-alerts-recalls"
+    },
+    "HC/compliance-en": {
+     "status": "ok",
+     "items": 20,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/compli-conform-eng.xml"
+    },
+    "HC/compliance-fr": {
+     "status": "ok",
+     "items": 20,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/compli-conform-fra.xml"
+    },
+    "HC/medeffect-en": {
+     "status": "ok",
+     "items": 15,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/new-neuf-eng.xml"
+    },
+    "HC/medeffect-fr": {
+     "status": "ok",
+     "items": 15,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/new-neuf-fra.xml"
+    },
+    "TGA/alerts": {
+     "status": "blocked",
+     "items": 0,
+     "new": 0,
+     "revised": 0,
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+     "url": null
+    },
+    "TGA/news": {
+     "status": "blocked",
+     "items": 0,
+     "new": 0,
+     "revised": 0,
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+     "url": null
+    },
+    "TGA/notices": {
+     "status": "blocked",
+     "items": 0,
+     "new": 0,
+     "revised": 0,
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+     "url": null
+    },
+    "TGA/safety": {
+     "status": "blocked",
+     "items": 0,
+     "new": 0,
+     "revised": 0,
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+     "url": null
+    },
+    "TGA/guidance": {
+     "status": "blocked",
+     "items": 0,
+     "new": 0,
+     "revised": 0,
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+     "url": null
+    },
+    "TGA/consult": {
+     "status": "blocked",
+     "items": 0,
+     "new": 0,
+     "revised": 0,
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+     "url": null
+    },
+    "TGA/legislation": {
+     "status": "blocked",
+     "items": 0,
+     "new": 0,
+     "revised": 0,
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+     "url": null
+    },
+    "TGA/scheduling": {
+     "status": "blocked",
+     "items": 0,
+     "new": 0,
+     "revised": 0,
+     "error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
+     "url": null
+    },
+    "WHO-PQ/all": {
+     "status": "ok",
+     "items": 10,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://extranet.who.int/prequal/rss.xml"
+    },
+    "CDSCO/circulars": {
+     "status": "ok",
+     "items": 39,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Circulars/"
+    },
+    "CDSCO/gazette": {
+     "status": "ok",
+     "items": 300,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Gazette-Notifications/"
+    },
+    "CDSCO/notices": {
+     "status": "ok",
+     "items": 173,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Public-Notices/"
+    },
+    "CDSCO/alerts": {
+     "status": "ok",
+     "items": 19,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Alerts/"
+    },
+    "PMDA/shinchaku": {
+     "status": "ok",
+     "items": 239,
+     "new": 2,
+     "revised": 2,
+     "error": null,
+     "url": "https://www.pmda.go.jp/0017.html"
+    },
+    "PMDA/top-all": {
+     "status": "ok",
+     "items": 46,
+     "new": 0,
+     "revised": 44,
+     "error": null,
+     "url": "https://www.pmda.go.jp/rss_008.xml"
+    },
+    "PMDA/reviews": {
+     "status": "ok",
+     "items": 17,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.pmda.go.jp/rss_011.xml"
+    },
+    "PMDA/safety": {
+     "status": "ok",
+     "items": 5,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.pmda.go.jp/rss_013.xml"
+    },
+    "PMDA/postmarket": {
+     "status": "ok",
+     "items": 5,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.pmda.go.jp/rss_006.xml"
+    },
+    "PMDA/intl": {
+     "status": "ok",
+     "items": 4,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.pmda.go.jp/rss_009.xml"
+    },
+    "PMDA/standards": {
+     "status": "ok",
+     "items": 9,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.pmda.go.jp/rss_012.xml"
+    },
+    "NMPA/ggtg": {
+     "status": "blocked",
+     "items": 0,
+     "new": 0,
+     "revised": 0,
+     "error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
+     "url": null
+    },
+    "NMPA/fgwj": {
+     "status": "blocked",
+     "items": 0,
+     "new": 0,
+     "revised": 0,
+     "error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
+     "url": null
+    },
+    "NMPA/zhqyj": {
+     "status": "blocked",
+     "items": 0,
+     "new": 0,
+     "revised": 0,
+     "error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
+     "url": null
+    },
+    "NMPA/cde-zdyz": {
+     "status": "blocked",
+     "items": 0,
+     "new": 0,
+     "revised": 0,
+     "error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
+     "url": null
+    },
+    "NMPA/en": {
+     "status": "ok",
+     "items": 6,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://english.nmpa.gov.cn/regulatoryinformation.html"
+    },
+    "MFDS/m_74": {
+     "status": "ok",
+     "items": 10,
+     "new": 1,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.mfds.go.kr/brd/m_74/list.do"
+    },
+    "MFDS/m_76": {
+     "status": "ok",
+     "items": 10,
+     "new": 1,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.mfds.go.kr/brd/m_76/list.do"
+    },
+    "MFDS/m_99": {
+     "status": "ok",
+     "items": 10,
+     "new": 1,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.mfds.go.kr/brd/m_99/list.do"
+    },
+    "MFDS/m_207": {
+     "status": "ok",
+     "items": 23,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.mfds.go.kr/brd/m_207/list.do"
+    },
+    "MFDS/m_209": {
+     "status": "ok",
+     "items": 10,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.mfds.go.kr/brd/m_209/list.do"
+    },
+    "MFDS/m_211": {
+     "status": "ok",
+     "items": 20,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.mfds.go.kr/brd/m_211/list.do"
+    },
+    "MFDS/m_1059": {
+     "status": "ok",
+     "items": 10,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.mfds.go.kr/brd/m_1059/list.do"
+    },
+    "MFDS/en-m_61": {
+     "status": "ok",
+     "items": 12,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.mfds.go.kr/eng/brd/m_61/list.do"
+    },
+    "MFDS/en-m_18": {
+     "status": "ok",
+     "items": 12,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.mfds.go.kr/eng/brd/m_18/list.do"
+    },
+    "MFDS/en-m_1127": {
+     "status": "ok",
+     "items": 7,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.mfds.go.kr/eng/brd/m_1127/list.do"
+    },
+    "MFDS/en-m_27": {
+     "status": "ok",
+     "items": 10,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.mfds.go.kr/eng/brd/m_27/list.do"
+    },
+    "MFDS/en-m_40": {
+     "status": "ok",
+     "items": 11,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.mfds.go.kr/eng/brd/m_40/list.do"
+    },
+    "SFDA/news-ar": {
+     "status": "ok",
+     "items": 6,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.sfda.gov.sa/ar/news"
+    },
+    "SFDA/regulations-ar": {
+     "status": "ok",
+     "items": 12,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.sfda.gov.sa/ar/regulations"
+    },
+    "SFDA/warnings-ar": {
+     "status": "ok",
+     "items": 9,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.sfda.gov.sa/ar/warnings"
+    },
+    "SFDA/news-en": {
+     "status": "ok",
+     "items": 6,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.sfda.gov.sa/en/news"
+    },
+    "SFDA/regulations-en": {
+     "status": "ok",
+     "items": 12,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.sfda.gov.sa/en/regulations"
+    },
+    "SFDA/guides-en": {
+     "status": "ok",
+     "items": 12,
+     "new": 2,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.sfda.gov.sa/en/guide"
+    },
+    "SFDA/warnings-en": {
+     "status": "ok",
+     "items": 9,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.sfda.gov.sa/en/warnings"
+    },
+    "SFDA/circulars-en": {
+     "status": "ok",
+     "items": 10,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.sfda.gov.sa/en/drugs_circulars_withdrawal"
+    },
+    "HSA/announcements": {
+     "status": "ok",
+     "items": 10,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.hsa.gov.sg/announcements"
+    },
+    "SAHPRA/news": {
+     "status": "ok",
+     "items": 10,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.sahpra.org.za/category/news-and-updates/feed/"
+    },
+    "SAHPRA/all": {
+     "status": "ok",
+     "items": 10,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.sahpra.org.za/feed/"
+    },
+    "ANVISA/noticias": {
+     "status": "ok",
+     "items": 5,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.gov.br/anvisa/pt-br"
+    },
+    "COFEPRIS/prensa": {
+     "status": "ok",
+     "items": 9,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.gob.mx/cofepris/archivo/prensa"
+    },
+    "COFEPRIS/documentos": {
+     "status": "ok",
+     "items": 9,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://www.gob.mx/cofepris/archivo/documentos"
+    },
+    "ICH/press": {
+     "status": "ok",
+     "items": 10,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://admin.ich.org/api/v1/nodes?bundle=press_release&offset=0&limit=20&sort=date:DESC,created:desc"
+    },
+    "ICH/news": {
+     "status": "ok",
+     "items": 10,
+     "new": 0,
+     "revised": 0,
+     "error": null,
+     "url": "https://admin.ich.org/api/v1/nodes?bundle=news&offset=0&limit=30&sort=date:DESC,created:desc"
+    }
+   },
+   "digest": "data/digests/2026-10-26.json",
+   "email": {
+    "ok": true,
+    "id": 26608710,
+    "send_at": "2026-10-26T08:50:19.538Z"
+   }
+  },
+  {
    "run_date": "2026-10-24T14:10:54.673Z",
    "baseline": true,
    "totals": {
