@@ -21,7 +21,7 @@ export function cleanText(s) {
 
 /** Title used for comparison only: case, spacing and punctuation removed. */
 export function titleKey(s) {
-  return cleanText(asciiDigits(s)).toLowerCase().normalize('NFKC').replace(/[\p{P}\p{S}\s]+/gu, '');
+  return cleanText(asciiDigits(s)).replace(/^(\s*\[[A-Z][A-Z-]{1,20}\])+\s*/, '').toLowerCase().normalize('NFKC').replace(/[\p{P}\p{S}\s]+/gu, '');
 }
 
 // ---------------------------------------------------------------- dates
@@ -264,7 +264,9 @@ export const AREA_NAMES = {
  * usable title or link.
  */
 export function toCandidate(raw, authority, channel) {
-  const title = cleanText(raw.title);
+  // Some feeds prefix section tags, e.g. PMDA's "[SHINSA]" or "[ANZEN][KOKUSAI]"; the same document appears
+  // without them in other feeds, so they are removed to keep one stable title.
+  const title = cleanText(raw.title).replace(/^(\s*\[[A-Z][A-Z-]{1,20}\])+\s*/, '');
   const url = normaliseUrl(raw.url, raw.base);
   if (!title || title.length < 4 || !url) return null;
   const language = detectLanguage(title, channel.lang || 'en');

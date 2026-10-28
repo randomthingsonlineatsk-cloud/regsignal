@@ -356,3 +356,13 @@ test('one-day date differences are not revisions; start-over runs report nothing
   assert.equal(r2.changes.new.length + r2.changes.revised.length, 0);
   assert.equal(r2.archive.documents[v1.id].title, 'Revisions of PRECAUTIONS (corrected)');
 });
+
+test('section tags like [SHINSA] do not create false revisions', () => {
+  const a = cand('PMDA', 'top-all', '[SHINSA][KOKUSAI]English Translation of Review Report: Capvaxive', 'https://www.pmda.go.jp/x.html', '2026-10-22');
+  assert.equal(a.title, 'English Translation of Review Report: Capvaxive');
+  const b = cand('PMDA', 'reviews', 'English Translation of Review Report: Capvaxive', 'https://www.pmda.go.jp/x.html', '2026-10-22');
+  let r = applyRun({}, [{ sourceId: 'PMDA/top-all', ok: true, items: [a] }, { sourceId: 'PMDA/reviews', ok: true, items: [b] }], '2026-10-19');
+  r = applyRun(r.archive, [{ sourceId: 'PMDA/top-all', ok: true, items: [a] }, { sourceId: 'PMDA/reviews', ok: true, items: [b] }], '2026-10-26');
+  assert.equal(r.changes.revised.length, 0);
+  assert.equal(titleKey('[ANZEN]Revisions of PRECAUTIONS'), titleKey('Revisions of PRECAUTIONS'));
+});
