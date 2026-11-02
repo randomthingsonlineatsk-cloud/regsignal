@@ -1,23 +1,1051 @@
 {
- "run_date": "2026-10-26T08:44:43.861Z",
- "date": "2026-10-26",
+ "run_date": "2026-11-02T10:50:26.378Z",
+ "date": "2026-11-02",
  "baseline": false,
  "totals": {
-  "new": 8,
-  "revised": 46,
-  "removed": 1,
-  "failed": 0,
+  "new": 194,
+  "revised": 61,
+  "removed": 2,
+  "failed": 4,
   "suspect": 0,
-  "documents": 2011
+  "documents": 2205
  },
  "new": [
   {
-   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/tonight-we-ride-llc-issues-voluntary-recall-ultimate-forza-male-supplement-due-presence-undeclared",
-   "authority": "FDA",
-   "title": "Tonight We Ride, LLC Issues Voluntary Recall of Ultimate Forza Male Supplement Due to Presence of Undeclared Sildenafil, Tadalafil, and Dapoxetine",
+   "id": "anvisa:gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/20a-reuniao-ordinaria-publica-da-anvisa-periodo-de-transicao-para-emissao-de-receitas-eletronicas-no-sncr-e-prorrogado",
+   "authority": "ANVISA",
+   "title": "20ª Reunião Ordinária Pública da Anvisa: período de transição para emissão de receitas eletrônicas no SNCR é prorrogado",
    "title_en": "",
-   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/tonight-we-ride-llc-issues-voluntary-recall-ultimate-forza-male-supplement-due-presence-undeclared",
-   "published": "2026-10-24",
+   "url": "https://gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/20a-reuniao-ordinaria-publica-da-anvisa-periodo-de-transicao-para-emissao-de-receitas-eletronicas-no-sncr-e-prorrogado",
+   "published": null,
+   "type": "other",
+   "areas": [],
+   "language": "pt",
+   "source": "ANVISA/noticias"
+  },
+  {
+   "id": "anvisa:gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-cinco-novas-canetas-de-glp-1",
+   "authority": "ANVISA",
+   "title": "Anvisa aprova cinco novas canetas de GLP-1",
+   "title_en": "",
+   "url": "https://gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-cinco-novas-canetas-de-glp-1",
+   "published": null,
+   "type": "approval",
+   "areas": [],
+   "language": "pt",
+   "source": "ANVISA/noticias"
+  },
+  {
+   "id": "anvisa:gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-medicamento-para-tratamento-da-ame",
+   "authority": "ANVISA",
+   "title": "Anvisa aprova medicamento para tratamento de atrofia muscular espinhal (AME)",
+   "title_en": "",
+   "url": "https://gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-medicamento-para-tratamento-da-ame",
+   "published": null,
+   "type": "approval",
+   "areas": [],
+   "language": "pt",
+   "source": "ANVISA/noticias"
+  },
+  {
+   "id": "anvisa:gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-interdicao-cautelar-de-farmacia-magistral",
+   "authority": "ANVISA",
+   "title": "Anvisa determina interdição cautelar de farmácia magistral",
+   "title_en": "",
+   "url": "https://gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-interdicao-cautelar-de-farmacia-magistral",
+   "published": null,
+   "type": "other",
+   "areas": [],
+   "language": "pt",
+   "source": "ANVISA/noticias"
+  },
+  {
+   "id": "anvisa:gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/webservice-do-sistema-nacional-de-gerenciamento-de-produtos-controlados-esta-temporariamente-indisponivel",
+   "authority": "ANVISA",
+   "title": "Webservice do Sistema Nacional de Gerenciamento de Produtos Controlados está temporariamente indisponível",
+   "title_en": "",
+   "url": "https://gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/webservice-do-sistema-nacional-de-gerenciamento-de-produtos-controlados-esta-temporariamente-indisponivel",
+   "published": null,
+   "type": "other",
+   "areas": [],
+   "language": "pt",
+   "source": "ANVISA/noticias"
+  },
+  {
+   "id": "cofepris:gob.mx/cofepris/documentos/certificacion-de-productos-de-la-pesca",
+   "authority": "COFEPRIS",
+   "title": "Continuar leyendo",
+   "title_en": "",
+   "url": "https://gob.mx/cofepris/documentos/certificacion-de-productos-de-la-pesca",
+   "published": "2026-10-12",
+   "type": "other",
+   "areas": [],
+   "language": "es",
+   "source": "COFEPRIS/documentos"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-26-29-october-2026",
+   "authority": "EMA",
+   "title": "Meeting highlights from the Pharmacovigilance Risk Assessment Committee (PRAC) 26 - 29 October 2026",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-26-29-october-2026",
+   "published": "2026-10-30",
+   "type": "safety",
+   "areas": [
+    "pv"
+   ],
+   "language": "en",
+   "source": "EMA/news"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/hirobriz-breezhaler",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Hirobriz Breezhaler, indacaterol, Date of authorisation: 30/11/2009, Revision: 21, Status: Withdrawn",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/hirobriz-breezhaler",
+   "published": "2026-10-30",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/tavneos",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Tavneos, avacopan, Date of authorisation: 11/01/2022, Revision: 9, Status: Revoked",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/tavneos",
+   "published": "2026-10-30",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/tryngolza",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Tryngolza, olezarsen, Date of authorisation: 17/09/2025, Revision: 1, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/tryngolza",
+   "published": "2026-10-30",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/keytruda",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Keytruda, pembrolizumab, Date of authorisation: 17/07/2015, Revision: 73, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/keytruda",
+   "published": "2026-10-30",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/lemtrada",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Lemtrada, alemtuzumab, Date of authorisation: 12/09/2013, Revision: 28, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/lemtrada",
+   "published": "2026-10-30",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/oslif-breezhaler",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Oslif Breezhaler, indacaterol, Date of authorisation: 29/11/2009, Revision: 20, Status: Withdrawn",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/oslif-breezhaler",
+   "published": "2026-10-30",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/oxlumo",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Oxlumo, lumasiran, Date of authorisation: 19/11/2020, Revision: 7, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/oxlumo",
+   "published": "2026-10-30",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-14-1372",
+   "authority": "EMA",
+   "title": "Orphan designation: (2R,3S)-2-(4-cyclopentylaminophenyl)-1-(2-fluoro-6-methylbenzoyl)piperidine-3-carboxylic acid(4-methyl-3-trifluoromethylphenyl)amNide Treatment of microscopic polyangiitis (avacopan), 19/11/2014 Withdrawn",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-14-1372",
+   "published": "2026-10-30",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/orphan"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-14-1373",
+   "authority": "EMA",
+   "title": "Orphan designation: Treatment of granulomatosis with polyangiitis, 19/11/2014 Withdrawn",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-14-1373",
+   "published": "2026-10-30",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/orphan"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-24-2973",
+   "authority": "EMA",
+   "title": "Orphan designation: olezarsen sodium Treatment of familial chylomicronaemia syndrome, 21/08/2024 Withdrawn",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-24-2973",
+   "published": "2026-10-30",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/orphan"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/news/ema-closed-all-souls-day-2-november",
+   "authority": "EMA",
+   "title": "EMA closed on All Souls' Day, 2 November",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/news/ema-closed-all-souls-day-2-november",
+   "published": "2026-10-29",
+   "type": "news",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/news"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/carvykti",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Carvykti, ciltacabtagene autoleucel, Date of authorisation: 25/05/2022, Revision: 19, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/carvykti",
+   "published": "2026-10-29",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/qarziba",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Qarziba (previously Dinutuximab beta EUSA and Dinutuximab beta Apeiron), dinutuximab beta, Date of authorisation: 08/05/2017, Revision: 19, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/qarziba",
+   "published": "2026-10-29",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/opdivo",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Opdivo, nivolumab, Date of authorisation: 19/06/2015, Revision: 77, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/opdivo",
+   "published": "2026-10-29",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/infanrix-hexa",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Infanrix Hexa, diphtheria (D), tetanus (T), pertussis (acellular, component) (Pa), hepatitis B (rDNA) (HBV), poliomyelitis (inactivated) (IPV) and Haemophilus influenzae type-b (Hib) conjugate vaccine (adsorbed), Date of authorisation: 23/10/2000, Revision: 51, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/infanrix-hexa",
+   "published": "2026-10-29",
+   "type": "approval",
+   "areas": [
+    "vaccine"
+   ],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/jubereq",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Jubereq, denosumab, Date of authorisation: 26/05/2025, Revision: 2, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/jubereq",
+   "published": "2026-10-29",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/dimethyl-fumarate-mylan",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Dimethyl fumarate Mylan, dimethyl fumarate, Date of authorisation: 22/04/2024, Revision: 6, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/dimethyl-fumarate-mylan",
+   "published": "2026-10-29",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/ayvakyt",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Ayvakyt, avapritinib, Date of authorisation: 24/09/2020, Revision: 12, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/ayvakyt",
+   "published": "2026-10-29",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/micardis",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Micardis, telmisartan, Date of authorisation: 16/12/1998, Revision: 32, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/micardis",
+   "published": "2026-10-29",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/documents/regulatory-procedural-guideline/notice-sponsors-validation-qualification-computerised-systems-used-clinical-trials_en.pdf",
+   "authority": "EMA",
+   "title": "Notice to sponsors on validation and qualification of computerised systems used in clinical trials",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/documents/regulatory-procedural-guideline/notice-sponsors-validation-qualification-computerised-systems-used-clinical-trials_en.pdf",
+   "published": "2026-10-28",
+   "type": "guideline",
+   "areas": [
+    "clinical"
+   ],
+   "language": "en",
+   "source": "EMA/regguide"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/dazparda",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Dazparda, insulin aspart, Date of authorisation: 27/04/2026, Revision: 1, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/dazparda",
+   "published": "2026-10-28",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/takhzyro",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Takhzyro, lanadelumab, Date of authorisation: 22/11/2018, Revision: 26, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/takhzyro",
+   "published": "2026-10-28",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/yaxwer",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Yaxwer, denosumab, Date of authorisation: 23/06/2025, Revision: 3, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/yaxwer",
+   "published": "2026-10-28",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/pradaxa",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Pradaxa, dabigatran etexilate, Date of authorisation: 17/03/2008, Revision: 47, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/pradaxa",
+   "published": "2026-10-28",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/memantine-mylan",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Memantine Mylan, memantine, Date of authorisation: 21/04/2013, Revision: 15, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/memantine-mylan",
+   "published": "2026-10-28",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/lamivudine-teva-pharma-bv",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Lamivudine Teva Pharma B.V., lamivudine, Date of authorisation: 10/12/2009, Revision: 20, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/lamivudine-teva-pharma-bv",
+   "published": "2026-10-28",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/sapropterin-dipharma",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Sapropterin Dipharma, sapropterin, Date of authorisation: 16/02/2022, Revision: 9, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/sapropterin-dipharma",
+   "published": "2026-10-28",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/hopledo",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Hopledo, levodopa,carbidopa, Date of authorisation: 20/08/2026, Revision: 1, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/hopledo",
+   "published": "2026-10-28",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/hemlibra",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Hemlibra, emicizumab, Date of authorisation: 23/02/2018, Revision: 21, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/hemlibra",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/idacio",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Idacio, adalimumab, Date of authorisation: 02/04/2019, Revision: 17, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/idacio",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/vocabria",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Vocabria, cabotegravir, Date of authorisation: 17/12/2020, Revision: 18, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/vocabria",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/sitagliptin-sun",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Sitagliptin SUN, sitagliptin fumarate, Date of authorisation: 09/12/2021, Revision: 4, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/sitagliptin-sun",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/brimica-genuair",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Brimica Genuair, aclidinium,formoterol fumarate dihydrate, Date of authorisation: 19/11/2014, Revision: 17, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/brimica-genuair",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/bretaris-genuair",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Bretaris Genuair, aclidinium bromide, Date of authorisation: 20/07/2012, Revision: 21, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/bretaris-genuair",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/glivec",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Glivec, imatinib, Date of authorisation: 07/11/2001, Revision: 52, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/glivec",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/semglee",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Semglee, insulin glargine, Date of authorisation: 23/03/2018, Revision: 13, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/semglee",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/pyzchiva",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Pyzchiva, ustekinumab, Date of authorisation: 19/04/2024, Revision: 16, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/pyzchiva",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/lynavoy",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Lynavoy, Linerixibat, Date of authorisation: 22/10/2026, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/lynavoy",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/pregabalin-viatris",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Pregabalin Viatris (previously Pregabalin Mylan), pregabalin, Date of authorisation: 24/06/2015, Revision: 25, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/pregabalin-viatris",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000245403",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Vafseo, vadadustat, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Blood and lymphatic system disorders, PIP number: EMA/PE/0000245403",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000245403",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000183673",
+   "authority": "EMA",
+   "title": "EMA/PE/0000183673",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000183673",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000235382",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Voxzogo, vosoritide, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Congenital, familial and genetic disorders, PIP number: EMA/PE/0000235382",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000235382",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000225490",
+   "authority": "EMA",
+   "title": "EMA/PE/0000225490",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000225490",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000253868",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Fasenra, Benralizumab, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Blood and lymphatic system disorders, PIP number: EMA/PE/0000253868",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000253868",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000253350",
+   "authority": "EMA",
+   "title": "EMA/PE/0000253350",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000253350",
+   "published": "2026-10-27",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/vokanamet",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Vokanamet, canagliflozin,metformin, Date of authorisation: 23/04/2014, Revision: 26, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/vokanamet",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/wegovy",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Wegovy, semaglutide, Date of authorisation: 06/01/2022, Revision: 20, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/wegovy",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/rezdiffra",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Rezdiffra, resmetirom, Date of authorisation: 18/08/2025, Revision: 1, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/rezdiffra",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/bavencio",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Bavencio, avelumab, Date of authorisation: 18/09/2017, Revision: 24, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/bavencio",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/pemetrexed-medac",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Pemetrexed medac, pemetrexed, Date of authorisation: 26/11/2015, Revision: 9, Status: Withdrawn",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/pemetrexed-medac",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000247019",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Exblifep, Enmetazobactam,cefepime, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Infections and infestations;Infectious diseases, PIP number: EMA/PE/0000247019",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000247019",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000245851",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Mounjaro, tirzepatide, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Other, PIP number: EMA/PE/0000245851",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000245851",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000240317",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Bylvay, odevixibat sesquihydrate, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Hepatobiliary disorders;Gastroentology-Hepatology, PIP number: EMA/PE/0000240317",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000240317",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000241178",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Fasenra, Benralizumab, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Immune system disorders;Pneumology-allergology, PIP number: EMA/PE/0000241178",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000241178",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000240204",
+   "authority": "EMA",
+   "title": "EMA/PE/0000240204",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000240204",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000182592",
+   "authority": "EMA",
+   "title": "EMA/PE/0000182592",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000182592",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/emea-003022-pip01-21",
+   "authority": "EMA",
+   "title": "EMEA-003022-PIP01-21",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/emea-003022-pip01-21",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/emea-000284-pip01-08-m04",
+   "authority": "EMA",
+   "title": "EMEA-000284-PIP01-08-M04",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/emea-000284-pip01-08-m04",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/pip"
+  },
+  {
+   "id": "fda:fda.gov/science-research/science-and-research-special-topics/digital-health-technologies-drug-development-demonstration-projects",
+   "authority": "FDA",
+   "title": "Digital Health Technologies for Drug Development: Demonstration Projects",
+   "title_en": "",
+   "url": "https://fda.gov/science-research/science-and-research-special-topics/digital-health-technologies-drug-development-demonstration-projects",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/science-research/science-and-research-special-topics/digital-health-technologies-dhts-drug-development",
+   "authority": "FDA",
+   "title": "Digital Health Technologies (DHTs) for Drug Development",
+   "title_en": "",
+   "url": "https://fda.gov/science-research/science-and-research-special-topics/digital-health-technologies-dhts-drug-development",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/about-fda/fda-organization-charts/center-drug-evaluation-and-research-organization-chart",
+   "authority": "FDA",
+   "title": "Center for Drug Evaluation and Research Organization Chart",
+   "title_en": "",
+   "url": "https://fda.gov/about-fda/fda-organization-charts/center-drug-evaluation-and-research-organization-chart",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/industry/generic-drug-user-fee-amendments/generic-drug-facilities-sites-and-organization-lists",
+   "authority": "FDA",
+   "title": "Generic Drug Facilities, Sites and Organization Lists",
+   "title_en": "",
+   "url": "https://fda.gov/industry/generic-drug-user-fee-amendments/generic-drug-facilities-sites-and-organization-lists",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [
+    "generic"
+   ],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/industry/fda-user-fee-programs/generic-drug-user-fee-amendments",
+   "authority": "FDA",
+   "title": "Generic Drug User Fee Amendments",
+   "title_en": "",
+   "url": "https://fda.gov/industry/fda-user-fee-programs/generic-drug-user-fee-amendments",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [
+    "generic"
+   ],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/drugs/postmarketing-requirements-and-commitments-introduction/postmarketing-requirements-and-commitments-searchable-database",
+   "authority": "FDA",
+   "title": "Postmarketing Requirements and Commitments: Searchable Database",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/postmarketing-requirements-and-commitments-introduction/postmarketing-requirements-and-commitments-searchable-database",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/drugs/development-resources/notices-updates",
+   "authority": "FDA",
+   "title": "Notices of Updates",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/development-resources/notices-updates",
+   "published": "2026-10-30",
+   "type": "circular",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/drugs/development-resources/minocycline-oral-injection-products",
+   "authority": "FDA",
+   "title": "Minocycline Oral, Injection products",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/development-resources/minocycline-oral-injection-products",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/drugs/development-resources/fda-rationale-breakpoints-recognition-decision-minocycline-stenotrophomonas-maltophilia",
+   "authority": "FDA",
+   "title": "FDA Rationale for Breakpoints Recognition Decision: Minocycline for Stenotrophomonas maltophilia",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/development-resources/fda-rationale-breakpoints-recognition-decision-minocycline-stenotrophomonas-maltophilia",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/drugs/drug-safety-and-availability/menopausal-hormone-therapies-updated-prescribing-information",
+   "authority": "FDA",
+   "title": "Menopausal Hormone Therapies with Updated Prescribing Information",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/drug-safety-and-availability/menopausal-hormone-therapies-updated-prescribing-information",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/regulatory-information/search-fda-guidance-documents/s7b-nonclinical-evaluation-potential-delayed-ventricular-repolarization-qt-interval-prolongation",
+   "authority": "FDA",
+   "title": "S7B Nonclinical Evaluation of the Potential for Delayed Ventricular Repolarization (QT Interval Prolongation) by Human Pharmaceuticals",
+   "title_en": "",
+   "url": "https://fda.gov/regulatory-information/search-fda-guidance-documents/s7b-nonclinical-evaluation-potential-delayed-ventricular-repolarization-qt-interval-prolongation",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/regulatory-information/search-fda-guidance-documents/e14-clinical-evaluation-qtqtc-interval-prolongation-and-proarrhythmic-potential-non-antiarrhythmic-0",
+   "authority": "FDA",
+   "title": "E14 Clinical Evaluation of QT/QTc Interval Prolongation and Proarrhythmic Potential for Non-Antiarrhythmic Drugs",
+   "title_en": "",
+   "url": "https://fda.gov/regulatory-information/search-fda-guidance-documents/e14-clinical-evaluation-qtqtc-interval-prolongation-and-proarrhythmic-potential-non-antiarrhythmic-0",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/drugs/guidances-drugs/newly-added-guidance-documents",
+   "authority": "FDA",
+   "title": "Newly Added Guidance Documents",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/guidances-drugs/newly-added-guidance-documents",
+   "published": "2026-10-30",
+   "type": "guideline",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/regulatory-information/search-fda-guidance-documents/e14-and-s7b-clinical-and-nonclinical-evaluation-qtqtc-interval-prolongation-and-proarrhythmic",
+   "authority": "FDA",
+   "title": "E14 and S7B Clinical and Nonclinical Evaluation of QT/QTc Interval Prolongation and Proarrhythmic Potential--Questions and Answers (R1)",
+   "title_en": "",
+   "url": "https://fda.gov/regulatory-information/search-fda-guidance-documents/e14-and-s7b-clinical-and-nonclinical-evaluation-qtqtc-interval-prolongation-and-proarrhythmic",
+   "published": "2026-10-30",
+   "type": "guideline",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/approved-cellular-and-gene-therapy-products",
+   "authority": "FDA",
+   "title": "Approved Cellular and Gene Therapy Products",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/approved-cellular-and-gene-therapy-products",
+   "published": "2026-10-30",
+   "type": "approval",
+   "areas": [
+    "cgt"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis",
+   "authority": "FDA",
+   "title": "FDA Approves First Plasmid DNA-based Immunotherapy for Adults with Recurrent Respiratory Papillomatosis",
+   "title_en": "",
+   "url": "https://fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis",
+   "published": "2026-10-30",
+   "type": "news",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/medical-devices/medical-device-recalls-and-early-alerts/hospital-glucose-meter-correction-nova-biomedical-updates-use-instructions-statstrip-glucose",
+   "authority": "FDA",
+   "title": "Hospital Glucose Meter Correction: Nova Biomedical Updates Use Instructions for StatStrip Glucose Hospital Meter Systems",
+   "title_en": "",
+   "url": "https://fda.gov/medical-devices/medical-device-recalls-and-early-alerts/hospital-glucose-meter-correction-nova-biomedical-updates-use-instructions-statstrip-glucose",
+   "published": "2026-10-30",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch"
+  },
+  {
+   "id": "fda:fda.gov/medical-devices/medical-device-recalls-and-early-alerts/platelet-factor-4-pf4-radioimmunoassay-recall-instrumentation-laboratories-removes-hemosil-acustar",
+   "authority": "FDA",
+   "title": "Platelet Factor 4 (PF4) Radioimmunoassay Recall: Instrumentation Laboratories Removes HemosIL AcuStar HIT-IgG(PF4-H)",
+   "title_en": "",
+   "url": "https://fda.gov/medical-devices/medical-device-recalls-and-early-alerts/platelet-factor-4-pf4-radioimmunoassay-recall-instrumentation-laboratories-removes-hemosil-acustar",
+   "published": "2026-10-30",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/vitality-works-inc-recalls-365-whole-foods-market-ashwagandha-capsules-sold-nationwide-due-potential",
+   "authority": "FDA",
+   "title": "Vitality Works Inc. Recalls 365 Whole Foods Market Ashwagandha Capsules Sold Nationwide Due to Potential Salmonella Contamination",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/vitality-works-inc-recalls-365-whole-foods-market-ashwagandha-capsules-sold-nationwide-due-potential",
+   "published": "2026-10-30",
    "type": "recall",
    "areas": [
     "small-molecule"
@@ -26,148 +1054,2130 @@
    "source": "FDA/recalls"
   },
   {
-   "id": "mfds:mfds.go.kr/brd/m_74/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=45247&srchFr=&srchTo=&srchTp=&srchWord=",
-   "authority": "MFDS",
-   "title": "건강기능식품 기능성 원료 기술문서(모노그래프) 공개(스피루리나)",
+   "id": "fda:fda.gov/industry/generic-drug-user-fee-amendments/gdufa-iii-changes-facilities",
+   "authority": "FDA",
+   "title": "GDUFA III Changes for Facilities",
    "title_en": "",
-   "url": "https://mfds.go.kr/brd/m_74/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=45247&srchFr=&srchTo=&srchTp=&srchWord=",
-   "published": "2026-10-26",
-   "type": "circular",
-   "areas": [],
-   "language": "ko",
-   "source": "MFDS/m_74"
+   "url": "https://fda.gov/industry/generic-drug-user-fee-amendments/gdufa-iii-changes-facilities",
+   "published": "2026-10-29",
+   "type": "other",
+   "areas": [
+    "generic",
+    "quality"
+   ],
+   "language": "en",
+   "source": "FDA/drugs"
   },
   {
-   "id": "mfds:mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16391&srchFr=&srchTo=&srchTp=&srchWord=",
-   "authority": "MFDS",
-   "title": "의료기기 GMP 심사원 교육ㆍ훈련기관 모집 공고",
+   "id": "fda:fda.gov/drugs/pharmaceutical-quality-resources/advancing-product-quality",
+   "authority": "FDA",
+   "title": "Advancing Product Quality",
    "title_en": "",
-   "url": "https://mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16391&srchFr=&srchTo=&srchTp=&srchWord=",
-   "published": "2026-10-26",
-   "type": "circular",
+   "url": "https://fda.gov/drugs/pharmaceutical-quality-resources/advancing-product-quality",
+   "published": "2026-10-29",
+   "type": "other",
+   "areas": [
+    "quality"
+   ],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/procleix-babesia-assay",
+   "authority": "FDA",
+   "title": "Procleix Babesia Assay",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/procleix-babesia-assay",
+   "published": "2026-10-29",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/west-nile-virus-wnv",
+   "authority": "FDA",
+   "title": "West Nile Virus (WNV)",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/west-nile-virus-wnv",
+   "published": "2026-10-29",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/infectious-disease-tests",
+   "authority": "FDA",
+   "title": "Infectious Disease Tests",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/infectious-disease-tests",
+   "published": "2026-10-29",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/news-events/expanded-access/expanded-access-information-patients",
+   "authority": "FDA",
+   "title": "Expanded Access | Information for Patients",
+   "title_en": "",
+   "url": "https://fda.gov/news-events/expanded-access/expanded-access-information-patients",
+   "published": "2026-10-29",
+   "type": "other",
    "areas": [
     "device",
-    "quality"
+    "clinical"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/blood-blood-products/procleix-ultrio-elite-assay",
+   "authority": "FDA",
+   "title": "Procleix Ultrio Elite Assay",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/blood-blood-products/procleix-ultrio-elite-assay",
+   "published": "2026-10-29",
+   "type": "other",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/procleix-wnv-assay",
+   "authority": "FDA",
+   "title": "PROCLEIX WNV ASSAY",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/procleix-wnv-assay",
+   "published": "2026-10-29",
+   "type": "other",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/regulatory-information/search-fda-guidance-documents/essential-drug-delivery-performance-characteristics-devices-intended-deliver-drugs-and-biological",
+   "authority": "FDA",
+   "title": "Essential Drug Delivery Performance Characteristics for Devices Intended to Deliver Drugs and Biological Products",
+   "title_en": "",
+   "url": "https://fda.gov/regulatory-information/search-fda-guidance-documents/essential-drug-delivery-performance-characteristics-devices-intended-deliver-drugs-and-biological",
+   "published": "2026-10-29",
+   "type": "other",
+   "areas": [
+    "biologic",
+    "device"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/development-approval-process-cber/biological-approvals-year",
+   "authority": "FDA",
+   "title": "Biological Approvals by Year",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/development-approval-process-cber/biological-approvals-year",
+   "published": "2026-10-29",
+   "type": "approval",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-medline-removes-or-corrects-all-medline-brand-beds-and-accessories",
+   "authority": "FDA",
+   "title": "Early Alert: Medline Removes or Corrects All Medline Brand Beds and Accessories",
+   "title_en": "",
+   "url": "https://fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-medline-removes-or-corrects-all-medline-brand-beds-and-accessories",
+   "published": "2026-10-29",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/slr-food-distribution-inc-recalls-wise-wife-brand-ground-cinnamon-due-elevated-lead-levels",
+   "authority": "FDA",
+   "title": "SLR Food Distribution Inc. Recalls Wise Wife Brand Ground Cinnamon Due to Elevated Lead Levels",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/slr-food-distribution-inc-recalls-wise-wife-brand-ground-cinnamon-due-elevated-lead-levels",
+   "published": "2026-10-29",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/recalls"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/safety-availability-biologics/calendar-year-2026-voluntary-lot-withdrawals-immune-globulin-intravenous-igiv-and-immune-globulin",
+   "authority": "FDA",
+   "title": "Calendar Year 2026 | Voluntary Lot Withdrawals of Immune Globulin Intravenous (IGIV) and Immune Globulin Subcutaneous (IGSC) for Increased Reports of Allergic/Hypersensitivity Reactions",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/safety-availability-biologics/calendar-year-2026-voluntary-lot-withdrawals-immune-globulin-intravenous-igiv-and-immune-globulin",
+   "published": "2026-10-28",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/drugs/biosimilars/biosimilar-product-information",
+   "authority": "FDA",
+   "title": "Biosimilar Product Information",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/biosimilars/biosimilar-product-information",
+   "published": "2026-10-28",
+   "type": "other",
+   "areas": [
+    "biosimilar"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/industry/fda-rare-disease-innovation-hub/rare-disease-framework",
+   "authority": "FDA",
+   "title": "Rare Disease Framework",
+   "title_en": "",
+   "url": "https://fda.gov/industry/fda-rare-disease-innovation-hub/rare-disease-framework",
+   "published": "2026-10-28",
+   "type": "other",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/regulatory-information/search-fda-guidance-documents/tropical-disease-priority-review-vouchers",
+   "authority": "FDA",
+   "title": "Tropical Disease Priority Review Vouchers",
+   "title_en": "",
+   "url": "https://fda.gov/regulatory-information/search-fda-guidance-documents/tropical-disease-priority-review-vouchers",
+   "published": "2026-10-28",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-b-braun-removes-streamline-bloodline-set-dialog",
+   "authority": "FDA",
+   "title": "Early Alert: B. Braun Removes Streamline Bloodline Set for Dialog+",
+   "title_en": "",
+   "url": "https://fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-b-braun-removes-streamline-bloodline-set-dialog",
+   "published": "2026-10-27",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/taylor-farms-issues-recall-h-e-b-backyard-bbq-chop-salad-kit-due-potential-undeclared-soy-and-tree",
+   "authority": "FDA",
+   "title": "Taylor Farms Issues Recall for H-E-B Backyard BBQ Chop Salad Kit Due to the Potential Undeclared Soy and Tree Nuts(Almonds)",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/taylor-farms-issues-recall-h-e-b-backyard-bbq-chop-salad-kit-due-potential-undeclared-soy-and-tree",
+   "published": "2026-10-27",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/recalls"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/haifa-smoked-fish-recalls-cold-smoked-sprats-due-potential-health-risk",
+   "authority": "FDA",
+   "title": "HAIFA SMOKED FISH Recalls Cold Smoked Sprats Due to Potential Health Risk",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/haifa-smoked-fish-recalls-cold-smoked-sprats-due-potential-health-risk",
+   "published": "2026-10-27",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/recalls"
+  },
+  {
+   "id": "hc:recalls-rappels.canada.ca/en/alert-recall/equate-ultra-strength-antacid-chewable-tablet-may-contain-foreign-matter-metal",
+   "authority": "HC",
+   "title": "Equate Ultra Strength Antacid Chewable Tablet: may contain foreign matter (metal fragments)",
+   "title_en": "",
+   "url": "https://recalls-rappels.canada.ca/en/alert-recall/equate-ultra-strength-antacid-chewable-tablet-may-contain-foreign-matter-metal",
+   "published": "2026-10-30",
+   "type": "recall",
+   "areas": [
+    "small-molecule"
+   ],
+   "language": "fr",
+   "source": "HC/recalls-en"
+  },
+  {
+   "id": "hc:recalls-rappels.canada.ca/en/alert-recall/rotaflow-console",
+   "authority": "HC",
+   "title": "RotaFlow Console",
+   "title_en": "",
+   "url": "https://recalls-rappels.canada.ca/en/alert-recall/rotaflow-console",
+   "published": "2026-10-29",
+   "type": "recall",
+   "areas": [
+    "device"
+   ],
+   "language": "fr",
+   "source": "HC/recalls-en"
+  },
+  {
+   "id": "hc:recalls-rappels.canada.ca/en/alert-recall/opticross-intravascular-ultrasond-imagine-catheters",
+   "authority": "HC",
+   "title": "OptiCross Intravascular Ultrasond Imagine Catheters",
+   "title_en": "",
+   "url": "https://recalls-rappels.canada.ca/en/alert-recall/opticross-intravascular-ultrasond-imagine-catheters",
+   "published": "2026-10-29",
+   "type": "recall",
+   "areas": [
+    "device"
+   ],
+   "language": "fr",
+   "source": "HC/recalls-en"
+  },
+  {
+   "id": "hc:canada.ca/en/health-canada/services/drugs-health-products/medeffect-canada/health-product-infowatch/october-2026.html",
+   "authority": "HC",
+   "title": "Health Product InfoWatch, October 2026",
+   "title_en": "",
+   "url": "https://canada.ca/en/health-canada/services/drugs-health-products/medeffect-canada/health-product-infowatch/october-2026.html",
+   "published": "2026-10-29",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "HC/medeffect-en"
+  },
+  {
+   "id": "hc:canada.ca/fr/sante-canada/services/medicaments-produits-sante/medeffet-canada/infovigilance-produits-sante/octobre-2026.html",
+   "authority": "HC",
+   "title": "InfoVigilance sur les produits de santé, octobre 2026",
+   "title_en": "",
+   "url": "https://canada.ca/fr/sante-canada/services/medicaments-produits-sante/medeffet-canada/infovigilance-produits-sante/octobre-2026.html",
+   "published": "2026-10-29",
+   "type": "safety",
+   "areas": [],
+   "language": "fr",
+   "source": "HC/medeffect-fr"
+  },
+  {
+   "id": "hsa:hsa.gov.sg/announcements/reportsideeffects",
+   "authority": "HSA",
+   "title": "Report suspected side effects from medicines to your healthcare professional",
+   "title_en": "",
+   "url": "https://hsa.gov.sg/announcements/reportsideeffects",
+   "published": "2026-11-02",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "HSA/announcements"
+  },
+  {
+   "id": "hsa:hsa.gov.sg/announcements/recall-of-tetrabenazine-25mg-112-s-sun-italy",
+   "authority": "HSA",
+   "title": "Recall of Tetrabenazine 25mg 112’s Sun-Italy",
+   "title_en": "",
+   "url": "https://hsa.gov.sg/announcements/recall-of-tetrabenazine-25mg-112-s-sun-italy",
+   "published": "2026-11-01",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "HSA/announcements"
+  },
+  {
+   "id": "hsa:hsa.gov.sg/announcements/hsa-charges-38-year-old-male-for-alleged-trafficking-of-etomidate-vaporiser-pods",
+   "authority": "HSA",
+   "title": "HSA Charges 38-Year-Old Male for Alleged Trafficking of Etomidate Vaporiser Pods",
+   "title_en": "",
+   "url": "https://hsa.gov.sg/announcements/hsa-charges-38-year-old-male-for-alleged-trafficking-of-etomidate-vaporiser-pods",
+   "published": "2026-10-29",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "HSA/announcements"
+  },
+  {
+   "id": "hsa:hsa.gov.sg/announcements/mean-applicant-screening-response-time-oct26",
+   "authority": "HSA",
+   "title": "Mean applicant screening response time",
+   "title_en": "",
+   "url": "https://hsa.gov.sg/announcements/mean-applicant-screening-response-time-oct26",
+   "published": "2026-10-26",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "HSA/announcements"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16399&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "희귀의약품 지정 공고",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16399&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-02",
+   "type": "circular",
+   "areas": [
+    "orphan"
    ],
    "language": "ko",
    "source": "MFDS/m_76"
   },
   {
-   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50437&srchFr=&srchTo=&srchTp=&srchWord=",
+   "id": "mfds:mfds.go.kr/brd/m_76/down.do?brd_id=ntc0004&data_tp=A&file_seq=1&seq=16399",
    "authority": "MFDS",
-   "title": "식약처, 감미료 사용 저당 식품의 혈당 관련 기능성 표시 제한",
+   "title": "희귀의약품 지정 공고(제2026-532호， 2026.11.2.).hwpx 미리보기",
    "title_en": "",
-   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50437&srchFr=&srchTo=&srchTp=&srchWord=",
-   "published": "2026-10-26",
+   "url": "https://mfds.go.kr/brd/m_76/down.do?brd_id=ntc0004&data_tp=A&file_seq=1&seq=16399",
+   "published": "2026-11-02",
+   "type": "circular",
+   "areas": [
+    "orphan"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_76"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_76/down.do?brd_id=ntc0004&data_tp=A&file_seq=2&seq=16399",
+   "authority": "MFDS",
+   "title": "희귀의약품 지정 공고(제2026-532호， 2026.11.2.).pdf 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_76/down.do?brd_id=ntc0004&data_tp=A&file_seq=2&seq=16399",
+   "published": "2026-11-02",
+   "type": "circular",
+   "areas": [
+    "orphan"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_76"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50465&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "식약처장 화장품 점자QR코드 자율표시 지원 행보",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50465&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-02",
+   "type": "news",
+   "areas": [
+    "cosmetic"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50464&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "식약처, 위생용품 신설 영업 시행 대비 민원인 설명회 개최",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50464&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-02",
    "type": "news",
    "areas": [],
    "language": "ko",
    "source": "MFDS/m_99"
   },
   {
-   "id": "pmda:pmda.go.jp/about-pmda/news-release/0104.html",
-   "authority": "PMDA",
-   "title": "その他 New サイバー攻撃による情報漏えい等の事案を踏まえたPMDAにおけるセキュリティ対策方針について",
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50463&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[보도참고] ‘나의 부작용 정보, 나눌수록 안전해져요‘, 2026 약물안전캠페인 개최",
    "title_en": "",
-   "url": "https://pmda.go.jp/about-pmda/news-release/0104.html",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50463&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-02",
+   "type": "safety",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50462&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[보도참고] 식약처, 첨단 신기술 기반 바이오의약품 가이드라인 현장 활용 지원",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50462&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-02",
+   "type": "guideline",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_74/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=45249&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "어린이 기호식품 품질인증 현황('26.10.31.기준)",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_74/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=45249&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-31",
+   "type": "circular",
+   "areas": [
+    "paediatric",
+    "quality"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_74"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_74/down.do?brd_id=ntc0003&data_tp=A&file_seq=1&seq=45249",
+   "authority": "MFDS",
+   "title": "어린이 기호식품 품질인증 현황 목록(540).pdf 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_74/down.do?brd_id=ntc0003&data_tp=A&file_seq=1&seq=45249",
+   "published": "2026-10-31",
+   "type": "circular",
+   "areas": [
+    "paediatric",
+    "quality"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_74"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_74/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=45248&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "(알림) 식품안심업소 지정 현황(2026.10.30. 기준)",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_74/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=45248&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "circular",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_74"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16400&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "의료기기 임상시험기관 지정현황(2026.10.30기준)",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16400&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "circular",
+   "areas": [
+    "device",
+    "clinical"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_76"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16398&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "2026년 10월 대조약 선정 및 변경 공고",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16398&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "circular",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_76"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16397&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "2027년도 의약품동등성 재평가 실시 공고",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16397&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "circular",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_76"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16396&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "임시마약류 지정 공고",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16396&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "circular",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_76"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50461&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[보도참고] 카드뮴 기준 초과 검출된 '기타 수산물가공품' 회수 조치",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50461&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "recall",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50460&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[보도참고] 소비기한 이중 표시 ‘과·채가공품’ 회수 조치",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50460&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "recall",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50459&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "식약처, 디지털융합의약품.. '원스톱 통합심사 체계' 마련",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50459&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "news",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50458&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "식약처, 의약품 허가심사에 ‘환자경험자료’ 반영한다",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50458&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "news",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50457&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[보도참고] 식약처, 한약(생약)제제 GMP 질의응답집 개정",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50457&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "news",
+   "areas": [
+    "herbal",
+    "quality"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50456&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[보도참고] 식약처, 의료기기 사이버보안 허가심사 가이드라인 개정",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50456&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "guideline",
+   "areas": [
+    "device"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_207/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15203&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "「의약품의 품목허가·신고·심사 규정」 일부개정 고시 알림",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_207/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15203&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "law",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_207"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_207/down.do?brd_id=data0008&data_tp=A&file_seq=2&seq=15203",
+   "authority": "MFDS",
+   "title": "「의약품의 품목허가？신고？심사 규정」 전문(제2026-74호¸ 2026.10.30.).hwpx 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_207/down.do?brd_id=data0008&data_tp=A&file_seq=2&seq=15203",
+   "published": "2026-10-30",
+   "type": "law",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_207"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_207/down.do?brd_id=data0008&data_tp=A&file_seq=3&seq=15203",
+   "authority": "MFDS",
+   "title": "[별표 1] 의약품의 종류 및 제출자료의 범위(의약품의 품목허가·신고·심사 규정)(제2026-74호¸ 2026.10.30.).hwp 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_207/down.do?brd_id=data0008&data_tp=A&file_seq=3&seq=15203",
+   "published": "2026-10-30",
+   "type": "law",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_207"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_207/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15202&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "「한약(생약)제제 등의 품목허가·신고에 관한 규정」 일부개정고시(식품의약품안전처 고시 제2026-73호)",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_207/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15202&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "law",
+   "areas": [
+    "herbal"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_207"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_207/down.do?brd_id=data0008&data_tp=A&file_seq=1&seq=15202",
+   "authority": "MFDS",
+   "title": "「한약(생약)제제 등의 품목허가 신고에 관한 규정」 개정 고시 전문(식품의약품안전처 고시 제2026-73호, 2026.10.30.).pdf 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_207/down.do?brd_id=data0008&data_tp=A&file_seq=1&seq=15202",
+   "published": "2026-10-30",
+   "type": "law",
+   "areas": [
+    "herbal"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_207"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_207/down.do?brd_id=data0008&data_tp=A&file_seq=2&seq=15202",
+   "authority": "MFDS",
+   "title": "「한약(생약)제제 등의 품목허가 신고에 관한 규정」 개정 고시 전문(식품의약품안전처 고시 제2026-73호, 2026.10.30.).hwpx 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_207/down.do?brd_id=data0008&data_tp=A&file_seq=2&seq=15202",
+   "published": "2026-10-30",
+   "type": "law",
+   "areas": [
+    "herbal"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_207"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_207/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15201&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "「기구 및 용기·포장의 기준 및 규격」 일부개정고시(제2026-72호",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_207/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15201&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "law",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_207"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_207/down.do?brd_id=data0008&data_tp=A&file_seq=1&seq=15201",
+   "authority": "MFDS",
+   "title": "「기구 및 용기·포장의 기준 및 규격」 일부개정고시(고시 제2026-72호， 2026.10.30).hwpx 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_207/down.do?brd_id=data0008&data_tp=A&file_seq=1&seq=15201",
+   "published": "2026-10-30",
+   "type": "law",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_207"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_207/down.do?brd_id=data0008&data_tp=A&file_seq=2&seq=15201",
+   "authority": "MFDS",
+   "title": "「기구 및 용기·포장의 기준 및 규격」 일부개정고시(고시 제2026-72호， 2026.10.30).pdf 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_207/down.do?brd_id=data0008&data_tp=A&file_seq=2&seq=15201",
+   "published": "2026-10-30",
+   "type": "law",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_207"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44309&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "「위생용품의 자가품질검사 항목 및 세부 사항 지정」 일부개정고시(안) 행정예고(공고 제2026-520호",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44309&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "draft",
+   "areas": [
+    "quality"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_209"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_211/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=14991&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "「기구 및 용기·포장의 기준 및 규격」 고시전문(고시 제2026-72호",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_211/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=14991&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "law",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_211"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_211/down.do?brd_id=data0005&data_tp=A&file_seq=1&seq=14991",
+   "authority": "MFDS",
+   "title": "「기구 및 용기·포장의 기준 및 규격」 고시전문(고시 제2026-72호, 2026.10.30).hwpx 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_211/down.do?brd_id=data0005&data_tp=A&file_seq=1&seq=14991",
+   "published": "2026-10-30",
+   "type": "law",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_211"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_211/down.do?brd_id=data0005&data_tp=A&file_seq=2&seq=14991",
+   "authority": "MFDS",
+   "title": "「기구 및 용기·포장의 기준 및 규격」 고시전문(고시 제2026-72호, 2026.10.30).pdf 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_211/down.do?brd_id=data0005&data_tp=A&file_seq=2&seq=14991",
+   "published": "2026-10-30",
+   "type": "law",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_211"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15313&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "의약품등 회수·폐기 처리 운영 지침",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15313&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "guideline",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_1059"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15312&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "디지털융합의약품 심사 업무절차서",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15312&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "guideline",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_1059"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15311&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "개량신약 인정제도 운영지침",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15311&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "guideline",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_1059"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15310&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "의약품등 품목별 사전 GMP 평가 운영지침",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15310&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-30",
+   "type": "guideline",
+   "areas": [
+    "quality"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_1059"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16395&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "의약품(한약(생약)제제) 동등성 재평가 실시 공고",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16395&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-29",
+   "type": "circular",
+   "areas": [
+    "herbal"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_76"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16394&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "혁신의료기기 지정 공고(통합-일반 제126호)",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16394&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-29",
+   "type": "circular",
+   "areas": [
+    "device"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_76"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44308&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "체외진단의료기기 허가·신고·심사 등에 관한 규정 일부개정고시(안) 행정예고(공고 제2026 - 508호)",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44308&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-29",
+   "type": "draft",
+   "areas": [
+    "device",
+    "ivd"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_209"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44307&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "「희귀의약품 지정에 관한 규정」 일부개정고시(안)(공고 제2026-522호",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44307&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-29",
+   "type": "draft",
+   "areas": [
+    "orphan"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_209"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15309&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "2026년 식중독 표준업무 지침",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15309&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-29",
+   "type": "guideline",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_1059"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16393&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "생물학적동등성 인정품목 공고(2026년 9월)",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16393&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-28",
+   "type": "circular",
+   "areas": [
+    "biologic",
+    "generic"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_76"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_207/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15200&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "'의약외품 품목허가·신고·심사 규정' 일부개정고시",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_207/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15200&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-28",
+   "type": "law",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_207"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44306&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "「유전자변형식품등의 안전성 심사 등에 관한 규정」 일부개정고시(안) 행정예고(공고 제2026-519호",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44306&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-28",
+   "type": "draft",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_209"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44305&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "「식품등의 한시적 기준 및 규격 인정 기준」 일부개정고시(안) 행정예고(공고 제2026-517호",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44305&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-28",
+   "type": "draft",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_209"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_209/down.do?brd_id=data0009&data_tp=A&file_seq=1&seq=44305",
+   "authority": "MFDS",
+   "title": "「식품등의 한시적 기준 및 규격 인정 기준」 일부개정고시(안) 행정예고_공고 제2026-517호(2026.10.28).hwpx 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_209/down.do?brd_id=data0009&data_tp=A&file_seq=1&seq=44305",
+   "published": "2026-10-28",
+   "type": "draft",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_209"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15308&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "의약품 허가·심사 세부업무방안 등의 관리 매뉴얼",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15308&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-28",
+   "type": "guideline",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_1059"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16392&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "11월 중 학교와 우수판매업소에서의 판매 금지 고열량저영양 식품 목록 및 고카페인 함유 식품 대상",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16392&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-10-27",
+   "type": "circular",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_76"
+  },
+  {
+   "id": "mhra:gov.uk/drug-device-alerts/mhra-safety-roundup-october-2026",
+   "authority": "MHRA",
+   "title": "MHRA Safety Roundup: October 2026",
+   "title_en": "",
+   "url": "https://gov.uk/drug-device-alerts/mhra-safety-roundup-october-2026",
+   "published": "2026-10-30",
+   "type": "recall",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "MHRA/alerts"
+  },
+  {
+   "id": "mhra:gov.uk/drug-device-alerts/class-2-medicines-recall-accord-uk-ltd-lercanidipine-hydrochloride-10mg-film-coated-tablets-el-26-a-slash-45",
+   "authority": "MHRA",
+   "title": "Class 2 Medicines Recall: Accord-UK Ltd, Lercanidipine Hydrochloride 10mg Film-Coated Tablets, EL(26)A/45",
+   "title_en": "",
+   "url": "https://gov.uk/drug-device-alerts/class-2-medicines-recall-accord-uk-ltd-lercanidipine-hydrochloride-10mg-film-coated-tablets-el-26-a-slash-45",
+   "published": "2026-10-29",
+   "type": "recall",
+   "areas": [
+    "small-molecule"
+   ],
+   "language": "en",
+   "source": "MHRA/alerts"
+  },
+  {
+   "id": "mhra:gov.uk/drug-device-alerts/class-2-medicines-recall-advanz-pharma-limited-mynzepli-40-mg-slash-ml-solution-for-injection-in-pre-filled-syringe-el-26-a-slash-44",
+   "authority": "MHRA",
+   "title": "Class 2 Medicines Recall: Advanz Pharma Limited, Mynzepli 40 mg/mL solution for injection in pre-filled syringe, EL(26)A/44",
+   "title_en": "",
+   "url": "https://gov.uk/drug-device-alerts/class-2-medicines-recall-advanz-pharma-limited-mynzepli-40-mg-slash-ml-solution-for-injection-in-pre-filled-syringe-el-26-a-slash-44",
+   "published": "2026-10-29",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "MHRA/alerts"
+  },
+  {
+   "id": "mhra:gov.uk/drug-device-alerts/field-safety-notices-19-to-23-october-2026",
+   "authority": "MHRA",
+   "title": "Field Safety Notices: 19 to 23 October 2026",
+   "title_en": "",
+   "url": "https://gov.uk/drug-device-alerts/field-safety-notices-19-to-23-october-2026",
+   "published": "2026-10-28",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "MHRA/alerts"
+  },
+  {
+   "id": "mhra:gov.uk/drug-safety-update/number-medsafetyweek-2-to-8-november-2026-dont-ignore-suspected-side-effects-report-them-updates-to-the-yellow-card-website-and-app",
+   "authority": "MHRA",
+   "title": "#MedSafetyWeek (2 to 8 November 2026): Don't ignore suspected side effects, report them! Updates to the Yellow Card website and app",
+   "title_en": "",
+   "url": "https://gov.uk/drug-safety-update/number-medsafetyweek-2-to-8-november-2026-dont-ignore-suspected-side-effects-report-them-updates-to-the-yellow-card-website-and-app",
    "published": "2026-10-26",
+   "type": "safety",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "MHRA/dsu"
+  },
+  {
+   "id": "mhra:gov.uk/drug-device-alerts/class-2-medicines-recall-xeal-pharma-clopidogrel-oral-liquids-all-strengths-el-26-a-slash-43",
+   "authority": "MHRA",
+   "title": "Class 2 Medicines Recall: Xeal Pharma, Clopidogrel Oral Liquids (all strengths), EL(26)A/43",
+   "title_en": "",
+   "url": "https://gov.uk/drug-device-alerts/class-2-medicines-recall-xeal-pharma-clopidogrel-oral-liquids-all-strengths-el-26-a-slash-43",
+   "published": "2026-10-26",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "MHRA/alerts"
+  },
+  {
+   "id": "mhra:gov.uk/government/publications/antidepressants-use-and-safety",
+   "authority": "MHRA",
+   "title": "Antidepressants: use and safety",
+   "title_en": "",
+   "url": "https://gov.uk/government/publications/antidepressants-use-and-safety",
+   "published": "2026-10-15",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "MHRA/guidance"
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/symposia/0211.html",
+   "authority": "PMDA",
+   "title": "審査 イベント New 第2回「こどものがん治療薬開発シンポジウム」の共同開催について",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/symposia/0211.html",
+   "published": "2026-11-02",
    "type": "other",
    "areas": [],
    "language": "ja",
    "source": "PMDA/shinchaku"
   },
   {
-   "id": "pmda:pmda.go.jp/procurements/public-bidding/announcement-of-the-winning-bid/0001.html",
+   "id": "pmda:pmda.go.jp/review-services/f2f-pre/strategies/0003.html",
    "authority": "PMDA",
-   "title": "調達 New 落札公示",
+   "title": "審査 New RS総合相談・RS戦略相談リーフレットを掲載しました",
    "title_en": "",
-   "url": "https://pmda.go.jp/procurements/public-bidding/announcement-of-the-winning-bid/0001.html",
-   "published": "2026-10-26",
+   "url": "https://pmda.go.jp/review-services/f2f-pre/strategies/0003.html",
+   "published": "2026-11-02",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku"
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/symposia/0210.html",
+   "authority": "PMDA",
+   "title": "審査 イベント New 「第6回GMPラウンドテーブル会議 開催のご案内」を掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/symposia/0210.html",
+   "published": "2026-11-02",
+   "type": "other",
+   "areas": [
+    "quality"
+   ],
+   "language": "ja",
+   "source": "PMDA/shinchaku"
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/inspections/drugs/0008.html",
+   "authority": "PMDA",
+   "title": "審査 New GLP業務に関するSOPを掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/inspections/drugs/0008.html",
+   "published": "2026-11-02",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku"
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/int-activities/training-center/0005.html",
+   "authority": "PMDA",
+   "title": "PMDA-ATC Learning Videos contents have been updated",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/int-activities/training-center/0005.html",
+   "published": "2026-11-02",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all"
+  },
+  {
+   "id": "pmda:pmda.go.jp/procurements/public-bidding/open-counter/1663.html",
+   "authority": "PMDA",
+   "title": "調達 New オープンカウンター公告（役員応接室用什器の納品、設置業務一式）",
+   "title_en": "",
+   "url": "https://pmda.go.jp/procurements/public-bidding/open-counter/1663.html",
+   "published": "2026-10-30",
    "type": "circular",
    "areas": [],
    "language": "ja",
    "source": "PMDA/shinchaku"
   },
   {
-   "id": "sfda:sfda.gov.sa/en/guide/19779",
-   "authority": "SFDA",
-   "title": "A Guide about Honey for Consumers",
+   "id": "pmda:pmda.go.jp/rs-std-jp/standards-development/jp/pub-comments/jp/0267.html",
+   "authority": "PMDA",
+   "title": "薬局方 パブコメ New 第二十改正日本薬局方原案作成要領（案）に関するご意見の募集について",
    "title_en": "",
-   "url": "https://sfda.gov.sa/en/guide/19779",
-   "published": "2024-02-29",
-   "type": "guideline",
-   "areas": [],
-   "language": "en",
-   "source": "SFDA/guides-en"
+   "url": "https://pmda.go.jp/rs-std-jp/standards-development/jp/pub-comments/jp/0267.html",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [
+    "quality"
+   ],
+   "language": "ja",
+   "source": "PMDA/shinchaku"
   },
   {
-   "id": "sfda:sfda.gov.sa/en/guide/79475",
-   "authority": "SFDA",
-   "title": "A Guide to Novel Food Approval",
+   "id": "pmda:pmda.go.jp/about-pmda/news-release/0105.html",
+   "authority": "PMDA",
+   "title": "その他 New 医療機器WEB申請プラットフォーム（DWAP）の運用停止について",
    "title_en": "",
-   "url": "https://sfda.gov.sa/en/guide/79475",
-   "published": "2021-07-28",
-   "type": "guideline",
+   "url": "https://pmda.go.jp/about-pmda/news-release/0105.html",
+   "published": "2026-10-29",
+   "type": "other",
+   "areas": [
+    "device"
+   ],
+   "language": "ja",
+   "source": "PMDA/shinchaku"
+  },
+  {
+   "id": "pmda:pmda.go.jp/procurements/contract-info/0002.html",
+   "authority": "PMDA",
+   "title": "調達 New 契約締結状況について",
+   "title_en": "",
+   "url": "https://pmda.go.jp/procurements/contract-info/0002.html",
+   "published": "2026-10-29",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku"
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/drug-reviews/procedures/0023.html",
+   "authority": "PMDA",
+   "title": "審査 New 我が国における医薬品一般的名称（JAN）の申請等についてのページ 3.JANの変更手続 を更新しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/drug-reviews/procedures/0023.html",
+   "published": "2026-10-27",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku"
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/symposia/0367.html",
+   "authority": "PMDA",
+   "title": "Report of PMDA-ATC GMP Inspection Seminar 2026",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/symposia/0367.html",
+   "published": "2026-10-27",
+   "type": "other",
+   "areas": [
+    "quality"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/ar/news/19801",
+   "authority": "SFDA",
+   "title": "\"الغذاء والدواء\" توقع مذكرة تعاون مع جامعة الجوف لتعزيز البحث العلمي ودعم العمل المشترك",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/ar/news/19801",
+   "published": "2026-10-29",
+   "type": "news",
+   "areas": [],
+   "language": "ar",
+   "source": "SFDA/news-ar"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/en/news/19801",
+   "authority": "SFDA",
+   "title": "SFDA Signs Memorandum of Cooperation with Jouf University to Enhance Scientific Research and Support Joint Initiatives",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/en/news/19801",
+   "published": "2026-10-29",
+   "type": "news",
    "areas": [],
    "language": "en",
-   "source": "SFDA/guides-en"
+   "source": "SFDA/news-en"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/ar/news/19790",
+   "authority": "SFDA",
+   "title": "\"الغذاء والدواء\" تعتمد تعيين مستحضر دوائي يستهدف علاج بعض أنواع السرطان ضمن برنامج الأدوية الواعدة",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/ar/news/19790",
+   "published": "2026-10-28",
+   "type": "news",
+   "areas": [],
+   "language": "ar",
+   "source": "SFDA/news-ar"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/en/news/19790",
+   "authority": "SFDA",
+   "title": "SFDA Grants Breakthrough Designation of a Drug Targeting the Treatment of Certain Types of Cancer Under the Breakthrough Program",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/en/news/19790",
+   "published": "2026-10-28",
+   "type": "news",
+   "areas": [],
+   "language": "en",
+   "source": "SFDA/news-en"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/ar/warnings/19788",
+   "authority": "SFDA",
+   "title": "\"الغذاء والدواء\" تحذّر من منتجات بروتين البودينغ (arla protein pudding) لشركة \"آرلا\" الدنماركية",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/ar/warnings/19788",
+   "published": "2026-10-27",
+   "type": "safety",
+   "areas": [
+    "biologic"
+   ],
+   "language": "ar",
+   "source": "SFDA/warnings-ar"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/en/warnings/19788",
+   "authority": "SFDA",
+   "title": "SFDA Issues Warning Against Certain Arla Protein Pudding Products from Denmark",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/en/warnings/19788",
+   "published": "2026-10-27",
+   "type": "safety",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "SFDA/warnings-en"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/ar/warnings/19789",
+   "authority": "SFDA",
+   "title": "\"الغذاء والدواء\": شركة بلاديس تتقدم بطلب سحب طوعي لمنتج شوكولاتة لعدم ذكر أحد مكونات المنتج على البطاقة الغذائية",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/ar/warnings/19789",
+   "published": "2026-05-25",
+   "type": "safety",
+   "areas": [],
+   "language": "ar",
+   "source": "SFDA/warnings-ar"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/en/warnings/19789",
+   "authority": "SFDA",
+   "title": "SFDA: Pladis Arabia Company Voluntarily Recalls a Chocolate Bar Due to Undeclared Allergen",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/en/warnings/19789",
+   "published": "2026-05-25",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "SFDA/warnings-en"
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/de/home/news/mitteilungen/anpassung-fo-dmf.html",
+   "authority": "Swissmedic",
+   "title": "Anpassung des «Formular DMF»",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/de/home/news/mitteilungen/anpassung-fo-dmf.html",
+   "published": "2026-11-01",
+   "type": "other",
+   "areas": [],
+   "language": "de",
+   "source": "Swissmedic/mitteilungen"
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/de/home/news/mitteilungen/aktualisierung-der-formulare-neuzulassung-humanarzneimittel-und-aenderungen-und-zulassungserweiterungen-ham.html",
+   "authority": "Swissmedic",
+   "title": "Aktualisierung der Formulare Neuzulassung Humanarzneimittel und Änderungen und Zulassungserweiterungen HAM",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/de/home/news/mitteilungen/aktualisierung-der-formulare-neuzulassung-humanarzneimittel-und-aenderungen-und-zulassungserweiterungen-ham.html",
+   "published": "2026-11-01",
+   "type": "other",
+   "areas": [],
+   "language": "de",
+   "source": "Swissmedic/mitteilungen"
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/fr/home/news/mitteilungen/anpassung-fo-dmf.html",
+   "authority": "Swissmedic",
+   "title": "Adaptation du formulaire DMF",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/fr/home/news/mitteilungen/anpassung-fo-dmf.html",
+   "published": "2026-11-01",
+   "type": "other",
+   "areas": [],
+   "language": "fr",
+   "source": "Swissmedic/mitteilungen-fr"
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/fr/home/news/mitteilungen/aktualisierung-der-formulare-neuzulassung-humanarzneimittel-und-aenderungen-und-zulassungserweiterungen-ham.html",
+   "authority": "Swissmedic",
+   "title": "Mise à jour des formulaires Nouvelle autorisation de médicaments à usage humain et Modifications et extensions d’autorisations HAM",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/fr/home/news/mitteilungen/aktualisierung-der-formulare-neuzulassung-humanarzneimittel-und-aenderungen-und-zulassungserweiterungen-ham.html",
+   "published": "2026-11-01",
+   "type": "approval",
+   "areas": [],
+   "language": "fr",
+   "source": "Swissmedic/mitteilungen-fr"
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/en/home/news/mitteilungen/anpassung-fo-dmf.html",
+   "authority": "Swissmedic",
+   "title": "Modification of the “Form DMF”",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/en/home/news/mitteilungen/anpassung-fo-dmf.html",
+   "published": "2026-11-01",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "Swissmedic/mitteilungen-en"
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/en/home/news/mitteilungen/aktualisierung-der-formulare-neuzulassung-humanarzneimittel-und-aenderungen-und-zulassungserweiterungen-ham.html",
+   "authority": "Swissmedic",
+   "title": "Update to the forms New authorisation of human medicinal products and Variations and extensions HAM",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/en/home/news/mitteilungen/aktualisierung-der-formulare-neuzulassung-humanarzneimittel-und-aenderungen-und-zulassungserweiterungen-ham.html",
+   "published": "2026-11-01",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "Swissmedic/mitteilungen-en"
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/de/home/humanarzneimittel/marktueberwachung/out-of-stock/bewilligte-gesuche/out-of-stock-cablivi-10-mg.html",
+   "authority": "Swissmedic",
+   "title": "Out-of-Stock – Cablivi 10 mg, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/de/home/humanarzneimittel/marktueberwachung/out-of-stock/bewilligte-gesuche/out-of-stock-cablivi-10-mg.html",
+   "published": "2026-10-26",
+   "type": "safety",
+   "areas": [],
+   "language": "de",
+   "source": "Swissmedic/sicherheit"
   }
  ],
  "revised": [
   {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/0002.html",
-   "authority": "PMDA",
-   "title": "List of Approved Regenerative Medical Products: April 2015 to July 2026",
+   "id": "cofepris:gob.mx/cofepris/documentos/aviso-de-riesgo-344496",
+   "authority": "COFEPRIS",
+   "title": "Continuar leyendo",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/0002.html",
+   "url": "https://gob.mx/cofepris/documentos/aviso-de-riesgo-344496",
    "published": "2026-10-26",
-   "type": "approval",
-   "areas": [
-    "cgt"
-   ],
-   "language": "en",
-   "source": "PMDA/top-all",
+   "type": "other",
+   "areas": [],
+   "language": "es",
+   "source": "COFEPRIS/documentos",
    "changes": [
     {
-     "field": "title",
-     "from": "List of Approved Regenerative Medical Products: April 2015 to May 2026",
-     "to": "[SHINSA]List of Approved Regenerative Medical Products: April 2015 to July 2026"
-    },
-    {
      "field": "published",
-     "from": "2026-08-05",
+     "from": "2026-10-13",
      "to": "2026-10-26"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/0002.html",
-   "authority": "PMDA",
-   "title": "List of Approved Regenerative Medical Products: April 2015 to July 2026",
+   "id": "cofepris:gob.mx/cofepris/documentos/alertas-sanitarias-de-medicamentos",
+   "authority": "COFEPRIS",
+   "title": "Continuar leyendo",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/0002.html",
+   "url": "https://gob.mx/cofepris/documentos/alertas-sanitarias-de-medicamentos",
    "published": "2026-10-26",
+   "type": "other",
+   "areas": [],
+   "language": "es",
+   "source": "COFEPRIS/documentos",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-13",
+     "to": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "id": "cofepris:gob.mx/cofepris/documentos/listado-de-resoluciones-disponibles",
+   "authority": "COFEPRIS",
+   "title": "Continuar leyendo",
+   "title_en": "",
+   "url": "https://gob.mx/cofepris/documentos/listado-de-resoluciones-disponibles",
+   "published": "2026-10-26",
+   "type": "other",
+   "areas": [],
+   "language": "es",
+   "source": "COFEPRIS/documentos",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-22",
+     "to": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/documents/regulatory-procedural-guideline/list-centrally-authorised-products-safety-related-changes-product-information_en.xlsx",
+   "authority": "EMA",
+   "title": "List of centrally authorised products with safety-related changes to the product information",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/documents/regulatory-procedural-guideline/list-centrally-authorised-products-safety-related-changes-product-information_en.xlsx",
+   "published": "2026-10-30",
+   "type": "guideline",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/regguide",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-02",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/spikevax",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Spikevax (previously COVID-19 Vaccine Moderna), COVID-19 mRNA vaccine, Date of authorisation: 06/01/2021, Revision: 65, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/spikevax",
+   "published": "2026-10-30",
    "type": "approval",
    "areas": [
-    "cgt"
+    "vaccine"
    ],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): Spikevax (previously COVID-19 Vaccine Moderna), COVID-19 mRNA vaccine, Date of authorisation: 06/01/2021, Revision: 63, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): Spikevax (previously COVID-19 Vaccine Moderna), COVID-19 mRNA vaccine, Date of authorisation: 06/01/2021, Revision: 65, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-14",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/mresvia",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): mResvia, respiratory syncytial virus mRNA vaccine, Date of authorisation: 22/08/2024, Revision: 12, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/mresvia",
+   "published": "2026-10-29",
+   "type": "approval",
+   "areas": [
+    "vaccine"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): mResvia, respiratory syncytial virus mRNA vaccine, Date of authorisation: 22/08/2024, Revision: 11, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): mResvia, respiratory syncytial virus mRNA vaccine, Date of authorisation: 22/08/2024, Revision: 12, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-14",
+     "to": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/casgevy",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Casgevy, exagamglogene autotemcel, Date of authorisation: 09/02/2024, Revision: 8, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/casgevy",
+   "published": "2026-10-29",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): Casgevy, exagamglogene autotemcel, Date of authorisation: 09/02/2024, Revision: 7, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): Casgevy, exagamglogene autotemcel, Date of authorisation: 09/02/2024, Revision: 8, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-12",
+     "to": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/sogroya",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Sogroya, somapacitan, Date of authorisation: 31/03/2021, Revision: 6, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/sogroya",
+   "published": "2026-10-29",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): Sogroya, somapacitan, Date of authorisation: 31/03/2021, Revision: 5, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): Sogroya, somapacitan, Date of authorisation: 31/03/2021, Revision: 6, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-07",
+     "to": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/tafamidis-accord",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Tafamidis Accord, tafamidis, Date of authorisation: 18/09/2026, Revision: 1, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/tafamidis-accord",
+   "published": "2026-10-29",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): Tafamidis Accord, tafamidis, Date of authorisation: 18/09/2026, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): Tafamidis Accord, tafamidis, Date of authorisation: 18/09/2026, Revision: 1, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-08",
+     "to": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/variation/ibrance",
+   "authority": "EMA",
+   "title": "Withdrawn application: Ibrance, 15/10/2026",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/variation/ibrance",
+   "published": "2026-10-28",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-16",
+     "to": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000291645",
+   "authority": "EMA",
+   "title": "EMA/PE/0000291645",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000291645",
+   "published": "2026-10-26",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-02",
+     "to": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/industry/generic-drug-user-fee-amendments/gdufa-paid-facilities-list",
+   "authority": "FDA",
+   "title": "GDUFA Paid Facilities List",
+   "title_en": "",
+   "url": "https://fda.gov/industry/generic-drug-user-fee-amendments/gdufa-paid-facilities-list",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-23",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+   "authority": "FDA",
+   "title": "Drugs@FDA Data Files",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-23",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
+   "authority": "FDA",
+   "title": "What's New Related to Drugs",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-23",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/advisory-committees/advisory-committee-calendar/october-30-2026-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-announcement-10302026",
+   "authority": "FDA",
+   "title": "October 30, 2026: Dermatologic and Ophthalmic Drugs Advisory Committee Meeting Announcement - 10/30/2026",
+   "title_en": "",
+   "url": "https://fda.gov/advisory-committees/advisory-committee-calendar/october-30-2026-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-announcement-10302026",
+   "published": "2026-10-30",
+   "type": "circular",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-23",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/news-events-biologics/whats-new-biologics",
+   "authority": "FDA",
+   "title": "What’s New for Biologics",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/news-events-biologics/whats-new-biologics",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "FDA/biologics",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-21",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/industry/fda-esubmitter/esubmitter-application-history",
+   "authority": "FDA",
+   "title": "eSubmitter Application History",
+   "title_en": "",
+   "url": "https://fda.gov/industry/fda-esubmitter/esubmitter-application-history",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-22",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/patients/fda-patient-listening-sessions/patient-listening-session-summaries",
+   "authority": "FDA",
+   "title": "Patient Listening Session Summaries",
+   "title_en": "",
+   "url": "https://fda.gov/patients/fda-patient-listening-sessions/patient-listening-session-summaries",
+   "published": "2026-10-28",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-22",
+     "to": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/drugs/news-events-human-drugs/public-meeting-reauthorization-biosimilar-user-fee-act-bsufa-10262026",
+   "authority": "FDA",
+   "title": "Public Meeting on the Reauthorization of the Biosimilar User Fee Act (BsUFA) - 10/26/2026",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/news-events-human-drugs/public-meeting-reauthorization-biosimilar-user-fee-act-bsufa-10262026",
+   "published": "2026-10-28",
+   "type": "law",
+   "areas": [
+    "biosimilar"
+   ],
+   "language": "en",
+   "source": "FDA/biologics",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-22",
+     "to": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "mhra:gov.uk/guidance/access-new-active-substance-nas-work-sharing-initiative",
+   "authority": "MHRA",
+   "title": "Access, new active substance and biosimilar work sharing initiatives",
+   "title_en": "",
+   "url": "https://gov.uk/guidance/access-new-active-substance-nas-work-sharing-initiative",
+   "published": "2026-10-27",
+   "type": "law",
+   "areas": [
+    "biosimilar"
+   ],
+   "language": "en",
+   "source": "MHRA/guidance",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-14",
+     "to": "2026-10-27"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/rs-std-jp/standards-development/guidance-guideline/0003.html",
+   "authority": "PMDA",
+   "title": "基準 New 「薬事活動におけるAI利活用に関する基本的考え方（Early Consideration）」（日本語・英訳版）を掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/rs-std-jp/standards-development/guidance-guideline/0003.html",
+   "published": "2026-11-02",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "基準 「抗悪性腫瘍剤と並行して開発するコンパニオン診断薬等の開発に関する留意事項（Early Consideration）」（日本語・英訳版）と「初回治験届時に留意すべきヒト細胞由来の細胞外小胞（Extracellular Vesicles；EV）製剤の品質関連事項について（Early Consideration）」（英訳版）を掲載しました",
+     "to": "基準 New 「薬事活動におけるAI利活用に関する基本的考え方（Early Consideration）」（日本語・英訳版）を掲載しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-19",
+     "to": "2026-11-02"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/int-activities/training-center/0005.html",
+   "authority": "PMDA",
+   "title": "国際 New PMDA-ATC ラーニングビデオを更新しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/int-activities/training-center/0005.html",
+   "published": "2026-11-02",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "国際 PMDA-ATC ラーニングビデオとE-ラーニングコンテンツを更新しました",
+     "to": "国際 New PMDA-ATC ラーニングビデオを更新しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-01",
+     "to": "2026-11-02"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/f2f-pre/consultations/0005.html",
+   "authority": "PMDA",
+   "title": "審査 New 12月簡易相談予定表を掲載しました【医薬品等】",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/f2f-pre/consultations/0005.html",
+   "published": "2026-11-02",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "審査 11月簡易相談予定表を掲載しました【医薬品等】",
+     "to": "審査 New 12月簡易相談予定表を掲載しました【医薬品等】"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-01",
+     "to": "2026-11-02"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/regulatory-info/0005.html",
+   "authority": "PMDA",
+   "title": "Basic Principles for the Use of AI in Regulatory Activities（Early Consideration） posted.",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/regulatory-info/0005.html",
+   "published": "2026-11-02",
+   "type": "law",
+   "areas": [],
    "language": "en",
    "source": "PMDA/top-all",
    "changes": [
     {
      "field": "title",
-     "from": "[SHINSA]List of Approved Regenerative Medical Products: April 2015 to July 2026",
-     "to": "List of Approved Regenerative Medical Products: April 2015 to July 2026"
+     "from": "Points to Consider for the Development of Companion Diagnostics Developed in Parallel with Anti-cancer Drugs(Early Consideration) and Quality-Related Considerations for Human Cell-Derived Extracellular Vesicle (EV) Products at the Time of Initial Clinical Trial Notification (Early Consideration) posted.",
+     "to": "Basic Principles for the Use of AI in Regulatory Activities（Early Consideration） posted."
+    },
+    {
+     "field": "published",
+     "from": "2026-10-19",
+     "to": "2026-11-02"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/safety/info-services/drugs/calling-attention/properly-use-alert/0002.html",
+   "authority": "PMDA",
+   "title": "安全 New 「PMDAからの医薬品適正使用のお願い」に「GLP-1受容体作動薬及びGIP/GLP-1受容体作動薬の適正使用のお願い」を掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/safety/info-services/drugs/calling-attention/properly-use-alert/0002.html",
+   "published": "2026-10-30",
+   "type": "safety",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "安全 「PMDAからの医薬品適正使用のお願い」に「ピボキシル基を有する抗菌薬投与による小児等の重篤な低カルニチン血症、重篤な低血糖について（続報）」を掲載しました",
+     "to": "安全 New 「PMDAからの医薬品適正使用のお願い」に「GLP-1受容体作動薬及びGIP/GLP-1受容体作動薬の適正使用のお願い」を掲載しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-06-30",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/safety/info-services/medical-safety-info/0178.html",
+   "authority": "PMDA",
+   "title": "安全 New 「製薬企業からの医薬品の安全使用に関するお知らせ」に「ファンギゾンとアムビゾームの取り違え注意のお願い」を掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/safety/info-services/medical-safety-info/0178.html",
+   "published": "2026-10-30",
+   "type": "safety",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "安全 「製薬企業からの医薬品の安全使用に関するお知らせ」に「グラセプターカプセルとタクロリムス普通製剤（後発医薬品含む）との取り違え注意のお願い」及び「ビーフリード輸液 調製時及び投与開始前の隔壁開通確認のお願い」を掲載しました",
+     "to": "安全 New 「製薬企業からの医薬品の安全使用に関するお知らせ」に「ファンギゾンとアムビゾームの取り違え注意のお願い」を掲載しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-06-02",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/drug-reviews/pharmaceutical-excipients/0001.html",
+   "authority": "PMDA",
+   "title": "審査 New 特定の製剤や特定の条件下においてのみ使用が認められた添加剤リストを更新しました。",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/drug-reviews/pharmaceutical-excipients/0001.html",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "審査 特定の製剤や特定の条件下においてのみ使用が認められた添加剤リストを更新しました。",
+     "to": "審査 New 特定の製剤や特定の条件下においてのみ使用が認められた添加剤リストを更新しました。"
+    },
+    {
+     "field": "published",
+     "from": "2026-04-24",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/trials/0016.html",
+   "authority": "PMDA",
+   "title": "審査 New 人道的見地から実施される治験の情報（医薬品、機器・再生）を更新しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/trials/0016.html",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [
+    "clinical"
+   ],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "審査 人道的見地から実施される治験の情報（医薬品、機器・再生）を更新しました",
+     "to": "審査 New 人道的見地から実施される治験の情報（医薬品、機器・再生）を更新しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-09-30",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/drug-reviews/review-information/p-drugs/0017.html",
+   "authority": "PMDA",
+   "title": "審査 New 保険適用される公知申請品目に関する情報を更新しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/drug-reviews/review-information/p-drugs/0017.html",
+   "published": "2026-10-30",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "審査 保険適用される公知申請品目に関する情報を更新しました",
+     "to": "審査 New 保険適用される公知申請品目に関する情報を更新しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-08-05",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/relief-services/adr-sufferers/0043.html",
+   "authority": "PMDA",
+   "title": "救済 New 副作用救済給付の決定に関する情報（2026年度8月分）を掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/relief-services/adr-sufferers/0043.html",
+   "published": "2026-10-30",
+   "type": "safety",
+   "areas": [
+    "pv"
+   ],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "救済 副用救済給付の決定に関する情報（2026年度7月分）を掲載しました",
+     "to": "救済 New 副作用救済給付の決定に関する情報（2026年度8月分）を掲載しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-09-30",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/properly-use-alert/0001.html",
+   "authority": "PMDA",
+   "title": "PMDA Alert for Proper Use of Drugs: Request for Proper Use of GLP-1 Receptor Agonists and GIP/GLP-1 Receptor Agonists posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/safety/info-services/drugs/properly-use-alert/0001.html",
+   "published": "2026-10-30",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "PMDA Alert for Proper Use of Drugs: Serious hypocarnitinemia and hypoglycaemia in children treated with antibacterials with a pivoxil group (follow-up report) posted",
+     "to": "PMDA Alert for Proper Use of Drugs: Request for Proper Use of GLP-1 Receptor Agonists and GIP/GLP-1 Receptor Agonists posted"
+    },
+    {
+     "field": "published",
+     "from": "2026-06-30",
+     "to": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/safety/info-services/drugs/calling-attention/recall-info/0002.html",
+   "authority": "PMDA",
+   "title": "安全 New クラスI回収 該当回収品目 新鮮凍結血漿-LR「日赤」480",
+   "title_en": "",
+   "url": "https://pmda.go.jp/safety/info-services/drugs/calling-attention/recall-info/0002.html",
+   "published": "2026-10-29",
+   "type": "recall",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "安全 New クラスI回収 該当回収品目 照射赤血球液-LR「日赤」",
+     "to": "安全 New クラスI回収 該当回収品目 新鮮凍結血漿-LR「日赤」480"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-21",
+     "to": "2026-10-29"
     }
    ]
   },
   {
    "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html",
    "authority": "PMDA",
-   "title": "English Translation of Review Report: Capvaxive and Ekterly",
+   "title": "English Translation of Review Report: Zurzuvae",
    "title_en": "",
    "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html",
-   "published": "2026-10-22",
+   "published": "2026-10-29",
    "type": "other",
    "areas": [],
    "language": "en",
@@ -176,477 +3186,242 @@
     {
      "field": "title",
      "from": "English Translation of Review Report: Capvaxive and Ekterly",
-     "to": "[SHINSA]English Translation of Review Report: Capvaxive and Ekterly"
+     "to": "English Translation of Review Report: Zurzuvae"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-22",
+     "to": "2026-10-29"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html",
+   "id": "pmda:pmda.go.jp/safety/info-services/drugs/0371.html",
    "authority": "PMDA",
-   "title": "English Translation of Review Report: Capvaxive and Ekterly",
+   "title": "安全 New 「リザトリプタンOD錠 10mg「TCK」 ニトロソアミン化合物検出のお知らせ」を掲載しました",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html",
-   "published": "2026-10-22",
-   "type": "other",
+   "url": "https://pmda.go.jp/safety/info-services/drugs/0371.html",
+   "published": "2026-10-28",
+   "type": "safety",
    "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
+   "language": "ja",
+   "source": "PMDA/shinchaku",
    "changes": [
     {
      "field": "title",
-     "from": "[SHINSA]English Translation of Review Report: Capvaxive and Ekterly",
-     "to": "English Translation of Review Report: Capvaxive and Ekterly"
+     "from": "安全 「ヘパリン類似物質ローション0.3％「NIT」ニトロソアミン化合物検出及び自主回収（クラスⅡ）に関するお知らせ」を掲載しました",
+     "to": "安全 New 「リザトリプタンOD錠 10mg「TCK」 ニトロソアミン化合物検出のお知らせ」を掲載しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-13",
+     "to": "2026-10-28"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/rs-std-jp/standards-development/jp/0262.html",
+   "id": "pmda:pmda.go.jp/safety/info-services/medical-safety-info/0005.html",
    "authority": "PMDA",
-   "title": "薬局方 第二十改正日本薬局方作成基本方針を掲載しました",
+   "title": "安全 New 「医療事故の再発防止に向けた警鐘レポートNo.7の公表について」を掲載しました",
    "title_en": "",
-   "url": "https://pmda.go.jp/rs-std-jp/standards-development/jp/0262.html",
-   "published": "2026-10-19",
+   "url": "https://pmda.go.jp/safety/info-services/medical-safety-info/0005.html",
+   "published": "2026-10-28",
+   "type": "safety",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "安全 「医療事故情報収集等事業第86回報告書の公表について」を掲載しました",
+     "to": "安全 New 「医療事故の再発防止に向けた警鐘レポートNo.7の公表について」を掲載しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-02",
+     "to": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/f2f-pre/consultations/0015.html",
+   "authority": "PMDA",
+   "title": "審査 New 12月の簡易相談実施予定を掲載しました（医療機器等）",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/f2f-pre/consultations/0015.html",
+   "published": "2026-10-28",
    "type": "other",
    "areas": [
-    "quality"
+    "device"
    ],
    "language": "ja",
    "source": "PMDA/shinchaku",
    "changes": [
     {
      "field": "title",
-     "from": "薬局方 New 第二十改正日本薬局方作成基本方針を掲載しました",
-     "to": "薬局方 第二十改正日本薬局方作成基本方針を掲載しました"
+     "from": "審査 11月の簡易相談実施予定を掲載しました（医療機器等）",
+     "to": "審査 New 12月の簡易相談実施予定を掲載しました（医療機器等）"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-01",
+     "to": "2026-10-28"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/rs-std-jp/standards-development/guidance-guideline/0003.html",
+   "id": "pmda:pmda.go.jp/about-pmda/symposia/0030.html",
    "authority": "PMDA",
-   "title": "基準 「抗悪性腫瘍剤と並行して開発するコンパニオン診断薬等の開発に関する留意事項（Early Consideration）」（日本語・英訳版）と「初回治験届時に留意すべきヒト細胞由来の細胞外小胞（Extracellular Vesicles；EV）製剤の品質関連事項について（Early Consideration）」（英訳版）を掲載しました",
+   "title": "その他 イベント New 2026年度のPMDAオープン・カンパニー情報（技術系）を更新しました",
    "title_en": "",
-   "url": "https://pmda.go.jp/rs-std-jp/standards-development/guidance-guideline/0003.html",
-   "published": "2026-10-19",
+   "url": "https://pmda.go.jp/about-pmda/symposia/0030.html",
+   "published": "2026-10-28",
    "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "その他 イベント 2026年度のPMDAオープン・カンパニー情報（技術系）を更新しました",
+     "to": "その他 イベント New 2026年度のPMDAオープン・カンパニー情報（技術系）を更新しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-09",
+     "to": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/rs-std-jp/research/0009.html",
+   "authority": "PMDA",
+   "title": "その他 New 令和8年度第2回倫理審査委員会の議事要旨を掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/rs-std-jp/research/0009.html",
+   "published": "2026-10-28",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "その他 倫理審査委員会の委員名簿を更新しました。",
+     "to": "その他 New 令和8年度第2回倫理審査委員会の議事要旨を掲載しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-08-27",
+     "to": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/safety/info-services/drugs/calling-attention/safety-info/0166.html",
+   "authority": "PMDA",
+   "title": "安全 New 医薬品・医療機器等安全性情報 No.433（厚生労働省発行）を掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/safety/info-services/drugs/calling-attention/safety-info/0166.html",
+   "published": "2026-10-27",
+   "type": "safety",
    "areas": [
-    "quality",
-    "clinical"
+    "device"
    ],
    "language": "ja",
    "source": "PMDA/shinchaku",
    "changes": [
     {
      "field": "title",
-     "from": "基準 New 「抗悪性腫瘍剤と並行して開発するコンパニオン診断薬等の開発に関する留意事項（Early Consideration）」（日本語・英訳版）と「初回治験届時に留意すべきヒト細胞由来の細胞外小胞（Extracellular Vesicles；EV）製剤の品質関連事項について（Early Consideration）」（英訳版）を掲載しました",
-     "to": "基準 「抗悪性腫瘍剤と並行して開発するコンパニオン診断薬等の開発に関する留意事項（Early Consideration）」（日本語・英訳版）と「初回治験届時に留意すべきヒト細胞由来の細胞外小胞（Extracellular Vesicles；EV）製剤の品質関連事項について（Early Consideration）」（英訳版）を掲載しました"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/review-services/regulatory-info/0005.html",
-   "authority": "PMDA",
-   "title": "Points to Consider for the Development of Companion Diagnostics Developed in Parallel with Anti-cancer Drugs(Early Consideration) and Quality-Related Considerations for Human Cell-Derived Extracellular Vesicle (EV) Products at the Time of Initial Clinical Trial Notification (Early Consideration) posted.",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/regulatory-info/0005.html",
-   "published": "2026-10-19",
-   "type": "guideline",
-   "areas": [
-    "quality",
-    "clinical"
-   ],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
+     "from": "安全 医薬品・医療機器等安全性情報 No.432（厚生労働省発行）を掲載しました",
+     "to": "安全 New 医薬品・医療機器等安全性情報 No.433（厚生労働省発行）を掲載しました"
+    },
     {
-     "field": "title",
-     "from": "Points to Consider for the Development of Companion Diagnostics Developed in Parallel with Anti-cancer Drugs(Early Consideration) and Quality-Related Considerations for Human Cell-Derived Extracellular Vesicle (EV) Products at the Time of Initial Clinical Trial Notification (Early Consideration) posted.",
-     "to": "[SHINSA]Points to Consider for the Development of Companion Diagnostics Developed in Parallel with Anti-cancer Drugs(Early Consideration) and Quality-Related Considerations for Human Cell-Derived Extracellular Vesicle (EV) Products at the Time of Initial Clinical Trial Notification (Early Consideration) posted."
+     "field": "published",
+     "from": "2026-09-29",
+     "to": "2026-10-27"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/review-services/regulatory-info/0005.html",
+   "id": "pmda:pmda.go.jp/safety/info-services/drugs/calling-attention/revision-of-precautions/0375.html",
    "authority": "PMDA",
-   "title": "Points to Consider for the Development of Companion Diagnostics Developed in Parallel with Anti-cancer Drugs(Early Consideration) and Quality-Related Considerations for Human Cell-Derived Extracellular Vesicle (EV) Products at the Time of Initial Clinical Trial Notification (Early Consideration) posted.",
+   "title": "安全 New 使用上の注意の改訂指示通知（医薬品）2026年10月27日付（厚生労働省より発出）を掲載しました",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/regulatory-info/0005.html",
-   "published": "2026-10-19",
-   "type": "guideline",
-   "areas": [
-    "quality",
-    "clinical"
-   ],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[SHINSA]Points to Consider for the Development of Companion Diagnostics Developed in Parallel with Anti-cancer Drugs(Early Consideration) and Quality-Related Considerations for Human Cell-Derived Extracellular Vesicle (EV) Products at the Time of Initial Clinical Trial Notification (Early Consideration) posted.",
-     "to": "Points to Consider for the Development of Companion Diagnostics Developed in Parallel with Anti-cancer Drugs(Early Consideration) and Quality-Related Considerations for Human Cell-Derived Extracellular Vesicle (EV) Products at the Time of Initial Clinical Trial Notification (Early Consideration) posted."
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/0009.html",
-   "authority": "PMDA",
-   "title": "SaMD page updated (English translation of “Review Points for Medical Devices Utilizing Generative AI (Draft)” published, consultation schedule updated)",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/0009.html",
-   "published": "2026-10-14",
-   "type": "draft",
-   "areas": [
-    "device"
-   ],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "SaMD page updated (English translation of “Review Points for Medical Devices Utilizing Generative AI (Draft)” published, consultation schedule updated)",
-     "to": "[SHINSA]SaMD page updated (English translation of “Review Points for Medical Devices Utilizing Generative AI (Draft)” published, consultation schedule updated)"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/0005.html",
-   "authority": "PMDA",
-   "title": "Information on biosimilars is updated",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/0005.html",
-   "published": "2026-10-14",
-   "type": "other",
-   "areas": [
-    "biosimilar"
-   ],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "Information on biosimilars is updated",
-     "to": "[SHINSA]Information on biosimilars is updated"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/0009.html",
-   "authority": "PMDA",
-   "title": "SaMD page updated (English translation of “Review Points for Medical Devices Utilizing Generative AI (Draft)” published, consultation schedule updated)",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/0009.html",
-   "published": "2026-10-14",
-   "type": "draft",
-   "areas": [
-    "device"
-   ],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[SHINSA]SaMD page updated (English translation of “Review Points for Medical Devices Utilizing Generative AI (Draft)” published, consultation schedule updated)",
-     "to": "SaMD page updated (English translation of “Review Points for Medical Devices Utilizing Generative AI (Draft)” published, consultation schedule updated)"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/0005.html",
-   "authority": "PMDA",
-   "title": "Information on biosimilars is updated",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/0005.html",
-   "published": "2026-10-14",
-   "type": "other",
-   "areas": [
-    "biosimilar"
-   ],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[SHINSA]Information on biosimilars is updated",
-     "to": "Information on biosimilars is updated"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/revision-of-precautions/0014.html",
-   "authority": "PMDA",
-   "title": "Revisions of PRECAUTIONS: Anamorelin hydrochloride,etc.posted",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/safety/info-services/drugs/revision-of-precautions/0014.html",
-   "published": "2026-10-08",
+   "url": "https://pmda.go.jp/safety/info-services/drugs/calling-attention/revision-of-precautions/0375.html",
+   "published": "2026-10-27",
    "type": "safety",
    "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
+   "language": "ja",
+   "source": "PMDA/shinchaku",
    "changes": [
     {
      "field": "title",
-     "from": "Revisions of PRECAUTIONS: Anamorelin hydrochloride,etc.posted",
-     "to": "[ANZEN]Revisions of PRECAUTIONS: Anamorelin hydrochloride,etc.posted"
+     "from": "安全 使用上の注意の改訂指示通知（医薬品）2026年10月8日付（厚生労働省より発出）を掲載しました",
+     "to": "安全 New 使用上の注意の改訂指示通知（医薬品）2026年10月27日付（厚生労働省より発出）を掲載しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-08",
+     "to": "2026-10-27"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/revision-of-precautions/0014.html",
+   "id": "pmda:pmda.go.jp/safety/info-services/drugs/calling-attention/revision-based-on-the-consultation/0001.html",
    "authority": "PMDA",
-   "title": "Revisions of PRECAUTIONS: Anamorelin hydrochloride,etc.posted",
+   "title": "安全 New 添付文書改訂相談に基づく添付文書改訂（医薬品）を掲載しました",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/safety/info-services/drugs/revision-of-precautions/0014.html",
-   "published": "2026-10-08",
+   "url": "https://pmda.go.jp/safety/info-services/drugs/calling-attention/revision-based-on-the-consultation/0001.html",
+   "published": "2026-10-27",
    "type": "safety",
    "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
+   "language": "ja",
+   "source": "PMDA/shinchaku",
    "changes": [
     {
      "field": "title",
-     "from": "[ANZEN]Revisions of PRECAUTIONS: Anamorelin hydrochloride,etc.posted",
-     "to": "Revisions of PRECAUTIONS: Anamorelin hydrochloride,etc.posted"
+     "from": "安全 添付文書改訂相談に基づく添付文書改訂（医薬品）を掲載しました",
+     "to": "安全 New 添付文書改訂相談に基づく添付文書改訂（医薬品）を掲載しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-09-17",
+     "to": "2026-10-27"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/review-services/gmp-qms-gctp/0007.html",
+   "id": "pmda:pmda.go.jp/safety/info-services/drugs/calling-attention/risk-communications/0001.html",
    "authority": "PMDA",
-   "title": "The English versions of GMPGCTP Annual Report FY 2025 have been published.",
+   "title": "安全 New 「医薬品に関する評価中のリスク等の情報について」を掲載しました",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/gmp-qms-gctp/0007.html",
-   "published": "2026-10-02",
-   "type": "other",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "The English versions of GMPGCTP Annual Report FY 2025 have been published.",
-     "to": "[SHINSA]The English versions of GMPGCTP Annual Report FY 2025 have been published."
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/review-services/gmp-qms-gctp/0007.html",
-   "authority": "PMDA",
-   "title": "The English versions of GMPGCTP Annual Report FY 2025 have been published.",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/gmp-qms-gctp/0007.html",
-   "published": "2026-10-02",
-   "type": "other",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[SHINSA]The English versions of GMPGCTP Annual Report FY 2025 have been published.",
-     "to": "The English versions of GMPGCTP Annual Report FY 2025 have been published."
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/int-activities/training-center/0003.html",
-   "authority": "PMDA",
-   "title": "PMDA-ATC Training Materials have been updated",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/int-activities/training-center/0003.html",
-   "published": "2026-10-01",
-   "type": "other",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "PMDA-ATC Training Materials have been updated",
-     "to": "[KOKUSAI]PMDA-ATC Training Materials have been updated"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/int-activities/training-center/0003.html",
-   "authority": "PMDA",
-   "title": "PMDA-ATC Training Materials have been updated",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/int-activities/training-center/0003.html",
-   "published": "2026-10-01",
-   "type": "other",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[KOKUSAI]PMDA-ATC Training Materials have been updated",
-     "to": "PMDA-ATC Training Materials have been updated"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/medical-safety-information/0024.html",
-   "authority": "PMDA",
-   "title": "MHLW Pharmaceuticals and Medical Devices Safety Information No.431 posted",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/safety/info-services/drugs/medical-safety-information/0024.html",
-   "published": "2026-09-30",
+   "url": "https://pmda.go.jp/safety/info-services/drugs/calling-attention/risk-communications/0001.html",
+   "published": "2026-10-27",
    "type": "safety",
-   "areas": [
-    "device"
-   ],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "MHLW Pharmaceuticals and Medical Devices Safety Information No.431 posted",
-     "to": "[ANZEN]MHLW Pharmaceuticals and Medical Devices Safety Information No.431 posted"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/int-activities/industry/0001.html",
-   "authority": "PMDA",
-   "title": "[SHINSA][KOKUSAI]“For Industry - for development in Japan “ Updated.",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/int-activities/industry/0001.html",
-   "published": "2026-09-30",
-   "type": "other",
    "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
+   "language": "ja",
+   "source": "PMDA/shinchaku",
    "changes": [
     {
      "field": "title",
-     "from": "[SHINSA][KOKUSAI]“For Industry - for development in Japan “ Updated.",
-     "to": "[KOKUSAI]“For Industry - for development in Japan “ Updated."
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/review-services/consultations/0002.html",
-   "authority": "PMDA",
-   "title": "\"Consultations\" Updated",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/consultations/0002.html",
-   "published": "2026-09-30",
-   "type": "draft",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
+     "from": "安全 「医薬品に関する評価中のリスク等の情報について」を掲載しました",
+     "to": "安全 New 「医薬品に関する評価中のリスク等の情報について」を掲載しました"
+    },
     {
-     "field": "title",
-     "from": "\"Consultations\" Updated",
-     "to": "[SHINSA]\"Consultations\" Updated"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/int-activities/outline/0006.html",
-   "authority": "PMDA",
-   "title": "PMDA Updates (2026 No.3) posted",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/int-activities/outline/0006.html",
-   "published": "2026-09-30",
-   "type": "other",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "PMDA Updates (2026 No.3) posted",
-     "to": "[KOKUSAI]PMDA Updates (2026 No.3) posted"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/int-activities/industry/0001.html",
-   "authority": "PMDA",
-   "title": "[SHINSA][KOKUSAI]“For Industry - for development in Japan “ Updated.",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/int-activities/industry/0001.html",
-   "published": "2026-09-30",
-   "type": "other",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[KOKUSAI]“For Industry - for development in Japan “ Updated.",
-     "to": "[SHINSA][KOKUSAI]“For Industry - for development in Japan “ Updated."
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/review-services/consultations/0002.html",
-   "authority": "PMDA",
-   "title": "\"Consultations\" Updated",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/consultations/0002.html",
-   "published": "2026-09-30",
-   "type": "draft",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[SHINSA]\"Consultations\" Updated",
-     "to": "\"Consultations\" Updated"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/medical-safety-information/0024.html",
-   "authority": "PMDA",
-   "title": "MHLW Pharmaceuticals and Medical Devices Safety Information No.431 posted",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/safety/info-services/drugs/medical-safety-information/0024.html",
-   "published": "2026-09-30",
-   "type": "safety",
-   "areas": [
-    "device"
-   ],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[ANZEN]MHLW Pharmaceuticals and Medical Devices Safety Information No.431 posted",
-     "to": "MHLW Pharmaceuticals and Medical Devices Safety Information No.431 posted"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/int-activities/outline/0006.html",
-   "authority": "PMDA",
-   "title": "PMDA Updates (2026 No.3) posted",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/int-activities/outline/0006.html",
-   "published": "2026-09-30",
-   "type": "other",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[KOKUSAI]PMDA Updates (2026 No.3) posted",
-     "to": "PMDA Updates (2026 No.3) posted"
+     "field": "published",
+     "from": "2026-09-29",
+     "to": "2026-10-27"
     }
    ]
   },
   {
    "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/risk-communications/0001.html",
    "authority": "PMDA",
-   "title": "PMDA Risk Communications: Ibuprofen L-Lysine,etc. posted",
+   "title": "PMDA Risk Communications: Tapinarof,etc. posted",
    "title_en": "",
    "url": "https://pmda.go.jp/english/safety/info-services/drugs/risk-communications/0001.html",
-   "published": "2026-09-29",
+   "published": "2026-10-27",
    "type": "safety",
    "areas": [],
    "language": "en",
@@ -655,17 +3430,22 @@
     {
      "field": "title",
      "from": "PMDA Risk Communications: Ibuprofen L-Lysine,etc. posted",
-     "to": "[ANZEN]PMDA Risk Communications: Ibuprofen L-Lysine,etc. posted"
+     "to": "PMDA Risk Communications: Tapinarof,etc. posted"
+    },
+    {
+     "field": "published",
+     "from": "2026-09-29",
+     "to": "2026-10-27"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/risk-communications/0001.html",
+   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/revision-of-precautions/0014.html",
    "authority": "PMDA",
-   "title": "PMDA Risk Communications: Ibuprofen L-Lysine,etc. posted",
+   "title": "Revisions of PRECAUTIONS: Inclisiran sodium,etc.posted",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/safety/info-services/drugs/risk-communications/0001.html",
-   "published": "2026-09-29",
+   "url": "https://pmda.go.jp/english/safety/info-services/drugs/revision-of-precautions/0014.html",
+   "published": "2026-10-27",
    "type": "safety",
    "areas": [],
    "language": "en",
@@ -673,380 +3453,392 @@
    "changes": [
     {
      "field": "title",
-     "from": "[ANZEN]PMDA Risk Communications: Ibuprofen L-Lysine,etc. posted",
-     "to": "PMDA Risk Communications: Ibuprofen L-Lysine,etc. posted"
+     "from": "Revisions of PRECAUTIONS: Anamorelin hydrochloride,etc.posted",
+     "to": "Revisions of PRECAUTIONS: Inclisiran sodium,etc.posted"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-08",
+     "to": "2026-10-27"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/rs-sb-std/rs/0027.html",
+   "id": "pmda:pmda.go.jp/procurements/public-bidding/announcement-of-the-winning-bid/0001.html",
    "authority": "PMDA",
-   "title": "CDx approved for identifying eligible patients (Updated)",
+   "title": "調達 落札公示",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/rs-sb-std/rs/0027.html",
-   "published": "2026-09-17",
-   "type": "approval",
+   "url": "https://pmda.go.jp/procurements/public-bidding/announcement-of-the-winning-bid/0001.html",
+   "published": "2026-10-26",
+   "type": "circular",
    "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
+   "language": "ja",
+   "source": "PMDA/shinchaku",
    "changes": [
     {
      "field": "title",
-     "from": "CDx approved for identifying eligible patients (Updated)",
-     "to": "[SHINSA]CDx approved for identifying eligible patients (Updated)"
+     "from": "調達 New 落札公示",
+     "to": "調達 落札公示"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/devices/0001.html",
+   "id": "pmda:pmda.go.jp/int-activities/int-harmony/icmra/0033.html",
    "authority": "PMDA",
-   "title": "List of Approved Medical Devices: April 2004 to December 2025",
+   "title": "国際 ヒト用医薬品の動物試験に関するICMRAステートメント（和訳）を掲載しました。",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/devices/0001.html",
-   "published": "2026-09-17",
-   "type": "approval",
+   "url": "https://pmda.go.jp/int-activities/int-harmony/icmra/0033.html",
+   "published": "2026-10-23",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "国際 New ヒト用医薬品の動物試験に関するICMRAステートメント（和訳）を掲載しました。",
+     "to": "国際 ヒト用医薬品の動物試験に関するICMRAステートメント（和訳）を掲載しました。"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/safety/info-services/drugs/adr-info/malfunctions-combination-drugs/0001.html",
+   "authority": "PMDA",
+   "title": "安全 「不具合が疑われる症例報告に関する情報（コンビネーション製品）」に2026年6月分の情報を追加しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/safety/info-services/drugs/adr-info/malfunctions-combination-drugs/0001.html",
+   "published": "2026-10-23",
+   "type": "safety",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "安全 New 「不具合が疑われる症例報告に関する情報（コンビネーション製品）」に2026年6月分の情報を追加しました",
+     "to": "安全 「不具合が疑われる症例報告に関する情報（コンビネーション製品）」に2026年6月分の情報を追加しました"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/safety/info-services/ctp/0006.html",
+   "authority": "PMDA",
+   "title": "安全 「不具合が疑われる症例報告に関する情報（再生医療等製品）」に2026年6月分の情報を追加しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/safety/info-services/ctp/0006.html",
+   "published": "2026-10-23",
+   "type": "safety",
+   "areas": [
+    "cgt"
+   ],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "安全 New 「不具合が疑われる症例報告に関する情報（再生医療等製品）」に2026年6月分の情報を追加しました",
+     "to": "安全 「不具合が疑われる症例報告に関する情報（再生医療等製品）」に2026年6月分の情報を追加しました"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/safety/info-services/devices/0090.html",
+   "authority": "PMDA",
+   "title": "安全 「不具合が疑われる症例報告に関する情報（医療機器）」に2026年6月分の情報を追加しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/safety/info-services/devices/0090.html",
+   "published": "2026-10-23",
+   "type": "safety",
    "areas": [
     "device"
    ],
-   "language": "en",
-   "source": "PMDA/top-all",
+   "language": "ja",
+   "source": "PMDA/shinchaku",
    "changes": [
     {
      "field": "title",
-     "from": "List of Approved Medical Devices: April 2004 to December 2025",
-     "to": "[SHINSA]List of Approved Medical Devices: April 2004 to December 2025"
+     "from": "安全 New 「不具合が疑われる症例報告に関する情報（医療機器）」に2026年6月分の情報を追加しました",
+     "to": "安全 「不具合が疑われる症例報告に関する情報（医療機器）」に2026年6月分の情報を追加しました"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/rs-sb-std/rs/0027.html",
+   "id": "pmda:pmda.go.jp/recruit/0785.html",
    "authority": "PMDA",
-   "title": "CDx approved for identifying eligible patients (Updated)",
+   "title": "採用 事務補助員（規格基準作成業務に係る補助業務等（技術系））の募集について",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/rs-sb-std/rs/0027.html",
-   "published": "2026-09-17",
-   "type": "approval",
+   "url": "https://pmda.go.jp/recruit/0785.html",
+   "published": "2026-10-23",
+   "type": "other",
    "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
+   "language": "ja",
+   "source": "PMDA/shinchaku",
    "changes": [
     {
      "field": "title",
-     "from": "[SHINSA]CDx approved for identifying eligible patients (Updated)",
-     "to": "CDx approved for identifying eligible patients (Updated)"
+     "from": "採用 Update 事務補助員（規格基準作成業務に係る補助業務等（技術系））の募集について",
+     "to": "採用 事務補助員（規格基準作成業務に係る補助業務等（技術系））の募集について"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/devices/0001.html",
+   "id": "pmda:pmda.go.jp/review-services/f2f-pre/consultations/0118.html",
    "authority": "PMDA",
-   "title": "List of Approved Medical Devices: April 2004 to December 2025",
+   "title": "審査 「「小児・希少疾病用医薬品等薬事相談センター事業」に係る相談手数料の助成についてに関する質疑応答集（Q＆A）」を掲載しました",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/devices/0001.html",
-   "published": "2026-09-17",
-   "type": "approval",
+   "url": "https://pmda.go.jp/review-services/f2f-pre/consultations/0118.html",
+   "published": "2026-10-22",
+   "type": "other",
    "areas": [
-    "device"
+    "paediatric",
+    "orphan"
    ],
-   "language": "en",
-   "source": "PMDA/top-all",
+   "language": "ja",
+   "source": "PMDA/shinchaku",
    "changes": [
     {
      "field": "title",
-     "from": "[SHINSA]List of Approved Medical Devices: April 2004 to December 2025",
-     "to": "List of Approved Medical Devices: April 2004 to December 2025"
+     "from": "審査 New 「「小児・希少疾病用医薬品等薬事相談センター事業」に係る相談手数料の助成についてに関する質疑応答集（Q＆A）」を掲載しました",
+     "to": "審査 「「小児・希少疾病用医薬品等薬事相談センター事業」に係る相談手数料の助成についてに関する質疑応答集（Q＆A）」を掲載しました"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/devices/0003.html",
+   "id": "pmda:pmda.go.jp/rs-std-jp/symposia/0035.html",
    "authority": "PMDA",
-   "title": "English Translation of Review Report: remedē System",
+   "title": "RS イベント 第13回PMDAレギュラトリーサイエンス研究会の開催について掲載しました",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/devices/0003.html",
-   "published": "2026-09-10",
+   "url": "https://pmda.go.jp/rs-std-jp/symposia/0035.html",
+   "published": "2026-10-22",
    "type": "other",
    "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
+   "language": "ja",
+   "source": "PMDA/shinchaku",
    "changes": [
     {
      "field": "title",
-     "from": "English Translation of Review Report: remedē System",
-     "to": "[SHINSA]English Translation of Review Report: remedē System"
+     "from": "RS イベント New 第13回PMDAレギュラトリーサイエンス研究会の開催について掲載しました",
+     "to": "RS イベント 第13回PMDAレギュラトリーサイエンス研究会の開催について掲載しました"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/devices/0003.html",
+   "id": "pmda:pmda.go.jp/safety/info-services/drugs/0010.html",
    "authority": "PMDA",
-   "title": "English Translation of Review Report: remedē System",
+   "title": "安全 「アバコパン製剤の使用に当たっての留意事項について」を掲載しました",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/devices/0003.html",
-   "published": "2026-09-10",
-   "type": "other",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[SHINSA]English Translation of Review Report: remedē System",
-     "to": "English Translation of Review Report: remedē System"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/0004.html",
-   "authority": "PMDA",
-   "title": "English Translation of Review Report: Akuugo (Partial Change Approval)",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/0004.html",
-   "published": "2026-09-03",
-   "type": "approval",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "English Translation of Review Report: Akuugo (Partial Change Approval)",
-     "to": "[SHINSA]English Translation of Review Report: Akuugo (Partial Change Approval)"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/0004.html",
-   "authority": "PMDA",
-   "title": "English Translation of Review Report: Akuugo (Partial Change Approval)",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/0004.html",
-   "published": "2026-09-03",
-   "type": "approval",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[SHINSA]English Translation of Review Report: Akuugo (Partial Change Approval)",
-     "to": "English Translation of Review Report: Akuugo (Partial Change Approval)"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/int-activities/asia/0004.html",
-   "authority": "PMDA",
-   "title": "The 8th Asian Network Meeting (ANM) summary has been posted",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/int-activities/asia/0004.html",
-   "published": "2026-07-24",
-   "type": "other",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "The 8th Asian Network Meeting (ANM) summary has been posted",
-     "to": "[KOKUSAI]The 8th Asian Network Meeting (ANM) summary has been posted"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/int-activities/asia/0004.html",
-   "authority": "PMDA",
-   "title": "The 8th Asian Network Meeting (ANM) summary has been posted",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/int-activities/asia/0004.html",
-   "published": "2026-07-24",
-   "type": "other",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[KOKUSAI]The 8th Asian Network Meeting (ANM) summary has been posted",
-     "to": "The 8th Asian Network Meeting (ANM) summary has been posted"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/properly-use-alert/0001.html",
-   "authority": "PMDA",
-   "title": "PMDA Alert for Proper Use of Drugs: Serious hypocarnitinemia and hypoglycaemia in children treated with antibacterials with a pivoxil group (follow-up report) posted",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/safety/info-services/drugs/properly-use-alert/0001.html",
-   "published": "2026-06-30",
+   "url": "https://pmda.go.jp/safety/info-services/drugs/0010.html",
+   "published": "2026-10-21",
    "type": "safety",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "安全 New 「アバコパン製剤の使用に当たっての留意事項について」を掲載しました",
+     "to": "安全 「アバコパン製剤の使用に当たっての留意事項について」を掲載しました"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/drug-reviews/foreign-mfr/0003.html",
+   "authority": "PMDA",
+   "title": "審査 外国製造業者認定・登録番号を掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/drug-reviews/foreign-mfr/0003.html",
+   "published": "2026-10-21",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "審査 New 外国製造業者認定・登録番号を掲載しました",
+     "to": "審査 外国製造業者認定・登録番号を掲載しました"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/rs-std-jp/0002.html",
+   "authority": "PMDA",
+   "title": "その他 「申請電子データを活用した解析」のページを更新しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/rs-std-jp/0002.html",
+   "published": "2026-10-21",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "その他 New 「申請電子データを活用した解析」のページを更新しました",
+     "to": "その他 「申請電子データを活用した解析」のページを更新しました"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/symposia/0208.html",
+   "authority": "PMDA",
+   "title": "審査 イベント 「2026年度マスターファイル講習会」の案内を更新しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/symposia/0208.html",
+   "published": "2026-10-20",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "審査 イベント New 「2026年度マスターファイル講習会」の案内を更新しました",
+     "to": "審査 イベント 「2026年度マスターファイル講習会」の案内を更新しました"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/int-activities/symposia/0173.html",
+   "authority": "PMDA",
+   "title": "国際 イベント ICH E11A「小児用医薬品開発における外挿に関するガイドライン」説明会開催のお知らせ",
+   "title_en": "",
+   "url": "https://pmda.go.jp/int-activities/symposia/0173.html",
+   "published": "2026-10-20",
+   "type": "guideline",
    "areas": [
     "paediatric"
    ],
-   "language": "en",
-   "source": "PMDA/top-all",
+   "language": "ja",
+   "source": "PMDA/shinchaku",
    "changes": [
     {
      "field": "title",
-     "from": "PMDA Alert for Proper Use of Drugs: Serious hypocarnitinemia and hypoglycaemia in children treated with antibacterials with a pivoxil group (follow-up report) posted",
-     "to": "[ANZEN]PMDA Alert for Proper Use of Drugs: Serious hypocarnitinemia and hypoglycaemia in children treated with antibacterials with a pivoxil group (follow-up report) posted"
+     "from": "国際 イベント New ICH E11A「小児用医薬品開発における外挿に関するガイドライン」説明会開催のお知らせ",
+     "to": "国際 イベント ICH E11A「小児用医薬品開発における外挿に関するガイドライン」説明会開催のお知らせ"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/properly-use-alert/0001.html",
+   "id": "pmda:pmda.go.jp/recruit/0429.html",
    "authority": "PMDA",
-   "title": "PMDA Alert for Proper Use of Drugs: Serious hypocarnitinemia and hypoglycaemia in children treated with antibacterials with a pivoxil group (follow-up report) posted",
+   "title": "採用 事務補助員（医薬翻訳事務）の募集について（採用時期を更新しました）",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/safety/info-services/drugs/properly-use-alert/0001.html",
-   "published": "2026-06-30",
-   "type": "safety",
-   "areas": [
-    "paediatric"
-   ],
-   "language": "en",
-   "source": "PMDA/top-all",
+   "url": "https://pmda.go.jp/recruit/0429.html",
+   "published": "2026-10-20",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
    "changes": [
     {
      "field": "title",
-     "from": "[ANZEN]PMDA Alert for Proper Use of Drugs: Serious hypocarnitinemia and hypoglycaemia in children treated with antibacterials with a pivoxil group (follow-up report) posted",
-     "to": "PMDA Alert for Proper Use of Drugs: Serious hypocarnitinemia and hypoglycaemia in children treated with antibacterials with a pivoxil group (follow-up report) posted"
+     "from": "採用 Update 事務補助員（医薬翻訳事務）の募集について（採用時期を更新しました）",
+     "to": "採用 事務補助員（医薬翻訳事務）の募集について（採用時期を更新しました）"
     }
    ]
   },
   {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/drugs/0002.html",
-   "authority": "PMDA",
-   "title": "List of Approved Drugs: April 2004 to February 2026",
+   "id": "swissmedic:swissmedic.ch/swissmedic/de/home/services/submissions/ectd-v4-0-2.html",
+   "authority": "Swissmedic",
+   "title": "Neue Informationen zur Einführung von eCTD v4.0",
    "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/drugs/0002.html",
-   "published": "2026-06-22",
-   "type": "approval",
+   "url": "https://swissmedic.ch/swissmedic/de/home/services/submissions/ectd-v4-0-2.html",
+   "published": "2026-10-26",
+   "type": "other",
+   "areas": [],
+   "language": "de",
+   "source": "Swissmedic/mitteilungen",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-07-14",
+     "to": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/fr/home/services/submissions/ectd-v4-0-2.html",
+   "authority": "Swissmedic",
+   "title": "Nouvelles informations concernant la mise en œuvre de l'eCTD v4.0",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/fr/home/services/submissions/ectd-v4-0-2.html",
+   "published": "2026-10-26",
+   "type": "news",
+   "areas": [],
+   "language": "fr",
+   "source": "Swissmedic/mitteilungen-fr",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-07-14",
+     "to": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/en/home/services/submissions/ectd-v4-0-2.html",
+   "authority": "Swissmedic",
+   "title": "New information on the introduction of eCTD v4.0",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/en/home/services/submissions/ectd-v4-0-2.html",
+   "published": "2026-10-26",
+   "type": "other",
    "areas": [],
    "language": "en",
-   "source": "PMDA/top-all",
+   "source": "Swissmedic/mitteilungen-en",
    "changes": [
     {
-     "field": "title",
-     "from": "List of Approved Drugs: April 2004 to February 2026",
-     "to": "[SHINSA]List of Approved Drugs: April 2004 to February 2026"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/review-services/reviews/approved-information/drugs/0002.html",
-   "authority": "PMDA",
-   "title": "List of Approved Drugs: April 2004 to February 2026",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/reviews/approved-information/drugs/0002.html",
-   "published": "2026-06-22",
-   "type": "approval",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[SHINSA]List of Approved Drugs: April 2004 to February 2026",
-     "to": "List of Approved Drugs: April 2004 to February 2026"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/review-services/regulatory-info/0012.html",
-   "authority": "PMDA",
-   "title": "Seven English translations of notifications and administrative notices related to pediatric drug development, including the partial revision of “Planning of the Pediatric Drug Development Program during Development of Drugs for Adults”",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/regulatory-info/0012.html",
-   "published": "2026-05-13",
-   "type": "circular",
-   "areas": [
-    "paediatric"
-   ],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "Seven English translations of notifications and administrative notices related to pediatric drug development, including the partial revision of “Planning of the Pediatric Drug Development Program during Development of Drugs for Adults”",
-     "to": "[SHINSA]Seven English translations of notifications and administrative notices related to pediatric drug development, including the partial revision of “Planning of the Pediatric Drug Development Program during Development of Drugs for Adults”"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/review-services/regulatory-info/0012.html",
-   "authority": "PMDA",
-   "title": "Seven English translations of notifications and administrative notices related to pediatric drug development, including the partial revision of “Planning of the Pediatric Drug Development Program during Development of Drugs for Adults”",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/review-services/regulatory-info/0012.html",
-   "published": "2026-05-13",
-   "type": "circular",
-   "areas": [
-    "paediatric"
-   ],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[SHINSA]Seven English translations of notifications and administrative notices related to pediatric drug development, including the partial revision of “Planning of the Pediatric Drug Development Program during Development of Drugs for Adults”",
-     "to": "Seven English translations of notifications and administrative notices related to pediatric drug development, including the partial revision of “Planning of the Pediatric Drug Development Program during Development of Drugs for Adults”"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/safety/info-services/safety-information/0001.html",
-   "authority": "PMDA",
-   "title": "PMDA Medical Safety Information: Use of Insulin-Specific Syringe- Incorrect dose may cause serious adverse health effects- posted",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/safety/info-services/safety-information/0001.html",
-   "published": "2026-04-27",
-   "type": "safety",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "PMDA Medical Safety Information: Use of Insulin-Specific Syringe- Incorrect dose may cause serious adverse health effects- posted",
-     "to": "[ANZEN]PMDA Medical Safety Information: Use of Insulin-Specific Syringe- Incorrect dose may cause serious adverse health effects- posted"
-    }
-   ]
-  },
-  {
-   "id": "pmda:pmda.go.jp/english/safety/info-services/safety-information/0001.html",
-   "authority": "PMDA",
-   "title": "PMDA Medical Safety Information: Use of Insulin-Specific Syringe- Incorrect dose may cause serious adverse health effects- posted",
-   "title_en": "",
-   "url": "https://pmda.go.jp/english/safety/info-services/safety-information/0001.html",
-   "published": "2026-04-27",
-   "type": "safety",
-   "areas": [],
-   "language": "en",
-   "source": "PMDA/top-all",
-   "changes": [
-    {
-     "field": "title",
-     "from": "[ANZEN]PMDA Medical Safety Information: Use of Insulin-Specific Syringe- Incorrect dose may cause serious adverse health effects- posted",
-     "to": "PMDA Medical Safety Information: Use of Insulin-Specific Syringe- Incorrect dose may cause serious adverse health effects- posted"
+     "field": "published",
+     "from": "2026-07-14",
+     "to": "2026-10-26"
     }
    ]
   }
  ],
  "removed": [
   {
-   "id": "fda:fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-heart-pump-controller-issue-abiomed",
-   "authority": "FDA",
-   "title": "Early Alert: Heart Pump Controller Issue from Abiomed",
+   "id": "sfda:sfda.gov.sa/en/guide/17833",
+   "authority": "SFDA",
+   "title": "Classifying Legal Status of Veterinary Medicinal Products Guidance",
    "title_en": "",
-   "url": "https://fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-heart-pump-controller-issue-abiomed",
-   "published": "2026-09-23",
-   "type": "safety",
+   "url": "https://sfda.gov.sa/en/guide/17833",
+   "published": "2025-05-04",
+   "type": "guideline",
    "areas": [],
    "language": "en",
-   "source": "FDA/medwatch"
+   "source": "SFDA/guides-en"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/en/guide/clinical-considerations-efficacy-and-safety-assessment",
+   "authority": "SFDA",
+   "title": "Clinical Considerations for Efficacy and Safety Assessment",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/en/guide/clinical-considerations-efficacy-and-safety-assessment",
+   "published": "2023-07-09",
+   "type": "guideline",
+   "areas": [],
+   "language": "en",
+   "source": "SFDA/guides-en"
   }
  ],
- "failed": [],
+ "failed": [
+  {
+   "source": "CDSCO/circulars",
+   "error": "Could not connect (ETIMEDOUT)."
+  },
+  {
+   "source": "CDSCO/gazette",
+   "error": "Could not connect (ETIMEDOUT)."
+  },
+  {
+   "source": "CDSCO/notices",
+   "error": "Could not connect (ETIMEDOUT)."
+  },
+  {
+   "source": "CDSCO/alerts",
+   "error": "Could not connect (ETIMEDOUT)."
+  }
+ ],
  "suspect": []
 }
