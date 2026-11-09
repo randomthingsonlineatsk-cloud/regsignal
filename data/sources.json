@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T10:50:26.378Z",
+ "updated": "2026-11-09T11:14:39.530Z",
  "authorities": [
   {
    "code": "FDA",
@@ -158,20 +158,21 @@
      20,
      20,
      20,
+     20,
      20
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml",
     "items": 20,
-    "oldest_listed": "2026-10-29",
+    "oldest_listed": "2026-11-06",
     "healthy": true
    },
    "this_run": {
-    "new": 16,
-    "revised": 5
+    "new": 19,
+    "revised": 3
    }
   },
   "FDA/biologics": {
@@ -187,19 +188,20 @@
      20,
      20,
      20,
+     20,
      20
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/biologics/rss.xml",
     "items": 20,
-    "oldest_listed": "2026-10-28",
+    "oldest_listed": "2026-11-03",
     "healthy": true
    },
    "this_run": {
-    "new": 14,
+    "new": 13,
     "revised": 3
    }
   },
@@ -216,19 +218,20 @@
      20,
      20,
      20,
+     20,
      20
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
     "items": 20,
-    "oldest_listed": "2026-09-04",
+    "oldest_listed": "2026-09-15",
     "healthy": true
    },
    "this_run": {
-    "new": 0,
+    "new": 2,
     "revised": 0
    }
   },
@@ -245,19 +248,20 @@
      20,
      20,
      20,
+     20,
      20
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml",
     "items": 20,
-    "oldest_listed": "2026-09-25",
+    "oldest_listed": "2026-10-02",
     "healthy": true
    },
    "this_run": {
-    "new": 4,
+    "new": 3,
     "revised": 0
    }
   },
@@ -274,19 +278,20 @@
      20,
      20,
      20,
+     20,
      20
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml",
     "items": 20,
-    "oldest_listed": "2026-10-06",
+    "oldest_listed": "2026-10-08",
     "healthy": true
    },
    "this_run": {
-    "new": 4,
+    "new": 2,
     "revised": 0
    }
   },
@@ -303,19 +308,20 @@
      11,
      11,
      11,
-     8
+     8,
+     6
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.ema.europa.eu/en/news.xml",
-    "items": 8,
-    "oldest_listed": "2026-10-02",
+    "items": 6,
+    "oldest_listed": "2026-10-15",
     "healthy": true
    },
    "this_run": {
-    "new": 2,
+    "new": 1,
     "revised": 0
    }
   },
@@ -332,20 +338,21 @@
      468,
      468,
      468,
-     0
+     0,
+     93
     ],
     "last_ok": "2026-11-02",
-    "last_error": "The feed is valid but has no items at the moment.",
-    "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_error": "Only 93 items found, under half the usual 374.",
+    "status": "suspect",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.ema.europa.eu/en/whats-new.xml",
-    "items": 0,
-    "oldest_listed": null,
-    "healthy": true
+    "items": 93,
+    "oldest_listed": "2026-11-03",
+    "healthy": false
    },
    "this_run": {
     "new": 0,
-    "revised": 7
+    "revised": 9
    }
   },
   "EMA/sciguide": {
@@ -361,19 +368,20 @@
      8,
      8,
      6,
+     6,
      6
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.ema.europa.eu/en/scientific-guidelines.xml",
     "items": 6,
-    "oldest_listed": "2026-10-06",
+    "oldest_listed": "2026-10-15",
     "healthy": true
    },
    "this_run": {
-    "new": 0,
+    "new": 2,
     "revised": 0
    }
   },
@@ -390,20 +398,21 @@
      11,
      11,
      9,
-     10
+     10,
+     5
     ],
     "last_ok": "2026-11-02",
-    "last_error": null,
-    "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_error": "Only 5 items found, under half the usual 10.",
+    "status": "suspect",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.ema.europa.eu/en/regulatory-and-procedural-guideline.xml",
-    "items": 10,
-    "oldest_listed": "2026-10-06",
-    "healthy": true
+    "items": 5,
+    "oldest_listed": "2026-10-19",
+    "healthy": false
    },
    "this_run": {
-    "new": 1,
-    "revised": 1
+    "new": 0,
+    "revised": 0
    }
   },
   "EMA/consult": {
@@ -419,15 +428,16 @@
      8,
      8,
      6,
-     6
+     6,
+     7
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.ema.europa.eu/en/public-consultations.xml",
-    "items": 6,
-    "oldest_listed": "2026-10-08",
+    "items": 7,
+    "oldest_listed": "2026-10-15",
     "healthy": true
    },
    "this_run": {
@@ -448,20 +458,21 @@
      232,
      232,
      222,
-     240
+     240,
+     218
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.ema.europa.eu/en/human-medicine-new.xml",
-    "items": 240,
-    "oldest_listed": "2026-10-02",
+    "items": 218,
+    "oldest_listed": "2026-10-12",
     "healthy": true
    },
    "this_run": {
-    "new": 39,
-    "revised": 0
+    "new": 1,
+    "revised": 1
    }
   },
   "EMA/newmed": {
@@ -477,12 +488,13 @@
      6,
      6,
      6,
+     6,
      6
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.ema.europa.eu/en/new-human-medicine-new.xml",
     "items": 6,
     "oldest_listed": "2026-10-15",
@@ -506,19 +518,20 @@
      1,
      1,
      1,
-     4
+     4,
+     3
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.ema.europa.eu/en/orphan.xml",
-    "items": 4,
-    "oldest_listed": "2026-10-07",
+    "items": 3,
+    "oldest_listed": "2026-10-30",
     "healthy": true
    },
    "this_run": {
-    "new": 3,
+    "new": 0,
     "revised": 0
    }
   },
@@ -535,19 +548,20 @@
      44,
      44,
      44,
-     58
+     58,
+     46
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.ema.europa.eu/en/pip.xml",
-    "items": 58,
-    "oldest_listed": "2026-10-02",
+    "items": 46,
+    "oldest_listed": "2026-10-14",
     "healthy": true
    },
    "this_run": {
-    "new": 14,
+    "new": 0,
     "revised": 0
    }
   },
@@ -564,15 +578,16 @@
      5,
      5,
      5,
-     5
+     5,
+     3
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.ema.europa.eu/en/withdrawn-applications.xml",
-    "items": 5,
-    "oldest_listed": "2026-10-06",
+    "items": 3,
+    "oldest_listed": "2026-10-20",
     "healthy": true
    },
    "this_run": {
@@ -593,12 +608,13 @@
      0,
      0,
      0,
+     0,
      0
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": "The feed is valid but has no items at the moment.",
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.ema.europa.eu/en/herbal-medicine-new.xml",
     "items": 0,
     "oldest_listed": null,
@@ -622,19 +638,20 @@
      20,
      20,
      20,
+     20,
      20
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.gov.uk/search/guidance-and-regulation.atom?order=updated-newest&organisations%5B%5D=medicines-and-healthcare-products-regulatory-agency&parent=medicines-and-healthcare-products-regulatory-agency",
     "items": 20,
-    "oldest_listed": "2026-10-02",
+    "oldest_listed": "2026-10-08",
     "healthy": true
    },
    "this_run": {
-    "new": 1,
+    "new": 6,
     "revised": 1
    }
   },
@@ -651,15 +668,16 @@
      50,
      50,
      50,
+     50,
      50
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.gov.uk/drug-safety-update.atom",
     "items": 50,
-    "oldest_listed": "2024-05-29",
+    "oldest_listed": "2024-06-20",
     "healthy": true
    },
    "this_run": {
@@ -680,19 +698,20 @@
      50,
      50,
      50,
+     50,
      50
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.gov.uk/drug-device-alerts.atom",
     "items": 50,
-    "oldest_listed": "2026-07-07",
+    "oldest_listed": "2026-07-14",
     "healthy": true
    },
    "this_run": {
-    "new": 5,
+    "new": 3,
     "revised": 0
    }
   },
@@ -709,19 +728,20 @@
      15,
      15,
      15,
+     15,
      15
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://fetchrss.com/feed/X-CSwP0MWGVCZ8rORu-q3KN0.rss",
     "items": 15,
-    "oldest_listed": "2026-08-25",
+    "oldest_listed": "2026-09-02",
     "healthy": true
    },
    "this_run": {
-    "new": 1,
+    "new": 3,
     "revised": 0
    }
   },
@@ -738,20 +758,21 @@
      30,
      30,
      30,
+     30,
      30
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.swissmedic.ch/swissmedic/de/home/news/mitteilungen.html",
     "items": 30,
-    "oldest_listed": "2026-06-18",
+    "oldest_listed": "2026-06-30",
     "healthy": true
    },
    "this_run": {
-    "new": 2,
-    "revised": 1
+    "new": 3,
+    "revised": 0
    }
   },
   "Swissmedic/mitteilungen-fr": {
@@ -766,20 +787,21 @@
      30,
      30,
      30,
+     30,
      30
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.swissmedic.ch/swissmedic/fr/home/news/mitteilungen.html",
     "items": 30,
-    "oldest_listed": "2026-06-15",
+    "oldest_listed": "2026-06-22",
     "healthy": true
    },
    "this_run": {
-    "new": 2,
-    "revised": 1
+    "new": 3,
+    "revised": 0
    }
   },
   "Swissmedic/mitteilungen-en": {
@@ -794,20 +816,21 @@
      30,
      30,
      30,
+     30,
      30
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.swissmedic.ch/swissmedic/en/home/news/mitteilungen.html",
     "items": 30,
-    "oldest_listed": "2026-06-12",
+    "oldest_listed": "2026-06-19",
     "healthy": true
    },
    "this_run": {
-    "new": 2,
-    "revised": 1
+    "new": 3,
+    "revised": 0
    }
   },
   "HC/recalls-en": {
@@ -823,15 +846,16 @@
      3,
      3,
      3,
+     3,
      3
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://recalls-rappels.canada.ca/en/feed/health-products-alerts-recalls",
     "items": 3,
-    "oldest_listed": "2026-10-29",
+    "oldest_listed": "2026-11-06",
     "healthy": true
    },
    "this_run": {
@@ -854,15 +878,16 @@
      3,
      3,
      3,
+     3,
      3
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://recalls-rappels.canada.ca/fr/feed/health-products-alerts-recalls",
     "items": 3,
-    "oldest_listed": "2026-10-29",
+    "oldest_listed": "2026-11-06",
     "healthy": true
    },
    "this_run": {
@@ -882,12 +907,13 @@
      19,
      19,
      19,
+     19,
      19
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/compli-conform-eng.xml",
     "items": 19,
     "oldest_listed": "2026-03-18",
@@ -910,12 +936,13 @@
      20,
      20,
      20,
+     20,
      20
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/compli-conform-fra.xml",
     "items": 20,
     "oldest_listed": "2026-03-18",
@@ -938,20 +965,21 @@
      8,
      8,
      8,
-     9
+     9,
+     8
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/new-neuf-eng.xml",
-    "items": 9,
-    "oldest_listed": "2026-06-25",
+    "items": 8,
+    "oldest_listed": "2026-07-30",
     "healthy": true
    },
    "this_run": {
-    "new": 1,
-    "revised": 0
+    "new": 0,
+    "revised": 1
    }
   },
   "HC/medeffect-fr": {
@@ -966,20 +994,21 @@
      8,
      8,
      8,
-     9
+     9,
+     8
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/rss/dhp-mps/new-neuf-fra.xml",
-    "items": 9,
-    "oldest_listed": "2026-06-25",
+    "items": 8,
+    "oldest_listed": "2026-07-30",
     "healthy": true
    },
    "this_run": {
-    "new": 1,
-    "revised": 0
+    "new": 0,
+    "revised": 1
    }
   },
   "TGA/alerts": {
@@ -994,7 +1023,7 @@
     "last_ok": null,
     "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
     "status": "blocked",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": null,
     "items": 0
    },
@@ -1015,7 +1044,7 @@
     "last_ok": null,
     "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
     "status": "blocked",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": null,
     "items": 0
    },
@@ -1036,7 +1065,7 @@
     "last_ok": null,
     "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
     "status": "blocked",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": null,
     "items": 0
    },
@@ -1057,7 +1086,7 @@
     "last_ok": null,
     "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
     "status": "blocked",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": null,
     "items": 0
    },
@@ -1078,7 +1107,7 @@
     "last_ok": null,
     "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
     "status": "blocked",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": null,
     "items": 0
    },
@@ -1099,7 +1128,7 @@
     "last_ok": null,
     "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
     "status": "blocked",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": null,
     "items": 0
    },
@@ -1120,7 +1149,7 @@
     "last_ok": null,
     "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
     "status": "blocked",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": null,
     "items": 0
    },
@@ -1141,7 +1170,7 @@
     "last_ok": null,
     "last_error": "TGA's servers refuse connections from cloud data centres, including GitHub's, so this feed cannot be read by the weekly job (checked 24 Oct 2026).",
     "status": "blocked",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": null,
     "items": 0
    },
@@ -1163,19 +1192,20 @@
      10,
      10,
      10,
+     10,
      10
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://extranet.who.int/prequal/rss.xml",
     "items": 10,
     "oldest_listed": "2025-10-01",
     "healthy": true
    },
    "this_run": {
-    "new": 0,
+    "new": 1,
     "revised": 0
    }
   },
@@ -1195,7 +1225,7 @@
     "last_ok": "2026-10-26",
     "last_error": "Could not connect (ETIMEDOUT).",
     "status": "failed",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Circulars/",
     "items": 0,
     "oldest_listed": "2013-07-05",
@@ -1222,7 +1252,7 @@
     "last_ok": "2026-10-26",
     "last_error": "Could not connect (ETIMEDOUT).",
     "status": "failed",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Gazette-Notifications/",
     "items": 0,
     "oldest_listed": "2002-05-01",
@@ -1250,7 +1280,7 @@
     "last_ok": "2026-10-26",
     "last_error": "Could not connect (ETIMEDOUT).",
     "status": "failed",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Public-Notices/",
     "items": 0,
     "oldest_listed": "2011-05-10",
@@ -1277,7 +1307,7 @@
     "last_ok": "2026-10-26",
     "last_error": "Could not connect (ETIMEDOUT).",
     "status": "failed",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Alerts/",
     "items": 0,
     "oldest_listed": "2012-07-27",
@@ -1301,20 +1331,21 @@
      237,
      237,
      239,
-     248
+     248,
+     251
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.pmda.go.jp/0017.html",
-    "items": 248,
+    "items": 251,
     "oldest_listed": "2026-04-01",
     "healthy": true
    },
    "this_run": {
-    "new": 9,
-    "revised": 33
+    "new": 3,
+    "revised": 35
    }
   },
   "PMDA/top-all": {
@@ -1330,20 +1361,21 @@
      46,
      46,
      46,
+     45,
      45
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.pmda.go.jp/rss_008.xml",
     "items": 45,
     "oldest_listed": "2026-04-27",
     "healthy": true
    },
    "this_run": {
-    "new": 2,
-    "revised": 5
+    "new": 1,
+    "revised": 0
    }
   },
   "PMDA/reviews": {
@@ -1359,12 +1391,13 @@
      17,
      17,
      17,
+     17,
      17
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.pmda.go.jp/rss_011.xml",
     "items": 17,
     "oldest_listed": "2026-05-13",
@@ -1388,12 +1421,13 @@
      5,
      5,
      5,
+     5,
      5
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.pmda.go.jp/rss_013.xml",
     "items": 5,
     "oldest_listed": "2026-04-27",
@@ -1417,12 +1451,13 @@
      5,
      5,
      5,
+     5,
      5
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.pmda.go.jp/rss_006.xml",
     "items": 5,
     "oldest_listed": "2026-04-27",
@@ -1446,12 +1481,13 @@
      4,
      4,
      4,
+     4,
      4
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.pmda.go.jp/rss_009.xml",
     "items": 4,
     "oldest_listed": "2026-07-24",
@@ -1475,12 +1511,13 @@
      9,
      9,
      9,
+     8,
      8
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.pmda.go.jp/rss_012.xml",
     "items": 8,
     "oldest_listed": "2026-05-27",
@@ -1503,7 +1540,7 @@
     "last_ok": null,
     "last_error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
     "status": "blocked",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": null,
     "items": 0
    },
@@ -1524,7 +1561,7 @@
     "last_ok": null,
     "last_error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
     "status": "blocked",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": null,
     "items": 0
    },
@@ -1545,7 +1582,7 @@
     "last_ok": null,
     "last_error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
     "status": "blocked",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": null,
     "items": 0
    },
@@ -1568,7 +1605,7 @@
     "last_ok": null,
     "last_error": "This site answers automated requests with an anti-bot check that needs the page's JavaScript to run. RegSignal does not try to get around such checks, so this source is not read (checked 24 Oct 2026).",
     "status": "blocked",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.cde.org.cn/zdyz/index",
     "items": 0,
     "oldest_listed": null,
@@ -1592,12 +1629,13 @@
      6,
      6,
      6,
+     6,
      6
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://english.nmpa.gov.cn/regulatoryinformation.html",
     "items": 6,
     "oldest_listed": "2025-12-24",
@@ -1621,19 +1659,20 @@
      10,
      10,
      10,
+     11,
      11
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.mfds.go.kr/brd/m_74/list.do",
     "items": 11,
-    "oldest_listed": "2026-10-16",
+    "oldest_listed": "2026-10-19",
     "healthy": true
    },
    "this_run": {
-    "new": 3,
+    "new": 2,
     "revised": 0
    }
   },
@@ -1650,19 +1689,20 @@
      10,
      10,
      10,
-     12
+     12,
+     14
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.mfds.go.kr/brd/m_76/list.do",
-    "items": 12,
-    "oldest_listed": "2026-10-26",
+    "items": 14,
+    "oldest_listed": "2026-10-30",
     "healthy": true
    },
    "this_run": {
-    "new": 11,
+    "new": 9,
     "revised": 0
    }
   },
@@ -1679,15 +1719,16 @@
      10,
      10,
      10,
+     10,
      10
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.mfds.go.kr/brd/m_99/list.do",
     "items": 10,
-    "oldest_listed": "2026-10-30",
+    "oldest_listed": "2026-11-05",
     "healthy": true
    },
    "this_run": {
@@ -1708,19 +1749,20 @@
      23,
      23,
      23,
+     27,
      27
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.mfds.go.kr/brd/m_207/list.do",
     "items": 27,
     "oldest_listed": "2026-09-04",
     "healthy": true
    },
    "this_run": {
-    "new": 10,
+    "new": 0,
     "revised": 0
    }
   },
@@ -1737,19 +1779,20 @@
      10,
      10,
      10,
-     11
+     11,
+     10
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.mfds.go.kr/brd/m_209/list.do",
-    "items": 11,
-    "oldest_listed": "2026-10-08",
+    "items": 10,
+    "oldest_listed": "2026-10-29",
     "healthy": true
    },
    "this_run": {
-    "new": 6,
+    "new": 8,
     "revised": 0
    }
   },
@@ -1766,19 +1809,20 @@
      20,
      20,
      20,
+     21,
      21
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.mfds.go.kr/brd/m_211/list.do",
     "items": 21,
     "oldest_listed": "2026-07-21",
     "healthy": true
    },
    "this_run": {
-    "new": 3,
+    "new": 0,
     "revised": 0
    }
   },
@@ -1795,19 +1839,20 @@
      10,
      10,
      10,
+     10,
      10
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.mfds.go.kr/brd/m_1059/list.do",
     "items": 10,
     "oldest_listed": "2026-10-02",
     "healthy": true
    },
    "this_run": {
-    "new": 6,
+    "new": 0,
     "revised": 0
    }
   },
@@ -1824,19 +1869,20 @@
      12,
      12,
      12,
+     12,
      12
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.mfds.go.kr/eng/brd/m_61/list.do",
     "items": 12,
-    "oldest_listed": "2026-05-12",
+    "oldest_listed": "2026-07-14",
     "healthy": true
    },
    "this_run": {
-    "new": 0,
+    "new": 4,
     "revised": 0
    }
   },
@@ -1853,12 +1899,13 @@
      12,
      12,
      12,
+     12,
      12
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.mfds.go.kr/eng/brd/m_18/list.do",
     "items": 12,
     "oldest_listed": "2022-06-27",
@@ -1882,12 +1929,13 @@
      7,
      7,
      7,
+     7,
      7
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.mfds.go.kr/eng/brd/m_1127/list.do",
     "items": 7,
     "oldest_listed": "2023-01-27",
@@ -1911,12 +1959,13 @@
      10,
      10,
      10,
+     10,
      10
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.mfds.go.kr/eng/brd/m_27/list.do",
     "items": 10,
     "oldest_listed": "2023-09-04",
@@ -1940,12 +1989,13 @@
      11,
      11,
      11,
+     11,
      11
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.mfds.go.kr/eng/brd/m_40/list.do",
     "items": 11,
     "oldest_listed": "2022-07-21",
@@ -1969,19 +2019,20 @@
      6,
      6,
      6,
+     6,
      6
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.sfda.gov.sa/ar/news",
     "items": 6,
-    "oldest_listed": "2026-10-07",
+    "oldest_listed": "2026-10-28",
     "healthy": true
    },
    "this_run": {
-    "new": 2,
+    "new": 4,
     "revised": 0
    }
   },
@@ -1998,12 +2049,13 @@
      12,
      12,
      12,
+     12,
      12
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.sfda.gov.sa/ar/regulations",
     "items": 12,
     "oldest_listed": "2014-03-19",
@@ -2027,19 +2079,20 @@
      9,
      9,
      9,
+     9,
      9
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.sfda.gov.sa/ar/warnings",
     "items": 9,
     "oldest_listed": "2025-01-10",
     "healthy": true
    },
    "this_run": {
-    "new": 2,
+    "new": 0,
     "revised": 0
    }
   },
@@ -2056,19 +2109,20 @@
      6,
      6,
      6,
+     6,
      6
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.sfda.gov.sa/en/news",
     "items": 6,
-    "oldest_listed": "2026-10-07",
+    "oldest_listed": "2026-10-28",
     "healthy": true
    },
    "this_run": {
-    "new": 2,
+    "new": 4,
     "revised": 0
    }
   },
@@ -2085,12 +2139,13 @@
      12,
      12,
      12,
+     12,
      12
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.sfda.gov.sa/en/regulations",
     "items": 12,
     "oldest_listed": "2018-02-11",
@@ -2116,12 +2171,13 @@
      12,
      12,
      12,
+     12,
      12
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.sfda.gov.sa/en/guide",
     "items": 12,
     "oldest_listed": "2016-06-26",
@@ -2145,19 +2201,20 @@
      9,
      9,
      9,
+     9,
      9
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.sfda.gov.sa/en/warnings",
     "items": 9,
     "oldest_listed": "2025-01-10",
     "healthy": true
    },
    "this_run": {
-    "new": 2,
+    "new": 0,
     "revised": 0
    }
   },
@@ -2174,12 +2231,13 @@
      10,
      10,
      10,
+     10,
      10
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.sfda.gov.sa/en/drugs_circulars_withdrawal",
     "items": 10,
     "oldest_listed": "2025-11-02",
@@ -2203,15 +2261,16 @@
      10,
      10,
      10,
+     10,
      10
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.hsa.gov.sg/announcements",
     "items": 10,
-    "oldest_listed": "2026-10-02",
+    "oldest_listed": "2026-10-21",
     "healthy": true
    },
    "this_run": {
@@ -2234,19 +2293,20 @@
      10,
      10,
      10,
+     10,
      10
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.sahpra.org.za/category/news-and-updates/feed/",
     "items": 10,
-    "oldest_listed": "2026-07-08",
+    "oldest_listed": "2026-07-20",
     "healthy": true
    },
    "this_run": {
-    "new": 0,
+    "new": 1,
     "revised": 0
    }
   },
@@ -2263,15 +2323,16 @@
      10,
      10,
      10,
+     10,
      10
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.sahpra.org.za/feed/",
     "items": 10,
-    "oldest_listed": "2026-07-20",
+    "oldest_listed": "2026-08-16",
     "healthy": true
    },
    "this_run": {
@@ -2292,12 +2353,13 @@
      5,
      5,
      5,
+     5,
      5
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.gov.br/anvisa/pt-br",
     "items": 5,
     "oldest_listed": null,
@@ -2321,12 +2383,13 @@
      9,
      9,
      9,
+     9,
      9
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.gob.mx/cofepris/archivo/prensa",
     "items": 9,
     "oldest_listed": "2020-03-12",
@@ -2350,20 +2413,21 @@
      9,
      9,
      9,
+     9,
      9
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://www.gob.mx/cofepris/archivo/documentos",
     "items": 9,
-    "oldest_listed": "2026-10-07",
+    "oldest_listed": "2026-10-12",
     "healthy": true
    },
    "this_run": {
     "new": 1,
-    "revised": 3
+    "revised": 2
    }
   },
   "ICH/press": {
@@ -2379,12 +2443,13 @@
      10,
      10,
      10,
+     10,
      10
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://admin.ich.org/api/v1/nodes?bundle=press_release&offset=0&limit=20&sort=date:DESC,created:desc",
     "items": 10,
     "oldest_listed": "2022-11-22",
@@ -2407,12 +2472,13 @@
      10,
      10,
      10,
+     10,
      10
     ],
-    "last_ok": "2026-11-02",
+    "last_ok": "2026-11-09",
     "last_error": null,
     "status": "ok",
-    "last_attempt": "2026-11-02",
+    "last_attempt": "2026-11-09",
     "url_used": "https://admin.ich.org/api/v1/nodes?bundle=news&offset=0&limit=30&sort=date:DESC,created:desc",
     "items": 10,
     "oldest_listed": "2026-03-20",
