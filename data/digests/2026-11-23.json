@@ -1,0 +1,4645 @@
+{
+ "run_date": "2026-11-23T12:07:52.966Z",
+ "date": "2026-11-23",
+ "baseline": false,
+ "totals": {
+  "new": 252,
+  "revised": 58,
+  "removed": 8,
+  "failed": 5,
+  "suspect": 1,
+  "documents": 2925
+ },
+ "new": [
+  {
+   "id": "cofepris:gob.mx/cofepris/documentos/manuales-guias-y-formatos-de-ensayos-clinicos",
+   "authority": "COFEPRIS",
+   "title": "Continuar leyendo",
+   "title_en": "",
+   "url": "https://gob.mx/cofepris/documentos/manuales-guias-y-formatos-de-ensayos-clinicos",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "es",
+   "source": "COFEPRIS/documentos"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/eu-clinical-research-readiness-medical-countermeasures-during-public-health-emergencies",
+   "authority": "EMA",
+   "title": "EU clinical research readiness for medical countermeasures during public health emergencies, Online, European Medicines Agency, Amsterdam, the Netherlands, 25 November 2026",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/eu-clinical-research-readiness-medical-countermeasures-during-public-health-emergencies",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/prac-recommendation/new-product-information-wording-nov-2026_en.pdf",
+   "authority": "EMA",
+   "title": "New product information wording - extracts from PRAC recommendations on signals adopted at the 26-29 October 2026 PRAC",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/prac-recommendation/new-product-information-wording-nov-2026_en.pdf",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [
+    "pv"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-26-29-october-2026-prac_en.pdf",
+   "authority": "EMA",
+   "title": "PRAC recommendations on signals adopted at the 26-29 October 2026 PRAC meeting",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-26-29-october-2026-prac_en.pdf",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [
+    "pv"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/committee-herbal-medicinal-products-hmpc-22-24-november-2027",
+   "authority": "EMA",
+   "title": "Committee for Herbal Medicinal Products (HMPC): 22-24 November 2027, European Medicines Agency, Amsterdam, the Netherlands, from 22 November 2027 to 24 November 2027",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/committee-herbal-medicinal-products-hmpc-22-24-november-2027",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [
+    "herbal"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/committee-herbal-medicinal-products-hmpc-20-22-september-2027",
+   "authority": "EMA",
+   "title": "Committee for Herbal Medicinal Products (HMPC): 20-22 September 2027, European Medicines Agency, Amsterdam, the Netherlands, from 20 September 2027 to 22 September 2027",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/committee-herbal-medicinal-products-hmpc-20-22-september-2027",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [
+    "herbal"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/committee-herbal-medicinal-products-hmpc-5-7-july-2027",
+   "authority": "EMA",
+   "title": "Committee for Herbal Medicinal Products (HMPC): 5-7 July 2027, European Medicines Agency, Amsterdam, the Netherlands, from 5 July 2027 to 7 July 2027",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/committee-herbal-medicinal-products-hmpc-5-7-july-2027",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [
+    "herbal"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/committee-herbal-medicinal-products-hmpc-3-5-may-2027",
+   "authority": "EMA",
+   "title": "Committee for Herbal Medicinal Products (HMPC): 3-5 May 2027, European Medicines Agency, Amsterdam, the Netherlands, from 3 May 2027 to 5 May 2027",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/committee-herbal-medicinal-products-hmpc-3-5-may-2027",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [
+    "herbal"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/committee-herbal-medicinal-products-hmpc-8-10-march-2027",
+   "authority": "EMA",
+   "title": "Committee for Herbal Medicinal Products (HMPC): 8-10 March 2027, European Medicines Agency, Amsterdam, the Netherlands, from 8 March 2027 to 10 March 2027",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/committee-herbal-medicinal-products-hmpc-8-10-march-2027",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [
+    "herbal"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/committee-herbal-medicinal-products-hmpc-18-20-january-2027",
+   "authority": "EMA",
+   "title": "Committee for Herbal Medicinal Products (HMPC): 18-20 January 2027, European Medicines Agency, Amsterdam, the Netherlands, from 18 January 2027 to 20 January 2027",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/committee-herbal-medicinal-products-hmpc-18-20-january-2027",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [
+    "herbal"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/other/list-signals-discussed-prac-september-2012_en_0.xlsx",
+   "authority": "EMA",
+   "title": "List of signals discussed at PRAC since September 2012",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/other/list-signals-discussed-prac-september-2012_en_0.xlsx",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [
+    "pv"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/news-events/press-social-media",
+   "authority": "EMA",
+   "title": "Press and social media",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/news-events/press-social-media",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/kalydeco",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Kalydeco, ivacaftor, Date of authorisation: 23/07/2012, Revision: 48, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/kalydeco",
+   "published": "2026-11-23",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000261344",
+   "authority": "EMA",
+   "title": "EMA/PE/0000261344",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000261344",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000228795",
+   "authority": "EMA",
+   "title": "EMA/PE/0000228795",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000228795",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000181364",
+   "authority": "EMA",
+   "title": "EMA/PE/0000181364",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000181364",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000253679",
+   "authority": "EMA",
+   "title": "EMA/PE/0000253679",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000253679",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000256674",
+   "authority": "EMA",
+   "title": "EMA/PE/0000256674",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000256674",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000259562",
+   "authority": "EMA",
+   "title": "EMA/PE/0000259562",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000259562",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000247324",
+   "authority": "EMA",
+   "title": "EMA/PE/0000247324",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000247324",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/stakeholder-meeting-transferable-data-exclusivity-voucher-priority-antimicrobials",
+   "authority": "EMA",
+   "title": "Stakeholder meeting on the transferable data exclusivity voucher for priority antimicrobials, Online, Broadcast, from 12 November 2026, 14:00 (CET) to 12 November 2026, 17:00 (CET)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/stakeholder-meeting-transferable-data-exclusivity-voucher-priority-antimicrobials",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/human-regulatory-overview/public-health-threats/antimicrobial-resistance",
+   "authority": "EMA",
+   "title": "Antimicrobial resistance",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/human-regulatory-overview/public-health-threats/antimicrobial-resistance",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000226201",
+   "authority": "EMA",
+   "title": "EMA/PE/0000226201",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000226201",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000182782",
+   "authority": "EMA",
+   "title": "EMA/PE/0000182782",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000182782",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000256717",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Adtralza, tralokinumab, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Skin and subcutaneous tissue disorders, PIP number: EMA/PE/0000256717",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000256717",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000258527",
+   "authority": "EMA",
+   "title": "EMA/PE/0000258527",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000258527",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000261065",
+   "authority": "EMA",
+   "title": "EMA/PE/0000261065",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000261065",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000261062",
+   "authority": "EMA",
+   "title": "EMA/PE/0000261062",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000261062",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000250233",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Ontozry, cenobamate, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Nervous system disorders, PIP number: EMA/PE/0000250233",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000250233",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/shortages/lenzetto",
+   "authority": "EMA",
+   "title": "Lenzetto",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/shortages/lenzetto",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000266764",
+   "authority": "EMA",
+   "title": "EMA/PE/0000266764",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000266764",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/other/lenzetto_msc_en.pdf",
+   "authority": "EMA",
+   "title": "Medicine shortage communication (MSC): Lenzetto (estradiol hemihydrate solution) 1.53 mg/spray: supply shortage",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/other/lenzetto_msc_en.pdf",
+   "published": "2026-11-20",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/sop/4152-sop-evaluation-requests-establishment-mrls-chemical-unlike-biologicals_en_0.pdf",
+   "authority": "EMA",
+   "title": "Standard operating procedure for evaluation of requests for evaluation of the need for a full MRL evaluation for chemical-unlike biologicals",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/sop/4152-sop-evaluation-requests-establishment-mrls-chemical-unlike-biologicals_en_0.pdf",
+   "published": "2026-11-20",
+   "type": "guideline",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000258613",
+   "authority": "EMA",
+   "title": "EMA/PE/0000258613",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000258613",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000254280",
+   "authority": "EMA",
+   "title": "EMA/PE/0000254280",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000254280",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000258356",
+   "authority": "EMA",
+   "title": "EMA/PE/0000258356",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000258356",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000233980",
+   "authority": "EMA",
+   "title": "EMA/PE/0000233980",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000233980",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000255611",
+   "authority": "EMA",
+   "title": "EMA/PE/0000255611",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000255611",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000249626",
+   "authority": "EMA",
+   "title": "EMA/PE/0000249626",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000249626",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/sop/4112-sop-provision-cvmp-scientific-advice_en.pdf",
+   "authority": "EMA",
+   "title": "Standard operating procedure for evaluation procedure for CVMP scientific advice requests",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/sop/4112-sop-provision-cvmp-scientific-advice_en.pdf",
+   "published": "2026-11-20",
+   "type": "guideline",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/win/4102-win-organisation-cvmp-working-party-meetings_en.pdf",
+   "authority": "EMA",
+   "title": "Work instructions for organisation of CVMP Working Party meetings",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/win/4102-win-organisation-cvmp-working-party-meetings_en.pdf",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/win/4151-win-processing-requests-inclusion-out-scope-list_en.pdf",
+   "authority": "EMA",
+   "title": "Work instructions for Processing requests for inclusion in the list of substances not falling within the scope of Regulation EC 470/2009 (out of scope)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/win/4151-win-processing-requests-inclusion-out-scope-list_en.pdf",
+   "published": "2026-11-20",
+   "type": "law",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/sop/4160-sop-preparation-esuavet-annual-reports_en_0.pdf",
+   "authority": "EMA",
+   "title": "Standard operating procedure for the preparation of ESUAvet annual reports",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/sop/4160-sop-preparation-esuavet-annual-reports_en_0.pdf",
+   "published": "2026-11-20",
+   "type": "guideline",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/psusa/psusa-00010298-202603",
+   "authority": "EMA",
+   "title": "PSUSA/00010298/202603",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/psusa/psusa-00010298-202603",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/psusa/psusa-00010649-202602",
+   "authority": "EMA",
+   "title": "PSUSA/00010649/202602",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/psusa/psusa-00010649-202602",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/entacapone-orion",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Entacapone Orion, entacapone, Date of authorisation: 18/08/2011, Revision: 12, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/entacapone-orion",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/odomzo",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Odomzo, sonidegib, Date of authorisation: 14/08/2015, Revision: 12, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/odomzo",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/sotyktu",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Sotyktu, deucravacitinib, Date of authorisation: 24/03/2023, Revision: 8, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/sotyktu",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000249207",
+   "authority": "EMA",
+   "title": "EMA/PE/0000249207",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000249207",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000256262",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Veoza, fezolinetant, decision type: W: decision granting a waiver in all age groups for all conditions or indications, therapeutic area: Vascular disorders, PIP number: EMA/PE/0000256262",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000256262",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000254741",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Trumenba, Neisseria meningitidis group B fHBP protein subfamily A,Neisseria meningitidis group B fHBP protein subfamily B, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Surgical and medical procedures, PIP number: EMA/PE/0000254741",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000254741",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [
+    "biologic",
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000261407",
+   "authority": "EMA",
+   "title": "EMA/PE/0000261407",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000261407",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000254635",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Fycompa, perampanel, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Nervous system disorders, PIP number: EMA/PE/0000254635",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000254635",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000257003",
+   "authority": "EMA",
+   "title": "EMA/PE/0000257003",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000257003",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/template-form/pre-submission-interactions-form-maa_en.docx",
+   "authority": "EMA",
+   "title": "Pre-submission interactions form for marketing authorisation application",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/template-form/pre-submission-interactions-form-maa_en.docx",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/unified-application-programming-interface-api-platform-event",
+   "authority": "EMA",
+   "title": "Unified application programming interface (API) platform event, Online, European Medicines Agency, Amsterdam, the Netherlands, Broadcast, from 2 December 2026, 10:00 (CET) to 2 December 2026, 12:00 (CET)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/unified-application-programming-interface-api-platform-event",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-11-899",
+   "authority": "EMA",
+   "title": "Orphan designation: 2,2'-{2-[(1R)-1-({[(2,5-dichlorobenzoyl)amino]acetyl}amino)-3-methylbutyl]-5-oxo-1,3,2-dioxaborolane-4,4-diyl}diacetic acid Treatment of multiple myeloma, 27/09/2011 Withdrawn",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-11-899",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/ninlaro",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Ninlaro, ixazomib, Date of authorisation: 21/11/2016, Revision: 21, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/ninlaro",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/ekterly",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Ekterly, sebetralstat, Date of authorisation: 17/09/2025, Revision: 2, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/ekterly",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/zeydovio",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Zeydovio, glepaglutide, Date of authorisation: 12/11/2026, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/zeydovio",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/agenda/agenda-second-hmaema-multi-stakeholder-forum-eudravigilance-signal-detection-en_0.pdf",
+   "authority": "EMA",
+   "title": "Agenda - Second HMA/EMA multi-stakeholder forum on EudraVigilance and signal detection",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/agenda/agenda-second-hmaema-multi-stakeholder-forum-eudravigilance-signal-detection-en_0.pdf",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [
+    "pv"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/darwin-eu-advisory-board-meeting-14-november-2025",
+   "authority": "EMA",
+   "title": "DARWIN EU Advisory Board meeting: 14 November 2025, Online, European Medicines Agency, Amsterdam, the Netherlands, from 14 November 2025, 09:00 (CET) to 14 November 2025, 13:00 (CET)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/darwin-eu-advisory-board-meeting-14-november-2025",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/medicines-human-use-under-evaluation",
+   "authority": "EMA",
+   "title": "Medicines for human use under evaluation",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/medicines-human-use-under-evaluation",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/report/start-procedure-type-ii-variation-extension-indication-16102026-12112026-en.xlsx",
+   "authority": "EMA",
+   "title": "Start of procedure: Type II Variation - Extension of indication under evaluation by the CHMP (16 October 2026 - 12 November 2026)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/report/start-procedure-type-ii-variation-extension-indication-16102026-12112026-en.xlsx",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/report/start-procedure-extension-marketing-authorisation-16102026-12112026-en.xlsx",
+   "authority": "EMA",
+   "title": "Start of procedure: Extension of marketing authorisation (16 October 2026 - 12 November 2026)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/report/start-procedure-extension-marketing-authorisation-16102026-12112026-en.xlsx",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/agenda/agenda-cat-meeting-4-6-november-2026-en_0.pdf",
+   "authority": "EMA",
+   "title": "Agenda of the CAT meeting 4-6 November 2026",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/agenda/agenda-cat-meeting-4-6-november-2026-en_0.pdf",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/sepalna",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Sepalna, senaparib, Date of authorisation: 12/11/2026, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/sepalna",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000260971",
+   "authority": "EMA",
+   "title": "EMA/PE/0000260971",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000260971",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000258705",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Verzenios, abemaciclib, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Nervous system disorders, PIP number: EMA/PE/0000258705",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000258705",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/emea-003192-pip02-23",
+   "authority": "EMA",
+   "title": "EMEA-003192-PIP02-23",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/emea-003192-pip02-23",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/psusa/psusa-00000914-202601",
+   "authority": "EMA",
+   "title": "PSUSA/00000914/202601",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/psusa/psusa-00000914-202601",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/psusa/psusa-00001349-202512",
+   "authority": "EMA",
+   "title": "PSUSA/00001349/202512",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/psusa/psusa-00001349-202512",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/apretude",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Apretude, cabotegravir, Date of authorisation: 15/09/2023, Revision: 2, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/apretude",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/rytelo",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Rytelo, imetelstat, Date of authorisation: 07/03/2025, Revision: 2, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/rytelo",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/nulojix",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Nulojix, belatacept, Date of authorisation: 17/06/2011, Revision: 23, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/nulojix",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/yesintek",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Yesintek, ustekinumab, Date of authorisation: 14/02/2025, Revision: 5, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/yesintek",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/usrenty",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Usrenty, ustekinumab, Date of authorisation: 17/09/2025, Revision: 3, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/usrenty",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/benlysta",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Benlysta, belimumab, Date of authorisation: 13/07/2011, Revision: 42, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/benlysta",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/abiraterone-mylan",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Abiraterone Mylan, abiraterone acetate, Date of authorisation: 20/08/2021, Revision: 8, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/abiraterone-mylan",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/other/advice-medical-device-expert-panels_andocor-nv-may-2026_final-ec_en.pdf",
+   "authority": "EMA",
+   "title": "Advice on a possible European-wide derogation granted for the arterial cannula reinforced, arterial cannula non-reinforced, aortic catheter, flex line venous catheter and flex line two stage venous catheter manufactured by Andocor NV - 9 June 2026",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/other/advice-medical-device-expert-panels_andocor-nv-may-2026_final-ec_en.pdf",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/partners-networks/one-health-approach",
+   "authority": "EMA",
+   "title": "One Health approach",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/partners-networks/one-health-approach",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/other/icmra_infocards_waaw_2026_en_0.pdf",
+   "authority": "EMA",
+   "title": "One Health, one action: Prevent AMR now",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/other/icmra_infocards_waaw_2026_en_0.pdf",
+   "published": "2026-11-19",
+   "type": "law",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3307",
+   "authority": "EMA",
+   "title": "Orphan designation: ataluren Treatment of shwachman-diamond syndrome, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3307",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3302",
+   "authority": "EMA",
+   "title": "Orphan designation: pazopanib hydrochloride Treatment of hereditary haemorrhagic telangiectasia, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3302",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3299",
+   "authority": "EMA",
+   "title": "Orphan designation: Equine immunoglobulin F(ab')2 fragments targeting Shiga toxin Treatment of haemolytic uraemic syndrome, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3299",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3293",
+   "authority": "EMA",
+   "title": "Orphan designation: antisense oligonucleotide against mutant SERPINA1 mRNA Treatment of alpha-1 antitrypsin deficiency, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3293",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3294",
+   "authority": "EMA",
+   "title": "Orphan designation: 3-(2,6-Dichloro-3,5-dimethoxyphenyl)-1-methyl-7-(1-(2-morpholinoethyl)-1H-pyrazol-4-yl)-1,6-naphthyridin-2(1H)-one Treatment of achondroplasia, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3294",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3296",
+   "authority": "EMA",
+   "title": "Orphan designation: navlimetostat Treatment of pancreatic cancer, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3296",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3314",
+   "authority": "EMA",
+   "title": "Orphan designation: allogenic adipose-derived osteodifferentiated cells co-incubated with hydroxyapatite and beta-tricalcium phosphate particles Treatment of solitary bone cysts, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3314",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3289",
+   "authority": "EMA",
+   "title": "Orphan designation: rimonabant Treatment of spinal cord injury, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3289",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3295",
+   "authority": "EMA",
+   "title": "Orphan designation: sonesitatug vedotin Treatment of oesophageal cancer, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3295",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3313",
+   "authority": "EMA",
+   "title": "Orphan designation: allogeneic peripheral blood-derived T cells edited with CRISPR/Cas9 and transduced with a retroviral vector expressing a chimeric antigen receptor against T-cell antigen CD7 Treatment of acute lymphoblastic leukaemia, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3313",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3310",
+   "authority": "EMA",
+   "title": "Orphan designation: adeno-associated virus serotype hu68 containing complementary DNA for the human frataxin, mitochondrial Treatment of Friedreich’s ataxia, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3310",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3301",
+   "authority": "EMA",
+   "title": "Orphan designation: adenovirus type 5 vector encoding the human telomerase reverse transcriptase mRNA-targeting trans-splicing ribozyme and Herpes simplex virus thymidine kinase Treatment of glioma, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3301",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3312",
+   "authority": "EMA",
+   "title": "Orphan designation: adeno-associated virus vector serotype 8 containing the CYP4V2 gene Treatment of inherited retinal dystrophy due to dysfunction in the CYP4V2-gene, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3312",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3297",
+   "authority": "EMA",
+   "title": "Orphan designation: measles vaccine virus (Schwarz strain) modified to inactivate virulence factor C Treatment of mesothelioma, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3297",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "vaccine",
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3300",
+   "authority": "EMA",
+   "title": "Orphan designation: humanised IgG4 monoclonal antibody against activated protein C Treatment of haemophilia A, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3300",
+   "published": "2026-11-19",
+   "type": "law",
+   "areas": [
+    "biologic",
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3298",
+   "authority": "EMA",
+   "title": "Orphan designation: latarcibart Treatment of von Willebrand disease, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3298",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3291",
+   "authority": "EMA",
+   "title": "Orphan designation: carbidopa,levodopa Treatment of spinocerebellar ataxia, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3291",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3303",
+   "authority": "EMA",
+   "title": "Orphan designation: efzimfotase alfa Treatment of hypophosphatasia, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3303",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3304",
+   "authority": "EMA",
+   "title": "Orphan designation: adeno-associated virus serotype rh74 containing the human BAG3 gene Treatment of BAG3 dilated cardiomyopathy, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3304",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3305",
+   "authority": "EMA",
+   "title": "Orphan designation: human IgG1 bispecific monoclonal antibody against glypican-3 and tumor necrosis factor receptor superfamily member 9 Treatment of hepatocellular carcinoma, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3305",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "biologic",
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3309",
+   "authority": "EMA",
+   "title": "Orphan designation: 6-(6-(((1R,2R,3S,5S)-2-Fluoro-9-azabicyclo[3.3.1]nonan-3-yl)(methyl)amino)pyridazine-3-yl)-2-methylbenzo[d]oxazol-5-ol Treatment of Huntington’s disease, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3309",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3287",
+   "authority": "EMA",
+   "title": "Orphan designation: niraparib tosilate monohydrate Treatment of glioma, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3287",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3292",
+   "authority": "EMA",
+   "title": "Orphan designation: efgartigimod alfa Treatment of idiopathic inflammatory myopathy, 19/10/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3292",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3280",
+   "authority": "EMA",
+   "title": "Orphan designation: imsidolimab Treatment of generalised pustular psoriasis, 20/08/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3280",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3276",
+   "authority": "EMA",
+   "title": "Orphan designation: paltusotine Treatment of carcinoid syndrome, 20/08/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3276",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3282",
+   "authority": "EMA",
+   "title": "Orphan designation: adeno-associated viral vector serotype 6 containing the truncated human HCN4 gene treatment of congenital complete heart block, 20/08/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3282",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3278",
+   "authority": "EMA",
+   "title": "Orphan designation: 4-(4-Bromo-2-oxo-3H-benzimidazol-1-yl)-N-(4-iodophenyl)piperidine-1-carboxamide Treatment of idiopathic pulmonary fibrosis, 20/08/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3278",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3279",
+   "authority": "EMA",
+   "title": "Orphan designation: zolacabtagene autoleucel Treatment of PLN R14del cardiomyopathy, 20/08/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3279",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3285",
+   "authority": "EMA",
+   "title": "Orphan designation: zolacabtagene autoleucel Treatment of systemic sclerosis, 20/08/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3285",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3277",
+   "authority": "EMA",
+   "title": "Orphan designation: asedebart Treatment of Cushing's syndrome of endogenous origin, 20/08/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3277",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3284",
+   "authority": "EMA",
+   "title": "Orphan designation: (4Z,7R,8E,10E,12Z,14S,16Z,19Z)-7,14-Dihydroxydocosa-4,8,10,12,16,19-hexaenoic acid Treatment of amyotrophic lateral sclerosis, 20/08/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3284",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3275",
+   "authority": "EMA",
+   "title": "Orphan designation: insulin human Treatment of intestinal malabsorption in preterm infants, 20/08/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3275",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "paediatric",
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3283",
+   "authority": "EMA",
+   "title": "Orphan designation: pexamsiran Treatment of von Willebrand disease, 20/08/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3283",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3281",
+   "authority": "EMA",
+   "title": "Orphan designation: bimiralisib treatment of thymic epithelial tumours, 20/08/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3281",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3286",
+   "authority": "EMA",
+   "title": "Orphan designation: humanised IgG4 monoclonal antibody against activated protein C Treatment of haemophilia B, 20/08/2026 Positive",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/orphan-designations/eu-3-26-3286",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "biologic",
+    "orphan"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/report/2026-11-inn-report-rev-1-en_0.xlsx",
+   "authority": "EMA",
+   "title": "Applications for new human medicines under evaluation: November 2026",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/report/2026-11-inn-report-rev-1-en_0.xlsx",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/human-regulatory-overview/research-development/compliance-research-development/good-manufacturing-practice/eudragmdp-database",
+   "authority": "EMA",
+   "title": "EudraGMDP database",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/human-regulatory-overview/research-development/compliance-research-development/good-manufacturing-practice/eudragmdp-database",
+   "published": "2026-11-18",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/fintepla",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Fintepla, fenfluramine, Date of authorisation: 18/12/2020, Revision: 21, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/fintepla",
+   "published": "2026-11-18",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/lynozyfic",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Lynozyfic, linvoseltamab, Date of authorisation: 23/04/2025, Revision: 2, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/lynozyfic",
+   "published": "2026-11-18",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/human-regulatory-overview/research-and-development/scientific-guidelines/biological-guidelines/questions-answers-biological-medicinal-products",
+   "authority": "EMA",
+   "title": "Questions and answers for biological medicinal products",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/human-regulatory-overview/research-and-development/scientific-guidelines/biological-guidelines/questions-answers-biological-medicinal-products",
+   "published": "2026-11-18",
+   "type": "guideline",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/exelon",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Exelon, rivastigmine, Date of authorisation: 11/05/1998, Revision: 52, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/exelon",
+   "published": "2026-11-18",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/other/darwin-eur-advisory-board-mandate-en.pdf",
+   "authority": "EMA",
+   "title": "DARWIN EU Advisory Board: Mandate",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/other/darwin-eur-advisory-board-mandate-en.pdf",
+   "published": "2026-11-18",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/human-regulatory-overview/research-development/scientific-guidelines/quality-medicines-questions-answers-introduction/quality-medicines-questions-answers-part-2",
+   "authority": "EMA",
+   "title": "Quality of medicines: questions and answers - Part 2",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/human-regulatory-overview/research-development/scientific-guidelines/quality-medicines-questions-answers-introduction/quality-medicines-questions-answers-part-2",
+   "published": "2026-11-18",
+   "type": "guideline",
+   "areas": [
+    "quality"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/other/166-eurd-list-publication-18-nov-2026_en.xlsx",
+   "authority": "EMA",
+   "title": "List of Union reference dates and frequency of submission of periodic safety update reports (PSURs)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/other/166-eurd-list-publication-18-nov-2026_en.xlsx",
+   "published": "2026-11-18",
+   "type": "safety",
+   "areas": [
+    "pv"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/hma-ema-multistakeholder-ai-data-forum-build-trustworthy-ai-strong-data-foundations",
+   "authority": "EMA",
+   "title": "HMA / EMA multistakeholder AI and Data forum: Build trustworthy AI on strong data foundations, Online, European Medicines Agency, Amsterdam, the Netherlands, Broadcast, from 12 November 2026 to 13 November 2026",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/hma-ema-multistakeholder-ai-data-forum-build-trustworthy-ai-strong-data-foundations",
+   "published": "2026-11-18",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/news/eu-recommendations-2026-2027-seasonal-flu-vaccine-composition",
+   "authority": "EMA",
+   "title": "EU recommendations for 2026/2027 seasonal flu vaccine composition",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/news/eu-recommendations-2026-2027-seasonal-flu-vaccine-composition",
+   "published": "2026-11-17",
+   "type": "other",
+   "areas": [
+    "vaccine"
+   ],
+   "language": "en",
+   "source": "EMA/news"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/talmanco",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Talmanco (previously Tadalafil Generics), tadalafil, Date of authorisation: 09/01/2017, Revision: 12, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/talmanco",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [
+    "generic"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/tecovirimat-siga",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Tecovirimat SIGA, tecovirimat monohydrate, Date of authorisation: 06/01/2022, Revision: 7, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/tecovirimat-siga",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/ngenla",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Ngenla, somatrogon, Date of authorisation: 14/02/2022, Revision: 12, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/ngenla",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/inijaq",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Inijaq, tofacitinib, Date of authorisation: 12/11/2026, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/inijaq",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/veterinary-regulatory-overview/research-development-veterinary-medicines/veterinary-limited-markets/cvmp-recommendations-limited-market-classification-eligibility-authorisation-under-article-23",
+   "authority": "EMA",
+   "title": "CVMP recommendations on limited market classification and eligibility for authorisation under Article 23",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/veterinary-regulatory-overview/research-development-veterinary-medicines/veterinary-limited-markets/cvmp-recommendations-limited-market-classification-eligibility-authorisation-under-article-23",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/regulatory-procedural-guideline/third-amended-eu-recommendation-vaccine-composition-2026-2027-en.pdf",
+   "authority": "EMA",
+   "title": "Amended Biologics Working Party Vaccines Quality Operational Expert Group (BV-OEG) Influenza Meeting: EU recommendations for the seasonal influenza vaccine composition for the season 2026/2027",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/regulatory-procedural-guideline/third-amended-eu-recommendation-vaccine-composition-2026-2027-en.pdf",
+   "published": "2026-11-17",
+   "type": "other",
+   "areas": [
+    "biologic",
+    "vaccine",
+    "quality"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/fifth-european-medicines-agency-ema-european-confederation-pharmaceutical-entrepreneurs-eucope-bilateral-meeting",
+   "authority": "EMA",
+   "title": "Fifth European Medicines Agency (EMA) and European Confederation of Pharmaceutical Entrepreneurs (EUCOPE) bilateral meeting, Online, European Medicines Agency, Amsterdam, the Netherlands, 17 November 2026",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/fifth-european-medicines-agency-ema-european-confederation-pharmaceutical-entrepreneurs-eucope-bilateral-meeting",
+   "published": "2026-11-17",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/orencia",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Orencia, abatacept, Date of authorisation: 21/05/2007, Revision: 44, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/orencia",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/dhpc/caelyx-pegylated-liposomal",
+   "authority": "EMA",
+   "title": "Caelyx pegylated liposomal",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/dhpc/caelyx-pegylated-liposomal",
+   "published": "2026-11-17",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000246516",
+   "authority": "EMA",
+   "title": "EMA/PE/0000246516",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000246516",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000245099",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Enspryng, satralizumab, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Nervous system disorders, PIP number: P/0448/2022",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000245099",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000245622",
+   "authority": "EMA",
+   "title": "EMA/PE/0000245622",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000245622",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000240214",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Sunosi, solriamfetol, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Nervous system disorders, PIP number: P/0394/2021",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000240214",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000248880",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Galafold, migalastat hydrochloride, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Congenital, familial and genetic disorders, PIP number: P/0172/2023",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000248880",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000246309",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Besponsa, Inotuzumab ozogamicin, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Blood and lymphatic system disorders, PIP number: P/0079/2023",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000246309",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000235929",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Venclyxto, venetoclax, decision type: PM: decision on the application for modification of an agreed PIP, therapeutic area: Blood and lymphatic system disorders, PIP number: P/0148/2022",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000235929",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000248789",
+   "authority": "EMA",
+   "title": "EMA/PE/0000248789",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000248789",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000258486",
+   "authority": "EMA",
+   "title": "Opinion/decision on a Paediatric investigation plan (PIP): Hetronifly, serplulimab, decision type: W: decision granting a waiver in all age groups for all conditions or indications, therapeutic area: Neoplasms benign, malignant and unspecified (incl cysts and polyps), PIP number: EMA/PE/0000258486",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/paediatric-investigation-plans/ema-pe-0000258486",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/agenda/draft-hmpc-agenda-16-18-november-2026-en.pdf",
+   "authority": "EMA",
+   "title": "Agenda of the HMPC meeting 16-18 November 2026",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/agenda/draft-hmpc-agenda-16-18-november-2026-en.pdf",
+   "published": "2026-11-16",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/kyinsu",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Kyinsu, insulin icodec,semaglutide, Date of authorisation: 24/11/2025, Revision: 1, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/kyinsu",
+   "published": "2026-11-16",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/kisunla",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Kisunla, donanemab, Date of authorisation: 24/09/2025, Revision: 4, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/kisunla",
+   "published": "2026-11-16",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/leflunomide-ratiopharm",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Leflunomide ratiopharm, leflunomide, Date of authorisation: 28/11/2010, Revision: 22, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/leflunomide-ratiopharm",
+   "published": "2026-11-16",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/soliris",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Soliris, eculizumab, Date of authorisation: 20/06/2007, Revision: 42, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/soliris",
+   "published": "2026-11-16",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/clopidogrel-viatris",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Clopidogrel Viatris (previously Clopidogrel Taw Pharma), clopidogrel, Date of authorisation: 16/10/2009, Revision: 30, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/clopidogrel-viatris",
+   "published": "2026-11-16",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/mcombriax",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): mCombriax, influenza mRNA vaccine,COVID-19 mRNA vaccine, Date of authorisation: 20/04/2026, Revision: 2, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/mcombriax",
+   "published": "2026-11-16",
+   "type": "approval",
+   "areas": [
+    "vaccine"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/pirfenidone-viatris",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Pirfenidone Viatris, pirfenidone, Date of authorisation: 10/01/2023, Revision: 5, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/pirfenidone-viatris",
+   "published": "2026-11-16",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/oncaspar",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Oncaspar, pegaspargase, Date of authorisation: 14/01/2016, Revision: 21, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/oncaspar",
+   "published": "2026-11-16",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/workshop-advancing-proof-concept-data-paediatric-oncology-drug-development",
+   "authority": "EMA",
+   "title": "Workshop on advancing proof-of-concept data in paediatric oncology drug development , Online, European Medicines Agency, Amsterdam, the Netherlands, from 21 September 2026, 13:00 (CEST) to 21 September 2026, 16:00 (CEST)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/workshop-advancing-proof-concept-data-paediatric-oncology-drug-development",
+   "published": "2026-11-16",
+   "type": "other",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/shortages/mycobutin-rifabutin",
+   "authority": "EMA",
+   "title": "Mycobutin (rifabutin)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/shortages/mycobutin-rifabutin",
+   "published": "2026-11-16",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "fda:fda.gov/about-fda/national-center-toxicological-research/national-center-toxicological-research-nctr-annual-reports",
+   "authority": "FDA",
+   "title": "National Center for Toxicological Research (NCTR) Annual Reports",
+   "title_en": "",
+   "url": "https://fda.gov/about-fda/national-center-toxicological-research/national-center-toxicological-research-nctr-annual-reports",
+   "published": "2026-11-22",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/drugs/drug-alerts-and-statements/fda-introduces-new-approach-drug-quality-sampling-and-testing",
+   "authority": "FDA",
+   "title": "FDA Introduces New Approach to Drug Quality Sampling and Testing",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/drug-alerts-and-statements/fda-introduces-new-approach-drug-quality-sampling-and-testing",
+   "published": "2026-11-22",
+   "type": "other",
+   "areas": [
+    "quality"
+   ],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/news-events/fda-meetings-conferences-and-workshops/eco-nams-webinar-series-enhancing-regulatory-application-ecotoxicological-qsars-12032026",
+   "authority": "FDA",
+   "title": "Eco-NAMs Webinar Series | Enhancing Regulatory Application of Ecotoxicological QSARs - 12/03/2026",
+   "title_en": "",
+   "url": "https://fda.gov/news-events/fda-meetings-conferences-and-workshops/eco-nams-webinar-series-enhancing-regulatory-application-ecotoxicological-qsars-12032026",
+   "published": "2026-11-22",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/drugs/drug-alerts-and-statements/fda-publishes-new-batch-product-specific-guidances-facilitate-generic-drug-development",
+   "authority": "FDA",
+   "title": "FDA Publishes New Batch of Product-Specific Guidances to Facilitate Generic Drug Development",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/drug-alerts-and-statements/fda-publishes-new-batch-product-specific-guidances-facilitate-generic-drug-development",
+   "published": "2026-11-22",
+   "type": "guideline",
+   "areas": [
+    "generic"
+   ],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/drugs/development-resources/pediatric-exclusivity-granted",
+   "authority": "FDA",
+   "title": "Pediatric Exclusivity Granted",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/development-resources/pediatric-exclusivity-granted",
+   "published": "2026-11-22",
+   "type": "other",
+   "areas": [
+    "cosmetic",
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-infectious-diseases-research-activities",
+   "authority": "FDA",
+   "title": "Office of Infectious Diseases Research Activities",
+   "title_en": "",
+   "url": "https://fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-infectious-diseases-research-activities",
+   "published": "2026-11-22",
+   "type": "law",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/whats-new-biologics/fda-establishes-cber-safety-council-strengthen-postmarketing-oversight-biological-products",
+   "authority": "FDA",
+   "title": "FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/whats-new-biologics/fda-establishes-cber-safety-council-strengthen-postmarketing-oversight-biological-products",
+   "published": "2026-11-22",
+   "type": "safety",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/advisory-committees/vaccines-and-related-biological-products-advisory-committee/roster-vaccines-and-related-biological-products-advisory-committee",
+   "authority": "FDA",
+   "title": "Roster of the Vaccines and Related Biological Products Advisory Committee",
+   "title_en": "",
+   "url": "https://fda.gov/advisory-committees/vaccines-and-related-biological-products-advisory-committee/roster-vaccines-and-related-biological-products-advisory-committee",
+   "published": "2026-11-22",
+   "type": "other",
+   "areas": [
+    "biologic",
+    "vaccine"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
+   "authority": "FDA",
+   "title": "Greenwich Rx Issues Voluntary Nationwide Recall of Compounded Sterile Products Due to Lack of Sterility Assurance",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
+   "published": "2026-11-20",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/about-fda/center-drug-evaluation-and-research-cder/report-state-pharmaceutical-quality",
+   "authority": "FDA",
+   "title": "Report on the State of Pharmaceutical Quality",
+   "title_en": "",
+   "url": "https://fda.gov/about-fda/center-drug-evaluation-and-research-cder/report-state-pharmaceutical-quality",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [
+    "quality"
+   ],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/drugs/drug-and-biologic-approval-and-ind-activity-reports/first-generic-drug-approvals",
+   "authority": "FDA",
+   "title": "First Generic Drug Approvals",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/drug-and-biologic-approval-and-ind-activity-reports/first-generic-drug-approvals",
+   "published": "2026-11-20",
+   "type": "approval",
+   "areas": [
+    "generic",
+    "quality"
+   ],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/ogle-cattle-company-inc-713311-09052025",
+   "authority": "FDA",
+   "title": "Ogle Cattle Company, Inc. - 713311 - 09/05/2025",
+   "title_en": "",
+   "url": "https://fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/ogle-cattle-company-inc-713311-09052025",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
+   "authority": "FDA",
+   "title": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
+   "published": "2026-11-20",
+   "type": "news",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-11132026",
+   "authority": "FDA",
+   "title": "Stephen J. Fallon, Ph.D. - 728673 - 11/13/2026",
+   "title_en": "",
+   "url": "https://fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-11132026",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-08272026",
+   "authority": "FDA",
+   "title": "Stephen J. Fallon, Ph.D. - 728673 - 08/27/2026",
+   "title_en": "",
+   "url": "https://fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-08272026",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-heraeus-medical-components-removes-vascular-guidewires",
+   "authority": "FDA",
+   "title": "Early Alert: Heraeus Medical Components Removes Vascular Guidewires",
+   "title_en": "",
+   "url": "https://fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-heraeus-medical-components-removes-vascular-guidewires",
+   "published": "2026-11-20",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/shanghai-san-niu-food-co-ltd-recalling-sanniu-evergeen-biscuits-due-undeclared-milk-and-sanniu-salt",
+   "authority": "FDA",
+   "title": "Shanghai San Niu Food Co., LTD. Is Recalling Sanniu Evergeen Biscuits Due to Undeclared Milk and Sanniu Salt and Pepper Soda Biscuits Due to Undeclared Milk and Shrimp",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/shanghai-san-niu-food-co-ltd-recalling-sanniu-evergeen-biscuits-due-undeclared-milk-and-sanniu-salt",
+   "published": "2026-11-20",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/recalls"
+  },
+  {
+   "id": "fda:fda.gov/about-fda/accelerating-rare-disease-cures-arc-program/rare-disease-drug-approvals",
+   "authority": "FDA",
+   "title": "Rare Disease Drug Approvals",
+   "title_en": "",
+   "url": "https://fda.gov/about-fda/accelerating-rare-disease-cures-arc-program/rare-disease-drug-approvals",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "orphan"
+   ],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/drugs/development-resources/written-requests-issued-pediatric-studies",
+   "authority": "FDA",
+   "title": "Written Requests Issued for Pediatric Studies",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/development-resources/written-requests-issued-pediatric-studies",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+   "authority": "FDA",
+   "title": "Novel Drug Approvals for 2026",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/biologics-guidances/cellular-gene-therapy-guidances",
+   "authority": "FDA",
+   "title": "Cellular & Gene Therapy Guidances",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/biologics-guidances/cellular-gene-therapy-guidances",
+   "published": "2026-11-19",
+   "type": "guideline",
+   "areas": [
+    "cgt"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/guidance-compliance-regulatory-information-biologics/biologics-procedures-sopps",
+   "authority": "FDA",
+   "title": "Biologics Procedures (SOPPs)",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/guidance-compliance-regulatory-information-biologics/biologics-procedures-sopps",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/regulatory-information/search-fda-guidance-documents/transfer-premarket-notification-510k-clearance-questions-and-answers",
+   "authority": "FDA",
+   "title": "Transfer of a Premarket Notification (510(k)) Clearance – Questions and Answers",
+   "title_en": "",
+   "url": "https://fda.gov/regulatory-information/search-fda-guidance-documents/transfer-premarket-notification-510k-clearance-questions-and-answers",
+   "published": "2026-11-19",
+   "type": "guideline",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/drugs/accelerated-approval-program/ongoing-infectious-disease-accelerated-approvals-vaccines",
+   "authority": "FDA",
+   "title": "Ongoing | Infectious Disease Accelerated Approvals Vaccines",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/accelerated-approval-program/ongoing-infectious-disease-accelerated-approvals-vaccines",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "biologic",
+    "vaccine"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-outset-medical-updates-use-instructions-tablo-console-and-tablocart-prefiltration-drawer",
+   "authority": "FDA",
+   "title": "Early Alert: Outset Medical Updates Use Instructions for the Tablo Console and the TabloCart with Prefiltration Drawer",
+   "title_en": "",
+   "url": "https://fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-outset-medical-updates-use-instructions-tablo-console-and-tablocart-prefiltration-drawer",
+   "published": "2026-11-19",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch"
+  },
+  {
+   "id": "fda:fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-b-braun-medical-inc-updates-use-instructions-caresite-micro-luer-access-device",
+   "authority": "FDA",
+   "title": "Early Alert: B. Braun Medical Inc. Updates Use Instructions for Caresite Micro Luer Access Device",
+   "title_en": "",
+   "url": "https://fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-b-braun-medical-inc-updates-use-instructions-caresite-micro-luer-access-device",
+   "published": "2026-11-19",
+   "type": "safety",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "FDA/medwatch"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/ridley-block-operations-recalls-batch-crystalyxrhe-20-beef-cattle-and-bison-due-excess-levels-non",
+   "authority": "FDA",
+   "title": "Ridley Block Operations Recalls a Batch of Crystalyx®HE-20% for Beef Cattle and Bison Due to Excess Levels of Non-Protein Nitrogen (NPN)",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/ridley-block-operations-recalls-batch-crystalyxrhe-20-beef-cattle-and-bison-due-excess-levels-non",
+   "published": "2026-11-19",
+   "type": "recall",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "FDA/recalls"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/grand-strand-sandwich-company-recalls-lunch-box-bacon-egg-and-cheese-biscuit-lunch-box-jumbo-sausage",
+   "authority": "FDA",
+   "title": "Grand Strand Sandwich Company Recalls Lunch Box Bacon Egg and Cheese Biscuit, Lunch Box Jumbo Sausage Biscuit, Lunch Box Sausage Egg and Cheese Biscuit, Lunch Box Chicken Sausage Biscuit Due to Listeria Monocytogenes Contamination",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/grand-strand-sandwich-company-recalls-lunch-box-bacon-egg-and-cheese-biscuit-lunch-box-jumbo-sausage",
+   "published": "2026-11-19",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/recalls"
+  },
+  {
+   "id": "fda:fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-neurological-symptoms-type-3-gaucher-disease",
+   "authority": "FDA",
+   "title": "FDA Approves First Drug to Treat Neurological Symptoms of Type 3 Gaucher Disease",
+   "title_en": "",
+   "url": "https://fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-neurological-symptoms-type-3-gaucher-disease",
+   "published": "2026-11-18",
+   "type": "news",
+   "areas": [
+    "small-molecule",
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "FDA/press"
+  },
+  {
+   "id": "fda:fda.gov/news-events/press-announcements/fda-launches-global-reliance-disclosure-program-expand-patient-access-medicines-worldwide",
+   "authority": "FDA",
+   "title": "FDA Launches the Global Reliance Disclosure Program to Expand Patient Access to Medicines Worldwide",
+   "title_en": "",
+   "url": "https://fda.gov/news-events/press-announcements/fda-launches-global-reliance-disclosure-program-expand-patient-access-medicines-worldwide",
+   "published": "2026-11-17",
+   "type": "news",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "FDA/press"
+  },
+  {
+   "id": "fda:fda.gov/news-events/press-announcements/fda-approves-first-drug-shown-help-patients-infantile-onset-niemann-pick-disease-type-c-live-longer",
+   "authority": "FDA",
+   "title": "FDA Approves First Drug Shown to Help Patients with Infantile-Onset Niemann-Pick Disease Type C Live Longer",
+   "title_en": "",
+   "url": "https://fda.gov/news-events/press-announcements/fda-approves-first-drug-shown-help-patients-infantile-onset-niemann-pick-disease-type-c-live-longer",
+   "published": "2026-11-17",
+   "type": "news",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/press"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/medical-device-correction-update-lunar-g3-bpap-system-model-lg3800-30vt",
+   "authority": "FDA",
+   "title": "Medical Device Correction Update Luna® G3 BPAP System (Model LG3800-30VT)",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/medical-device-correction-update-lunar-g3-bpap-system-model-lg3800-30vt",
+   "published": "2026-11-17",
+   "type": "recall",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "FDA/medwatch"
+  },
+  {
+   "id": "fda:fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-correction-cardinal-health-issues-correction-presource-packs-containing-bd-alaris",
+   "authority": "FDA",
+   "title": "Convenience Kit Correction: Cardinal Health Issues Correction for Presource Packs Containing BD Alaris Pump Infusion Sets",
+   "title_en": "",
+   "url": "https://fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-correction-cardinal-health-issues-correction-presource-packs-containing-bd-alaris",
+   "published": "2026-11-17",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/larbi-inc-recalls-yellow-dock-root-because-possible-health-risk",
+   "authority": "FDA",
+   "title": "Larbi Inc. Recalls Yellow Dock Root Because of Possible Health Risk",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/larbi-inc-recalls-yellow-dock-root-because-possible-health-risk",
+   "published": "2026-11-17",
+   "type": "recall",
+   "areas": [
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "FDA/recalls"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-ready-foods-llc-expands-recall-include-fresh-you-brand-sausage-egg-cheese-biscuit-sandwich-and",
+   "authority": "FDA",
+   "title": "Fresh & Ready Foods LLC Expands Recall to Include Fresh to You Brand Sausage, Egg & Cheese Biscuit Sandwich and Meals Made in Minutes Brand Biscuit & Sausage Gravy Due to Possible Health Risk",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-ready-foods-llc-expands-recall-include-fresh-you-brand-sausage-egg-cheese-biscuit-sandwich-and",
+   "published": "2026-11-17",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/recalls"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/breckenridge-pharmaceutical-inc-issues-voluntary-nationwide-consumer-level-recall-one-lot",
+   "authority": "FDA",
+   "title": "Breckenridge Pharmaceutical, Inc. Issues Voluntary Nationwide Consumer-Level Recall of One Lot of Propranolol Hydrochloride Extended-Release Capsules, USP, 60 mg, Due to Potential Metal Contamination",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/breckenridge-pharmaceutical-inc-issues-voluntary-nationwide-consumer-level-recall-one-lot",
+   "published": "2026-11-16",
+   "type": "recall",
+   "areas": [
+    "small-molecule"
+   ],
+   "language": "en",
+   "source": "FDA/drugs"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/vaccines/pentacel",
+   "authority": "FDA",
+   "title": "Pentacel",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/vaccines/pentacel",
+   "published": "2026-11-16",
+   "type": "other",
+   "areas": [
+    "vaccine",
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/vaccines/quadracel",
+   "authority": "FDA",
+   "title": "Quadracel",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/vaccines/quadracel",
+   "published": "2026-11-16",
+   "type": "other",
+   "areas": [
+    "vaccine",
+    "paediatric"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/workshops-meetings-conferences-biologics/cber-listening-meeting-patient-and-care-partner-perspectives-safety-considerations-approved-gene",
+   "authority": "FDA",
+   "title": "CBER Listening Meeting: Patient and Care Partner Perspectives on Safety Considerations for Approved Gene Therapy Treatments for Rare Diseases - 09/20/2024",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/workshops-meetings-conferences-biologics/cber-listening-meeting-patient-and-care-partner-perspectives-safety-considerations-approved-gene",
+   "published": "2026-11-16",
+   "type": "safety",
+   "areas": [
+    "cgt",
+    "orphan"
+   ],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/science-research/fda-and-super-intelligence",
+   "authority": "FDA",
+   "title": "FDA and Super Intelligence",
+   "title_en": "",
+   "url": "https://fda.gov/science-research/fda-and-super-intelligence",
+   "published": "2026-11-16",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/aldi-recalls-priano-protein-carbonara-tortelloni-and-priano-protein-herb-cheese-tortelloni-because",
+   "authority": "FDA",
+   "title": "ALDI Recalls Priano Protein Carbonara Tortelloni and Priano Protein Herb & Cheese Tortelloni Because Of Possible Health Risk",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/aldi-recalls-priano-protein-carbonara-tortelloni-and-priano-protein-herb-cheese-tortelloni-because",
+   "published": "2026-11-16",
+   "type": "recall",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "FDA/recalls"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/naia-inc-recalls-chocolate-banana-bar-sorbetto-because-undeclared-milk-eggs-and-nuts",
+   "authority": "FDA",
+   "title": "Naia, Inc. Recalls Chocolate Banana Bar Sorbetto Because of Undeclared Milk, Eggs, and Nuts",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/naia-inc-recalls-chocolate-banana-bar-sorbetto-because-undeclared-milk-eggs-and-nuts",
+   "published": "2026-11-16",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/recalls"
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/rocky-mountain-nutrition-issues-allergy-alert-undeclared-milk-certain-pre-workout-powders",
+   "authority": "FDA",
+   "title": "Rocky Mountain Nutrition Issues Allergy Alert on Undeclared Milk in Certain Pre-Workout Powders",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/rocky-mountain-nutrition-issues-allergy-alert-undeclared-milk-certain-pre-workout-powders",
+   "published": "2026-11-09",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/recalls"
+  },
+  {
+   "id": "hc:recalls-rappels.canada.ca/en/alert-recall/relayr-pro-and-treor-stent-graft-systems",
+   "authority": "HC",
+   "title": "Relay® Pro and Treo® Stent-Graft Systems",
+   "title_en": "",
+   "url": "https://recalls-rappels.canada.ca/en/alert-recall/relayr-pro-and-treor-stent-graft-systems",
+   "published": "2026-11-20",
+   "type": "recall",
+   "areas": [
+    "device"
+   ],
+   "language": "fr",
+   "source": "HC/recalls-en"
+  },
+  {
+   "id": "hc:recalls-rappels.canada.ca/en/alert-recall/cardiosaver-hybrid-and-cardiosaver-rescue-intra-aortic-balloon-pumps",
+   "authority": "HC",
+   "title": "CARDIOSAVE® Hybrid And CARDIOSAVE® Rescue Intra-Aortic Balloon Pumps",
+   "title_en": "",
+   "url": "https://recalls-rappels.canada.ca/en/alert-recall/cardiosaver-hybrid-and-cardiosaver-rescue-intra-aortic-balloon-pumps",
+   "published": "2026-11-19",
+   "type": "recall",
+   "areas": [
+    "device"
+   ],
+   "language": "fr",
+   "source": "HC/recalls-en"
+  },
+  {
+   "id": "hc:recalls-rappels.canada.ca/en/alert-recall/philips-bridge-prep-kit",
+   "authority": "HC",
+   "title": "Philips Bridge Prep Kit",
+   "title_en": "",
+   "url": "https://recalls-rappels.canada.ca/en/alert-recall/philips-bridge-prep-kit",
+   "published": "2026-11-19",
+   "type": "recall",
+   "areas": [
+    "device"
+   ],
+   "language": "fr",
+   "source": "HC/recalls-en"
+  },
+  {
+   "id": "hc:canada.ca/en/health-canada/services/drugs-health-products/drug-products/applications-submissions/guidance-documents/submitting-risk-management-plans.html",
+   "authority": "HC",
+   "title": "Guidance on submitting risk management plans",
+   "title_en": "",
+   "url": "https://canada.ca/en/health-canada/services/drugs-health-products/drug-products/applications-submissions/guidance-documents/submitting-risk-management-plans.html",
+   "published": "2026-11-19",
+   "type": "safety",
+   "areas": [
+    "pv"
+   ],
+   "language": "en",
+   "source": "HC/medeffect-en"
+  },
+  {
+   "id": "hc:canada.ca/fr/sante-canada/services/medicaments-produits-sante/medicaments/demandes-presentations/lignes-directrices/presentation-plans-gestion-risques.html",
+   "authority": "HC",
+   "title": "Ligne directrice sur la présentation des plans de gestion des risques",
+   "title_en": "",
+   "url": "https://canada.ca/fr/sante-canada/services/medicaments-produits-sante/medicaments/demandes-presentations/lignes-directrices/presentation-plans-gestion-risques.html",
+   "published": "2026-11-19",
+   "type": "safety",
+   "areas": [],
+   "language": "fr",
+   "source": "HC/medeffect-fr"
+  },
+  {
+   "id": "hsa:hsa.gov.sg/announcements/2-years--jail--2-strokes-of-the-cane-for-first-etomidate-trafficker-caught-after-enhanced-enforcement-in-2025",
+   "authority": "HSA",
+   "title": "2 Years’ Jail, 2 Strokes of the Cane for First Etomidate Trafficker Caught after Enhanced Enforcement in 2025",
+   "title_en": "",
+   "url": "https://hsa.gov.sg/announcements/2-years--jail--2-strokes-of-the-cane-for-first-etomidate-trafficker-caught-after-enhanced-enforcement-in-2025",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "HSA/announcements"
+  },
+  {
+   "id": "hsa:hsa.gov.sg/announcements/tougher-measures-for-etomidate-reoffenders",
+   "authority": "HSA",
+   "title": "Tougher Measures for Etomidate Reoffenders as 67 Sent to Drug Rehabilitation Centre Since September 2025",
+   "title_en": "",
+   "url": "https://hsa.gov.sg/announcements/tougher-measures-for-etomidate-reoffenders",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "HSA/announcements"
+  },
+  {
+   "id": "hsa:hsa.gov.sg/announcements/recall-of-fucithalmic-eye-drops-1---fusidic-acid",
+   "authority": "HSA",
+   "title": "Recall of Fucithalmic Eye Drops 1% (fusidic acid)",
+   "title_en": "",
+   "url": "https://hsa.gov.sg/announcements/recall-of-fucithalmic-eye-drops-1---fusidic-acid",
+   "published": "2026-11-19",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "HSA/announcements"
+  },
+  {
+   "id": "hsa:hsa.gov.sg/announcements/made-in-sg-api-easier-access-to-eu",
+   "authority": "HSA",
+   "title": "Made-In-Singapore Active Pharmaceutical Ingredients Gets Easier Access to EU with Recognition by European Commission",
+   "title_en": "",
+   "url": "https://hsa.gov.sg/announcements/made-in-sg-api-easier-access-to-eu",
+   "published": "2026-11-18",
+   "type": "law",
+   "areas": [],
+   "language": "en",
+   "source": "HSA/announcements"
+  },
+  {
+   "id": "ich:ich.org/pressrelease/key-outcomes-biannual-ich-assembly-meeting-prague",
+   "authority": "ICH",
+   "title": "Key Outcomes of Biannual ICH Assembly Meeting in Prague",
+   "title_en": "",
+   "url": "https://ich.org/pressrelease/key-outcomes-biannual-ich-assembly-meeting-prague",
+   "published": "2026-11-19",
+   "type": "news",
+   "areas": [],
+   "language": "en",
+   "source": "ICH/press"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50516&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[보도참고] 식약처, 식·의약 분야 특사경 수사역량 강화 직무교육 실시",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50516&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-23",
+   "type": "news",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50515&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[보도참고] 식약처, 바이오의약품 인허가 지원 워크숍 개최",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50515&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-23",
+   "type": "news",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44327&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "「건강기능식품에 관한 법률 시행규칙」일부개정령(안) 입법예고(식약처 공고 제2026-559호)",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44327&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-23",
+   "type": "draft",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_209"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_74/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=45257&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "(알림) 식품안심업소 지정 현황(2026.11.20. 기준)",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_74/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=45257&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-20",
+   "type": "circular",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_74"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50514&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[보도참고] 마약류 진통제는 통증조절이 되지 않는 심한 통증에만 사용해야 합니다",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50514&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-20",
+   "type": "news",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50513&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "식약처, 겨울철 노로바이러스 식중독 주의 당부",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50513&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-20",
+   "type": "news",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50512&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "한-멕시코 정부, 수입 수산물의 안전 확보를 위해 맞손 잡다",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50512&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-20",
+   "type": "safety",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_207/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15207&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "식품의 기준 및 규격 일부개정고시(제2026-77호",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_207/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15207&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-20",
+   "type": "law",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_207"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_211/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=14992&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "식품의 기준 및 규격 고시전문(제2026-77호",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_211/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=14992&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-20",
+   "type": "law",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_211"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_211/down.do?brd_id=data0005&data_tp=A&file_seq=3&seq=14992",
+   "authority": "MFDS",
+   "title": "★식품의 기준 및 규격 고시전문(제2026_77호, 2026.11.20.).zip",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_211/down.do?brd_id=data0005&data_tp=A&file_seq=3&seq=14992",
+   "published": "2026-11-20",
+   "type": "law",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_211"
+  },
+  {
+   "id": "mfds:mfds.go.kr/eng/brd/m_61/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=200&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "MFDS Urges Caution Against Norovirus Food Poisoning During Winter",
+   "title_en": "",
+   "url": "https://mfds.go.kr/eng/brd/m_61/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=200&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "MFDS/en-m_61"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_74/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=45256&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "유전자변형 콩 COR-23134-4 등 4건 안전성심사 결과 보고서(안)에 관한 공개의견수렴",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_74/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=45256&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-19",
+   "type": "draft",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_74"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50511&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[보도참고] 제조일자 없는 한식메주 회수 조치",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50511&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-19",
+   "type": "recall",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50510&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[관계부처합동] 대한민국 수출 1조 달러 돌파, 기업이 뛰고 국민이 함께 이룬 성과",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50510&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-19",
+   "type": "news",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50509&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "식약처 아시아·태평양 국가들과 식품안전 위기대응 협력 강화",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50509&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-19",
+   "type": "safety",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50508&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[보도참고] 식약처-육군본부, 육군 훈련병 대상 마약 예방교육극 첫선",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50508&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-19",
+   "type": "news",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50507&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "식약처, GLP-1 계열 비만치료제 온라인 불법판매 등 집중 점검",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=50507&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-19",
+   "type": "news",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_99"
+  },
+  {
+   "id": "mfds:mfds.go.kr/eng/brd/m_61/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=199&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "[News Release on 2026 November 19] MFDS strengthens cooperation with Asia-Pacific countries on food safety crisis response",
+   "title_en": "",
+   "url": "https://mfds.go.kr/eng/brd/m_61/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=199&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-19",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "MFDS/en-m_61"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44326&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "「생산단계 농수산물 등의 유해물질 안전기준」 일부개정고시(안) 행정예고(식약처 공고 제2026-557호)",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44326&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-18",
+   "type": "draft",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_209"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_209/down.do?brd_id=data0009&data_tp=A&file_seq=2&seq=44326",
+   "authority": "MFDS",
+   "title": "「생산단계 농수산물 등의 유해물질 안전기준」 일부개정고시(안) 행정예고(식약처 공고 제2026-557호， 2026.11.18.).hwpx 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_209/down.do?brd_id=data0009&data_tp=A&file_seq=2&seq=44326",
+   "published": "2026-11-18",
+   "type": "draft",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_209"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_209/down.do?brd_id=data0009&data_tp=A&file_seq=3&seq=44326",
+   "authority": "MFDS",
+   "title": "「생산단계 농수산물 등의 유해물질 안전기준」 일부개정고시(안) 행정예고(식약처 공고 제2026-557호， 2026.11.18.).pdf 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_209/down.do?brd_id=data0009&data_tp=A&file_seq=3&seq=44326",
+   "published": "2026-11-18",
+   "type": "draft",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_209"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44325&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "「위생용품 관리법 시행규칙」 일부개정령안 입법예고(공고 제2026-552호",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44325&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-18",
+   "type": "draft",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_209"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44324&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "「수입식품등 수입신고 수리의 자동화 운영 규정」 일부개정예규(안) 행정예고(식품의약품안전처 공고 제2026-556호)",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_209/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=44324&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-17",
+   "type": "draft",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_209"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15314&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "식품의약품안전처 연구개발비관리지침",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_1059/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=15314&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-17",
+   "type": "guideline",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_1059"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_1059/down.do?brd_id=data0010&data_tp=A&file_seq=2&seq=15314",
+   "authority": "MFDS",
+   "title": "식품의약품안전평가원 연구개발비관리지침 개정 전문(2026.11.17.).pdf 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_1059/down.do?brd_id=data0010&data_tp=A&file_seq=2&seq=15314",
+   "published": "2026-11-17",
+   "type": "guideline",
+   "areas": [],
+   "language": "ko",
+   "source": "MFDS/m_1059"
+  },
+  {
+   "id": "mhra:gov.uk/government/publications/glp-1-medicines-for-weight-loss-and-diabetes-what-you-need-to-know",
+   "authority": "MHRA",
+   "title": "GLP-1 medicines for weight loss and diabetes: what you need to know",
+   "title_en": "",
+   "url": "https://gov.uk/government/publications/glp-1-medicines-for-weight-loss-and-diabetes-what-you-need-to-know",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "MHRA/guidance"
+  },
+  {
+   "id": "mhra:gov.uk/guidance/clinical-trials-for-medicines-modifying-a-clinical-trial-approval",
+   "authority": "MHRA",
+   "title": "Clinical trials for medicines: modifying a clinical trial approval",
+   "title_en": "",
+   "url": "https://gov.uk/guidance/clinical-trials-for-medicines-modifying-a-clinical-trial-approval",
+   "published": "2026-11-23",
+   "type": "approval",
+   "areas": [
+    "clinical"
+   ],
+   "language": "en",
+   "source": "MHRA/guidance"
+  },
+  {
+   "id": "mhra:gov.uk/government/publications/the-innovative-devices-access-pathway-idap",
+   "authority": "MHRA",
+   "title": "The Innovative Devices Access Pathway (IDAP)",
+   "title_en": "",
+   "url": "https://gov.uk/government/publications/the-innovative-devices-access-pathway-idap",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "MHRA/guidance"
+  },
+  {
+   "id": "mhra:gov.uk/government/publications/london-region-i-mhra-regulatory-sandbox-call-for-expressions-of-interest",
+   "authority": "MHRA",
+   "title": "London Region I MHRA Regulatory Sandbox: call for expressions of interest",
+   "title_en": "",
+   "url": "https://gov.uk/government/publications/london-region-i-mhra-regulatory-sandbox-call-for-expressions-of-interest",
+   "published": "2026-11-18",
+   "type": "other",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "MHRA/guidance"
+  },
+  {
+   "id": "mhra:gov.uk/guidance/mhra-advancegxp-service-building-compliance-into-innovation-earlier",
+   "authority": "MHRA",
+   "title": "MHRA AdvanceGxP service: building compliance into innovation earlier",
+   "title_en": "",
+   "url": "https://gov.uk/guidance/mhra-advancegxp-service-building-compliance-into-innovation-earlier",
+   "published": "2026-11-18",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "MHRA/guidance"
+  },
+  {
+   "id": "mhra:gov.uk/drug-device-alerts/field-safety-notices-9-to-13-november-2026",
+   "authority": "MHRA",
+   "title": "Field Safety Notices: 9 to 13 November 2026",
+   "title_en": "",
+   "url": "https://gov.uk/drug-device-alerts/field-safety-notices-9-to-13-november-2026",
+   "published": "2026-11-17",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "MHRA/alerts"
+  },
+  {
+   "id": "pmda:pmda.go.jp/safety/info-services/drugs/items-information/guide-for-patients/0001.html",
+   "authority": "PMDA",
+   "title": "安全 New 薬・ワクチンのガイド（必須版）のWebアンケート調査を開始しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/safety/info-services/drugs/items-information/guide-for-patients/0001.html",
+   "published": "2026-11-20",
+   "type": "safety",
+   "areas": [
+    "vaccine"
+   ],
+   "language": "ja",
+   "source": "PMDA/shinchaku"
+  },
+  {
+   "id": "sahpra:sahpra.org.za/sahpra-and-pharma-industry-strengthen-regulatory-compliance-to-safeguard-public-health",
+   "authority": "SAHPRA",
+   "title": "SAHPRA and Pharma Industry Strengthen Regulatory Compliance to Safeguard Public Health",
+   "title_en": "",
+   "url": "https://sahpra.org.za/sahpra-and-pharma-industry-strengthen-regulatory-compliance-to-safeguard-public-health",
+   "published": "2026-11-18",
+   "type": "other",
+   "areas": [
+    "quality"
+   ],
+   "language": "en",
+   "source": "SAHPRA/news"
+  },
+  {
+   "id": "sahpra:sahpra.org.za/sahpra-shares-south-africas-patient-focused-approach-at-the-icmra-summit-2026-in-seoul",
+   "authority": "SAHPRA",
+   "title": "SAHPRA Shares South Africa’s Patient-Focused Approach at the ICMRA Summit 2026 in Seoul",
+   "title_en": "",
+   "url": "https://sahpra.org.za/sahpra-shares-south-africas-patient-focused-approach-at-the-icmra-summit-2026-in-seoul",
+   "published": "2026-11-18",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "SAHPRA/news"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/ar/news/20177",
+   "authority": "SFDA",
+   "title": "رئيس \"الغذاء والدواء\" يزور مستشفى \"غايز\" في لندن ويطّلع على تجاربه في تطوير العلاجات المتقدمة",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/ar/news/20177",
+   "published": "2026-11-20",
+   "type": "news",
+   "areas": [],
+   "language": "ar",
+   "source": "SFDA/news-ar"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/en/news/20177",
+   "authority": "SFDA",
+   "title": "SFDA CEO Visits Guy’s Hospital in London to Explore Developments in Advanced Therapies",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/en/news/20177",
+   "published": "2026-11-20",
+   "type": "news",
+   "areas": [],
+   "language": "en",
+   "source": "SFDA/news-en"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/ar/news/20175",
+   "authority": "SFDA",
+   "title": "\"الغذاء والدواء\" توقّع مذكرة تفاهم مع المديرية البريطانية للأدوية البيطرية لتعزيز التعاون الرقابي وتطوير الممارسات التنظيمية",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/ar/news/20175",
+   "published": "2026-11-19",
+   "type": "news",
+   "areas": [],
+   "language": "ar",
+   "source": "SFDA/news-ar"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/en/news/20175",
+   "authority": "SFDA",
+   "title": "Saudi Arabia and the UK sign agreement to strengthen cooperation in veterinary medicines regulation",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/en/news/20175",
+   "published": "2026-11-19",
+   "type": "law",
+   "areas": [],
+   "language": "en",
+   "source": "SFDA/news-en"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/ar/news/20173",
+   "authority": "SFDA",
+   "title": "رئيس \"الغذاء والدواء\": رؤية 2030 أرست نموذجًا وطنيًا مستدامًا يمكّن المرضى من الوصول إلى العلاجات المبتكرة بسرعة وسهولة",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/ar/news/20173",
+   "published": "2026-11-18",
+   "type": "news",
+   "areas": [],
+   "language": "ar",
+   "source": "SFDA/news-ar"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/en/news/20173",
+   "authority": "SFDA",
+   "title": "SFDA CEO: Vision 2030 Has Established a Sustainable National Model to Accelerate Patient Access to Innovative Therapies",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/en/news/20173",
+   "published": "2026-11-18",
+   "type": "news",
+   "areas": [],
+   "language": "en",
+   "source": "SFDA/news-en"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/ar/news/20171",
+   "authority": "SFDA",
+   "title": "\"الغذاء والدواء\" توقّع مذكرة تفاهم مع نظيرتها البريطانية لدعم الابتكار وتسريع وصول العلاجات إلى المرضى",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/ar/news/20171",
+   "published": "2026-11-17",
+   "type": "news",
+   "areas": [],
+   "language": "ar",
+   "source": "SFDA/news-ar"
+  },
+  {
+   "id": "sfda:sfda.gov.sa/en/news/20171",
+   "authority": "SFDA",
+   "title": "SFDA Signs Memorandum of Understanding with the UK’s MHRA to Support Innovation and Accelerate Patient Access to Treatments",
+   "title_en": "",
+   "url": "https://sfda.gov.sa/en/news/20171",
+   "published": "2026-11-17",
+   "type": "news",
+   "areas": [],
+   "language": "en",
+   "source": "SFDA/news-en"
+  }
+ ],
+ "revised": [
+  {
+   "id": "cofepris:gob.mx/cofepris/documentos/listado-de-resoluciones-disponibles",
+   "authority": "COFEPRIS",
+   "title": "Continuar leyendo",
+   "title_en": "",
+   "url": "https://gob.mx/cofepris/documentos/listado-de-resoluciones-disponibles",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "es",
+   "source": "COFEPRIS/documentos",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-10",
+     "to": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/news-events/podcast-inside-ema",
+   "authority": "EMA",
+   "title": "Podcast: Inside EMA",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/news-events/podcast-inside-ema",
+   "published": "2026-11-23",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-20",
+     "to": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/second-hma-ema-multi-stakeholder-forum-eudravigilance-signal-detection",
+   "authority": "EMA",
+   "title": "Second HMA/EMA multi-stakeholder forum on EudraVigilance and signal detection, Online, European Medicines Agency, Amsterdam, the Netherlands, Broadcast, from 1 December 2026, 09:00 (CET) to 1 December 2026, 17:30 (CET)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/second-hma-ema-multi-stakeholder-forum-eudravigilance-signal-detection",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [
+    "pv"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-05",
+     "to": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/prevenar-20",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Prevenar 20 (previously Apexxnar), pneumococcal polysaccharide conjugate vaccine (20-valent, adsorbed), Date of authorisation: 14/02/2022, Revision: 14, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/prevenar-20",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [
+    "vaccine"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): Prevenar 20 (previously Apexxnar), pneumococcal polysaccharide conjugate vaccine (20-valent, adsorbed), Date of authorisation: 14/02/2022, Revision: 13, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): Prevenar 20 (previously Apexxnar), pneumococcal polysaccharide conjugate vaccine (20-valent, adsorbed), Date of authorisation: 14/02/2022, Revision: 14, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-20",
+     "to": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/taxotere",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Taxotere, docetaxel, Date of authorisation: 27/11/1995, Revision: 54, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/taxotere",
+   "published": "2026-11-19",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): Taxotere, docetaxel, Date of authorisation: 27/11/1995, Revision: 53, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): Taxotere, docetaxel, Date of authorisation: 27/11/1995, Revision: 54, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-22",
+     "to": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/fymskina",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Fymskina, ustekinumab, Date of authorisation: 25/09/2024, Revision: 8, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/fymskina",
+   "published": "2026-11-18",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): Fymskina, ustekinumab, Date of authorisation: 25/09/2024, Revision: 7, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): Fymskina, ustekinumab, Date of authorisation: 25/09/2024, Revision: 8, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-14",
+     "to": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/enzalutamide-viatris",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Enzalutamide Viatris, enzalutamide, Date of authorisation: 22/08/2024, Revision: 7, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/enzalutamide-viatris",
+   "published": "2026-11-18",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): Enzalutamide Viatris, enzalutamide, Date of authorisation: 22/08/2024, Revision: 6, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): Enzalutamide Viatris, enzalutamide, Date of authorisation: 22/08/2024, Revision: 7, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-20",
+     "to": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/intuniv",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Intuniv, guanfacine, Date of authorisation: 17/09/2015, Revision: 16, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/intuniv",
+   "published": "2026-11-18",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): Intuniv, guanfacine, Date of authorisation: 17/09/2015, Revision: 15, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): Intuniv, guanfacine, Date of authorisation: 17/09/2015, Revision: 16, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-13",
+     "to": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/eudragmdp-qa-clinic-public-users",
+   "authority": "EMA",
+   "title": "EudraGMDP Q&A clinic for public users , Online, from 14 January 2027, 14:00 (CET) to 14 January 2027, 15:00 (CET)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/eudragmdp-qa-clinic-public-users",
+   "published": "2026-11-18",
+   "type": "guideline",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-04",
+     "to": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/second-act-eu-webinar-contractual-agreements",
+   "authority": "EMA",
+   "title": "Second ACT EU webinar on contractual agreements , Online, European Medicines Agency, Amsterdam, the Netherlands, from 7 December 2026, 10:00 (CET) to 7 December 2026, 15:00 (CET)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/second-act-eu-webinar-contractual-agreements",
+   "published": "2026-11-18",
+   "type": "law",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-20",
+     "to": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/variation/ibrance",
+   "authority": "EMA",
+   "title": "Withdrawn application: Ibrance, 15/10/2026",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/variation/ibrance",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-28",
+     "to": "2026-11-17"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/keytruda",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Keytruda, pembrolizumab, Date of authorisation: 17/07/2015, Revision: 73, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/keytruda",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/epar",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-30",
+     "to": "2026-11-17"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/vyepti",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Vyepti, eptinezumab, Date of authorisation: 24/01/2022, Revision: 10, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/vyepti",
+   "published": "2026-11-16",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): Vyepti, eptinezumab, Date of authorisation: 24/01/2022, Revision: 9, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): Vyepti, eptinezumab, Date of authorisation: 24/01/2022, Revision: 10, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-11-10",
+     "to": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/padcev",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Padcev, enfortumab vedotin, Date of authorisation: 13/04/2022, Revision: 12, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/padcev",
+   "published": "2026-11-16",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): Padcev, enfortumab vedotin, Date of authorisation: 13/04/2022, Revision: 11, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): Padcev, enfortumab vedotin, Date of authorisation: 13/04/2022, Revision: 12, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-11-11",
+     "to": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/mresvia",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): mResvia, respiratory syncytial virus mRNA vaccine, Date of authorisation: 22/08/2024, Revision: 13, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/mresvia",
+   "published": "2026-11-16",
+   "type": "approval",
+   "areas": [
+    "vaccine"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): mResvia, respiratory syncytial virus mRNA vaccine, Date of authorisation: 22/08/2024, Revision: 12, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): mResvia, respiratory syncytial virus mRNA vaccine, Date of authorisation: 22/08/2024, Revision: 13, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-29",
+     "to": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/sixth-veterinary-big-data-stakeholder-forum",
+   "authority": "EMA",
+   "title": "Sixth Veterinary Big Data Stakeholder Forum, European Medicines Agency, Amsterdam, the Netherlands, from 10 November 2026, 13:00 (CET) to 10 November 2026, 17:30 (CET)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/sixth-veterinary-big-data-stakeholder-forum",
+   "published": "2026-11-16",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-04",
+     "to": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/medicines/human/EPAR/vyndaqel",
+   "authority": "EMA",
+   "title": "Human medicines European public assessment report (EPAR): Vyndaqel, tafamidis, Date of authorisation: 16/11/2011, Revision: 34, Status: Authorised",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/medicines/human/EPAR/vyndaqel",
+   "published": "2026-11-16",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Human medicines European public assessment report (EPAR): Vyndaqel, tafamidis, Date of authorisation: 16/11/2011, Revision: 33, Status: Authorised",
+     "to": "Human medicines European public assessment report (EPAR): Vyndaqel, tafamidis, Date of authorisation: 16/11/2011, Revision: 34, Status: Authorised"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-14",
+     "to": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/human-regulatory-overview/plasma-master-file-pmf-certification/plasma-master-file-certificates",
+   "authority": "EMA",
+   "title": "Plasma master file certificates",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/human-regulatory-overview/plasma-master-file-pmf-certification/plasma-master-file-certificates",
+   "published": "2026-11-16",
+   "type": "other",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-04",
+     "to": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/en/events/seventeenth-meeting-industry-stakeholder-platform-operation-centralised-procedure-human-medicines",
+   "authority": "EMA",
+   "title": "Seventeenth meeting of the industry stakeholder platform on the operation of the centralised procedure for human medicines, Online, European Medicines Agency, Amsterdam, the Netherlands, from 20 November 2026, 09:00 (CET) to 20 November 2026, 13:15 (CET)",
+   "title_en": "",
+   "url": "https://ema.europa.eu/en/events/seventeenth-meeting-industry-stakeholder-platform-operation-centralised-procedure-human-medicines",
+   "published": "2026-11-12",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Seventeenth meeting of the industry stakeholder platform on the operation of the centralised procedure for human medicines, Online, European Medicines Agency, Amsterdam, the Netherlands, from 20 November 2026, 09:00 (CET) to 20 November 2026, 13:00 (CET)",
+     "to": "Seventeenth meeting of the industry stakeholder platform on the operation of the centralised procedure for human medicines, Online, European Medicines Agency, Amsterdam, the Netherlands, from 20 November 2026, 09:00 (CET) to 20 November 2026, 13:15 (CET)"
+    }
+   ]
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/agenda/ema-npl-tev-stakeholder-meeting-12-november-2026-agenda-rev-en.pdf",
+   "authority": "EMA",
+   "title": "Agenda - Stakeholder meeting - Transferable data exclusivity voucher for priority antimicrobials in the new pharmaceutical legislation, November 2026",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/agenda/ema-npl-tev-stakeholder-meeting-12-november-2026-agenda-rev-en.pdf",
+   "published": "2026-11-10",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Agenda - Stakeholder meeting, November 2026",
+     "to": "Agenda - Stakeholder meeting - Transferable data exclusivity voucher for priority antimicrobials in the new pharmaceutical legislation, November 2026"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/regulatory-information/search-fda-guidance-documents/early-phase-ind-protocol-recommendations-solid-tumors-draft-guidance-industry",
+   "authority": "FDA",
+   "title": "Early-Phase IND Protocol Recommendations for Solid Tumors | Draft Guidance for Industry",
+   "title_en": "",
+   "url": "https://fda.gov/regulatory-information/search-fda-guidance-documents/early-phase-ind-protocol-recommendations-solid-tumors-draft-guidance-industry",
+   "published": "2026-11-22",
+   "type": "draft",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "FDA/biologics",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-10",
+     "to": "2026-11-22"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/industry/generic-drug-user-fee-amendments/generic-drug-facilities-sites-and-organization-lists",
+   "authority": "FDA",
+   "title": "Generic Drug Facilities, Sites and Organization Lists",
+   "title_en": "",
+   "url": "https://fda.gov/industry/generic-drug-user-fee-amendments/generic-drug-facilities-sites-and-organization-lists",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [
+    "generic"
+   ],
+   "language": "en",
+   "source": "FDA/drugs",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-30",
+     "to": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/industry/fda-user-fee-programs/generic-drug-user-fee-amendments",
+   "authority": "FDA",
+   "title": "Generic Drug User Fee Amendments",
+   "title_en": "",
+   "url": "https://fda.gov/industry/fda-user-fee-programs/generic-drug-user-fee-amendments",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [
+    "generic"
+   ],
+   "language": "en",
+   "source": "FDA/drugs",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-13",
+     "to": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/industry/generic-drug-user-fee-amendments/gdufa-paid-facilities-list",
+   "authority": "FDA",
+   "title": "GDUFA Paid Facilities List",
+   "title_en": "",
+   "url": "https://fda.gov/industry/generic-drug-user-fee-amendments/gdufa-paid-facilities-list",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-13",
+     "to": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+   "authority": "FDA",
+   "title": "Drugs@FDA Data Files",
+   "title_en": "",
+   "url": "https://fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-13",
+     "to": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/about-fda/office-health-advancement/office-health-advancement-oha-guidance-documents",
+   "authority": "FDA",
+   "title": "Office of Health Advancement (OHA) Guidance Documents",
+   "title_en": "",
+   "url": "https://fda.gov/about-fda/office-health-advancement/office-health-advancement-oha-guidance-documents",
+   "published": "2026-11-20",
+   "type": "guideline",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-06",
+     "to": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/news-events-biologics/whats-new-biologics",
+   "authority": "FDA",
+   "title": "What’s New for Biologics",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/news-events-biologics/whats-new-biologics",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [
+    "biologic"
+   ],
+   "language": "en",
+   "source": "FDA/biologics",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-06",
+     "to": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/patients/fda-patient-listening-sessions/patient-listening-session-summaries",
+   "authority": "FDA",
+   "title": "Patient Listening Session Summaries",
+   "title_en": "",
+   "url": "https://fda.gov/patients/fda-patient-listening-sessions/patient-listening-session-summaries",
+   "published": "2026-11-18",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/drugs",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-09",
+     "to": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/medical-device-correction-update-lunar-g3-bpap-system-model-lg3800-30vt",
+   "authority": "FDA",
+   "title": "Medical Device Correction Update Luna® G3 BPAP System (Model LG3800-30VT)",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/medical-device-correction-update-lunar-g3-bpap-system-model-lg3800-30vt",
+   "published": "2026-11-17",
+   "type": "recall",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "FDA/medwatch",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-19",
+     "to": "2026-11-17"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/vaccines-blood-biologics/cber-regulated-products-supporting-documents",
+   "authority": "FDA",
+   "title": "CBER-Regulated Products with Supporting Documents",
+   "title_en": "",
+   "url": "https://fda.gov/vaccines-blood-biologics/cber-regulated-products-supporting-documents",
+   "published": "2026-11-16",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-13",
+     "to": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/industry/fda-esubmitter/esubmitter-application-history",
+   "authority": "FDA",
+   "title": "eSubmitter Application History",
+   "title_en": "",
+   "url": "https://fda.gov/industry/fda-esubmitter/esubmitter-application-history",
+   "published": "2026-11-16",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/biologics",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-10-30",
+     "to": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/breckenridge-pharmaceutical-inc-issues-voluntary-nationwide-consumer-level-recall-one-lot",
+   "authority": "FDA",
+   "title": "Breckenridge Pharmaceutical, Inc. Issues Voluntary Nationwide Consumer-Level Recall of One Lot of Propranolol Hydrochloride Extended-Release Capsules, USP, 60 mg, Due to Potential Metal Contamination",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/breckenridge-pharmaceutical-inc-issues-voluntary-nationwide-consumer-level-recall-one-lot",
+   "published": "2026-11-16",
+   "type": "recall",
+   "areas": [
+    "small-molecule"
+   ],
+   "language": "en",
+   "source": "FDA/drugs",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-20",
+     "to": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/eugia-us-llc-fka-auro-medics-pharma-llc-issues-voluntary-nationwide-recall-vancomycin-hydrochloride",
+   "authority": "FDA",
+   "title": "Eugia US LLC (f/k/a Auro Medics Pharma LLC) Issues Voluntary Nationwide Recall of Vancomycin Hydrochloride for Injection USP 1.25g/Vial-30mL (Single Dose Vial) Due to Presence of Particulate Matter",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/eugia-us-llc-fka-auro-medics-pharma-llc-issues-voluntary-nationwide-recall-vancomycin-hydrochloride",
+   "published": "2026-11-06",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-06",
+     "to": "2026-11-09"
+    }
+   ]
+  },
+  {
+   "id": "fda:fda.gov/safety/recalls-market-withdrawals-safety-alerts/eugia-us-llc-fka-auro-medics-pharma-llc-issues-voluntary-nationwide-recall-vancomycin-hydrochloride",
+   "authority": "FDA",
+   "title": "Eugia US LLC (f/k/a Auro Medics Pharma LLC) Issues Voluntary Nationwide Recall of Vancomycin Hydrochloride for Injection USP 1.25g/Vial-30mL (Single Dose Vial) Due to Presence of Particulate Matter",
+   "title_en": "",
+   "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/eugia-us-llc-fka-auro-medics-pharma-llc-issues-voluntary-nationwide-recall-vancomycin-hydrochloride",
+   "published": "2026-11-06",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-09",
+     "to": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "id": "hsa:hsa.gov.sg/announcements/recall-of-meravo-film-coated-tablet-100mg",
+   "authority": "HSA",
+   "title": "Recall of Meravo Film-coated Tablet 100mg (sacubitril, valsartan)",
+   "title_en": "",
+   "url": "https://hsa.gov.sg/announcements/recall-of-meravo-film-coated-tablet-100mg",
+   "published": "2026-11-06",
+   "type": "recall",
+   "areas": [
+    "small-molecule"
+   ],
+   "language": "en",
+   "source": "HSA/announcements",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Recall of Meravo Film-coated Tablet 100mg",
+     "to": "Recall of Meravo Film-coated Tablet 100mg (sacubitril, valsartan)"
+    }
+   ]
+  },
+  {
+   "id": "hsa:hsa.gov.sg/announcements/retail-level-recall-of-agelmin-tablet-10-mg--batch--231871-",
+   "authority": "HSA",
+   "title": "Recall of Agelmin Tablet 10 mg (cetirizine)",
+   "title_en": "",
+   "url": "https://hsa.gov.sg/announcements/retail-level-recall-of-agelmin-tablet-10-mg--batch--231871-",
+   "published": "2026-11-05",
+   "type": "recall",
+   "areas": [
+    "small-molecule"
+   ],
+   "language": "en",
+   "source": "HSA/announcements",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Recall of AGELMIN TABLET 10 mg",
+     "to": "Recall of Agelmin Tablet 10 mg (cetirizine)"
+    }
+   ]
+  },
+  {
+   "id": "mhra:gov.uk/government/publications/international-recognition-procedure",
+   "authority": "MHRA",
+   "title": "International Recognition Procedure",
+   "title_en": "",
+   "url": "https://gov.uk/government/publications/international-recognition-procedure",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "MHRA/guidance",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-06",
+     "to": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "id": "mhra:gov.uk/government/publications/covid-19-test-validation-approved-products",
+   "authority": "MHRA",
+   "title": "COVID-19 test validation approved products",
+   "title_en": "",
+   "url": "https://gov.uk/government/publications/covid-19-test-validation-approved-products",
+   "published": "2026-11-18",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "MHRA/guidance",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-11-09",
+     "to": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "mhra:gov.uk/drug-device-alerts/field-safety-notices-from-02-to-06-november2026",
+   "authority": "MHRA",
+   "title": "Field Safety Notices: 2 to 6 November 2026",
+   "title_en": "",
+   "url": "https://gov.uk/drug-device-alerts/field-safety-notices-from-02-to-06-november2026",
+   "published": "2026-11-10",
+   "type": "recall",
+   "areas": [],
+   "language": "en",
+   "source": "MHRA/alerts",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Field Safety Notices from 02 to 06 November2026.",
+     "to": "Field Safety Notices: 2 to 6 November 2026"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/recruit/0429.html",
+   "authority": "PMDA",
+   "title": "採用 Update 事務補助員（医薬翻訳事務）の募集について（採用時期を更新しました）",
+   "title_en": "",
+   "url": "https://pmda.go.jp/recruit/0429.html",
+   "published": "2026-11-20",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "採用 事務補助員（医薬翻訳事務）の募集について（採用時期を更新しました）",
+     "to": "採用 Update 事務補助員（医薬翻訳事務）の募集について（採用時期を更新しました）"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-20",
+     "to": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/safety/info-services/drugs/medical-safety-information/0024.html",
+   "authority": "PMDA",
+   "title": "MHLW Pharmaceuticals and Medical Devices Safety Information No.432 posted",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/safety/info-services/drugs/medical-safety-information/0024.html",
+   "published": "2026-11-20",
+   "type": "safety",
+   "areas": [
+    "device"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "MHLW Pharmaceuticals and Medical Devices Safety Information No.431 posted",
+     "to": "MHLW Pharmaceuticals and Medical Devices Safety Information No.432 posted"
+    },
+    {
+     "field": "published",
+     "from": "2026-09-30",
+     "to": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/relief-services/0011.html",
+   "authority": "PMDA",
+   "title": "審査 New 令和8年度治験エコシステム導入推進事業の情報発信協力機関を追加募集します",
+   "title_en": "",
+   "url": "https://pmda.go.jp/relief-services/0011.html",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [
+    "clinical"
+   ],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "審査 治験エコシステム導入推進事業に関する新たな活動を開始しました",
+     "to": "審査 New 令和8年度治験エコシステム導入推進事業の情報発信協力機関を追加募集します"
+    },
+    {
+     "field": "published",
+     "from": "2026-07-27",
+     "to": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/about-pmda/news-release/0098.pdf",
+   "authority": "PMDA",
+   "title": "その他 New 新霞が関ビル全館停電に伴うファクシミリによる受付の一時停止について[156KB]（2026年11月19日）",
+   "title_en": "",
+   "url": "https://pmda.go.jp/about-pmda/news-release/0098.pdf",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "その他 新霞が関ビル全館停電に伴うファクシミリによる受付の一時停止について[156KB]（2026年11月6日）",
+     "to": "その他 New 新霞が関ビル全館停電に伴うファクシミリによる受付の一時停止について[156KB]（2026年11月19日）"
+    },
+    {
+     "field": "published",
+     "from": "2026-11-06",
+     "to": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/rs-std-jp/standards-development/guidance-guideline/0006.html",
+   "authority": "PMDA",
+   "title": "基準 New 小児用医薬品開発に関する治験相談についてのQ&A（英訳版）を掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/rs-std-jp/standards-development/guidance-guideline/0006.html",
+   "published": "2026-11-19",
+   "type": "guideline",
+   "areas": [
+    "paediatric",
+    "clinical"
+   ],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "基準 New 小児用医薬品開発に関する治験相談についてのQ&Aを掲載しました",
+     "to": "基準 New 小児用医薬品開発に関する治験相談についてのQ&A（英訳版）を掲載しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-11-13",
+     "to": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/rs-std-jp/standards-development/guidance-guideline/0003.html",
+   "authority": "PMDA",
+   "title": "基準 New 「DNAシークエンサーを使用したコンパニオン診断薬等の同等性評価に関する留意事項（Early Consideration）」について 、及び「治験実施施設で選択された検査で患者組入れが行われ、有効性及び安全性が検証された医薬品のコンパニオン診断薬等の開発にかかる留意事項（Early Consideration）」について（日本語・英訳版）を掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/rs-std-jp/standards-development/guidance-guideline/0003.html",
+   "published": "2026-11-19",
+   "type": "safety",
+   "areas": [
+    "clinical"
+   ],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "基準 「薬事活動におけるAI利活用に関する基本的考え方（Early Consideration）」（日本語・英訳版）を掲載しました",
+     "to": "基準 New 「DNAシークエンサーを使用したコンパニオン診断薬等の同等性評価に関する留意事項（Early Consideration）」について 、及び「治験実施施設で選択された検査で患者組入れが行われ、有効性及び安全性が検証された医薬品のコンパニオン診断薬等の開発にかかる留意事項（Early Consideration）」について（日本語・英訳版）を掲載しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-11-02",
+     "to": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/review-services/regulatory-info/0005.html",
+   "authority": "PMDA",
+   "title": "Points to Consider for Concordance Evaluation of Companion Diagnostics Using DNA Sequencers（Early Consideration）and Points to Consider for the Development of Companion Diagnostics for Drugs with Efficacy and Safety Demonstrated in Clinical Trials in Which Patients Were Enrolled Using Tests Selected by Clinical Trial Sites（Early Consideration） posted.",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/review-services/regulatory-info/0005.html",
+   "published": "2026-11-19",
+   "type": "guideline",
+   "areas": [
+    "clinical"
+   ],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Basic Principles for the Use of AI in Regulatory Activities（Early Consideration） posted.",
+     "to": "Points to Consider for Concordance Evaluation of Companion Diagnostics Using DNA Sequencers（Early Consideration）and Points to Consider for the Development of Companion Diagnostics for Drugs with Efficacy and Safety Demonstrated in Clinical Trials in Which Patients Were Enrolled Using Tests Selected by Clinical Trial Sites（Early Consideration） posted."
+    },
+    {
+     "field": "published",
+     "from": "2026-11-02",
+     "to": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/safety/info-services/drugs/calling-attention/recall-info/0002.html",
+   "authority": "PMDA",
+   "title": "安全 New クラスI回収 該当回収品目 照射赤血球液-LR「日赤」、他1件",
+   "title_en": "",
+   "url": "https://pmda.go.jp/safety/info-services/drugs/calling-attention/recall-info/0002.html",
+   "published": "2026-11-18",
+   "type": "recall",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "安全 New クラスI回収 該当回収品目 照射赤血球液-LR「日赤」",
+     "to": "安全 New クラスI回収 該当回収品目 照射赤血球液-LR「日赤」、他1件"
+    },
+    {
+     "field": "published",
+     "from": "2026-11-09",
+     "to": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/trials/0008.html",
+   "authority": "PMDA",
+   "title": "審査 New IRB登録情報を更新しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/trials/0008.html",
+   "published": "2026-11-18",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "審査 IRB登録情報を更新しました",
+     "to": "審査 New IRB登録情報を更新しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-09-11",
+     "to": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/drug-reviews/review-information/p-drugs/0040.html",
+   "authority": "PMDA",
+   "title": "審査 New 新医薬品の承認品目一覧（2026年11月16日承認分まで）を掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/drug-reviews/review-information/p-drugs/0040.html",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "審査 新医薬品の承認品目一覧（2026年9月16日承認分まで）を掲載しました",
+     "to": "審査 New 新医薬品の承認品目一覧（2026年11月16日承認分まで）を掲載しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-09-17",
+     "to": "2026-11-17"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/drug-reviews/review-information/cd/0001.html",
+   "authority": "PMDA",
+   "title": "審査 New 医薬品の適応判定を目的として承認されたコンパニオン診断薬等（2026年11月12日版）を掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/drug-reviews/review-information/cd/0001.html",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "審査 医薬品の適応判定を目的として承認されたコンパニオン診断薬等（2026年9月11日版）を掲載しました",
+     "to": "審査 New 医薬品の適応判定を目的として承認されたコンパニオン診断薬等（2026年11月12日版）を掲載しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-09-17",
+     "to": "2026-11-17"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/about-pmda/symposia/0030.html",
+   "authority": "PMDA",
+   "title": "その他 イベント New 2026年度のPMDAオープン・カンパニー情報（技術系）を更新しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/about-pmda/symposia/0030.html",
+   "published": "2026-11-17",
+   "type": "other",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "その他 イベント 2026年度のPMDAオープン・カンパニー情報（技術系）を更新しました",
+     "to": "その他 イベント New 2026年度のPMDAオープン・カンパニー情報（技術系）を更新しました"
+    },
+    {
+     "field": "published",
+     "from": "2026-10-28",
+     "to": "2026-11-17"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/english/rs-sb-std/rs/0027.html",
+   "authority": "PMDA",
+   "title": "CDx approved for identifying eligible patients (Updated)",
+   "title_en": "",
+   "url": "https://pmda.go.jp/english/rs-sb-std/rs/0027.html",
+   "published": "2026-11-17",
+   "type": "approval",
+   "areas": [],
+   "language": "en",
+   "source": "PMDA/top-all",
+   "changes": [
+    {
+     "field": "published",
+     "from": "2026-09-17",
+     "to": "2026-11-17"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/review-services/drug-reviews/review-information/p-drugs/0028.html",
+   "authority": "PMDA",
+   "title": "審査 医薬品の最適使用推進ガイドラインを掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/review-services/drug-reviews/review-information/p-drugs/0028.html",
+   "published": "2026-11-12",
+   "type": "guideline",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "審査 New 医薬品の最適使用推進ガイドラインを掲載しました",
+     "to": "審査 医薬品の最適使用推進ガイドラインを掲載しました"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/safety/info-services/drugs/0371.html",
+   "authority": "PMDA",
+   "title": "安全 「ニトロソアミン化合物検出のお知らせ（セルトラリン錠、テルミサルタン錠）」を掲載しました",
+   "title_en": "",
+   "url": "https://pmda.go.jp/safety/info-services/drugs/0371.html",
+   "published": "2026-11-10",
+   "type": "safety",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "安全 New 「ニトロソアミン化合物検出のお知らせ（セルトラリン錠、テルミサルタン錠）」を掲載しました",
+     "to": "安全 「ニトロソアミン化合物検出のお知らせ（セルトラリン錠、テルミサルタン錠）」を掲載しました"
+    }
+   ]
+  },
+  {
+   "id": "pmda:pmda.go.jp/procurements/public-bidding/general-competition-government/0240.html",
+   "authority": "PMDA",
+   "title": "調達 一般競争入札公告（政府調達）（2027年（令和9年）定期購読洋雑誌の調達）",
+   "title_en": "",
+   "url": "https://pmda.go.jp/procurements/public-bidding/general-competition-government/0240.html",
+   "published": "2026-11-10",
+   "type": "circular",
+   "areas": [],
+   "language": "ja",
+   "source": "PMDA/shinchaku",
+   "changes": [
+    {
+     "field": "title",
+     "from": "調達 New 一般競争入札公告（政府調達）（2027年（令和9年）定期購読洋雑誌の調達）",
+     "to": "調達 一般競争入札公告（政府調達）（2027年（令和9年）定期購読洋雑誌の調達）"
+    }
+   ]
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/de/home/services/submissions/ectd-v4-0-2.html",
+   "authority": "Swissmedic",
+   "title": "Korrektur der Angaben zur Grundlage der Pilotphase 1",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/de/home/services/submissions/ectd-v4-0-2.html",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "de",
+   "source": "Swissmedic/mitteilungen",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Veröffentlichung eCTD v4.0 Implementation Guide Package v2.0",
+     "to": "Korrektur der Angaben zur Grundlage der Pilotphase 1"
+    },
+    {
+     "field": "published",
+     "from": "2026-11-09",
+     "to": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/fr/home/services/submissions/ectd-v4-0-2.html",
+   "authority": "Swissmedic",
+   "title": "Correction to the information regarding the basis for Pilot Phase 1",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/fr/home/services/submissions/ectd-v4-0-2.html",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "fr",
+   "source": "Swissmedic/mitteilungen-fr",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Publication eCTD v4.0 Implementation Guide Package v2.0",
+     "to": "Correction to the information regarding the basis for Pilot Phase 1"
+    },
+    {
+     "field": "published",
+     "from": "2026-11-09",
+     "to": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/en/home/services/submissions/ectd-v4-0-2.html",
+   "authority": "Swissmedic",
+   "title": "Correction to the information regarding the basis for Pilot Phase 1",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/en/home/services/submissions/ectd-v4-0-2.html",
+   "published": "2026-11-19",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "Swissmedic/mitteilungen-en",
+   "changes": [
+    {
+     "field": "title",
+     "from": "Publication eCTD v4.0 Implementation Guide Package v2.0",
+     "to": "Correction to the information regarding the basis for Pilot Phase 1"
+    },
+    {
+     "field": "published",
+     "from": "2026-11-09",
+     "to": "2026-11-19"
+    }
+   ]
+  }
+ ],
+ "removed": [
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/agenda/ema-npl-tev-stakeholder-meeting-12-november-2026-agenda-en.pdf",
+   "authority": "EMA",
+   "title": "Agenda - Stakeholder meeting, November 2026",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/agenda/ema-npl-tev-stakeholder-meeting-12-november-2026-agenda-en.pdf",
+   "published": "2026-11-04",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "ema:ema.europa.eu/system/files/documents/agenda/hma-ema-ai-data-forum-2026_draft-event-agenda-en_1.pdf",
+   "authority": "EMA",
+   "title": "Agenda - HMA / EMA multistakeholder AI and Data forum: Build trustworthy AI on strong data foundations",
+   "title_en": "",
+   "url": "https://ema.europa.eu/system/files/documents/agenda/hma-ema-ai-data-forum-2026_draft-event-agenda-en_1.pdf",
+   "published": "2026-11-04",
+   "type": "other",
+   "areas": [],
+   "language": "en",
+   "source": "EMA/whatsnew"
+  },
+  {
+   "id": "fda:fda.gov/safety/medical-product-safety-information/fda-advises-consumers-not-buy-or-serve-once-upon-farm-tractor-wheels-organic-toddler-soft-baked-bars",
+   "authority": "FDA",
+   "title": "FDA Advises Consumers Not to Buy or Serve Once Upon a Farm Tractor Wheels Organic Toddler Soft-Baked Bars",
+   "title_en": "",
+   "url": "https://fda.gov/safety/medical-product-safety-information/fda-advises-consumers-not-buy-or-serve-once-upon-farm-tractor-wheels-organic-toddler-soft-baked-bars",
+   "published": "2026-11-02",
+   "type": "safety",
+   "areas": [],
+   "language": "en",
+   "source": "FDA/medwatch"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_76/down.do?brd_id=ntc0004&data_tp=A&file_seq=1&seq=16399",
+   "authority": "MFDS",
+   "title": "희귀의약품 지정 공고(제2026-532호， 2026.11.2.).hwpx 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_76/down.do?brd_id=ntc0004&data_tp=A&file_seq=1&seq=16399",
+   "published": "2026-11-02",
+   "type": "circular",
+   "areas": [
+    "orphan"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_76"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_76/down.do?brd_id=ntc0004&data_tp=A&file_seq=2&seq=16399",
+   "authority": "MFDS",
+   "title": "희귀의약품 지정 공고(제2026-532호， 2026.11.2.).pdf 미리보기",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_76/down.do?brd_id=ntc0004&data_tp=A&file_seq=2&seq=16399",
+   "published": "2026-11-02",
+   "type": "circular",
+   "areas": [
+    "orphan"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_76"
+  },
+  {
+   "id": "mfds:mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16399&srchFr=&srchTo=&srchTp=&srchWord=",
+   "authority": "MFDS",
+   "title": "희귀의약품 지정 공고",
+   "title_en": "",
+   "url": "https://mfds.go.kr/brd/m_76/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=1&seq=16399&srchFr=&srchTo=&srchTp=&srchWord=",
+   "published": "2026-11-02",
+   "type": "circular",
+   "areas": [
+    "orphan"
+   ],
+   "language": "ko",
+   "source": "MFDS/m_76"
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/de/home/news/mitteilungen/anpassung-vorlagen-fi-pi.html",
+   "authority": "Swissmedic",
+   "title": "Patienten- und Fachinformation für Humanarzneimittel: Anpassung der Vorlagen",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/de/home/news/mitteilungen/anpassung-vorlagen-fi-pi.html",
+   "published": "2026-07-01",
+   "type": "other",
+   "areas": [],
+   "language": "de",
+   "source": "Swissmedic/mitteilungen"
+  },
+  {
+   "id": "swissmedic:swissmedic.ch/swissmedic/fr/home/news/mitteilungen/anpassung-vorlagen-fi-pi.html",
+   "authority": "Swissmedic",
+   "title": "Informations destinées aux patients et informations professionnelles de médicaments à usage humain : adaptation des modèles",
+   "title_en": "",
+   "url": "https://swissmedic.ch/swissmedic/fr/home/news/mitteilungen/anpassung-vorlagen-fi-pi.html",
+   "published": "2026-07-01",
+   "type": "other",
+   "areas": [],
+   "language": "fr",
+   "source": "Swissmedic/mitteilungen-fr"
+  }
+ ],
+ "failed": [
+  {
+   "source": "CDSCO/circulars",
+   "error": "Could not connect (ETIMEDOUT)."
+  },
+  {
+   "source": "CDSCO/gazette",
+   "error": "Could not connect (ETIMEDOUT)."
+  },
+  {
+   "source": "CDSCO/notices",
+   "error": "Could not connect (ETIMEDOUT)."
+  },
+  {
+   "source": "CDSCO/alerts",
+   "error": "Could not connect (ETIMEDOUT)."
+  },
+  {
+   "source": "ANVISA/noticias",
+   "error": "Could not connect (ECONNRESET)."
+  }
+ ],
+ "suspect": [
+  {
+   "source": "EMA/regguide",
+   "error": "Only 4 items found, under half the usual 9.",
+   "items": 4
+  }
+ ]
+}
